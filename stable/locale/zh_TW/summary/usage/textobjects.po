@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/textobjects.md:1
+msgid "Selecting and manipulating text with textobjects"
+msgstr ""
+
+#: src/textobjects.md:3
+msgid ""
+"In Helix, textobjects are a way to select, manipulate and operate on a piece "
+"of text in a structured way. They allow you to refer to blocks of text based "
+"on their structure or purpose, such as a word, sentence, paragraph, or even "
+"a function or block of code."
+msgstr ""
+
+#: src/textobjects.md:8
+msgid ""
+"![Textobject demo](https://user-images.githubusercontent."
+"com/23398472/124231131-81a4bb00-db2d-11eb-9d10-8e577ca7b177.gif) !"
+"[Textobject tree-sitter demo](https://user-images.githubusercontent."
+"com/23398472/132537398-2a2e0a54-582b-44ab-a77f-eb818942203d.gif)"
+msgstr ""
+
+#: src/textobjects.md:11
+msgid "`ma` - Select around the object (`va` in Vim, `<alt-a>` in Kakoune)"
+msgstr ""
+
+#: src/textobjects.md:12
+msgid "`mi` - Select inside the object (`vi` in Vim, `<alt-i>` in Kakoune)"
+msgstr ""
+
+#: src/textobjects.md:14
+msgid "Key after `mi` or `ma`"
+msgstr ""
+
+#: src/textobjects.md:14
+msgid "Textobject selected"
+msgstr ""
+
+#: src/textobjects.md:16
+msgid "`w`"
+msgstr ""
+
+#: src/textobjects.md:16
+msgid "Word"
+msgstr ""
+
+#: src/textobjects.md:17
+msgid "`W`"
+msgstr ""
+
+#: src/textobjects.md:17
+msgid "WORD"
+msgstr ""
+
+#: src/textobjects.md:18
+msgid "`p`"
+msgstr ""
+
+#: src/textobjects.md:18
+msgid "Paragraph"
+msgstr ""
+
+#: src/textobjects.md:19
+msgid "`(`, `[`, `'`, etc."
+msgstr ""
+
+#: src/textobjects.md:19
+msgid "Specified surround pairs"
+msgstr ""
+
+#: src/textobjects.md:20
+msgid "`m`"
+msgstr ""
+
+#: src/textobjects.md:20
+msgid "The closest surround pair"
+msgstr ""
+
+#: src/textobjects.md:21
+msgid "`f`"
+msgstr ""
+
+#: src/textobjects.md:21
+msgid "Function"
+msgstr ""
+
+#: src/textobjects.md:22
+msgid "`t`"
+msgstr ""
+
+#: src/textobjects.md:22
+msgid "Type (or Class)"
+msgstr ""
+
+#: src/textobjects.md:23
+msgid "`a`"
+msgstr ""
+
+#: src/textobjects.md:23
+msgid "Argument/parameter"
+msgstr ""
+
+#: src/textobjects.md:24
+msgid "`c`"
+msgstr ""
+
+#: src/textobjects.md:24
+msgid "Comment"
+msgstr ""
+
+#: src/textobjects.md:25
+msgid "`T`"
+msgstr ""
+
+#: src/textobjects.md:25
+msgid "Test"
+msgstr ""
+
+#: src/textobjects.md:26
+msgid "`g`"
+msgstr ""
+
+#: src/textobjects.md:26
+msgid "Change"
+msgstr ""
+
+#: src/textobjects.md:28
+msgid ""
+"💡 `f`, `t`, etc. need a tree-sitter grammar active for the current document "
+"and a special tree-sitter query file to work properly. [Only some grammars]"
+"(./lang-support.md) currently have the query file implemented. Contributions "
+"are welcome!"
+msgstr ""
+
+#: src/textobjects.md:33
+msgid "Navigating using tree-sitter textobjects"
+msgstr ""
+
+#: src/textobjects.md:35
+msgid ""
+"Navigating between functions, classes, parameters, and other elements is "
+"possible using tree-sitter and textobject queries. For example to move to "
+"the next function use `]f`, to move to previous type use `[t`, and so on."
+msgstr ""
+
+#: src/textobjects.md:40
+msgid ""
+"![Tree-sitter-nav-demo](https://user-images.githubusercontent."
+"com/23398472/152332550-7dfff043-36a2-4aec-b8f2-77c13eb56d6f.gif)"
+msgstr ""
+
+#: src/textobjects.md:42
+msgid ""
+"For the full reference see the [unimpaired](./keymap.html#unimpaired) "
+"section of the key bind documentation."
+msgstr ""
+
+#: src/textobjects.md:45
+msgid ""
+"💡 This feature relies on tree-sitter textobjects and requires the "
+"corresponding query file to work properly."
+msgstr ""

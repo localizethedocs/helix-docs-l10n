@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/other-software.md:1
+msgid "Helix mode in other software"
+msgstr ""
+
+#: src/other-software.md:3
+msgid ""
+"Helix' keymap and interaction model ([Using Helix](#usage.md)) is easier to "
+"adopt if it can be used consistently in many editing contexts. Yet, certain "
+"use cases cannot easily be addressed directly in Helix. Similar to vim, this "
+"leads to the creation of \"Helix mode\" in various other software products, "
+"allowing Helix-style editing for a greater variety of use cases."
+msgstr ""
+
+#: src/other-software.md:5
+msgid ""
+"\"Helix mode\" is frequently still in early stages or missing entirely. For "
+"such cases, we also link to relevant bugs or discussions."
+msgstr ""
+
+#: src/other-software.md:7
+msgid "Other editors"
+msgstr ""
+
+#: src/other-software.md:9
+msgid "Editor"
+msgstr ""
+
+#: src/other-software.md:9 src/other-software.md:22
+msgid "Plugin or feature providing Helix editing"
+msgstr ""
+
+#: src/other-software.md:9 src/other-software.md:31
+msgid "Comments"
+msgstr ""
+
+#: src/other-software.md:11
+msgid "[Vim](https://www.vim.org/)"
+msgstr ""
+
+#: src/other-software.md:11
+msgid "[helix.vim](https://github.com/chtenb/helix.vim) config"
+msgstr ""
+
+#: src/other-software.md:12
+msgid ""
+"[IntelliJ IDEA](https://www.jetbrains.com/idea/) / [Android Studio](https://"
+"developer.android.com/studio)"
+msgstr ""
+
+#: src/other-software.md:12
+msgid ""
+"[IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) plugin + [helix."
+"idea.vim](https://github.com/chtenb/helix.vim) config"
+msgstr ""
+
+#: src/other-software.md:12
+msgid "Minimum recommended version is IdeaVim 2.19.0."
+msgstr ""
+
+#: src/other-software.md:13
+msgid "[Visual Studio](https://visualstudio.microsoft.com/)"
+msgstr ""
+
+#: src/other-software.md:13
+msgid ""
+"[VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT."
+"VsVim) plugin + [helix.vs.vim](https://github.com/chtenb/helix.vim) config"
+msgstr ""
+
+#: src/other-software.md:14 src/other-software.md:15
+msgid "[Visual Studio Code](https://code.visualstudio.com/)"
+msgstr ""
+
+#: src/other-software.md:14
+msgid ""
+"[Dance](https://marketplace.visualstudio.com/items?itemName=gregoire.dance) "
+"extension, or its [Helix fork](https://marketplace.visualstudio.com/items?"
+"itemName=kend.dancehelixkey)"
+msgstr ""
+
+#: src/other-software.md:14
+msgid ""
+"The Helix fork has diverged. You can also use the original Dance and tweak "
+"its keybindings directly (try [this config](https://github.com/71/dance/"
+"issues/299#issuecomment-1655509531))."
+msgstr ""
+
+#: src/other-software.md:15
+msgid ""
+"[Helix for VS Code](https://marketplace.visualstudio.com/items?"
+"itemName=jasew.vscode-helix-emulation) extension"
+msgstr ""
+
+#: src/other-software.md:16
+msgid "[Zed](https://zed.dev/)"
+msgstr ""
+
+#: src/other-software.md:16
+msgid ""
+"native via keybindings ([Bug](https://github.com/zed-industries/zed/"
+"issues/4642))"
+msgstr ""
+
+#: src/other-software.md:17
+msgid "[CodeMirror](https://codemirror.net/)"
+msgstr ""
+
+#: src/other-software.md:17
+msgid "[codemirror-helix](https://gitlab.com/_rvidal/codemirror-helix)"
+msgstr ""
+
+#: src/other-software.md:20
+msgid "Shells"
+msgstr ""
+
+#: src/other-software.md:22
+msgid "Shell"
+msgstr ""
+
+#: src/other-software.md:24 src/other-software.md:25
+msgid "Fish"
+msgstr ""
+
+#: src/other-software.md:24
+msgid "[Feature Request](https://github.com/fish-shell/fish-shell/issues/7748)"
+msgstr ""
+
+#: src/other-software.md:25
+msgid "[fish-helix](https://github.com/sshilovsky/fish-helix/tree/main)"
+msgstr ""
+
+#: src/other-software.md:26
+msgid "Zsh"
+msgstr ""
+
+#: src/other-software.md:26
+msgid ""
+"[helix-zsh](https://github.com/john-h-k/helix-zsh) or [zsh-helix-mode]"
+"(https://github.com/Multirious/zsh-helix-mode)"
+msgstr ""
+
+#: src/other-software.md:27
+msgid "Nushell"
+msgstr ""
+
+#: src/other-software.md:27
+msgid "[Feature Request](https://github.com/nushell/reedline/issues/639)"
+msgstr ""
+
+#: src/other-software.md:29
+msgid "Other software"
+msgstr ""
+
+#: src/other-software.md:31
+msgid "Software"
+msgstr ""
+
+#: src/other-software.md:31
+msgid "Plugin or feature providing Helix editing."
+msgstr ""
+
+#: src/other-software.md:33
+msgid "[Obsidian](https://obsidian.md/)"
+msgstr ""
+
+#: src/other-software.md:33
+msgid "[Obsidian-Helix](https://github.com/Sinono3/obsidian-helix)"
+msgstr ""
+
+#: src/other-software.md:33
+msgid "Uses `codemirror-helix` listed above."
+msgstr ""

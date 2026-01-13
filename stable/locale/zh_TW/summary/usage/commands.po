@@ -1,0 +1,4325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/commands.md:1
+msgid "Commands"
+msgstr ""
+
+#: src/commands.md:3
+msgid "[Typable commands](#typable-commands)"
+msgstr ""
+
+#: src/commands.md:4
+msgid "[Static commands](#static-commands)"
+msgstr ""
+
+#: src/commands.md:6
+msgid "Typable commands"
+msgstr ""
+
+#: src/commands.md:8
+msgid ""
+"Typable commands are used from command mode and may take arguments. Command "
+"mode can be activated by pressing `:`. The built-in typable commands are:"
+msgstr ""
+
+#: src/commands.md:10 src/commands.md:106
+msgid "Name"
+msgstr ""
+
+#: src/commands.md:10 src/commands.md:106
+msgid "Description"
+msgstr ""
+
+#: src/commands.md:12
+msgid "`:quit`, `:q`"
+msgstr ""
+
+#: src/commands.md:12
+msgid "Close the current view."
+msgstr ""
+
+#: src/commands.md:13
+msgid "`:quit!`, `:q!`"
+msgstr ""
+
+#: src/commands.md:13
+msgid "Force close the current view, ignoring unsaved changes."
+msgstr ""
+
+#: src/commands.md:14
+msgid "`:open`, `:o`, `:edit`, `:e`"
+msgstr ""
+
+#: src/commands.md:14
+msgid "Open a file from disk into the current view."
+msgstr ""
+
+#: src/commands.md:15
+msgid "`:buffer-close`, `:bc`, `:bclose`"
+msgstr ""
+
+#: src/commands.md:15
+msgid "Close the current buffer."
+msgstr ""
+
+#: src/commands.md:16
+msgid "`:buffer-close!`, `:bc!`, `:bclose!`"
+msgstr ""
+
+#: src/commands.md:16
+msgid "Close the current buffer forcefully, ignoring unsaved changes."
+msgstr ""
+
+#: src/commands.md:17
+msgid "`:buffer-close-others`, `:bco`, `:bcloseother`"
+msgstr ""
+
+#: src/commands.md:17
+msgid "Close all buffers but the currently focused one."
+msgstr ""
+
+#: src/commands.md:18
+msgid "`:buffer-close-others!`, `:bco!`, `:bcloseother!`"
+msgstr ""
+
+#: src/commands.md:18
+msgid "Force close all buffers but the currently focused one."
+msgstr ""
+
+#: src/commands.md:19
+msgid "`:buffer-close-all`, `:bca`, `:bcloseall`"
+msgstr ""
+
+#: src/commands.md:19
+msgid "Close all buffers without quitting."
+msgstr ""
+
+#: src/commands.md:20
+msgid "`:buffer-close-all!`, `:bca!`, `:bcloseall!`"
+msgstr ""
+
+#: src/commands.md:20
+msgid "Force close all buffers ignoring unsaved changes without quitting."
+msgstr ""
+
+#: src/commands.md:21
+msgid "`:buffer-next`, `:bn`, `:bnext`"
+msgstr ""
+
+#: src/commands.md:21
+msgid "Goto next buffer."
+msgstr ""
+
+#: src/commands.md:22
+msgid "`:buffer-previous`, `:bp`, `:bprev`"
+msgstr ""
+
+#: src/commands.md:22
+msgid "Goto previous buffer."
+msgstr ""
+
+#: src/commands.md:23
+msgid "`:write`, `:w`"
+msgstr ""
+
+#: src/commands.md:23
+msgid "Write changes to disk. Accepts an optional path (:write some/path.txt)"
+msgstr ""
+
+#: src/commands.md:24
+msgid "`:write!`, `:w!`"
+msgstr ""
+
+#: src/commands.md:24
+msgid ""
+"Force write changes to disk creating necessary subdirectories. Accepts an "
+"optional path (:write! some/path.txt)"
+msgstr ""
+
+#: src/commands.md:25
+msgid "`:write-buffer-close`, `:wbc`"
+msgstr ""
+
+#: src/commands.md:25
+msgid ""
+"Write changes to disk and closes the buffer. Accepts an optional path (:"
+"write-buffer-close some/path.txt)"
+msgstr ""
+
+#: src/commands.md:26
+msgid "`:write-buffer-close!`, `:wbc!`"
+msgstr ""
+
+#: src/commands.md:26
+msgid ""
+"Force write changes to disk creating necessary subdirectories and closes the "
+"buffer. Accepts an optional path (:write-buffer-close! some/path.txt)"
+msgstr ""
+
+#: src/commands.md:27
+msgid "`:new`, `:n`"
+msgstr ""
+
+#: src/commands.md:27
+msgid "Create a new scratch buffer."
+msgstr ""
+
+#: src/commands.md:28
+msgid "`:format`, `:fmt`"
+msgstr ""
+
+#: src/commands.md:28
+msgid "Format the file using an external formatter or language server."
+msgstr ""
+
+#: src/commands.md:29
+msgid "`:indent-style`"
+msgstr ""
+
+#: src/commands.md:29
+msgid ""
+"Set the indentation style for editing. ('t' for tabs or 1-16 for number of "
+"spaces.)"
+msgstr ""
+
+#: src/commands.md:30
+msgid "`:line-ending`"
+msgstr ""
+
+#: src/commands.md:30
+msgid "Set the document's default line ending. Options: crlf, lf."
+msgstr ""
+
+#: src/commands.md:31
+msgid "`:earlier`, `:ear`"
+msgstr ""
+
+#: src/commands.md:31
+msgid ""
+"Jump back to an earlier point in edit history. Accepts a number of steps or "
+"a time span."
+msgstr ""
+
+#: src/commands.md:32
+msgid "`:later`, `:lat`"
+msgstr ""
+
+#: src/commands.md:32
+msgid ""
+"Jump to a later point in edit history. Accepts a number of steps or a time "
+"span."
+msgstr ""
+
+#: src/commands.md:33
+msgid "`:write-quit`, `:wq`, `:x`"
+msgstr ""
+
+#: src/commands.md:33
+msgid ""
+"Write changes to disk and close the current view. Accepts an optional path (:"
+"wq some/path.txt)"
+msgstr ""
+
+#: src/commands.md:34
+msgid "`:write-quit!`, `:wq!`, `:x!`"
+msgstr ""
+
+#: src/commands.md:34
+msgid ""
+"Write changes to disk and close the current view forcefully. Accepts an "
+"optional path (:wq! some/path.txt)"
+msgstr ""
+
+#: src/commands.md:35
+msgid "`:write-all`, `:wa`"
+msgstr ""
+
+#: src/commands.md:35
+msgid "Write changes from all buffers to disk."
+msgstr ""
+
+#: src/commands.md:36
+msgid "`:write-all!`, `:wa!`"
+msgstr ""
+
+#: src/commands.md:36
+msgid ""
+"Forcefully write changes from all buffers to disk creating necessary "
+"subdirectories."
+msgstr ""
+
+#: src/commands.md:37
+msgid "`:write-quit-all`, `:wqa`, `:xa`"
+msgstr ""
+
+#: src/commands.md:37
+msgid "Write changes from all buffers to disk and close all views."
+msgstr ""
+
+#: src/commands.md:38
+msgid "`:write-quit-all!`, `:wqa!`, `:xa!`"
+msgstr ""
+
+#: src/commands.md:38
+msgid ""
+"Write changes from all buffers to disk and close all views forcefully "
+"(ignoring unsaved changes)."
+msgstr ""
+
+#: src/commands.md:39
+msgid "`:quit-all`, `:qa`"
+msgstr ""
+
+#: src/commands.md:39
+msgid "Close all views."
+msgstr ""
+
+#: src/commands.md:40
+msgid "`:quit-all!`, `:qa!`"
+msgstr ""
+
+#: src/commands.md:40
+msgid "Force close all views ignoring unsaved changes."
+msgstr ""
+
+#: src/commands.md:41
+msgid "`:cquit`, `:cq`"
+msgstr ""
+
+#: src/commands.md:41
+msgid ""
+"Quit with exit code (default 1). Accepts an optional integer exit code (:cq "
+"2)."
+msgstr ""
+
+#: src/commands.md:42
+msgid "`:cquit!`, `:cq!`"
+msgstr ""
+
+#: src/commands.md:42
+msgid ""
+"Force quit with exit code (default 1) ignoring unsaved changes. Accepts an "
+"optional integer exit code (:cq! 2)."
+msgstr ""
+
+#: src/commands.md:43
+msgid "`:theme`"
+msgstr ""
+
+#: src/commands.md:43
+msgid "Change the editor theme (show current theme if no name specified)."
+msgstr ""
+
+#: src/commands.md:44
+msgid "`:yank-join`"
+msgstr ""
+
+#: src/commands.md:44
+msgid ""
+"Yank joined selections. A separator can be provided as first argument. "
+"Default value is newline."
+msgstr ""
+
+#: src/commands.md:45
+msgid "`:clipboard-yank`"
+msgstr ""
+
+#: src/commands.md:45
+msgid "Yank main selection into system clipboard."
+msgstr ""
+
+#: src/commands.md:46
+msgid "`:clipboard-yank-join`"
+msgstr ""
+
+#: src/commands.md:46
+msgid ""
+"Yank joined selections into system clipboard. A separator can be provided as "
+"first argument. Default value is newline."
+msgstr ""
+
+#: src/commands.md:47
+msgid "`:primary-clipboard-yank`"
+msgstr ""
+
+#: src/commands.md:47
+msgid "Yank main selection into system primary clipboard."
+msgstr ""
+
+#: src/commands.md:48
+msgid "`:primary-clipboard-yank-join`"
+msgstr ""
+
+#: src/commands.md:48
+msgid ""
+"Yank joined selections into system primary clipboard. A separator can be "
+"provided as first argument. Default value is newline."
+msgstr ""
+
+#: src/commands.md:49
+msgid "`:clipboard-paste-after`"
+msgstr ""
+
+#: src/commands.md:49
+msgid "Paste system clipboard after selections."
+msgstr ""
+
+#: src/commands.md:50
+msgid "`:clipboard-paste-before`"
+msgstr ""
+
+#: src/commands.md:50
+msgid "Paste system clipboard before selections."
+msgstr ""
+
+#: src/commands.md:51
+msgid "`:clipboard-paste-replace`"
+msgstr ""
+
+#: src/commands.md:51
+msgid "Replace selections with content of system clipboard."
+msgstr ""
+
+#: src/commands.md:52
+msgid "`:primary-clipboard-paste-after`"
+msgstr ""
+
+#: src/commands.md:52
+msgid "Paste primary clipboard after selections."
+msgstr ""
+
+#: src/commands.md:53
+msgid "`:primary-clipboard-paste-before`"
+msgstr ""
+
+#: src/commands.md:53
+msgid "Paste primary clipboard before selections."
+msgstr ""
+
+#: src/commands.md:54
+msgid "`:primary-clipboard-paste-replace`"
+msgstr ""
+
+#: src/commands.md:54
+msgid "Replace selections with content of system primary clipboard."
+msgstr ""
+
+#: src/commands.md:55
+msgid "`:show-clipboard-provider`"
+msgstr ""
+
+#: src/commands.md:55
+msgid "Show clipboard provider name in status bar."
+msgstr ""
+
+#: src/commands.md:56
+msgid "`:change-current-directory`, `:cd`"
+msgstr ""
+
+#: src/commands.md:56
+msgid "Change the current working directory."
+msgstr ""
+
+#: src/commands.md:57
+msgid "`:show-directory`, `:pwd`"
+msgstr ""
+
+#: src/commands.md:57
+msgid "Show the current working directory."
+msgstr ""
+
+#: src/commands.md:58
+msgid "`:encoding`"
+msgstr ""
+
+#: src/commands.md:58
+msgid "Set encoding. Based on `https://encoding.spec.whatwg.org`."
+msgstr ""
+
+#: src/commands.md:59
+msgid "`:character-info`, `:char`"
+msgstr ""
+
+#: src/commands.md:59
+msgid "Get info about the character under the primary cursor."
+msgstr ""
+
+#: src/commands.md:60
+msgid "`:reload`, `:rl`"
+msgstr ""
+
+#: src/commands.md:60
+msgid "Discard changes and reload from the source file."
+msgstr ""
+
+#: src/commands.md:61
+msgid "`:reload-all`, `:rla`"
+msgstr ""
+
+#: src/commands.md:61
+msgid "Discard changes and reload all documents from the source files."
+msgstr ""
+
+#: src/commands.md:62
+msgid "`:update`, `:u`"
+msgstr ""
+
+#: src/commands.md:62
+msgid "Write changes only if the file has been modified."
+msgstr ""
+
+#: src/commands.md:63
+msgid "`:lsp-workspace-command`"
+msgstr ""
+
+#: src/commands.md:63
+msgid "Open workspace command picker"
+msgstr ""
+
+#: src/commands.md:64
+msgid "`:lsp-restart`"
+msgstr ""
+
+#: src/commands.md:64
+msgid ""
+"Restarts the given language servers, or all language servers that are used "
+"by the current file if no arguments are supplied"
+msgstr ""
+
+#: src/commands.md:65
+msgid "`:lsp-stop`"
+msgstr ""
+
+#: src/commands.md:65
+msgid ""
+"Stops the given language servers, or all language servers that are used by "
+"the current file if no arguments are supplied"
+msgstr ""
+
+#: src/commands.md:66
+msgid "`:tree-sitter-scopes`"
+msgstr ""
+
+#: src/commands.md:66
+msgid "Display tree sitter scopes, primarily for theming and development."
+msgstr ""
+
+#: src/commands.md:67
+msgid "`:tree-sitter-highlight-name`"
+msgstr ""
+
+#: src/commands.md:67
+msgid "Display name of tree-sitter highlight scope under the cursor."
+msgstr ""
+
+#: src/commands.md:68
+msgid "`:debug-start`, `:dbg`"
+msgstr ""
+
+#: src/commands.md:68
+msgid "Start a debug session from a given template with given parameters."
+msgstr ""
+
+#: src/commands.md:69
+msgid "`:debug-remote`, `:dbg-tcp`"
+msgstr ""
+
+#: src/commands.md:69
+msgid ""
+"Connect to a debug adapter by TCP address and start a debugging session from "
+"a given template with given parameters."
+msgstr ""
+
+#: src/commands.md:70
+msgid "`:debug-eval`"
+msgstr ""
+
+#: src/commands.md:70
+msgid "Evaluate expression in current debug context."
+msgstr ""
+
+#: src/commands.md:71
+msgid "`:vsplit`, `:vs`"
+msgstr ""
+
+#: src/commands.md:71
+msgid "Open the file in a vertical split."
+msgstr ""
+
+#: src/commands.md:72
+msgid "`:vsplit-new`, `:vnew`"
+msgstr ""
+
+#: src/commands.md:72
+msgid "Open a scratch buffer in a vertical split."
+msgstr ""
+
+#: src/commands.md:73
+msgid "`:hsplit`, `:hs`, `:sp`"
+msgstr ""
+
+#: src/commands.md:73
+msgid "Open the file in a horizontal split."
+msgstr ""
+
+#: src/commands.md:74
+msgid "`:hsplit-new`, `:hnew`"
+msgstr ""
+
+#: src/commands.md:74
+msgid "Open a scratch buffer in a horizontal split."
+msgstr ""
+
+#: src/commands.md:75
+msgid "`:tutor`"
+msgstr ""
+
+#: src/commands.md:75
+msgid "Open the tutorial."
+msgstr ""
+
+#: src/commands.md:76
+msgid "`:goto`, `:g`"
+msgstr ""
+
+#: src/commands.md:76
+msgid "Goto line number."
+msgstr ""
+
+#: src/commands.md:77
+msgid "`:set-language`, `:lang`"
+msgstr ""
+
+#: src/commands.md:77
+msgid ""
+"Set the language of current buffer (show current language if no value "
+"specified)."
+msgstr ""
+
+#: src/commands.md:78
+msgid "`:set-option`, `:set`"
+msgstr ""
+
+#: src/commands.md:78
+msgid ""
+"Set a config option at runtime.<br>For example to disable smart case search, "
+"use `:set search.smart-case false`."
+msgstr ""
+
+#: src/commands.md:79
+msgid "`:toggle-option`, `:toggle`"
+msgstr ""
+
+#: src/commands.md:79
+msgid ""
+"Toggle a config option at runtime.<br>For example to toggle smart case "
+"search, use `:toggle search.smart-case`."
+msgstr ""
+
+#: src/commands.md:80
+msgid "`:get-option`, `:get`"
+msgstr ""
+
+#: src/commands.md:80
+msgid "Get the current value of a config option."
+msgstr ""
+
+#: src/commands.md:81
+msgid "`:sort`"
+msgstr ""
+
+#: src/commands.md:81
+msgid "Sort ranges in selection."
+msgstr ""
+
+#: src/commands.md:82
+msgid "`:reflow`"
+msgstr ""
+
+#: src/commands.md:82
+msgid "Hard-wrap the current selection of lines to a given width."
+msgstr ""
+
+#: src/commands.md:83
+msgid "`:tree-sitter-subtree`, `:ts-subtree`"
+msgstr ""
+
+#: src/commands.md:83
+msgid ""
+"Display the smallest tree-sitter subtree that spans the primary selection, "
+"primarily for debugging queries."
+msgstr ""
+
+#: src/commands.md:84
+msgid "`:config-reload`"
+msgstr ""
+
+#: src/commands.md:84
+msgid "Refresh user config."
+msgstr ""
+
+#: src/commands.md:85
+msgid "`:config-open`"
+msgstr ""
+
+#: src/commands.md:85
+msgid "Open the user config.toml file."
+msgstr ""
+
+#: src/commands.md:86
+msgid "`:config-open-workspace`"
+msgstr ""
+
+#: src/commands.md:86
+msgid "Open the workspace config.toml file."
+msgstr ""
+
+#: src/commands.md:87
+msgid "`:log-open`"
+msgstr ""
+
+#: src/commands.md:87
+msgid "Open the helix log file."
+msgstr ""
+
+#: src/commands.md:88
+msgid "`:insert-output`"
+msgstr ""
+
+#: src/commands.md:88
+msgid "Run shell command, inserting output before each selection."
+msgstr ""
+
+#: src/commands.md:89
+msgid "`:append-output`"
+msgstr ""
+
+#: src/commands.md:89
+msgid "Run shell command, appending output after each selection."
+msgstr ""
+
+#: src/commands.md:90
+msgid "`:pipe`, `:\\|`"
+msgstr ""
+
+#: src/commands.md:90
+msgid "Pipe each selection to the shell command."
+msgstr ""
+
+#: src/commands.md:91
+msgid "`:pipe-to`"
+msgstr ""
+
+#: src/commands.md:91
+msgid "Pipe each selection to the shell command, ignoring output."
+msgstr ""
+
+#: src/commands.md:92
+msgid "`:run-shell-command`, `:sh`, `:!`"
+msgstr ""
+
+#: src/commands.md:92
+msgid "Run a shell command"
+msgstr ""
+
+#: src/commands.md:93
+msgid "`:reset-diff-change`, `:diffget`, `:diffg`"
+msgstr ""
+
+#: src/commands.md:93
+msgid "Reset the diff change at the cursor position."
+msgstr ""
+
+#: src/commands.md:94
+msgid "`:clear-register`"
+msgstr ""
+
+#: src/commands.md:94
+msgid "Clear given register. If no argument is provided, clear all registers."
+msgstr ""
+
+#: src/commands.md:95
+msgid "`:redraw`"
+msgstr ""
+
+#: src/commands.md:95
+msgid "Clear and re-render the whole UI"
+msgstr ""
+
+#: src/commands.md:96
+msgid "`:move`, `:mv`"
+msgstr ""
+
+#: src/commands.md:96
+msgid "Move the current buffer and its corresponding file to a different path"
+msgstr ""
+
+#: src/commands.md:97
+msgid "`:yank-diagnostic`"
+msgstr ""
+
+#: src/commands.md:97
+msgid ""
+"Yank diagnostic(s) under primary cursor to register, or clipboard by default"
+msgstr ""
+
+#: src/commands.md:98
+msgid "`:read`, `:r`"
+msgstr ""
+
+#: src/commands.md:98
+msgid "Load a file into buffer"
+msgstr ""
+
+#: src/commands.md:99
+msgid "`:echo`"
+msgstr ""
+
+#: src/commands.md:99
+msgid "Prints the given arguments to the statusline."
+msgstr ""
+
+#: src/commands.md:100
+msgid "`:noop`"
+msgstr ""
+
+#: src/commands.md:100
+msgid "Does nothing."
+msgstr ""
+
+#: src/commands.md:102
+msgid "Static Commands"
+msgstr ""
+
+#: src/commands.md:104
+msgid ""
+"Static commands take no arguments and can be bound to keys. Static commands "
+"can also be executed from the command picker (`<space>?`). The built-in "
+"static commands are:"
+msgstr ""
+
+#: src/commands.md:106
+msgid "Default keybinds"
+msgstr ""
+
+#: src/commands.md:108
+msgid "`no_op`"
+msgstr ""
+
+#: src/commands.md:108
+msgid "Do nothing"
+msgstr ""
+
+#: src/commands.md:109
+msgid "`move_char_left`"
+msgstr ""
+
+#: src/commands.md:109
+msgid "Move left"
+msgstr ""
+
+#: src/commands.md:109
+msgid "normal: `h`, `<left>`, insert: `<left>`"
+msgstr ""
+
+#: src/commands.md:110
+msgid "`move_char_right`"
+msgstr ""
+
+#: src/commands.md:110
+msgid "Move right"
+msgstr ""
+
+#: src/commands.md:110
+msgid "normal: `l`, `<right>`, insert: `<right>`"
+msgstr ""
+
+#: src/commands.md:111
+msgid "`move_line_up`"
+msgstr ""
+
+#: src/commands.md:111 src/commands.md:113
+msgid "Move up"
+msgstr ""
+
+#: src/commands.md:111
+msgid "normal: `gk`"
+msgstr ""
+
+#: src/commands.md:112
+msgid "`move_line_down`"
+msgstr ""
+
+#: src/commands.md:112 src/commands.md:114
+msgid "Move down"
+msgstr ""
+
+#: src/commands.md:112
+msgid "normal: `gj`"
+msgstr ""
+
+#: src/commands.md:113
+msgid "`move_visual_line_up`"
+msgstr ""
+
+#: src/commands.md:113
+msgid "normal: `k`, `<up>`, insert: `<up>`"
+msgstr ""
+
+#: src/commands.md:114
+msgid "`move_visual_line_down`"
+msgstr ""
+
+#: src/commands.md:114
+msgid "normal: `j`, `<down>`, insert: `<down>`"
+msgstr ""
+
+#: src/commands.md:115
+msgid "`extend_char_left`"
+msgstr ""
+
+#: src/commands.md:115
+msgid "Extend left"
+msgstr ""
+
+#: src/commands.md:115
+msgid "select: `h`, `<left>`"
+msgstr ""
+
+#: src/commands.md:116
+msgid "`extend_char_right`"
+msgstr ""
+
+#: src/commands.md:116
+msgid "Extend right"
+msgstr ""
+
+#: src/commands.md:116
+msgid "select: `l`, `<right>`"
+msgstr ""
+
+#: src/commands.md:117
+msgid "`extend_line_up`"
+msgstr ""
+
+#: src/commands.md:117 src/commands.md:119
+msgid "Extend up"
+msgstr ""
+
+#: src/commands.md:117
+msgid "select: `gk`"
+msgstr ""
+
+#: src/commands.md:118
+msgid "`extend_line_down`"
+msgstr ""
+
+#: src/commands.md:118 src/commands.md:120
+msgid "Extend down"
+msgstr ""
+
+#: src/commands.md:118
+msgid "select: `gj`"
+msgstr ""
+
+#: src/commands.md:119
+msgid "`extend_visual_line_up`"
+msgstr ""
+
+#: src/commands.md:119
+msgid "select: `k`, `<up>`"
+msgstr ""
+
+#: src/commands.md:120
+msgid "`extend_visual_line_down`"
+msgstr ""
+
+#: src/commands.md:120
+msgid "select: `j`, `<down>`"
+msgstr ""
+
+#: src/commands.md:121
+msgid "`copy_selection_on_next_line`"
+msgstr ""
+
+#: src/commands.md:121
+msgid "Copy selection on next line"
+msgstr ""
+
+#: src/commands.md:121
+msgid "normal: `C`, select: `C`"
+msgstr ""
+
+#: src/commands.md:122
+msgid "`copy_selection_on_prev_line`"
+msgstr ""
+
+#: src/commands.md:122
+msgid "Copy selection on previous line"
+msgstr ""
+
+#: src/commands.md:122
+msgid "normal: `<A-C>`, select: `<A-C>`"
+msgstr ""
+
+#: src/commands.md:123
+msgid "`move_next_word_start`"
+msgstr ""
+
+#: src/commands.md:123
+msgid "Move to start of next word"
+msgstr ""
+
+#: src/commands.md:123
+msgid "normal: `w`"
+msgstr ""
+
+#: src/commands.md:124
+msgid "`move_prev_word_start`"
+msgstr ""
+
+#: src/commands.md:124
+msgid "Move to start of previous word"
+msgstr ""
+
+#: src/commands.md:124
+msgid "normal: `b`"
+msgstr ""
+
+#: src/commands.md:125
+msgid "`move_next_word_end`"
+msgstr ""
+
+#: src/commands.md:125
+msgid "Move to end of next word"
+msgstr ""
+
+#: src/commands.md:125
+msgid "normal: `e`"
+msgstr ""
+
+#: src/commands.md:126
+msgid "`move_prev_word_end`"
+msgstr ""
+
+#: src/commands.md:126
+msgid "Move to end of previous word"
+msgstr ""
+
+#: src/commands.md:127
+msgid "`move_next_long_word_start`"
+msgstr ""
+
+#: src/commands.md:127
+msgid "Move to start of next long word"
+msgstr ""
+
+#: src/commands.md:127
+msgid "normal: `W`"
+msgstr ""
+
+#: src/commands.md:128
+msgid "`move_prev_long_word_start`"
+msgstr ""
+
+#: src/commands.md:128
+msgid "Move to start of previous long word"
+msgstr ""
+
+#: src/commands.md:128
+msgid "normal: `B`"
+msgstr ""
+
+#: src/commands.md:129
+msgid "`move_next_long_word_end`"
+msgstr ""
+
+#: src/commands.md:129
+msgid "Move to end of next long word"
+msgstr ""
+
+#: src/commands.md:129
+msgid "normal: `E`"
+msgstr ""
+
+#: src/commands.md:130
+msgid "`move_prev_long_word_end`"
+msgstr ""
+
+#: src/commands.md:130
+msgid "Move to end of previous long word"
+msgstr ""
+
+#: src/commands.md:131
+msgid "`move_next_sub_word_start`"
+msgstr ""
+
+#: src/commands.md:131
+msgid "Move to start of next sub word"
+msgstr ""
+
+#: src/commands.md:132
+msgid "`move_prev_sub_word_start`"
+msgstr ""
+
+#: src/commands.md:132
+msgid "Move to start of previous sub word"
+msgstr ""
+
+#: src/commands.md:133
+msgid "`move_next_sub_word_end`"
+msgstr ""
+
+#: src/commands.md:133
+msgid "Move to end of next sub word"
+msgstr ""
+
+#: src/commands.md:134
+msgid "`move_prev_sub_word_end`"
+msgstr ""
+
+#: src/commands.md:134
+msgid "Move to end of previous sub word"
+msgstr ""
+
+#: src/commands.md:135
+msgid "`move_parent_node_end`"
+msgstr ""
+
+#: src/commands.md:135
+msgid "Move to end of the parent node"
+msgstr ""
+
+#: src/commands.md:135
+msgid "normal: `<A-e>`"
+msgstr ""
+
+#: src/commands.md:136
+msgid "`move_parent_node_start`"
+msgstr ""
+
+#: src/commands.md:136
+msgid "Move to beginning of the parent node"
+msgstr ""
+
+#: src/commands.md:136
+msgid "normal: `<A-b>`"
+msgstr ""
+
+#: src/commands.md:137
+msgid "`extend_next_word_start`"
+msgstr ""
+
+#: src/commands.md:137
+msgid "Extend to start of next word"
+msgstr ""
+
+#: src/commands.md:137
+msgid "select: `w`"
+msgstr ""
+
+#: src/commands.md:138
+msgid "`extend_prev_word_start`"
+msgstr ""
+
+#: src/commands.md:138
+msgid "Extend to start of previous word"
+msgstr ""
+
+#: src/commands.md:138
+msgid "select: `b`"
+msgstr ""
+
+#: src/commands.md:139
+msgid "`extend_next_word_end`"
+msgstr ""
+
+#: src/commands.md:139
+msgid "Extend to end of next word"
+msgstr ""
+
+#: src/commands.md:139
+msgid "select: `e`"
+msgstr ""
+
+#: src/commands.md:140
+msgid "`extend_prev_word_end`"
+msgstr ""
+
+#: src/commands.md:140
+msgid "Extend to end of previous word"
+msgstr ""
+
+#: src/commands.md:141
+msgid "`extend_next_long_word_start`"
+msgstr ""
+
+#: src/commands.md:141
+msgid "Extend to start of next long word"
+msgstr ""
+
+#: src/commands.md:141
+msgid "select: `W`"
+msgstr ""
+
+#: src/commands.md:142
+msgid "`extend_prev_long_word_start`"
+msgstr ""
+
+#: src/commands.md:142
+msgid "Extend to start of previous long word"
+msgstr ""
+
+#: src/commands.md:142
+msgid "select: `B`"
+msgstr ""
+
+#: src/commands.md:143
+msgid "`extend_next_long_word_end`"
+msgstr ""
+
+#: src/commands.md:143
+msgid "Extend to end of next long word"
+msgstr ""
+
+#: src/commands.md:143
+msgid "select: `E`"
+msgstr ""
+
+#: src/commands.md:144
+msgid "`extend_prev_long_word_end`"
+msgstr ""
+
+#: src/commands.md:144
+msgid "Extend to end of prev long word"
+msgstr ""
+
+#: src/commands.md:145
+msgid "`extend_next_sub_word_start`"
+msgstr ""
+
+#: src/commands.md:145
+msgid "Extend to start of next sub word"
+msgstr ""
+
+#: src/commands.md:146
+msgid "`extend_prev_sub_word_start`"
+msgstr ""
+
+#: src/commands.md:146
+msgid "Extend to start of previous sub word"
+msgstr ""
+
+#: src/commands.md:147
+msgid "`extend_next_sub_word_end`"
+msgstr ""
+
+#: src/commands.md:147
+msgid "Extend to end of next sub word"
+msgstr ""
+
+#: src/commands.md:148
+msgid "`extend_prev_sub_word_end`"
+msgstr ""
+
+#: src/commands.md:148
+msgid "Extend to end of prev sub word"
+msgstr ""
+
+#: src/commands.md:149
+msgid "`extend_parent_node_end`"
+msgstr ""
+
+#: src/commands.md:149
+msgid "Extend to end of the parent node"
+msgstr ""
+
+#: src/commands.md:149
+msgid "select: `<A-e>`"
+msgstr ""
+
+#: src/commands.md:150
+msgid "`extend_parent_node_start`"
+msgstr ""
+
+#: src/commands.md:150
+msgid "Extend to beginning of the parent node"
+msgstr ""
+
+#: src/commands.md:150
+msgid "select: `<A-b>`"
+msgstr ""
+
+#: src/commands.md:151
+msgid "`find_till_char`"
+msgstr ""
+
+#: src/commands.md:151
+msgid "Move till next occurrence of char"
+msgstr ""
+
+#: src/commands.md:151
+msgid "normal: `t`"
+msgstr ""
+
+#: src/commands.md:152
+msgid "`find_next_char`"
+msgstr ""
+
+#: src/commands.md:152
+msgid "Move to next occurrence of char"
+msgstr ""
+
+#: src/commands.md:152
+msgid "normal: `f`"
+msgstr ""
+
+#: src/commands.md:153
+msgid "`extend_till_char`"
+msgstr ""
+
+#: src/commands.md:153
+msgid "Extend till next occurrence of char"
+msgstr ""
+
+#: src/commands.md:153
+msgid "select: `t`"
+msgstr ""
+
+#: src/commands.md:154
+msgid "`extend_next_char`"
+msgstr ""
+
+#: src/commands.md:154
+msgid "Extend to next occurrence of char"
+msgstr ""
+
+#: src/commands.md:154
+msgid "select: `f`"
+msgstr ""
+
+#: src/commands.md:155
+msgid "`till_prev_char`"
+msgstr ""
+
+#: src/commands.md:155
+msgid "Move till previous occurrence of char"
+msgstr ""
+
+#: src/commands.md:155
+msgid "normal: `T`"
+msgstr ""
+
+#: src/commands.md:156
+msgid "`find_prev_char`"
+msgstr ""
+
+#: src/commands.md:156
+msgid "Move to previous occurrence of char"
+msgstr ""
+
+#: src/commands.md:156
+msgid "normal: `F`"
+msgstr ""
+
+#: src/commands.md:157
+msgid "`extend_till_prev_char`"
+msgstr ""
+
+#: src/commands.md:157
+msgid "Extend till previous occurrence of char"
+msgstr ""
+
+#: src/commands.md:157
+msgid "select: `T`"
+msgstr ""
+
+#: src/commands.md:158
+msgid "`extend_prev_char`"
+msgstr ""
+
+#: src/commands.md:158
+msgid "Extend to previous occurrence of char"
+msgstr ""
+
+#: src/commands.md:158
+msgid "select: `F`"
+msgstr ""
+
+#: src/commands.md:159
+msgid "`repeat_last_motion`"
+msgstr ""
+
+#: src/commands.md:159
+msgid "Repeat last motion"
+msgstr ""
+
+#: src/commands.md:159
+msgid "normal: `<A-.>`, select: `<A-.>`"
+msgstr ""
+
+#: src/commands.md:160
+msgid "`replace`"
+msgstr ""
+
+#: src/commands.md:160
+msgid "Replace with new char"
+msgstr ""
+
+#: src/commands.md:160
+msgid "normal: `r`, select: `r`"
+msgstr ""
+
+#: src/commands.md:161
+msgid "`switch_case`"
+msgstr ""
+
+#: src/commands.md:161
+msgid "Switch (toggle) case"
+msgstr ""
+
+#: src/commands.md:161
+msgid "normal: `~`, select: `~`"
+msgstr ""
+
+#: src/commands.md:162
+msgid "`switch_to_uppercase`"
+msgstr ""
+
+#: src/commands.md:162
+msgid "Switch to uppercase"
+msgstr ""
+
+#: src/commands.md:162
+msgid "normal: ``<A-`>``, select: ``<A-`>``"
+msgstr ""
+
+#: src/commands.md:163
+msgid "`switch_to_lowercase`"
+msgstr ""
+
+#: src/commands.md:163
+msgid "Switch to lowercase"
+msgstr ""
+
+#: src/commands.md:163
+msgid "normal: `` ` ``, select: `` ` ``"
+msgstr ""
+
+#: src/commands.md:164
+msgid "`page_up`"
+msgstr ""
+
+#: src/commands.md:164
+msgid "Move page up"
+msgstr ""
+
+#: src/commands.md:164
+msgid ""
+"normal: `<C-b>`, `Z<C-b>`, `z<C-b>`, `<pageup>`, `Z<pageup>`, `z<pageup>`, "
+"select: `<C-b>`, `Z<C-b>`, `z<C-b>`, `<pageup>`, `Z<pageup>`, `z<pageup>`, "
+"insert: `<pageup>`"
+msgstr ""
+
+#: src/commands.md:165
+msgid "`page_down`"
+msgstr ""
+
+#: src/commands.md:165
+msgid "Move page down"
+msgstr ""
+
+#: src/commands.md:165
+msgid ""
+"normal: `<C-f>`, `Z<C-f>`, `z<C-f>`, `<pagedown>`, `Z<pagedown>`, "
+"`z<pagedown>`, select: `<C-f>`, `Z<C-f>`, `z<C-f>`, `<pagedown>`, "
+"`Z<pagedown>`, `z<pagedown>`, insert: `<pagedown>`"
+msgstr ""
+
+#: src/commands.md:166
+msgid "`half_page_up`"
+msgstr ""
+
+#: src/commands.md:166
+msgid "Move half page up"
+msgstr ""
+
+#: src/commands.md:167
+msgid "`half_page_down`"
+msgstr ""
+
+#: src/commands.md:167
+msgid "Move half page down"
+msgstr ""
+
+#: src/commands.md:168
+msgid "`page_cursor_up`"
+msgstr ""
+
+#: src/commands.md:168
+msgid "Move page and cursor up"
+msgstr ""
+
+#: src/commands.md:169
+msgid "`page_cursor_down`"
+msgstr ""
+
+#: src/commands.md:169
+msgid "Move page and cursor down"
+msgstr ""
+
+#: src/commands.md:170
+msgid "`page_cursor_half_up`"
+msgstr ""
+
+#: src/commands.md:170
+msgid "Move page and cursor half up"
+msgstr ""
+
+#: src/commands.md:170
+msgid ""
+"normal: `<C-u>`, `Z<C-u>`, `z<C-u>`, `Z<backspace>`, `z<backspace>`, select: "
+"`<C-u>`, `Z<C-u>`, `z<C-u>`, `Z<backspace>`, `z<backspace>`"
+msgstr ""
+
+#: src/commands.md:171
+msgid "`page_cursor_half_down`"
+msgstr ""
+
+#: src/commands.md:171
+msgid "Move page and cursor half down"
+msgstr ""
+
+#: src/commands.md:171
+msgid ""
+"normal: `<C-d>`, `Z<C-d>`, `z<C-d>`, `Z<space>`, `z<space>`, select: `<C-"
+"d>`, `Z<C-d>`, `z<C-d>`, `Z<space>`, `z<space>`"
+msgstr ""
+
+#: src/commands.md:172
+msgid "`select_all`"
+msgstr ""
+
+#: src/commands.md:172
+msgid "Select whole document"
+msgstr ""
+
+#: src/commands.md:172
+msgid "normal: `%`, select: `%`"
+msgstr ""
+
+#: src/commands.md:173
+msgid "`select_regex`"
+msgstr ""
+
+#: src/commands.md:173
+msgid "Select all regex matches inside selections"
+msgstr ""
+
+#: src/commands.md:173
+msgid "normal: `s`, select: `s`"
+msgstr ""
+
+#: src/commands.md:174
+msgid "`split_selection`"
+msgstr ""
+
+#: src/commands.md:174
+msgid "Split selections on regex matches"
+msgstr ""
+
+#: src/commands.md:174
+msgid "normal: `S`, select: `S`"
+msgstr ""
+
+#: src/commands.md:175
+msgid "`split_selection_on_newline`"
+msgstr ""
+
+#: src/commands.md:175
+msgid "Split selection on newlines"
+msgstr ""
+
+#: src/commands.md:175
+msgid "normal: `<A-s>`, select: `<A-s>`"
+msgstr ""
+
+#: src/commands.md:176
+msgid "`merge_selections`"
+msgstr ""
+
+#: src/commands.md:176
+msgid "Merge selections"
+msgstr ""
+
+#: src/commands.md:176
+msgid "normal: `<A-minus>`, select: `<A-minus>`"
+msgstr ""
+
+#: src/commands.md:177
+msgid "`merge_consecutive_selections`"
+msgstr ""
+
+#: src/commands.md:177
+msgid "Merge consecutive selections"
+msgstr ""
+
+#: src/commands.md:177
+msgid "normal: `<A-_>`, select: `<A-_>`"
+msgstr ""
+
+#: src/commands.md:178
+msgid "`search`"
+msgstr ""
+
+#: src/commands.md:178
+msgid "Search for regex pattern"
+msgstr ""
+
+#: src/commands.md:178
+msgid "normal: `/`, `Z/`, `z/`, select: `/`, `Z/`, `z/`"
+msgstr ""
+
+#: src/commands.md:179
+msgid "`rsearch`"
+msgstr ""
+
+#: src/commands.md:179
+msgid "Reverse search for regex pattern"
+msgstr ""
+
+#: src/commands.md:179
+msgid "normal: `?`, `Z?`, `z?`, select: `?`, `Z?`, `z?`"
+msgstr ""
+
+#: src/commands.md:180
+msgid "`search_next`"
+msgstr ""
+
+#: src/commands.md:180
+msgid "Select next search match"
+msgstr ""
+
+#: src/commands.md:180
+msgid "normal: `n`, `Zn`, `zn`, select: `Zn`, `zn`"
+msgstr ""
+
+#: src/commands.md:181
+msgid "`search_prev`"
+msgstr ""
+
+#: src/commands.md:181
+msgid "Select previous search match"
+msgstr ""
+
+#: src/commands.md:181
+msgid "normal: `N`, `ZN`, `zN`, select: `ZN`, `zN`"
+msgstr ""
+
+#: src/commands.md:182
+msgid "`extend_search_next`"
+msgstr ""
+
+#: src/commands.md:182
+msgid "Add next search match to selection"
+msgstr ""
+
+#: src/commands.md:182
+msgid "select: `n`"
+msgstr ""
+
+#: src/commands.md:183
+msgid "`extend_search_prev`"
+msgstr ""
+
+#: src/commands.md:183
+msgid "Add previous search match to selection"
+msgstr ""
+
+#: src/commands.md:183
+msgid "select: `N`"
+msgstr ""
+
+#: src/commands.md:184
+msgid "`search_selection`"
+msgstr ""
+
+#: src/commands.md:184
+msgid "Use current selection as search pattern"
+msgstr ""
+
+#: src/commands.md:184
+msgid "normal: `<A-*>`, select: `<A-*>`"
+msgstr ""
+
+#: src/commands.md:185
+msgid "`search_selection_detect_word_boundaries`"
+msgstr ""
+
+#: src/commands.md:185
+msgid ""
+"Use current selection as the search pattern, automatically wrapping with "
+"`\\b` on word boundaries"
+msgstr ""
+
+#: src/commands.md:185
+msgid "normal: `*`, select: `*`"
+msgstr ""
+
+#: src/commands.md:186
+msgid "`make_search_word_bounded`"
+msgstr ""
+
+#: src/commands.md:186
+msgid "Modify current search to make it word bounded"
+msgstr ""
+
+#: src/commands.md:187
+msgid "`global_search`"
+msgstr ""
+
+#: src/commands.md:187
+msgid "Global search in workspace folder"
+msgstr ""
+
+#: src/commands.md:187
+msgid "normal: `<space>/`, select: `<space>/`"
+msgstr ""
+
+#: src/commands.md:188
+msgid "`extend_line`"
+msgstr ""
+
+#: src/commands.md:188
+msgid ""
+"Select current line, if already selected, extend to another line based on "
+"the anchor"
+msgstr ""
+
+#: src/commands.md:189
+msgid "`extend_line_below`"
+msgstr ""
+
+#: src/commands.md:189
+msgid "Select current line, if already selected, extend to next line"
+msgstr ""
+
+#: src/commands.md:189
+msgid "normal: `x`, select: `x`"
+msgstr ""
+
+#: src/commands.md:190
+msgid "`extend_line_above`"
+msgstr ""
+
+#: src/commands.md:190
+msgid "Select current line, if already selected, extend to previous line"
+msgstr ""
+
+#: src/commands.md:191
+msgid "`select_line_above`"
+msgstr ""
+
+#: src/commands.md:191
+msgid ""
+"Select current line, if already selected, extend or shrink line above based "
+"on the anchor"
+msgstr ""
+
+#: src/commands.md:192
+msgid "`select_line_below`"
+msgstr ""
+
+#: src/commands.md:192
+msgid ""
+"Select current line, if already selected, extend or shrink line below based "
+"on the anchor"
+msgstr ""
+
+#: src/commands.md:193
+msgid "`extend_to_line_bounds`"
+msgstr ""
+
+#: src/commands.md:193
+msgid "Extend selection to line bounds"
+msgstr ""
+
+#: src/commands.md:193
+msgid "normal: `X`, select: `X`"
+msgstr ""
+
+#: src/commands.md:194
+msgid "`shrink_to_line_bounds`"
+msgstr ""
+
+#: src/commands.md:194
+msgid "Shrink selection to line bounds"
+msgstr ""
+
+#: src/commands.md:194
+msgid "normal: `<A-x>`, select: `<A-x>`"
+msgstr ""
+
+#: src/commands.md:195
+msgid "`delete_selection`"
+msgstr ""
+
+#: src/commands.md:195
+msgid "Delete selection"
+msgstr ""
+
+#: src/commands.md:195
+msgid "normal: `d`, select: `d`"
+msgstr ""
+
+#: src/commands.md:196
+msgid "`delete_selection_noyank`"
+msgstr ""
+
+#: src/commands.md:196
+msgid "Delete selection without yanking"
+msgstr ""
+
+#: src/commands.md:196
+msgid "normal: `<A-d>`, select: `<A-d>`"
+msgstr ""
+
+#: src/commands.md:197
+msgid "`change_selection`"
+msgstr ""
+
+#: src/commands.md:197
+msgid "Change selection"
+msgstr ""
+
+#: src/commands.md:197
+msgid "normal: `c`, select: `c`"
+msgstr ""
+
+#: src/commands.md:198
+msgid "`change_selection_noyank`"
+msgstr ""
+
+#: src/commands.md:198
+msgid "Change selection without yanking"
+msgstr ""
+
+#: src/commands.md:198
+msgid "normal: `<A-c>`, select: `<A-c>`"
+msgstr ""
+
+#: src/commands.md:199
+msgid "`collapse_selection`"
+msgstr ""
+
+#: src/commands.md:199
+msgid "Collapse selection into single cursor"
+msgstr ""
+
+#: src/commands.md:199
+msgid "normal: `;`, select: `;`"
+msgstr ""
+
+#: src/commands.md:200
+msgid "`flip_selections`"
+msgstr ""
+
+#: src/commands.md:200
+msgid "Flip selection cursor and anchor"
+msgstr ""
+
+#: src/commands.md:200
+msgid "normal: `<A-;>`, select: `<A-;>`"
+msgstr ""
+
+#: src/commands.md:201
+msgid "`ensure_selections_forward`"
+msgstr ""
+
+#: src/commands.md:201
+msgid "Ensure all selections face forward"
+msgstr ""
+
+#: src/commands.md:201
+msgid "normal: `<A-:>`, select: `<A-:>`"
+msgstr ""
+
+#: src/commands.md:202
+msgid "`insert_mode`"
+msgstr ""
+
+#: src/commands.md:202
+msgid "Insert before selection"
+msgstr ""
+
+#: src/commands.md:202
+msgid "normal: `i`, select: `i`"
+msgstr ""
+
+#: src/commands.md:203
+msgid "`append_mode`"
+msgstr ""
+
+#: src/commands.md:203
+msgid "Append after selection"
+msgstr ""
+
+#: src/commands.md:203
+msgid "normal: `a`, select: `a`"
+msgstr ""
+
+#: src/commands.md:204
+msgid "`command_mode`"
+msgstr ""
+
+#: src/commands.md:204
+msgid "Enter command mode"
+msgstr ""
+
+#: src/commands.md:204
+msgid "normal: `:`, select: `:`"
+msgstr ""
+
+#: src/commands.md:205
+msgid "`file_picker`"
+msgstr ""
+
+#: src/commands.md:205
+msgid "Open file picker"
+msgstr ""
+
+#: src/commands.md:205
+msgid "normal: `<space>f`, select: `<space>f`"
+msgstr ""
+
+#: src/commands.md:206
+msgid "`file_picker_in_current_buffer_directory`"
+msgstr ""
+
+#: src/commands.md:206
+msgid "Open file picker at current buffer's directory"
+msgstr ""
+
+#: src/commands.md:207
+msgid "`file_picker_in_current_directory`"
+msgstr ""
+
+#: src/commands.md:207
+msgid "Open file picker at current working directory"
+msgstr ""
+
+#: src/commands.md:207
+msgid "normal: `<space>F`, select: `<space>F`"
+msgstr ""
+
+#: src/commands.md:208
+msgid "`file_explorer`"
+msgstr ""
+
+#: src/commands.md:208
+msgid "Open file explorer in workspace root"
+msgstr ""
+
+#: src/commands.md:208
+msgid "normal: `<space>e`, select: `<space>e`"
+msgstr ""
+
+#: src/commands.md:209
+msgid "`file_explorer_in_current_buffer_directory`"
+msgstr ""
+
+#: src/commands.md:209
+msgid "Open file explorer at current buffer's directory"
+msgstr ""
+
+#: src/commands.md:209
+msgid "normal: `<space>E`, select: `<space>E`"
+msgstr ""
+
+#: src/commands.md:210
+msgid "`file_explorer_in_current_directory`"
+msgstr ""
+
+#: src/commands.md:210
+msgid "Open file explorer at current working directory"
+msgstr ""
+
+#: src/commands.md:211
+msgid "`code_action`"
+msgstr ""
+
+#: src/commands.md:211
+msgid "Perform code action"
+msgstr ""
+
+#: src/commands.md:211
+msgid "normal: `<space>a`, select: `<space>a`"
+msgstr ""
+
+#: src/commands.md:212
+msgid "`buffer_picker`"
+msgstr ""
+
+#: src/commands.md:212
+msgid "Open buffer picker"
+msgstr ""
+
+#: src/commands.md:212
+msgid "normal: `<space>b`, select: `<space>b`"
+msgstr ""
+
+#: src/commands.md:213
+msgid "`jumplist_picker`"
+msgstr ""
+
+#: src/commands.md:213
+msgid "Open jumplist picker"
+msgstr ""
+
+#: src/commands.md:213
+msgid "normal: `<space>j`, select: `<space>j`"
+msgstr ""
+
+#: src/commands.md:214
+msgid "`symbol_picker`"
+msgstr ""
+
+#: src/commands.md:214
+msgid "Open symbol picker"
+msgstr ""
+
+#: src/commands.md:214
+msgid "normal: `<space>s`, select: `<space>s`"
+msgstr ""
+
+#: src/commands.md:215
+msgid "`changed_file_picker`"
+msgstr ""
+
+#: src/commands.md:215
+msgid "Open changed file picker"
+msgstr ""
+
+#: src/commands.md:215
+msgid "normal: `<space>g`, select: `<space>g`"
+msgstr ""
+
+#: src/commands.md:216
+msgid "`select_references_to_symbol_under_cursor`"
+msgstr ""
+
+#: src/commands.md:216
+msgid "Select symbol references"
+msgstr ""
+
+#: src/commands.md:216
+msgid "normal: `<space>h`, select: `<space>h`"
+msgstr ""
+
+#: src/commands.md:217
+msgid "`workspace_symbol_picker`"
+msgstr ""
+
+#: src/commands.md:217
+msgid "Open workspace symbol picker"
+msgstr ""
+
+#: src/commands.md:217
+msgid "normal: `<space>S`, select: `<space>S`"
+msgstr ""
+
+#: src/commands.md:218
+msgid "`diagnostics_picker`"
+msgstr ""
+
+#: src/commands.md:218
+msgid "Open diagnostic picker"
+msgstr ""
+
+#: src/commands.md:218
+msgid "normal: `<space>d`, select: `<space>d`"
+msgstr ""
+
+#: src/commands.md:219
+msgid "`workspace_diagnostics_picker`"
+msgstr ""
+
+#: src/commands.md:219
+msgid "Open workspace diagnostic picker"
+msgstr ""
+
+#: src/commands.md:219
+msgid "normal: `<space>D`, select: `<space>D`"
+msgstr ""
+
+#: src/commands.md:220
+msgid "`last_picker`"
+msgstr ""
+
+#: src/commands.md:220
+msgid "Open last picker"
+msgstr ""
+
+#: src/commands.md:220
+msgid "normal: `<space>'`, select: `<space>'`"
+msgstr ""
+
+#: src/commands.md:221
+msgid "`insert_at_line_start`"
+msgstr ""
+
+#: src/commands.md:221
+msgid "Insert at start of line"
+msgstr ""
+
+#: src/commands.md:221
+msgid "normal: `I`, select: `I`"
+msgstr ""
+
+#: src/commands.md:222
+msgid "`insert_at_line_end`"
+msgstr ""
+
+#: src/commands.md:222
+msgid "Insert at end of line"
+msgstr ""
+
+#: src/commands.md:222
+msgid "normal: `A`, select: `A`"
+msgstr ""
+
+#: src/commands.md:223
+msgid "`open_below`"
+msgstr ""
+
+#: src/commands.md:223
+msgid "Open new line below selection"
+msgstr ""
+
+#: src/commands.md:223
+msgid "normal: `o`, select: `o`"
+msgstr ""
+
+#: src/commands.md:224
+msgid "`open_above`"
+msgstr ""
+
+#: src/commands.md:224
+msgid "Open new line above selection"
+msgstr ""
+
+#: src/commands.md:224
+msgid "normal: `O`, select: `O`"
+msgstr ""
+
+#: src/commands.md:225
+msgid "`normal_mode`"
+msgstr ""
+
+#: src/commands.md:225
+msgid "Enter normal mode"
+msgstr ""
+
+#: src/commands.md:225
+msgid "normal: `<esc>`, select: `v`, insert: `<esc>`"
+msgstr ""
+
+#: src/commands.md:226
+msgid "`select_mode`"
+msgstr ""
+
+#: src/commands.md:226
+msgid "Enter selection extend mode"
+msgstr ""
+
+#: src/commands.md:226
+msgid "normal: `v`"
+msgstr ""
+
+#: src/commands.md:227
+msgid "`exit_select_mode`"
+msgstr ""
+
+#: src/commands.md:227
+msgid "Exit selection mode"
+msgstr ""
+
+#: src/commands.md:227
+msgid "select: `<esc>`"
+msgstr ""
+
+#: src/commands.md:228
+msgid "`goto_definition`"
+msgstr ""
+
+#: src/commands.md:228
+msgid "Goto definition"
+msgstr ""
+
+#: src/commands.md:228
+msgid "normal: `gd`, select: `gd`"
+msgstr ""
+
+#: src/commands.md:229
+msgid "`goto_declaration`"
+msgstr ""
+
+#: src/commands.md:229
+msgid "Goto declaration"
+msgstr ""
+
+#: src/commands.md:229
+msgid "normal: `gD`, select: `gD`"
+msgstr ""
+
+#: src/commands.md:230
+msgid "`add_newline_above`"
+msgstr ""
+
+#: src/commands.md:230
+msgid "Add newline above"
+msgstr ""
+
+#: src/commands.md:230
+msgid "normal: `[<space>`, select: `[<space>`"
+msgstr ""
+
+#: src/commands.md:231
+msgid "`add_newline_below`"
+msgstr ""
+
+#: src/commands.md:231
+msgid "Add newline below"
+msgstr ""
+
+#: src/commands.md:231
+msgid "normal: `]<space>`, select: `]<space>`"
+msgstr ""
+
+#: src/commands.md:232
+msgid "`goto_type_definition`"
+msgstr ""
+
+#: src/commands.md:232
+msgid "Goto type definition"
+msgstr ""
+
+#: src/commands.md:232
+msgid "normal: `gy`, select: `gy`"
+msgstr ""
+
+#: src/commands.md:233
+msgid "`goto_implementation`"
+msgstr ""
+
+#: src/commands.md:233
+msgid "Goto implementation"
+msgstr ""
+
+#: src/commands.md:233
+msgid "normal: `gi`, select: `gi`"
+msgstr ""
+
+#: src/commands.md:234
+msgid "`goto_file_start`"
+msgstr ""
+
+#: src/commands.md:234
+msgid "Goto line number <n> else file start"
+msgstr ""
+
+#: src/commands.md:234
+msgid "normal: `gg`"
+msgstr ""
+
+#: src/commands.md:235
+msgid "`goto_file_end`"
+msgstr ""
+
+#: src/commands.md:235
+msgid "Goto file end"
+msgstr ""
+
+#: src/commands.md:236
+msgid "`extend_to_file_start`"
+msgstr ""
+
+#: src/commands.md:236
+msgid "Extend to line number<n> else file start"
+msgstr ""
+
+#: src/commands.md:236
+msgid "select: `gg`"
+msgstr ""
+
+#: src/commands.md:237
+msgid "`extend_to_file_end`"
+msgstr ""
+
+#: src/commands.md:237
+msgid "Extend to file end"
+msgstr ""
+
+#: src/commands.md:238
+msgid "`goto_file`"
+msgstr ""
+
+#: src/commands.md:238
+msgid "Goto files/URLs in selections"
+msgstr ""
+
+#: src/commands.md:238
+msgid "normal: `gf`, select: `gf`"
+msgstr ""
+
+#: src/commands.md:239
+msgid "`goto_file_hsplit`"
+msgstr ""
+
+#: src/commands.md:239
+msgid "Goto files in selections (hsplit)"
+msgstr ""
+
+#: src/commands.md:239
+msgid "normal: `<C-w>f`, `<space>wf`, select: `<C-w>f`, `<space>wf`"
+msgstr ""
+
+#: src/commands.md:240
+msgid "`goto_file_vsplit`"
+msgstr ""
+
+#: src/commands.md:240
+msgid "Goto files in selections (vsplit)"
+msgstr ""
+
+#: src/commands.md:240
+msgid "normal: `<C-w>F`, `<space>wF`, select: `<C-w>F`, `<space>wF`"
+msgstr ""
+
+#: src/commands.md:241
+msgid "`goto_reference`"
+msgstr ""
+
+#: src/commands.md:241
+msgid "Goto references"
+msgstr ""
+
+#: src/commands.md:241
+msgid "normal: `gr`, select: `gr`"
+msgstr ""
+
+#: src/commands.md:242
+msgid "`goto_window_top`"
+msgstr ""
+
+#: src/commands.md:242
+msgid "Goto window top"
+msgstr ""
+
+#: src/commands.md:242
+msgid "normal: `gt`, select: `gt`"
+msgstr ""
+
+#: src/commands.md:243
+msgid "`goto_window_center`"
+msgstr ""
+
+#: src/commands.md:243
+msgid "Goto window center"
+msgstr ""
+
+#: src/commands.md:243
+msgid "normal: `gc`, select: `gc`"
+msgstr ""
+
+#: src/commands.md:244
+msgid "`goto_window_bottom`"
+msgstr ""
+
+#: src/commands.md:244
+msgid "Goto window bottom"
+msgstr ""
+
+#: src/commands.md:244
+msgid "normal: `gb`, select: `gb`"
+msgstr ""
+
+#: src/commands.md:245
+msgid "`goto_last_accessed_file`"
+msgstr ""
+
+#: src/commands.md:245
+msgid "Goto last accessed file"
+msgstr ""
+
+#: src/commands.md:245
+msgid "normal: `ga`, select: `ga`"
+msgstr ""
+
+#: src/commands.md:246
+msgid "`goto_last_modified_file`"
+msgstr ""
+
+#: src/commands.md:246
+msgid "Goto last modified file"
+msgstr ""
+
+#: src/commands.md:246
+msgid "normal: `gm`, select: `gm`"
+msgstr ""
+
+#: src/commands.md:247
+msgid "`goto_last_modification`"
+msgstr ""
+
+#: src/commands.md:247
+msgid "Goto last modification"
+msgstr ""
+
+#: src/commands.md:247
+msgid "normal: `g.`, select: `g.`"
+msgstr ""
+
+#: src/commands.md:248
+msgid "`goto_line`"
+msgstr ""
+
+#: src/commands.md:248
+msgid "Goto line"
+msgstr ""
+
+#: src/commands.md:248
+msgid "normal: `G`, select: `G`"
+msgstr ""
+
+#: src/commands.md:249
+msgid "`goto_last_line`"
+msgstr ""
+
+#: src/commands.md:249
+msgid "Goto last line"
+msgstr ""
+
+#: src/commands.md:249
+msgid "normal: `ge`"
+msgstr ""
+
+#: src/commands.md:250
+msgid "`extend_to_last_line`"
+msgstr ""
+
+#: src/commands.md:250
+msgid "Extend to last line"
+msgstr ""
+
+#: src/commands.md:250
+msgid "select: `ge`"
+msgstr ""
+
+#: src/commands.md:251
+msgid "`goto_first_diag`"
+msgstr ""
+
+#: src/commands.md:251
+msgid "Goto first diagnostic"
+msgstr ""
+
+#: src/commands.md:251
+msgid "normal: `[D`, select: `[D`"
+msgstr ""
+
+#: src/commands.md:252
+msgid "`goto_last_diag`"
+msgstr ""
+
+#: src/commands.md:252
+msgid "Goto last diagnostic"
+msgstr ""
+
+#: src/commands.md:252
+msgid "normal: `]D`, select: `]D`"
+msgstr ""
+
+#: src/commands.md:253
+msgid "`goto_next_diag`"
+msgstr ""
+
+#: src/commands.md:253
+msgid "Goto next diagnostic"
+msgstr ""
+
+#: src/commands.md:253
+msgid "normal: `]d`, select: `]d`"
+msgstr ""
+
+#: src/commands.md:254
+msgid "`goto_prev_diag`"
+msgstr ""
+
+#: src/commands.md:254
+msgid "Goto previous diagnostic"
+msgstr ""
+
+#: src/commands.md:254
+msgid "normal: `[d`, select: `[d`"
+msgstr ""
+
+#: src/commands.md:255
+msgid "`goto_next_change`"
+msgstr ""
+
+#: src/commands.md:255
+msgid "Goto next change"
+msgstr ""
+
+#: src/commands.md:255
+msgid "normal: `]g`, select: `]g`"
+msgstr ""
+
+#: src/commands.md:256
+msgid "`goto_prev_change`"
+msgstr ""
+
+#: src/commands.md:256
+msgid "Goto previous change"
+msgstr ""
+
+#: src/commands.md:256
+msgid "normal: `[g`, select: `[g`"
+msgstr ""
+
+#: src/commands.md:257
+msgid "`goto_first_change`"
+msgstr ""
+
+#: src/commands.md:257
+msgid "Goto first change"
+msgstr ""
+
+#: src/commands.md:257
+msgid "normal: `[G`, select: `[G`"
+msgstr ""
+
+#: src/commands.md:258
+msgid "`goto_last_change`"
+msgstr ""
+
+#: src/commands.md:258
+msgid "Goto last change"
+msgstr ""
+
+#: src/commands.md:258
+msgid "normal: `]G`, select: `]G`"
+msgstr ""
+
+#: src/commands.md:259
+msgid "`goto_line_start`"
+msgstr ""
+
+#: src/commands.md:259
+msgid "Goto line start"
+msgstr ""
+
+#: src/commands.md:259
+msgid "normal: `gh`, `<home>`, select: `gh`, insert: `<home>`"
+msgstr ""
+
+#: src/commands.md:260
+msgid "`goto_line_end`"
+msgstr ""
+
+#: src/commands.md:260
+msgid "Goto line end"
+msgstr ""
+
+#: src/commands.md:260
+msgid "normal: `gl`, `<end>`, select: `gl`"
+msgstr ""
+
+#: src/commands.md:261
+msgid "`goto_column`"
+msgstr ""
+
+#: src/commands.md:261
+msgid "Goto column"
+msgstr ""
+
+#: src/commands.md:261
+msgid "normal: `g\\|`"
+msgstr ""
+
+#: src/commands.md:262
+msgid "`extend_to_column`"
+msgstr ""
+
+#: src/commands.md:262
+msgid "Extend to column"
+msgstr ""
+
+#: src/commands.md:262
+msgid "select: `g\\|`"
+msgstr ""
+
+#: src/commands.md:263
+msgid "`goto_next_buffer`"
+msgstr ""
+
+#: src/commands.md:263
+msgid "Goto next buffer"
+msgstr ""
+
+#: src/commands.md:263
+msgid "normal: `gn`, select: `gn`"
+msgstr ""
+
+#: src/commands.md:264
+msgid "`goto_previous_buffer`"
+msgstr ""
+
+#: src/commands.md:264
+msgid "Goto previous buffer"
+msgstr ""
+
+#: src/commands.md:264
+msgid "normal: `gp`, select: `gp`"
+msgstr ""
+
+#: src/commands.md:265
+msgid "`goto_line_end_newline`"
+msgstr ""
+
+#: src/commands.md:265
+msgid "Goto newline at line end"
+msgstr ""
+
+#: src/commands.md:265
+msgid "insert: `<end>`"
+msgstr ""
+
+#: src/commands.md:266
+msgid "`goto_first_nonwhitespace`"
+msgstr ""
+
+#: src/commands.md:266
+msgid "Goto first non-blank in line"
+msgstr ""
+
+#: src/commands.md:266
+msgid "normal: `gs`, select: `gs`"
+msgstr ""
+
+#: src/commands.md:267
+msgid "`trim_selections`"
+msgstr ""
+
+#: src/commands.md:267
+msgid "Trim whitespace from selections"
+msgstr ""
+
+#: src/commands.md:267
+msgid "normal: `_`, select: `_`"
+msgstr ""
+
+#: src/commands.md:268
+msgid "`extend_to_line_start`"
+msgstr ""
+
+#: src/commands.md:268
+msgid "Extend to line start"
+msgstr ""
+
+#: src/commands.md:268
+msgid "select: `<home>`"
+msgstr ""
+
+#: src/commands.md:269
+msgid "`extend_to_first_nonwhitespace`"
+msgstr ""
+
+#: src/commands.md:269
+msgid "Extend to first non-blank in line"
+msgstr ""
+
+#: src/commands.md:270
+msgid "`extend_to_line_end`"
+msgstr ""
+
+#: src/commands.md:270 src/commands.md:271
+msgid "Extend to line end"
+msgstr ""
+
+#: src/commands.md:270
+msgid "select: `<end>`"
+msgstr ""
+
+#: src/commands.md:271
+msgid "`extend_to_line_end_newline`"
+msgstr ""
+
+#: src/commands.md:272
+msgid "`signature_help`"
+msgstr ""
+
+#: src/commands.md:272
+msgid "Show signature help"
+msgstr ""
+
+#: src/commands.md:273
+msgid "`smart_tab`"
+msgstr ""
+
+#: src/commands.md:273
+msgid ""
+"Insert tab if all cursors have all whitespace to their left; otherwise, run "
+"a separate command."
+msgstr ""
+
+#: src/commands.md:273
+msgid "insert: `<tab>`"
+msgstr ""
+
+#: src/commands.md:274
+msgid "`insert_tab`"
+msgstr ""
+
+#: src/commands.md:274
+msgid "Insert tab char"
+msgstr ""
+
+#: src/commands.md:274
+msgid "insert: `<S-tab>`"
+msgstr ""
+
+#: src/commands.md:275
+msgid "`insert_newline`"
+msgstr ""
+
+#: src/commands.md:275
+msgid "Insert newline char"
+msgstr ""
+
+#: src/commands.md:275
+msgid "insert: `<C-j>`, `<ret>`"
+msgstr ""
+
+#: src/commands.md:276
+msgid "`delete_char_backward`"
+msgstr ""
+
+#: src/commands.md:276
+msgid "Delete previous char"
+msgstr ""
+
+#: src/commands.md:276
+msgid "insert: `<C-h>`, `<backspace>`, `<S-backspace>`"
+msgstr ""
+
+#: src/commands.md:277
+msgid "`delete_char_forward`"
+msgstr ""
+
+#: src/commands.md:277
+msgid "Delete next char"
+msgstr ""
+
+#: src/commands.md:277
+msgid "insert: `<C-d>`, `<del>`"
+msgstr ""
+
+#: src/commands.md:278
+msgid "`delete_word_backward`"
+msgstr ""
+
+#: src/commands.md:278
+msgid "Delete previous word"
+msgstr ""
+
+#: src/commands.md:278
+msgid "insert: `<C-w>`, `<A-backspace>`"
+msgstr ""
+
+#: src/commands.md:279
+msgid "`delete_word_forward`"
+msgstr ""
+
+#: src/commands.md:279
+msgid "Delete next word"
+msgstr ""
+
+#: src/commands.md:279
+msgid "insert: `<A-d>`, `<A-del>`"
+msgstr ""
+
+#: src/commands.md:280
+msgid "`kill_to_line_start`"
+msgstr ""
+
+#: src/commands.md:280
+msgid "Delete till start of line"
+msgstr ""
+
+#: src/commands.md:280
+msgid "insert: `<C-u>`"
+msgstr ""
+
+#: src/commands.md:281
+msgid "`kill_to_line_end`"
+msgstr ""
+
+#: src/commands.md:281
+msgid "Delete till end of line"
+msgstr ""
+
+#: src/commands.md:281
+msgid "insert: `<C-k>`"
+msgstr ""
+
+#: src/commands.md:282
+msgid "`undo`"
+msgstr ""
+
+#: src/commands.md:282
+msgid "Undo change"
+msgstr ""
+
+#: src/commands.md:282
+msgid "normal: `u`, select: `u`"
+msgstr ""
+
+#: src/commands.md:283
+msgid "`redo`"
+msgstr ""
+
+#: src/commands.md:283
+msgid "Redo change"
+msgstr ""
+
+#: src/commands.md:283
+msgid "normal: `U`, select: `U`"
+msgstr ""
+
+#: src/commands.md:284
+msgid "`earlier`"
+msgstr ""
+
+#: src/commands.md:284
+msgid "Move backward in history"
+msgstr ""
+
+#: src/commands.md:284
+msgid "normal: `<A-u>`, select: `<A-u>`"
+msgstr ""
+
+#: src/commands.md:285
+msgid "`later`"
+msgstr ""
+
+#: src/commands.md:285
+msgid "Move forward in history"
+msgstr ""
+
+#: src/commands.md:285
+msgid "normal: `<A-U>`, select: `<A-U>`"
+msgstr ""
+
+#: src/commands.md:286
+msgid "`commit_undo_checkpoint`"
+msgstr ""
+
+#: src/commands.md:286
+msgid "Commit changes to new checkpoint"
+msgstr ""
+
+#: src/commands.md:286
+msgid "insert: `<C-s>`"
+msgstr ""
+
+#: src/commands.md:287
+msgid "`yank`"
+msgstr ""
+
+#: src/commands.md:287
+msgid "Yank selection"
+msgstr ""
+
+#: src/commands.md:287
+msgid "normal: `y`, select: `y`"
+msgstr ""
+
+#: src/commands.md:288
+msgid "`yank_to_clipboard`"
+msgstr ""
+
+#: src/commands.md:288
+msgid "Yank selections to clipboard"
+msgstr ""
+
+#: src/commands.md:288
+msgid "normal: `<space>y`, select: `<space>y`"
+msgstr ""
+
+#: src/commands.md:289
+msgid "`yank_to_primary_clipboard`"
+msgstr ""
+
+#: src/commands.md:289
+msgid "Yank selections to primary clipboard"
+msgstr ""
+
+#: src/commands.md:290
+msgid "`yank_joined`"
+msgstr ""
+
+#: src/commands.md:290
+msgid "Join and yank selections"
+msgstr ""
+
+#: src/commands.md:291
+msgid "`yank_joined_to_clipboard`"
+msgstr ""
+
+#: src/commands.md:291
+msgid "Join and yank selections to clipboard"
+msgstr ""
+
+#: src/commands.md:292
+msgid "`yank_main_selection_to_clipboard`"
+msgstr ""
+
+#: src/commands.md:292
+msgid "Yank main selection to clipboard"
+msgstr ""
+
+#: src/commands.md:292
+msgid "normal: `<space>Y`, select: `<space>Y`"
+msgstr ""
+
+#: src/commands.md:293
+msgid "`yank_joined_to_primary_clipboard`"
+msgstr ""
+
+#: src/commands.md:293
+msgid "Join and yank selections to primary clipboard"
+msgstr ""
+
+#: src/commands.md:294
+msgid "`yank_main_selection_to_primary_clipboard`"
+msgstr ""
+
+#: src/commands.md:294
+msgid "Yank main selection to primary clipboard"
+msgstr ""
+
+#: src/commands.md:295
+msgid "`replace_with_yanked`"
+msgstr ""
+
+#: src/commands.md:295
+msgid "Replace with yanked text"
+msgstr ""
+
+#: src/commands.md:295
+msgid "normal: `R`, select: `R`"
+msgstr ""
+
+#: src/commands.md:296
+msgid "`replace_selections_with_clipboard`"
+msgstr ""
+
+#: src/commands.md:296
+msgid "Replace selections by clipboard content"
+msgstr ""
+
+#: src/commands.md:296
+msgid "normal: `<space>R`, select: `<space>R`"
+msgstr ""
+
+#: src/commands.md:297
+msgid "`replace_selections_with_primary_clipboard`"
+msgstr ""
+
+#: src/commands.md:297
+msgid "Replace selections by primary clipboard"
+msgstr ""
+
+#: src/commands.md:298
+msgid "`paste_after`"
+msgstr ""
+
+#: src/commands.md:298
+msgid "Paste after selection"
+msgstr ""
+
+#: src/commands.md:298
+msgid "normal: `p`, select: `p`"
+msgstr ""
+
+#: src/commands.md:299
+msgid "`paste_before`"
+msgstr ""
+
+#: src/commands.md:299
+msgid "Paste before selection"
+msgstr ""
+
+#: src/commands.md:299
+msgid "normal: `P`, select: `P`"
+msgstr ""
+
+#: src/commands.md:300
+msgid "`paste_clipboard_after`"
+msgstr ""
+
+#: src/commands.md:300
+msgid "Paste clipboard after selections"
+msgstr ""
+
+#: src/commands.md:300
+msgid "normal: `<space>p`, select: `<space>p`"
+msgstr ""
+
+#: src/commands.md:301
+msgid "`paste_clipboard_before`"
+msgstr ""
+
+#: src/commands.md:301
+msgid "Paste clipboard before selections"
+msgstr ""
+
+#: src/commands.md:301
+msgid "normal: `<space>P`, select: `<space>P`"
+msgstr ""
+
+#: src/commands.md:302
+msgid "`paste_primary_clipboard_after`"
+msgstr ""
+
+#: src/commands.md:302
+msgid "Paste primary clipboard after selections"
+msgstr ""
+
+#: src/commands.md:303
+msgid "`paste_primary_clipboard_before`"
+msgstr ""
+
+#: src/commands.md:303
+msgid "Paste primary clipboard before selections"
+msgstr ""
+
+#: src/commands.md:304
+msgid "`indent`"
+msgstr ""
+
+#: src/commands.md:304
+msgid "Indent selection"
+msgstr ""
+
+#: src/commands.md:304
+msgid "normal: `<gt>`, select: `<gt>`"
+msgstr ""
+
+#: src/commands.md:305
+msgid "`unindent`"
+msgstr ""
+
+#: src/commands.md:305
+msgid "Unindent selection"
+msgstr ""
+
+#: src/commands.md:305
+msgid "normal: `<lt>`, select: `<lt>`"
+msgstr ""
+
+#: src/commands.md:306
+msgid "`format_selections`"
+msgstr ""
+
+#: src/commands.md:306
+msgid "Format selection"
+msgstr ""
+
+#: src/commands.md:306
+msgid "normal: `=`, select: `=`"
+msgstr ""
+
+#: src/commands.md:307
+msgid "`join_selections`"
+msgstr ""
+
+#: src/commands.md:307
+msgid "Join lines inside selection"
+msgstr ""
+
+#: src/commands.md:307
+msgid "normal: `J`, select: `J`"
+msgstr ""
+
+#: src/commands.md:308
+msgid "`join_selections_space`"
+msgstr ""
+
+#: src/commands.md:308
+msgid "Join lines inside selection and select spaces"
+msgstr ""
+
+#: src/commands.md:308
+msgid "normal: `<A-J>`, select: `<A-J>`"
+msgstr ""
+
+#: src/commands.md:309
+msgid "`keep_selections`"
+msgstr ""
+
+#: src/commands.md:309
+msgid "Keep selections matching regex"
+msgstr ""
+
+#: src/commands.md:309
+msgid "normal: `K`, select: `K`"
+msgstr ""
+
+#: src/commands.md:310
+msgid "`remove_selections`"
+msgstr ""
+
+#: src/commands.md:310
+msgid "Remove selections matching regex"
+msgstr ""
+
+#: src/commands.md:310
+msgid "normal: `<A-K>`, select: `<A-K>`"
+msgstr ""
+
+#: src/commands.md:311
+msgid "`align_selections`"
+msgstr ""
+
+#: src/commands.md:311
+msgid "Align selections in column"
+msgstr ""
+
+#: src/commands.md:311
+msgid "normal: `&`, select: `&`"
+msgstr ""
+
+#: src/commands.md:312
+msgid "`keep_primary_selection`"
+msgstr ""
+
+#: src/commands.md:312
+msgid "Keep primary selection"
+msgstr ""
+
+#: src/commands.md:312
+msgid "normal: `,`, select: `,`"
+msgstr ""
+
+#: src/commands.md:313
+msgid "`remove_primary_selection`"
+msgstr ""
+
+#: src/commands.md:313
+msgid "Remove primary selection"
+msgstr ""
+
+#: src/commands.md:313
+msgid "normal: `<A-,>`, select: `<A-,>`"
+msgstr ""
+
+#: src/commands.md:314
+msgid "`completion`"
+msgstr ""
+
+#: src/commands.md:314
+msgid "Invoke completion popup"
+msgstr ""
+
+#: src/commands.md:314
+msgid "insert: `<C-x>`"
+msgstr ""
+
+#: src/commands.md:315
+msgid "`hover`"
+msgstr ""
+
+#: src/commands.md:315
+msgid "Show docs for item under cursor"
+msgstr ""
+
+#: src/commands.md:315
+msgid "normal: `<space>k`, select: `<space>k`"
+msgstr ""
+
+#: src/commands.md:316
+msgid "`toggle_comments`"
+msgstr ""
+
+#: src/commands.md:316
+msgid "Comment/uncomment selections"
+msgstr ""
+
+#: src/commands.md:316
+msgid "normal: `<C-c>`, `<space>c`, select: `<C-c>`, `<space>c`"
+msgstr ""
+
+#: src/commands.md:317
+msgid "`toggle_line_comments`"
+msgstr ""
+
+#: src/commands.md:317
+msgid "Line comment/uncomment selections"
+msgstr ""
+
+#: src/commands.md:317
+msgid "normal: `<space><A-c>`, select: `<space><A-c>`"
+msgstr ""
+
+#: src/commands.md:318
+msgid "`toggle_block_comments`"
+msgstr ""
+
+#: src/commands.md:318
+msgid "Block comment/uncomment selections"
+msgstr ""
+
+#: src/commands.md:318
+msgid "normal: `<space>C`, select: `<space>C`"
+msgstr ""
+
+#: src/commands.md:319
+msgid "`rotate_selections_forward`"
+msgstr ""
+
+#: src/commands.md:319
+msgid "Rotate selections forward"
+msgstr ""
+
+#: src/commands.md:319
+msgid "normal: `)`, select: `)`"
+msgstr ""
+
+#: src/commands.md:320
+msgid "`rotate_selections_backward`"
+msgstr ""
+
+#: src/commands.md:320
+msgid "Rotate selections backward"
+msgstr ""
+
+#: src/commands.md:320
+msgid "normal: `(`, select: `(`"
+msgstr ""
+
+#: src/commands.md:321
+msgid "`rotate_selection_contents_forward`"
+msgstr ""
+
+#: src/commands.md:321
+msgid "Rotate selection contents forward"
+msgstr ""
+
+#: src/commands.md:321
+msgid "normal: `<A-)>`, select: `<A-)>`"
+msgstr ""
+
+#: src/commands.md:322
+msgid "`rotate_selection_contents_backward`"
+msgstr ""
+
+#: src/commands.md:322
+msgid "Rotate selections contents backward"
+msgstr ""
+
+#: src/commands.md:322
+msgid "normal: `<A-(>`, select: `<A-(>`"
+msgstr ""
+
+#: src/commands.md:323
+msgid "`reverse_selection_contents`"
+msgstr ""
+
+#: src/commands.md:323
+msgid "Reverse selections contents"
+msgstr ""
+
+#: src/commands.md:324
+msgid "`expand_selection`"
+msgstr ""
+
+#: src/commands.md:324
+msgid "Expand selection to parent syntax node"
+msgstr ""
+
+#: src/commands.md:324
+msgid "normal: `<A-o>`, `<A-up>`, select: `<A-o>`, `<A-up>`"
+msgstr ""
+
+#: src/commands.md:325
+msgid "`shrink_selection`"
+msgstr ""
+
+#: src/commands.md:325
+msgid "Shrink selection to previously expanded syntax node"
+msgstr ""
+
+#: src/commands.md:325
+msgid "normal: `<A-i>`, `<A-down>`, select: `<A-i>`, `<A-down>`"
+msgstr ""
+
+#: src/commands.md:326
+msgid "`select_next_sibling`"
+msgstr ""
+
+#: src/commands.md:326
+msgid "Select next sibling in the syntax tree"
+msgstr ""
+
+#: src/commands.md:326
+msgid "normal: `<A-n>`, `<A-right>`, select: `<A-n>`, `<A-right>`"
+msgstr ""
+
+#: src/commands.md:327
+msgid "`select_prev_sibling`"
+msgstr ""
+
+#: src/commands.md:327
+msgid "Select previous sibling the in syntax tree"
+msgstr ""
+
+#: src/commands.md:327
+msgid "normal: `<A-p>`, `<A-left>`, select: `<A-p>`, `<A-left>`"
+msgstr ""
+
+#: src/commands.md:328
+msgid "`select_all_siblings`"
+msgstr ""
+
+#: src/commands.md:328
+msgid "Select all siblings of the current node"
+msgstr ""
+
+#: src/commands.md:328
+msgid "normal: `<A-a>`, select: `<A-a>`"
+msgstr ""
+
+#: src/commands.md:329
+msgid "`select_all_children`"
+msgstr ""
+
+#: src/commands.md:329
+msgid "Select all children of the current node"
+msgstr ""
+
+#: src/commands.md:329
+msgid "normal: `<A-I>`, `<S-A-down>`, select: `<A-I>`, `<S-A-down>`"
+msgstr ""
+
+#: src/commands.md:330
+msgid "`jump_forward`"
+msgstr ""
+
+#: src/commands.md:330
+msgid "Jump forward on jumplist"
+msgstr ""
+
+#: src/commands.md:330
+msgid "normal: `<C-i>`, `<tab>`, select: `<C-i>`, `<tab>`"
+msgstr ""
+
+#: src/commands.md:331
+msgid "`jump_backward`"
+msgstr ""
+
+#: src/commands.md:331
+msgid "Jump backward on jumplist"
+msgstr ""
+
+#: src/commands.md:331
+msgid "normal: `<C-o>`, select: `<C-o>`"
+msgstr ""
+
+#: src/commands.md:332
+msgid "`save_selection`"
+msgstr ""
+
+#: src/commands.md:332
+msgid "Save current selection to jumplist"
+msgstr ""
+
+#: src/commands.md:332
+msgid "normal: `<C-s>`, select: `<C-s>`"
+msgstr ""
+
+#: src/commands.md:333
+msgid "`jump_view_right`"
+msgstr ""
+
+#: src/commands.md:333
+msgid "Jump to right split"
+msgstr ""
+
+#: src/commands.md:333
+msgid ""
+"normal: `<C-w>l`, `<space>wl`, `<C-w><C-l>`, `<C-w><right>`, `<space>w<C-"
+"l>`, `<space>w<right>`, select: `<C-w>l`, `<space>wl`, `<C-w><C-l>`, `<C-"
+"w><right>`, `<space>w<C-l>`, `<space>w<right>`"
+msgstr ""
+
+#: src/commands.md:334
+msgid "`jump_view_left`"
+msgstr ""
+
+#: src/commands.md:334
+msgid "Jump to left split"
+msgstr ""
+
+#: src/commands.md:334
+msgid ""
+"normal: `<C-w>h`, `<space>wh`, `<C-w><C-h>`, `<C-w><left>`, `<space>w<C-h>`, "
+"`<space>w<left>`, select: `<C-w>h`, `<space>wh`, `<C-w><C-h>`, `<C-"
+"w><left>`, `<space>w<C-h>`, `<space>w<left>`"
+msgstr ""
+
+#: src/commands.md:335
+msgid "`jump_view_up`"
+msgstr ""
+
+#: src/commands.md:335
+msgid "Jump to split above"
+msgstr ""
+
+#: src/commands.md:335
+msgid ""
+"normal: `<C-w>k`, `<C-w><up>`, `<space>wk`, `<C-w><C-k>`, `<space>w<up>`, "
+"`<space>w<C-k>`, select: `<C-w>k`, `<C-w><up>`, `<space>wk`, `<C-w><C-k>`, "
+"`<space>w<up>`, `<space>w<C-k>`"
+msgstr ""
+
+#: src/commands.md:336
+msgid "`jump_view_down`"
+msgstr ""
+
+#: src/commands.md:336
+msgid "Jump to split below"
+msgstr ""
+
+#: src/commands.md:336
+msgid ""
+"normal: `<C-w>j`, `<space>wj`, `<C-w><C-j>`, `<C-w><down>`, `<space>w<C-j>`, "
+"`<space>w<down>`, select: `<C-w>j`, `<space>wj`, `<C-w><C-j>`, `<C-"
+"w><down>`, `<space>w<C-j>`, `<space>w<down>`"
+msgstr ""
+
+#: src/commands.md:337
+msgid "`swap_view_right`"
+msgstr ""
+
+#: src/commands.md:337
+msgid "Swap with right split"
+msgstr ""
+
+#: src/commands.md:337
+msgid "normal: `<C-w>L`, `<space>wL`, select: `<C-w>L`, `<space>wL`"
+msgstr ""
+
+#: src/commands.md:338
+msgid "`swap_view_left`"
+msgstr ""
+
+#: src/commands.md:338
+msgid "Swap with left split"
+msgstr ""
+
+#: src/commands.md:338
+msgid "normal: `<C-w>H`, `<space>wH`, select: `<C-w>H`, `<space>wH`"
+msgstr ""
+
+#: src/commands.md:339
+msgid "`swap_view_up`"
+msgstr ""
+
+#: src/commands.md:339
+msgid "Swap with split above"
+msgstr ""
+
+#: src/commands.md:339
+msgid "normal: `<C-w>K`, `<space>wK`, select: `<C-w>K`, `<space>wK`"
+msgstr ""
+
+#: src/commands.md:340
+msgid "`swap_view_down`"
+msgstr ""
+
+#: src/commands.md:340
+msgid "Swap with split below"
+msgstr ""
+
+#: src/commands.md:340
+msgid "normal: `<C-w>J`, `<space>wJ`, select: `<C-w>J`, `<space>wJ`"
+msgstr ""
+
+#: src/commands.md:341
+msgid "`transpose_view`"
+msgstr ""
+
+#: src/commands.md:341
+msgid "Transpose splits"
+msgstr ""
+
+#: src/commands.md:341
+msgid ""
+"normal: `<C-w>t`, `<space>wt`, `<C-w><C-t>`, `<space>w<C-t>`, select: `<C-"
+"w>t`, `<space>wt`, `<C-w><C-t>`, `<space>w<C-t>`"
+msgstr ""
+
+#: src/commands.md:342
+msgid "`rotate_view`"
+msgstr ""
+
+#: src/commands.md:342
+msgid "Goto next window"
+msgstr ""
+
+#: src/commands.md:342
+msgid ""
+"normal: `<C-w>w`, `<space>ww`, `<C-w><C-w>`, `<space>w<C-w>`, select: `<C-"
+"w>w`, `<space>ww`, `<C-w><C-w>`, `<space>w<C-w>`"
+msgstr ""
+
+#: src/commands.md:343
+msgid "`rotate_view_reverse`"
+msgstr ""
+
+#: src/commands.md:343
+msgid "Goto previous window"
+msgstr ""
+
+#: src/commands.md:344
+msgid "`hsplit`"
+msgstr ""
+
+#: src/commands.md:344
+msgid "Horizontal bottom split"
+msgstr ""
+
+#: src/commands.md:344
+msgid ""
+"normal: `<C-w>s`, `<space>ws`, `<C-w><C-s>`, `<space>w<C-s>`, select: `<C-"
+"w>s`, `<space>ws`, `<C-w><C-s>`, `<space>w<C-s>`"
+msgstr ""
+
+#: src/commands.md:345
+msgid "`hsplit_new`"
+msgstr ""
+
+#: src/commands.md:345
+msgid "Horizontal bottom split scratch buffer"
+msgstr ""
+
+#: src/commands.md:345
+msgid ""
+"normal: `<C-w>ns`, `<space>wns`, `<C-w>n<C-s>`, `<space>wn<C-s>`, select: "
+"`<C-w>ns`, `<space>wns`, `<C-w>n<C-s>`, `<space>wn<C-s>`"
+msgstr ""
+
+#: src/commands.md:346
+msgid "`vsplit`"
+msgstr ""
+
+#: src/commands.md:346
+msgid "Vertical right split"
+msgstr ""
+
+#: src/commands.md:346
+msgid ""
+"normal: `<C-w>v`, `<space>wv`, `<C-w><C-v>`, `<space>w<C-v>`, select: `<C-"
+"w>v`, `<space>wv`, `<C-w><C-v>`, `<space>w<C-v>`"
+msgstr ""
+
+#: src/commands.md:347
+msgid "`vsplit_new`"
+msgstr ""
+
+#: src/commands.md:347
+msgid "Vertical right split scratch buffer"
+msgstr ""
+
+#: src/commands.md:347
+msgid ""
+"normal: `<C-w>nv`, `<space>wnv`, `<C-w>n<C-v>`, `<space>wn<C-v>`, select: "
+"`<C-w>nv`, `<space>wnv`, `<C-w>n<C-v>`, `<space>wn<C-v>`"
+msgstr ""
+
+#: src/commands.md:348
+msgid "`wclose`"
+msgstr ""
+
+#: src/commands.md:348
+msgid "Close window"
+msgstr ""
+
+#: src/commands.md:348
+msgid ""
+"normal: `<C-w>q`, `<space>wq`, `<C-w><C-q>`, `<space>w<C-q>`, select: `<C-"
+"w>q`, `<space>wq`, `<C-w><C-q>`, `<space>w<C-q>`"
+msgstr ""
+
+#: src/commands.md:349
+msgid "`wonly`"
+msgstr ""
+
+#: src/commands.md:349
+msgid "Close windows except current"
+msgstr ""
+
+#: src/commands.md:349
+msgid ""
+"normal: `<C-w>o`, `<space>wo`, `<C-w><C-o>`, `<space>w<C-o>`, select: `<C-"
+"w>o`, `<space>wo`, `<C-w><C-o>`, `<space>w<C-o>`"
+msgstr ""
+
+#: src/commands.md:350
+msgid "`select_register`"
+msgstr ""
+
+#: src/commands.md:350
+msgid "Select register"
+msgstr ""
+
+#: src/commands.md:350
+msgid "normal: `\"`, select: `\"`"
+msgstr ""
+
+#: src/commands.md:351
+msgid "`insert_register`"
+msgstr ""
+
+#: src/commands.md:351
+msgid "Insert register"
+msgstr ""
+
+#: src/commands.md:351
+msgid "insert: `<C-r>`"
+msgstr ""
+
+#: src/commands.md:352
+msgid "`copy_between_registers`"
+msgstr ""
+
+#: src/commands.md:352
+msgid "Copy between two registers"
+msgstr ""
+
+#: src/commands.md:353
+msgid "`align_view_middle`"
+msgstr ""
+
+#: src/commands.md:353
+msgid "Align view middle"
+msgstr ""
+
+#: src/commands.md:353
+msgid "normal: `Zm`, `zm`, select: `Zm`, `zm`"
+msgstr ""
+
+#: src/commands.md:354
+msgid "`align_view_top`"
+msgstr ""
+
+#: src/commands.md:354
+msgid "Align view top"
+msgstr ""
+
+#: src/commands.md:354
+msgid "normal: `Zt`, `zt`, select: `Zt`, `zt`"
+msgstr ""
+
+#: src/commands.md:355
+msgid "`align_view_center`"
+msgstr ""
+
+#: src/commands.md:355
+msgid "Align view center"
+msgstr ""
+
+#: src/commands.md:355
+msgid "normal: `Zc`, `Zz`, `zc`, `zz`, select: `Zc`, `Zz`, `zc`, `zz`"
+msgstr ""
+
+#: src/commands.md:356
+msgid "`align_view_bottom`"
+msgstr ""
+
+#: src/commands.md:356
+msgid "Align view bottom"
+msgstr ""
+
+#: src/commands.md:356
+msgid "normal: `Zb`, `zb`, select: `Zb`, `zb`"
+msgstr ""
+
+#: src/commands.md:357
+msgid "`scroll_up`"
+msgstr ""
+
+#: src/commands.md:357
+msgid "Scroll view up"
+msgstr ""
+
+#: src/commands.md:357
+msgid ""
+"normal: `Zk`, `zk`, `Z<up>`, `z<up>`, select: `Zk`, `zk`, `Z<up>`, `z<up>`"
+msgstr ""
+
+#: src/commands.md:358
+msgid "`scroll_down`"
+msgstr ""
+
+#: src/commands.md:358
+msgid "Scroll view down"
+msgstr ""
+
+#: src/commands.md:358
+msgid ""
+"normal: `Zj`, `zj`, `Z<down>`, `z<down>`, select: `Zj`, `zj`, `Z<down>`, "
+"`z<down>`"
+msgstr ""
+
+#: src/commands.md:359
+msgid "`match_brackets`"
+msgstr ""
+
+#: src/commands.md:359
+msgid "Goto matching bracket"
+msgstr ""
+
+#: src/commands.md:359
+msgid "normal: `mm`, select: `mm`"
+msgstr ""
+
+#: src/commands.md:360
+msgid "`surround_add`"
+msgstr ""
+
+#: src/commands.md:360
+msgid "Surround add"
+msgstr ""
+
+#: src/commands.md:360
+msgid "normal: `ms`, select: `ms`"
+msgstr ""
+
+#: src/commands.md:361
+msgid "`surround_replace`"
+msgstr ""
+
+#: src/commands.md:361
+msgid "Surround replace"
+msgstr ""
+
+#: src/commands.md:361
+msgid "normal: `mr`, select: `mr`"
+msgstr ""
+
+#: src/commands.md:362
+msgid "`surround_delete`"
+msgstr ""
+
+#: src/commands.md:362
+msgid "Surround delete"
+msgstr ""
+
+#: src/commands.md:362
+msgid "normal: `md`, select: `md`"
+msgstr ""
+
+#: src/commands.md:363
+msgid "`select_textobject_around`"
+msgstr ""
+
+#: src/commands.md:363
+msgid "Select around object"
+msgstr ""
+
+#: src/commands.md:363
+msgid "normal: `ma`, select: `ma`"
+msgstr ""
+
+#: src/commands.md:364
+msgid "`select_textobject_inner`"
+msgstr ""
+
+#: src/commands.md:364
+msgid "Select inside object"
+msgstr ""
+
+#: src/commands.md:364
+msgid "normal: `mi`, select: `mi`"
+msgstr ""
+
+#: src/commands.md:365
+msgid "`goto_next_function`"
+msgstr ""
+
+#: src/commands.md:365
+msgid "Goto next function"
+msgstr ""
+
+#: src/commands.md:365
+msgid "normal: `]f`, select: `]f`"
+msgstr ""
+
+#: src/commands.md:366
+msgid "`goto_prev_function`"
+msgstr ""
+
+#: src/commands.md:366
+msgid "Goto previous function"
+msgstr ""
+
+#: src/commands.md:366
+msgid "normal: `[f`, select: `[f`"
+msgstr ""
+
+#: src/commands.md:367
+msgid "`goto_next_class`"
+msgstr ""
+
+#: src/commands.md:367
+msgid "Goto next type definition"
+msgstr ""
+
+#: src/commands.md:367
+msgid "normal: `]t`, select: `]t`"
+msgstr ""
+
+#: src/commands.md:368
+msgid "`goto_prev_class`"
+msgstr ""
+
+#: src/commands.md:368
+msgid "Goto previous type definition"
+msgstr ""
+
+#: src/commands.md:368
+msgid "normal: `[t`, select: `[t`"
+msgstr ""
+
+#: src/commands.md:369
+msgid "`goto_next_parameter`"
+msgstr ""
+
+#: src/commands.md:369
+msgid "Goto next parameter"
+msgstr ""
+
+#: src/commands.md:369
+msgid "normal: `]a`, select: `]a`"
+msgstr ""
+
+#: src/commands.md:370
+msgid "`goto_prev_parameter`"
+msgstr ""
+
+#: src/commands.md:370
+msgid "Goto previous parameter"
+msgstr ""
+
+#: src/commands.md:370
+msgid "normal: `[a`, select: `[a`"
+msgstr ""
+
+#: src/commands.md:371
+msgid "`goto_next_comment`"
+msgstr ""
+
+#: src/commands.md:371
+msgid "Goto next comment"
+msgstr ""
+
+#: src/commands.md:371
+msgid "normal: `]c`, select: `]c`"
+msgstr ""
+
+#: src/commands.md:372
+msgid "`goto_prev_comment`"
+msgstr ""
+
+#: src/commands.md:372
+msgid "Goto previous comment"
+msgstr ""
+
+#: src/commands.md:372
+msgid "normal: `[c`, select: `[c`"
+msgstr ""
+
+#: src/commands.md:373
+msgid "`goto_next_test`"
+msgstr ""
+
+#: src/commands.md:373
+msgid "Goto next test"
+msgstr ""
+
+#: src/commands.md:373
+msgid "normal: `]T`, select: `]T`"
+msgstr ""
+
+#: src/commands.md:374
+msgid "`goto_prev_test`"
+msgstr ""
+
+#: src/commands.md:374
+msgid "Goto previous test"
+msgstr ""
+
+#: src/commands.md:374
+msgid "normal: `[T`, select: `[T`"
+msgstr ""
+
+#: src/commands.md:375
+msgid "`goto_next_entry`"
+msgstr ""
+
+#: src/commands.md:375
+msgid "Goto next pairing"
+msgstr ""
+
+#: src/commands.md:375
+msgid "normal: `]e`, select: `]e`"
+msgstr ""
+
+#: src/commands.md:376
+msgid "`goto_prev_entry`"
+msgstr ""
+
+#: src/commands.md:376
+msgid "Goto previous pairing"
+msgstr ""
+
+#: src/commands.md:376
+msgid "normal: `[e`, select: `[e`"
+msgstr ""
+
+#: src/commands.md:377
+msgid "`goto_next_paragraph`"
+msgstr ""
+
+#: src/commands.md:377
+msgid "Goto next paragraph"
+msgstr ""
+
+#: src/commands.md:377
+msgid "normal: `]p`, select: `]p`"
+msgstr ""
+
+#: src/commands.md:378
+msgid "`goto_prev_paragraph`"
+msgstr ""
+
+#: src/commands.md:378
+msgid "Goto previous paragraph"
+msgstr ""
+
+#: src/commands.md:378
+msgid "normal: `[p`, select: `[p`"
+msgstr ""
+
+#: src/commands.md:379
+msgid "`dap_launch`"
+msgstr ""
+
+#: src/commands.md:379
+msgid "Launch debug target"
+msgstr ""
+
+#: src/commands.md:379
+msgid "normal: `<space>Gl`, select: `<space>Gl`"
+msgstr ""
+
+#: src/commands.md:380
+msgid "`dap_restart`"
+msgstr ""
+
+#: src/commands.md:380
+msgid "Restart debugging session"
+msgstr ""
+
+#: src/commands.md:380
+msgid "normal: `<space>Gr`, select: `<space>Gr`"
+msgstr ""
+
+#: src/commands.md:381
+msgid "`dap_toggle_breakpoint`"
+msgstr ""
+
+#: src/commands.md:381
+msgid "Toggle breakpoint"
+msgstr ""
+
+#: src/commands.md:381
+msgid "normal: `<space>Gb`, select: `<space>Gb`"
+msgstr ""
+
+#: src/commands.md:382
+msgid "`dap_continue`"
+msgstr ""
+
+#: src/commands.md:382
+msgid "Continue program execution"
+msgstr ""
+
+#: src/commands.md:382
+msgid "normal: `<space>Gc`, select: `<space>Gc`"
+msgstr ""
+
+#: src/commands.md:383
+msgid "`dap_pause`"
+msgstr ""
+
+#: src/commands.md:383
+msgid "Pause program execution"
+msgstr ""
+
+#: src/commands.md:383
+msgid "normal: `<space>Gh`, select: `<space>Gh`"
+msgstr ""
+
+#: src/commands.md:384
+msgid "`dap_step_in`"
+msgstr ""
+
+#: src/commands.md:384
+msgid "Step in"
+msgstr ""
+
+#: src/commands.md:384
+msgid "normal: `<space>Gi`, select: `<space>Gi`"
+msgstr ""
+
+#: src/commands.md:385
+msgid "`dap_step_out`"
+msgstr ""
+
+#: src/commands.md:385
+msgid "Step out"
+msgstr ""
+
+#: src/commands.md:385
+msgid "normal: `<space>Go`, select: `<space>Go`"
+msgstr ""
+
+#: src/commands.md:386
+msgid "`dap_next`"
+msgstr ""
+
+#: src/commands.md:386
+msgid "Step to next"
+msgstr ""
+
+#: src/commands.md:386
+msgid "normal: `<space>Gn`, select: `<space>Gn`"
+msgstr ""
+
+#: src/commands.md:387
+msgid "`dap_variables`"
+msgstr ""
+
+#: src/commands.md:387
+msgid "List variables"
+msgstr ""
+
+#: src/commands.md:387
+msgid "normal: `<space>Gv`, select: `<space>Gv`"
+msgstr ""
+
+#: src/commands.md:388
+msgid "`dap_terminate`"
+msgstr ""
+
+#: src/commands.md:388
+msgid "End debug session"
+msgstr ""
+
+#: src/commands.md:388
+msgid "normal: `<space>Gt`, select: `<space>Gt`"
+msgstr ""
+
+#: src/commands.md:389
+msgid "`dap_edit_condition`"
+msgstr ""
+
+#: src/commands.md:389
+msgid "Edit breakpoint condition on current line"
+msgstr ""
+
+#: src/commands.md:389
+msgid "normal: `<space>G<C-c>`, select: `<space>G<C-c>`"
+msgstr ""
+
+#: src/commands.md:390
+msgid "`dap_edit_log`"
+msgstr ""
+
+#: src/commands.md:390
+msgid "Edit breakpoint log message on current line"
+msgstr ""
+
+#: src/commands.md:390
+msgid "normal: `<space>G<C-l>`, select: `<space>G<C-l>`"
+msgstr ""
+
+#: src/commands.md:391
+msgid "`dap_switch_thread`"
+msgstr ""
+
+#: src/commands.md:391
+msgid "Switch current thread"
+msgstr ""
+
+#: src/commands.md:391
+msgid "normal: `<space>Gst`, select: `<space>Gst`"
+msgstr ""
+
+#: src/commands.md:392
+msgid "`dap_switch_stack_frame`"
+msgstr ""
+
+#: src/commands.md:392
+msgid "Switch stack frame"
+msgstr ""
+
+#: src/commands.md:392
+msgid "normal: `<space>Gsf`, select: `<space>Gsf`"
+msgstr ""
+
+#: src/commands.md:393
+msgid "`dap_enable_exceptions`"
+msgstr ""
+
+#: src/commands.md:393
+msgid "Enable exception breakpoints"
+msgstr ""
+
+#: src/commands.md:393
+msgid "normal: `<space>Ge`, select: `<space>Ge`"
+msgstr ""
+
+#: src/commands.md:394
+msgid "`dap_disable_exceptions`"
+msgstr ""
+
+#: src/commands.md:394
+msgid "Disable exception breakpoints"
+msgstr ""
+
+#: src/commands.md:394
+msgid "normal: `<space>GE`, select: `<space>GE`"
+msgstr ""
+
+#: src/commands.md:395
+msgid "`shell_pipe`"
+msgstr ""
+
+#: src/commands.md:395
+msgid "Pipe selections through shell command"
+msgstr ""
+
+#: src/commands.md:395
+msgid "normal: `\\|`, select: `\\|`"
+msgstr ""
+
+#: src/commands.md:396
+msgid "`shell_pipe_to`"
+msgstr ""
+
+#: src/commands.md:396
+msgid "Pipe selections into shell command ignoring output"
+msgstr ""
+
+#: src/commands.md:396
+msgid "normal: `<A-\\|>`, select: `<A-\\|>`"
+msgstr ""
+
+#: src/commands.md:397
+msgid "`shell_insert_output`"
+msgstr ""
+
+#: src/commands.md:397
+msgid "Insert shell command output before selections"
+msgstr ""
+
+#: src/commands.md:397
+msgid "normal: `!`, select: `!`"
+msgstr ""
+
+#: src/commands.md:398
+msgid "`shell_append_output`"
+msgstr ""
+
+#: src/commands.md:398
+msgid "Append shell command output after selections"
+msgstr ""
+
+#: src/commands.md:398
+msgid "normal: `<A-!>`, select: `<A-!>`"
+msgstr ""
+
+#: src/commands.md:399
+msgid "`shell_keep_pipe`"
+msgstr ""
+
+#: src/commands.md:399
+msgid "Filter selections with shell predicate"
+msgstr ""
+
+#: src/commands.md:399
+msgid "normal: `$`, select: `$`"
+msgstr ""
+
+#: src/commands.md:400
+msgid "`suspend`"
+msgstr ""
+
+#: src/commands.md:400
+msgid "Suspend and return to shell"
+msgstr ""
+
+#: src/commands.md:400
+msgid "normal: `<C-z>`, select: `<C-z>`"
+msgstr ""
+
+#: src/commands.md:401
+msgid "`rename_symbol`"
+msgstr ""
+
+#: src/commands.md:401
+msgid "Rename symbol"
+msgstr ""
+
+#: src/commands.md:401
+msgid "normal: `<space>r`, select: `<space>r`"
+msgstr ""
+
+#: src/commands.md:402
+msgid "`increment`"
+msgstr ""
+
+#: src/commands.md:402
+msgid "Increment item under cursor"
+msgstr ""
+
+#: src/commands.md:402
+msgid "normal: `<C-a>`, select: `<C-a>`"
+msgstr ""
+
+#: src/commands.md:403
+msgid "`decrement`"
+msgstr ""
+
+#: src/commands.md:403
+msgid "Decrement item under cursor"
+msgstr ""
+
+#: src/commands.md:403
+msgid "normal: `<C-x>`, select: `<C-x>`"
+msgstr ""
+
+#: src/commands.md:404
+msgid "`record_macro`"
+msgstr ""
+
+#: src/commands.md:404
+msgid "Record macro"
+msgstr ""
+
+#: src/commands.md:404
+msgid "normal: `Q`, select: `Q`"
+msgstr ""
+
+#: src/commands.md:405
+msgid "`replay_macro`"
+msgstr ""
+
+#: src/commands.md:405
+msgid "Replay macro"
+msgstr ""
+
+#: src/commands.md:405
+msgid "normal: `q`, select: `q`"
+msgstr ""
+
+#: src/commands.md:406
+msgid "`command_palette`"
+msgstr ""
+
+#: src/commands.md:406
+msgid "Open command palette"
+msgstr ""
+
+#: src/commands.md:406
+msgid "normal: `<space>?`, select: `<space>?`"
+msgstr ""
+
+#: src/commands.md:407
+msgid "`goto_word`"
+msgstr ""
+
+#: src/commands.md:407
+msgid "Jump to a two-character label"
+msgstr ""
+
+#: src/commands.md:407
+msgid "normal: `gw`"
+msgstr ""
+
+#: src/commands.md:408
+msgid "`extend_to_word`"
+msgstr ""
+
+#: src/commands.md:408
+msgid "Extend to a two-character label"
+msgstr ""
+
+#: src/commands.md:408
+msgid "select: `gw`"
+msgstr ""
+
+#: src/commands.md:409
+msgid "`goto_next_tabstop`"
+msgstr ""
+
+#: src/commands.md:409 src/commands.md:410
+msgid "Goto next snippet placeholder"
+msgstr ""
+
+#: src/commands.md:410
+msgid "`goto_prev_tabstop`"
+msgstr ""
+
+#: src/commands.md:411
+msgid "`rotate_selections_first`"
+msgstr ""
+
+#: src/commands.md:411
+msgid "Make the first selection your primary one"
+msgstr ""
+
+#: src/commands.md:412
+msgid "`rotate_selections_last`"
+msgstr ""
+
+#: src/commands.md:412
+msgid "Make the last selection your primary one"
+msgstr ""

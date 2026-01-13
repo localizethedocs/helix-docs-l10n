@@ -1,0 +1,1270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/themes.md:1
+msgid "Themes"
+msgstr ""
+
+#: src/themes.md:3
+msgid ""
+"To use a theme add `theme = \"<name>\"` to the top of your [`config.toml`](./"
+"configuration.md) file, or select it during runtime using `:theme <name>`."
+msgstr ""
+
+#: src/themes.md:5
+msgid "Creating a theme"
+msgstr ""
+
+#: src/themes.md:7
+msgid ""
+"Create a file with the name of your theme as the file name (i.e `mytheme."
+"toml`) and place it in your `themes` directory (i.e `~/.config/helix/themes` "
+"or `%AppData%\\helix\\themes` on Windows). The directory might have to be "
+"created beforehand."
+msgstr ""
+
+#: src/themes.md:9
+msgid ""
+"💡 The names \"default\" and \"base16_default\" are reserved for built-in "
+"themes and cannot be overridden by user-defined themes."
+msgstr ""
+
+#: src/themes.md:12
+msgid "Overview"
+msgstr ""
+
+#: src/themes.md:14
+msgid "Each line in the theme file is specified as below:"
+msgstr ""
+
+#: src/themes.md:16
+msgid ""
+"```toml\n"
+"key = { fg = \"#ffffff\", bg = \"#000000\", underline = { color = "
+"\"#ff0000\", style = \"curl\"}, modifiers = [\"bold\", \"italic\"] }\n"
+"```"
+msgstr ""
+
+#: src/themes.md:20
+msgid ""
+"Where `key` represents what you want to style, `fg` specifies the foreground "
+"color, `bg` the background color, `underline` the underline `style`/`color`, "
+"and `modifiers` is a list of style modifiers. `bg`, `underline` and "
+"`modifiers` can be omitted to defer to the defaults."
+msgstr ""
+
+#: src/themes.md:22
+msgid "To specify only the foreground color:"
+msgstr ""
+
+#: src/themes.md:24
+msgid ""
+"```toml\n"
+"key = \"#ffffff\"\n"
+"```"
+msgstr ""
+
+#: src/themes.md:28
+msgid ""
+"If the key contains a dot `'.'`, it must be quoted to prevent it being "
+"parsed as a [dotted key](https://toml.io/en/v1.0.0#keys)."
+msgstr ""
+
+#: src/themes.md:30
+msgid ""
+"```toml\n"
+"\"key.key\" = \"#ffffff\"\n"
+"```"
+msgstr ""
+
+#: src/themes.md:34
+msgid ""
+"For inspiration, you can find the default `theme.toml` [here](https://github."
+"com/helix-editor/helix/blob/master/theme.toml) and user-submitted themes "
+"[here](https://github.com/helix-editor/helix/blob/master/runtime/themes)."
+msgstr ""
+
+#: src/themes.md:40
+msgid "The details of theme creation"
+msgstr ""
+
+#: src/themes.md:42
+msgid "Color palettes"
+msgstr ""
+
+#: src/themes.md:44
+msgid ""
+"It's recommended to define a palette of named colors, and refer to them in "
+"the configuration values in your theme. To do this, add a table called "
+"`palette` to your theme file:"
+msgstr ""
+
+#: src/themes.md:48
+msgid ""
+"```toml\n"
+"\"ui.background\" = \"white\"\n"
+"\"ui.text\" = \"black\"\n"
+"\n"
+"[palette]\n"
+"white = \"#ffffff\"\n"
+"black = \"#000000\"\n"
+"```"
+msgstr ""
+
+#: src/themes.md:57
+msgid ""
+"Keep in mind that the `[palette]` table includes all keys after its header, "
+"so it should be defined after the normal theme options."
+msgstr ""
+
+#: src/themes.md:60
+msgid ""
+"The default palette uses the terminal's default 16 colors, and the colors "
+"names are listed below. The `[palette]` section in the config file takes "
+"precedence over it and is merged into the default palette."
+msgstr ""
+
+#: src/themes.md:64
+msgid "Color Name"
+msgstr ""
+
+#: src/themes.md:66
+msgid "`default`"
+msgstr ""
+
+#: src/themes.md:67
+msgid "`black`"
+msgstr ""
+
+#: src/themes.md:68
+msgid "`red`"
+msgstr ""
+
+#: src/themes.md:69
+msgid "`green`"
+msgstr ""
+
+#: src/themes.md:70
+msgid "`yellow`"
+msgstr ""
+
+#: src/themes.md:71
+msgid "`blue`"
+msgstr ""
+
+#: src/themes.md:72
+msgid "`magenta`"
+msgstr ""
+
+#: src/themes.md:73
+msgid "`cyan`"
+msgstr ""
+
+#: src/themes.md:74
+msgid "`gray`"
+msgstr ""
+
+#: src/themes.md:75
+msgid "`light-red`"
+msgstr ""
+
+#: src/themes.md:76
+msgid "`light-green`"
+msgstr ""
+
+#: src/themes.md:77
+msgid "`light-yellow`"
+msgstr ""
+
+#: src/themes.md:78
+msgid "`light-blue`"
+msgstr ""
+
+#: src/themes.md:79
+msgid "`light-magenta`"
+msgstr ""
+
+#: src/themes.md:80
+msgid "`light-cyan`"
+msgstr ""
+
+#: src/themes.md:81
+msgid "`light-gray`"
+msgstr ""
+
+#: src/themes.md:82
+msgid "`white`"
+msgstr ""
+
+#: src/themes.md:84
+msgid "Modifiers"
+msgstr ""
+
+#: src/themes.md:86
+msgid ""
+"The following values may be used as modifier, provided they are supported by "
+"your terminal emulator."
+msgstr ""
+
+#: src/themes.md:89 src/themes.md:109
+msgid "Modifier"
+msgstr ""
+
+#: src/themes.md:91 src/themes.md:232
+msgid "`bold`"
+msgstr ""
+
+#: src/themes.md:92
+msgid "`dim`"
+msgstr ""
+
+#: src/themes.md:93 src/themes.md:233
+msgid "`italic`"
+msgstr ""
+
+#: src/themes.md:94
+msgid "`underlined`"
+msgstr ""
+
+#: src/themes.md:95
+msgid "`slow_blink`"
+msgstr ""
+
+#: src/themes.md:96
+msgid "`rapid_blink`"
+msgstr ""
+
+#: src/themes.md:97
+msgid "`reversed`"
+msgstr ""
+
+#: src/themes.md:98
+msgid "`hidden`"
+msgstr ""
+
+#: src/themes.md:99
+msgid "`crossed_out`"
+msgstr ""
+
+#: src/themes.md:101
+msgid ""
+"💡 The `underlined` modifier is deprecated and only available for backwards "
+"compatibility. Its behavior is equivalent to setting `underline."
+"style=\"line\"`."
+msgstr ""
+
+#: src/themes.md:104
+msgid "Underline style"
+msgstr ""
+
+#: src/themes.md:106
+msgid ""
+"One of the following values may be used as a value for `underline.style`, "
+"providing it is supported by your terminal emulator."
+msgstr ""
+
+#: src/themes.md:111
+msgid "`line`"
+msgstr ""
+
+#: src/themes.md:112
+msgid "`curl`"
+msgstr ""
+
+#: src/themes.md:113
+msgid "`dashed`"
+msgstr ""
+
+#: src/themes.md:114
+msgid "`dotted`"
+msgstr ""
+
+#: src/themes.md:115
+msgid "`double_line`"
+msgstr ""
+
+#: src/themes.md:118
+msgid "Inheritance"
+msgstr ""
+
+#: src/themes.md:120
+msgid ""
+"Extend other themes by setting the `inherits` property to an existing theme."
+msgstr ""
+
+#: src/themes.md:122
+msgid ""
+"```toml\n"
+"inherits = \"boo_berry\"\n"
+"\n"
+"# Override the theming for \"keyword\"s:\n"
+"\"keyword\" = { fg = \"gold\" }\n"
+"\n"
+"# Override colors in the palette:\n"
+"[palette]\n"
+"berry = \"#2A2A4D\"\n"
+"```"
+msgstr ""
+
+#: src/themes.md:133
+msgid "Scopes"
+msgstr ""
+
+#: src/themes.md:135
+msgid "The following is a list of scopes available to use for styling:"
+msgstr ""
+
+#: src/themes.md:137
+msgid "Syntax highlighting"
+msgstr ""
+
+#: src/themes.md:139
+msgid ""
+"These keys match [tree-sitter scopes](https://tree-sitter.github.io/tree-"
+"sitter/3-syntax-highlighting.html#highlights)."
+msgstr ""
+
+#: src/themes.md:141
+msgid ""
+"When determining styling for a highlight, the longest matching theme key "
+"will be used. For example, if the highlight is `function.builtin.static`, "
+"the key `function.builtin` will be used instead of `function`."
+msgstr ""
+
+#: src/themes.md:143
+msgid ""
+"We use a similar set of scopes as [Sublime Text](https://www.sublimetext.com/"
+"docs/scope_naming.html). See also [TextMate](https://macromates.com/manual/"
+"en/language_grammars) scopes."
+msgstr ""
+
+#: src/themes.md:147
+msgid "`attribute` - Class attributes, HTML tag attributes"
+msgstr ""
+
+#: src/themes.md:149
+msgid "`type` - Types"
+msgstr ""
+
+#: src/themes.md:150
+msgid "`builtin` - Primitive types provided by the language (`int`, `usize`)"
+msgstr ""
+
+#: src/themes.md:151
+msgid "`parameter` - Generic type parameters (`T`)"
+msgstr ""
+
+#: src/themes.md:152
+msgid "`enum`"
+msgstr ""
+
+#: src/themes.md:153
+msgid "`variant`"
+msgstr ""
+
+#: src/themes.md:154
+msgid "`constructor`"
+msgstr ""
+
+#: src/themes.md:156
+msgid "`constant` (TODO: constant.other.placeholder for `%v`)"
+msgstr ""
+
+#: src/themes.md:157
+msgid ""
+"`builtin` Special constants provided by the language (`true`, `false`, `nil` "
+"etc)"
+msgstr ""
+
+#: src/themes.md:158
+msgid "`boolean`"
+msgstr ""
+
+#: src/themes.md:159
+msgid "`character`"
+msgstr ""
+
+#: src/themes.md:160
+msgid "`escape`"
+msgstr ""
+
+#: src/themes.md:161
+msgid "`numeric` (numbers)"
+msgstr ""
+
+#: src/themes.md:162
+msgid "`integer`"
+msgstr ""
+
+#: src/themes.md:163
+msgid "`float`"
+msgstr ""
+
+#: src/themes.md:165
+msgid "`string` (TODO: string.quoted.{single, double}, string.raw/.unquoted)?"
+msgstr ""
+
+#: src/themes.md:166
+msgid "`regexp` - Regular expressions"
+msgstr ""
+
+#: src/themes.md:167
+msgid "`special`"
+msgstr ""
+
+#: src/themes.md:168
+msgid "`path`"
+msgstr ""
+
+#: src/themes.md:169
+msgid "`url`"
+msgstr ""
+
+#: src/themes.md:170
+msgid "`symbol` - Erlang/Elixir atoms, Ruby symbols, Clojure keywords"
+msgstr ""
+
+#: src/themes.md:172
+msgid "`comment` - Code comments"
+msgstr ""
+
+#: src/themes.md:173
+msgid "`line` - Single line comments (`//`)"
+msgstr ""
+
+#: src/themes.md:174
+msgid "`documentation` - Line documentation comments (e.g. `///` in Rust)"
+msgstr ""
+
+#: src/themes.md:175
+msgid "`block` - Block comments (e.g. (`/* */`)"
+msgstr ""
+
+#: src/themes.md:176
+msgid "`documentation` - Block documentation comments (e.g. `/** */` in Rust)"
+msgstr ""
+
+#: src/themes.md:177
+msgid "`unused` - Unused variables and patterns, e.g. `_` and `_foo`"
+msgstr ""
+
+#: src/themes.md:179
+msgid "`variable` - Variables"
+msgstr ""
+
+#: src/themes.md:180
+msgid "`builtin` - Reserved language variables (`self`, `this`, `super`, etc.)"
+msgstr ""
+
+#: src/themes.md:181
+msgid "`parameter` - Function parameters"
+msgstr ""
+
+#: src/themes.md:182
+msgid "`other`"
+msgstr ""
+
+#: src/themes.md:183
+msgid "`member` - Fields of composite data types (e.g. structs, unions)"
+msgstr ""
+
+#: src/themes.md:184
+msgid ""
+"`private` - Private fields that use a unique syntax (currently just "
+"ECMAScript-based languages)"
+msgstr ""
+
+#: src/themes.md:186
+msgid "`label` - `.class`, `#id` in CSS, etc."
+msgstr ""
+
+#: src/themes.md:188
+msgid "`punctuation`"
+msgstr ""
+
+#: src/themes.md:189
+msgid "`delimiter` - Commas, colons"
+msgstr ""
+
+#: src/themes.md:190
+msgid "`bracket` - Parentheses, angle brackets, etc."
+msgstr ""
+
+#: src/themes.md:191
+msgid "`special` - String interpolation brackets."
+msgstr ""
+
+#: src/themes.md:193
+msgid "`keyword`"
+msgstr ""
+
+#: src/themes.md:194
+msgid "`control`"
+msgstr ""
+
+#: src/themes.md:195
+msgid "`conditional` - `if`, `else`"
+msgstr ""
+
+#: src/themes.md:196
+msgid "`repeat` - `for`, `while`, `loop`"
+msgstr ""
+
+#: src/themes.md:197
+msgid "`import` - `import`, `export`"
+msgstr ""
+
+#: src/themes.md:198
+msgid "`return`"
+msgstr ""
+
+#: src/themes.md:199
+msgid "`exception`"
+msgstr ""
+
+#: src/themes.md:200
+msgid "`operator` - `or`, `in`"
+msgstr ""
+
+#: src/themes.md:201
+msgid "`directive` - Preprocessor directives (`#if` in C)"
+msgstr ""
+
+#: src/themes.md:202
+msgid "`function` - `fn`, `func`"
+msgstr ""
+
+#: src/themes.md:203
+msgid "`storage` - Keywords describing how things are stored"
+msgstr ""
+
+#: src/themes.md:204
+msgid "`type` - The type of something, `class`, `function`, `var`, `let`, etc."
+msgstr ""
+
+#: src/themes.md:205
+msgid ""
+"`modifier` - Storage modifiers like `static`, `mut`, `const`, `ref`, etc."
+msgstr ""
+
+#: src/themes.md:207
+msgid "`operator` - `||`, `+=`, `>`"
+msgstr ""
+
+#: src/themes.md:209
+msgid "`function`"
+msgstr ""
+
+#: src/themes.md:210 src/themes.md:217
+msgid "`builtin`"
+msgstr ""
+
+#: src/themes.md:211
+msgid "`method`"
+msgstr ""
+
+#: src/themes.md:212
+msgid ""
+"`private` - Private methods that use a unique syntax (currently just "
+"ECMAScript-based languages)"
+msgstr ""
+
+#: src/themes.md:213
+msgid "`macro`"
+msgstr ""
+
+#: src/themes.md:214
+msgid "`special` (preprocessor in C)"
+msgstr ""
+
+#: src/themes.md:216
+msgid "`tag` - Tags (e.g. `<body>` in HTML)"
+msgstr ""
+
+#: src/themes.md:219
+msgid "`namespace`"
+msgstr ""
+
+#: src/themes.md:221
+msgid "`special` - `derive` in Rust, etc."
+msgstr ""
+
+#: src/themes.md:223 src/themes.md:258
+msgid "`markup`"
+msgstr ""
+
+#: src/themes.md:224 src/themes.md:262
+msgid "`heading`"
+msgstr ""
+
+#: src/themes.md:225
+msgid "`marker`"
+msgstr ""
+
+#: src/themes.md:226
+msgid "`1`, `2`, `3`, `4`, `5`, `6` - heading text for h1 through h6"
+msgstr ""
+
+#: src/themes.md:227
+msgid "`list`"
+msgstr ""
+
+#: src/themes.md:228
+msgid "`unnumbered`"
+msgstr ""
+
+#: src/themes.md:229
+msgid "`numbered`"
+msgstr ""
+
+#: src/themes.md:230
+msgid "`checked`"
+msgstr ""
+
+#: src/themes.md:231
+msgid "`unchecked`"
+msgstr ""
+
+#: src/themes.md:234
+msgid "`strikethrough`"
+msgstr ""
+
+#: src/themes.md:235
+msgid "`link`"
+msgstr ""
+
+#: src/themes.md:236
+msgid "`url` - URLs pointed to by links"
+msgstr ""
+
+#: src/themes.md:237
+msgid "`label` - non-URL link references"
+msgstr ""
+
+#: src/themes.md:238
+msgid "`text` - URL and image descriptions in links"
+msgstr ""
+
+#: src/themes.md:239
+msgid "`quote`"
+msgstr ""
+
+#: src/themes.md:240 src/themes.md:265
+msgid "`raw`"
+msgstr ""
+
+#: src/themes.md:241 src/themes.md:266
+msgid "`inline`"
+msgstr ""
+
+#: src/themes.md:242
+msgid "`block`"
+msgstr ""
+
+#: src/themes.md:244
+msgid "`diff` - version control changes"
+msgstr ""
+
+#: src/themes.md:245
+msgid "`plus` - additions"
+msgstr ""
+
+#: src/themes.md:246 src/themes.md:248 src/themes.md:252
+msgid "`gutter` - gutter indicator"
+msgstr ""
+
+#: src/themes.md:247
+msgid "`minus` - deletions"
+msgstr ""
+
+#: src/themes.md:249
+msgid "`delta` - modifications"
+msgstr ""
+
+#: src/themes.md:250
+msgid "`moved` - renamed or moved files/changes"
+msgstr ""
+
+#: src/themes.md:251
+msgid "`conflict` - merge conflicts"
+msgstr ""
+
+#: src/themes.md:254
+msgid "Interface"
+msgstr ""
+
+#: src/themes.md:256
+msgid "These scopes are used for theming the editor interface:"
+msgstr ""
+
+#: src/themes.md:259
+msgid "`normal`"
+msgstr ""
+
+#: src/themes.md:260 src/themes.md:263 src/themes.md:267
+msgid "`completion` - for completion doc popup UI"
+msgstr ""
+
+#: src/themes.md:261 src/themes.md:264 src/themes.md:268
+msgid "`hover` - for hover popup UI"
+msgstr ""
+
+#: src/themes.md:271
+msgid "Key"
+msgstr ""
+
+#: src/themes.md:271
+msgid "Notes"
+msgstr ""
+
+#: src/themes.md:273
+msgid "`ui.background`"
+msgstr ""
+
+#: src/themes.md:274
+msgid "`ui.background.separator`"
+msgstr ""
+
+#: src/themes.md:274
+msgid "Picker separator below input line"
+msgstr ""
+
+#: src/themes.md:275
+msgid "`ui.cursor`"
+msgstr ""
+
+#: src/themes.md:276
+msgid "`ui.cursor.normal`"
+msgstr ""
+
+#: src/themes.md:277
+msgid "`ui.cursor.insert`"
+msgstr ""
+
+#: src/themes.md:278
+msgid "`ui.cursor.select`"
+msgstr ""
+
+#: src/themes.md:279
+msgid "`ui.cursor.match`"
+msgstr ""
+
+#: src/themes.md:279
+msgid "Matching bracket etc."
+msgstr ""
+
+#: src/themes.md:280
+msgid "`ui.cursor.primary`"
+msgstr ""
+
+#: src/themes.md:280
+msgid "Cursor with primary selection"
+msgstr ""
+
+#: src/themes.md:281
+msgid "`ui.cursor.primary.normal`"
+msgstr ""
+
+#: src/themes.md:282
+msgid "`ui.cursor.primary.insert`"
+msgstr ""
+
+#: src/themes.md:283
+msgid "`ui.cursor.primary.select`"
+msgstr ""
+
+#: src/themes.md:284
+msgid "`ui.debug.breakpoint`"
+msgstr ""
+
+#: src/themes.md:284
+msgid "Breakpoint indicator, found in the gutter"
+msgstr ""
+
+#: src/themes.md:285
+msgid "`ui.debug.active`"
+msgstr ""
+
+#: src/themes.md:285
+msgid ""
+"Indicator for the line at which debugging execution is paused at, found in "
+"the gutter"
+msgstr ""
+
+#: src/themes.md:286
+msgid "`ui.gutter`"
+msgstr ""
+
+#: src/themes.md:286
+msgid "Gutter"
+msgstr ""
+
+#: src/themes.md:287
+msgid "`ui.gutter.selected`"
+msgstr ""
+
+#: src/themes.md:287
+msgid "Gutter for the line the cursor is on"
+msgstr ""
+
+#: src/themes.md:288
+msgid "`ui.linenr`"
+msgstr ""
+
+#: src/themes.md:288
+msgid "Line numbers"
+msgstr ""
+
+#: src/themes.md:289
+msgid "`ui.linenr.selected`"
+msgstr ""
+
+#: src/themes.md:289
+msgid "Line number for the line the cursor is on"
+msgstr ""
+
+#: src/themes.md:290
+msgid "`ui.statusline`"
+msgstr ""
+
+#: src/themes.md:290
+msgid "Statusline"
+msgstr ""
+
+#: src/themes.md:291
+msgid "`ui.statusline.inactive`"
+msgstr ""
+
+#: src/themes.md:291
+msgid "Statusline (unfocused document)"
+msgstr ""
+
+#: src/themes.md:292
+msgid "`ui.statusline.normal`"
+msgstr ""
+
+#: src/themes.md:292
+msgid ""
+"Statusline mode during normal mode ([only if `editor.color-modes` is enabled]"
+"(./configuration.md#editor-section))"
+msgstr ""
+
+#: src/themes.md:293
+msgid "`ui.statusline.insert`"
+msgstr ""
+
+#: src/themes.md:293
+msgid ""
+"Statusline mode during insert mode ([only if `editor.color-modes` is enabled]"
+"(./configuration.md#editor-section))"
+msgstr ""
+
+#: src/themes.md:294
+msgid "`ui.statusline.select`"
+msgstr ""
+
+#: src/themes.md:294
+msgid ""
+"Statusline mode during select mode ([only if `editor.color-modes` is enabled]"
+"(./configuration.md#editor-section))"
+msgstr ""
+
+#: src/themes.md:295
+msgid "`ui.statusline.separator`"
+msgstr ""
+
+#: src/themes.md:295
+msgid "Separator character in statusline"
+msgstr ""
+
+#: src/themes.md:296
+msgid "`ui.bufferline`"
+msgstr ""
+
+#: src/themes.md:296
+msgid "Style for the buffer line"
+msgstr ""
+
+#: src/themes.md:297
+msgid "`ui.bufferline.active`"
+msgstr ""
+
+#: src/themes.md:297
+msgid "Style for the active buffer in buffer line"
+msgstr ""
+
+#: src/themes.md:298
+msgid "`ui.bufferline.background`"
+msgstr ""
+
+#: src/themes.md:298
+msgid "Style for bufferline background"
+msgstr ""
+
+#: src/themes.md:299
+msgid "`ui.popup`"
+msgstr ""
+
+#: src/themes.md:299
+msgid "Documentation popups (e.g. Space + k)"
+msgstr ""
+
+#: src/themes.md:300
+msgid "`ui.popup.info`"
+msgstr ""
+
+#: src/themes.md:300
+msgid "Prompt for multiple key options"
+msgstr ""
+
+#: src/themes.md:301
+msgid "`ui.picker.header`"
+msgstr ""
+
+#: src/themes.md:301
+msgid "Header row area in pickers with multiple columns"
+msgstr ""
+
+#: src/themes.md:302
+msgid "`ui.picker.header.column`"
+msgstr ""
+
+#: src/themes.md:302
+msgid "Column names in pickers with multiple columns"
+msgstr ""
+
+#: src/themes.md:303
+msgid "`ui.picker.header.column.active`"
+msgstr ""
+
+#: src/themes.md:303
+msgid ""
+"The column name in pickers with multiple columns where the cursor is "
+"entering into."
+msgstr ""
+
+#: src/themes.md:304
+msgid "`ui.window`"
+msgstr ""
+
+#: src/themes.md:304
+msgid "Borderlines separating splits"
+msgstr ""
+
+#: src/themes.md:305
+msgid "`ui.help`"
+msgstr ""
+
+#: src/themes.md:305
+msgid "Description box for commands"
+msgstr ""
+
+#: src/themes.md:306
+msgid "`ui.text`"
+msgstr ""
+
+#: src/themes.md:306
+msgid "Default text style, command prompts, popup text, etc."
+msgstr ""
+
+#: src/themes.md:307
+msgid "`ui.text.focus`"
+msgstr ""
+
+#: src/themes.md:307
+msgid "The currently selected line in the picker"
+msgstr ""
+
+#: src/themes.md:308
+msgid "`ui.text.inactive`"
+msgstr ""
+
+#: src/themes.md:308
+msgid "Same as `ui.text` but when the text is inactive (e.g. suggestions)"
+msgstr ""
+
+#: src/themes.md:309
+msgid "`ui.text.info`"
+msgstr ""
+
+#: src/themes.md:309
+msgid "The key: command text in `ui.popup.info` boxes"
+msgstr ""
+
+#: src/themes.md:310
+msgid "`ui.text.directory`"
+msgstr ""
+
+#: src/themes.md:310
+msgid "Directory names in prompt completion"
+msgstr ""
+
+#: src/themes.md:311
+msgid "`ui.virtual.ruler`"
+msgstr ""
+
+#: src/themes.md:311
+msgid ""
+"Ruler columns (see the [`editor.rulers` config](./configuration.md#editor-"
+"section))"
+msgstr ""
+
+#: src/themes.md:312
+msgid "`ui.virtual.whitespace`"
+msgstr ""
+
+#: src/themes.md:312
+msgid "Visible whitespace characters"
+msgstr ""
+
+#: src/themes.md:313
+msgid "`ui.virtual.indent-guide`"
+msgstr ""
+
+#: src/themes.md:313
+msgid "Vertical indent width guides"
+msgstr ""
+
+#: src/themes.md:314
+msgid "`ui.virtual.inlay-hint`"
+msgstr ""
+
+#: src/themes.md:314
+msgid "Default style for inlay hints of all kinds"
+msgstr ""
+
+#: src/themes.md:315
+msgid "`ui.virtual.inlay-hint.parameter`"
+msgstr ""
+
+#: src/themes.md:315
+msgid ""
+"Style for inlay hints of kind `parameter` (language servers are not required "
+"to set a kind)"
+msgstr ""
+
+#: src/themes.md:316
+msgid "`ui.virtual.inlay-hint.type`"
+msgstr ""
+
+#: src/themes.md:316
+msgid ""
+"Style for inlay hints of kind `type` (language servers are not required to "
+"set a kind)"
+msgstr ""
+
+#: src/themes.md:317
+msgid "`ui.virtual.wrap`"
+msgstr ""
+
+#: src/themes.md:317
+msgid ""
+"Soft-wrap indicator (see the [`editor.soft-wrap` config](./configuration."
+"md#editor-section))"
+msgstr ""
+
+#: src/themes.md:318
+msgid "`ui.virtual.jump-label`"
+msgstr ""
+
+#: src/themes.md:318
+msgid "Style for virtual jump labels"
+msgstr ""
+
+#: src/themes.md:319
+msgid "`ui.menu`"
+msgstr ""
+
+#: src/themes.md:319
+msgid "Code and command completion menus"
+msgstr ""
+
+#: src/themes.md:320
+msgid "`ui.menu.selected`"
+msgstr ""
+
+#: src/themes.md:320
+msgid "Selected autocomplete item"
+msgstr ""
+
+#: src/themes.md:321
+msgid "`ui.menu.scroll`"
+msgstr ""
+
+#: src/themes.md:321
+msgid "`fg` sets thumb color, `bg` sets track color of scrollbar"
+msgstr ""
+
+#: src/themes.md:322
+msgid "`ui.selection`"
+msgstr ""
+
+#: src/themes.md:322
+msgid "For selections in the editing area"
+msgstr ""
+
+#: src/themes.md:323
+msgid "`ui.selection.primary`"
+msgstr ""
+
+#: src/themes.md:324
+msgid "`ui.highlight`"
+msgstr ""
+
+#: src/themes.md:324
+msgid "Highlighted lines in the picker preview"
+msgstr ""
+
+#: src/themes.md:325
+msgid "`ui.highlight.frameline`"
+msgstr ""
+
+#: src/themes.md:325
+msgid "Line at which debugging execution is paused at"
+msgstr ""
+
+#: src/themes.md:326
+msgid "`ui.cursorline.primary`"
+msgstr ""
+
+#: src/themes.md:326
+msgid ""
+"The line of the primary cursor ([if cursorline is enabled](./configuration."
+"md#editor-section))"
+msgstr ""
+
+#: src/themes.md:327
+msgid "`ui.cursorline.secondary`"
+msgstr ""
+
+#: src/themes.md:327
+msgid ""
+"The lines of any other cursors ([if cursorline is enabled](./configuration."
+"md#editor-section))"
+msgstr ""
+
+#: src/themes.md:328
+msgid "`ui.cursorcolumn.primary`"
+msgstr ""
+
+#: src/themes.md:328
+msgid ""
+"The column of the primary cursor ([if cursorcolumn is enabled](./"
+"configuration.md#editor-section))"
+msgstr ""
+
+#: src/themes.md:329
+msgid "`ui.cursorcolumn.secondary`"
+msgstr ""
+
+#: src/themes.md:329
+msgid ""
+"The columns of any other cursors ([if cursorcolumn is enabled](./"
+"configuration.md#editor-section))"
+msgstr ""
+
+#: src/themes.md:330
+msgid "`warning`"
+msgstr ""
+
+#: src/themes.md:330
+msgid "Diagnostics warning (gutter)"
+msgstr ""
+
+#: src/themes.md:331
+msgid "`error`"
+msgstr ""
+
+#: src/themes.md:331
+msgid "Diagnostics error (gutter)"
+msgstr ""
+
+#: src/themes.md:332
+msgid "`info`"
+msgstr ""
+
+#: src/themes.md:332
+msgid "Diagnostics info (gutter)"
+msgstr ""
+
+#: src/themes.md:333
+msgid "`hint`"
+msgstr ""
+
+#: src/themes.md:333
+msgid "Diagnostics hint (gutter)"
+msgstr ""
+
+#: src/themes.md:334
+msgid "`diagnostic`"
+msgstr ""
+
+#: src/themes.md:334
+msgid "Diagnostics fallback style (editing area)"
+msgstr ""
+
+#: src/themes.md:335
+msgid "`diagnostic.hint`"
+msgstr ""
+
+#: src/themes.md:335
+msgid "Diagnostics hint (editing area)"
+msgstr ""
+
+#: src/themes.md:336
+msgid "`diagnostic.info`"
+msgstr ""
+
+#: src/themes.md:336
+msgid "Diagnostics info (editing area)"
+msgstr ""
+
+#: src/themes.md:337
+msgid "`diagnostic.warning`"
+msgstr ""
+
+#: src/themes.md:337
+msgid "Diagnostics warning (editing area)"
+msgstr ""
+
+#: src/themes.md:338
+msgid "`diagnostic.error`"
+msgstr ""
+
+#: src/themes.md:338
+msgid "Diagnostics error (editing area)"
+msgstr ""
+
+#: src/themes.md:339
+msgid "`diagnostic.unnecessary`"
+msgstr ""
+
+#: src/themes.md:339
+msgid "Diagnostics with unnecessary tag (editing area)"
+msgstr ""
+
+#: src/themes.md:340
+msgid "`diagnostic.deprecated`"
+msgstr ""
+
+#: src/themes.md:340
+msgid "Diagnostics with deprecated tag (editing area)"
+msgstr ""
+
+#: src/themes.md:341
+msgid "`tabstop`"
+msgstr ""
+
+#: src/themes.md:341
+msgid "Snippet placeholder"
+msgstr ""

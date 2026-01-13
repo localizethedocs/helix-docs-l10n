@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/registers.md:1
+msgid "Registers"
+msgstr ""
+
+#: src/registers.md:3
+msgid "[User-defined registers](#user-defined-registers)"
+msgstr ""
+
+#: src/registers.md:4
+msgid "[Default registers](#default-registers)"
+msgstr ""
+
+#: src/registers.md:5
+msgid "[Special registers](#special-registers)"
+msgstr ""
+
+#: src/registers.md:7
+msgid ""
+"In Helix, registers are storage locations for text and other data, such as "
+"the result of a search. Registers can be used to cut, copy, and paste text, "
+"similar to the clipboard in other text editors. Usage is similar to Vim, "
+"with `\"` being used to select a register."
+msgstr ""
+
+#: src/registers.md:12
+msgid "User-defined registers"
+msgstr ""
+
+#: src/registers.md:14
+msgid ""
+"Helix allows you to create your own named registers for storing text, for "
+"example:"
+msgstr ""
+
+#: src/registers.md:17
+msgid "`\"ay` - Yank the current selection to register `a`."
+msgstr ""
+
+#: src/registers.md:18
+msgid "`\"op` - Paste the text in register `o` after the selection."
+msgstr ""
+
+#: src/registers.md:20
+msgid ""
+"If a register is selected before invoking a change or delete command, the "
+"selection will be stored in the register and the action will be carried out:"
+msgstr ""
+
+#: src/registers.md:22
+msgid ""
+"`\"hc` - Store the selection in register `h` and then change it (delete and "
+"enter insert mode)."
+msgstr ""
+
+#: src/registers.md:23
+msgid "`\"md` - Store the selection in register `m` and delete it."
+msgstr ""
+
+#: src/registers.md:25
+msgid "Default registers"
+msgstr ""
+
+#: src/registers.md:27
+msgid ""
+"Commands that use registers, like yank (`y`), use a default register if none "
+"is specified. These registers are used as defaults:"
+msgstr ""
+
+#: src/registers.md:30 src/registers.md:41
+msgid "Register character"
+msgstr ""
+
+#: src/registers.md:30
+msgid "Contains"
+msgstr ""
+
+#: src/registers.md:32
+msgid "`/`"
+msgstr ""
+
+#: src/registers.md:32
+msgid "Last search"
+msgstr ""
+
+#: src/registers.md:33
+msgid "`:`"
+msgstr ""
+
+#: src/registers.md:33
+msgid "Last executed command"
+msgstr ""
+
+#: src/registers.md:34
+msgid "`\"`"
+msgstr ""
+
+#: src/registers.md:34
+msgid "Last yanked text"
+msgstr ""
+
+#: src/registers.md:35
+msgid "`@`"
+msgstr ""
+
+#: src/registers.md:35
+msgid "Last recorded macro"
+msgstr ""
+
+#: src/registers.md:37
+msgid "Special registers"
+msgstr ""
+
+#: src/registers.md:39
+msgid "Some registers have special behavior when read from and written to."
+msgstr ""
+
+#: src/registers.md:41
+msgid "When read"
+msgstr ""
+
+#: src/registers.md:41
+msgid "When written"
+msgstr ""
+
+#: src/registers.md:43
+msgid "`_`"
+msgstr ""
+
+#: src/registers.md:43
+msgid "No values are returned"
+msgstr ""
+
+#: src/registers.md:43
+msgid "All values are discarded"
+msgstr ""
+
+#: src/registers.md:44
+msgid "`#`"
+msgstr ""
+
+#: src/registers.md:44
+msgid "Selection indices (first selection is `1`, second is `2`, etc.)"
+msgstr ""
+
+#: src/registers.md:44 src/registers.md:45 src/registers.md:46
+msgid "This register is not writable"
+msgstr ""
+
+#: src/registers.md:45
+msgid "`.`"
+msgstr ""
+
+#: src/registers.md:45
+msgid "Contents of the current selections"
+msgstr ""
+
+#: src/registers.md:46
+msgid "`%`"
+msgstr ""
+
+#: src/registers.md:46
+msgid "Name of the current file"
+msgstr ""
+
+#: src/registers.md:47
+msgid "`+`"
+msgstr ""
+
+#: src/registers.md:47
+msgid "Reads from the system clipboard"
+msgstr ""
+
+#: src/registers.md:47
+msgid "Joins and yanks to the system clipboard"
+msgstr ""
+
+#: src/registers.md:48
+msgid "`*`"
+msgstr ""
+
+#: src/registers.md:48
+msgid "Reads from the primary clipboard"
+msgstr ""
+
+#: src/registers.md:48
+msgid "Joins and yanks to the primary clipboard"
+msgstr ""
+
+#: src/registers.md:50
+msgid ""
+"When yanking multiple selections to the clipboard registers, the selections "
+"are joined with newlines. Pasting from these registers will paste multiple "
+"selections if the clipboard was last yanked to by the Helix session. "
+"Otherwise the clipboard contents are pasted as one selection."
+msgstr ""
