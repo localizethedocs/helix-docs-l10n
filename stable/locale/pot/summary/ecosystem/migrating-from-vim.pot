@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/from-vim.md:1
+msgid "Migrating from Vim"
+msgstr ""
+
+#: src/from-vim.md:3
+msgid ""
+"Helix's editing model is strongly inspired from Vim and Kakoune, and a "
+"notable difference from Vim (and the most striking similarity to Kakoune) is "
+"that Helix follows the `selection → action` model. This means that whatever "
+"you are going to act on (a word, a paragraph, a line, etc.) is selected "
+"first and the action itself (delete, change, yank, etc.) comes second. A "
+"cursor is simply a single width selection."
+msgstr ""
+
+#: src/from-vim.md:10
+msgid ""
+"See also Kakoune's [Migrating from Vim](https://github.com/mawww/kakoune/"
+"wiki/Migrating-from-Vim) and Helix's [Migrating from Vim](https://github.com/"
+"helix-editor/helix/wiki/Migrating-from-Vim)."
+msgstr ""
+
+#: src/from-vim.md:12
+msgid "TODO: Mention textobjects, surround, registers"
+msgstr ""
