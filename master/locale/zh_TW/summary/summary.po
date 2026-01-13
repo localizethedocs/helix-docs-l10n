@@ -5,31 +5,31 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/SUMMARY.md:1
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: src/SUMMARY.md:3
 msgid "Helix"
-msgstr ""
+msgstr "Helix"
 
 #: src/SUMMARY.md:5
 msgid "Installation"
-msgstr ""
+msgstr "安裝"
 
 #: src/SUMMARY.md:6
 msgid "Package Managers"
-msgstr ""
+msgstr "軟體包管理器"
 
 #: src/SUMMARY.md:7
 msgid "Building from source"
-msgstr ""
+msgstr "從來源碼建置"
 
 #: src/SUMMARY.md:8
 msgid "Usage"
@@ -65,19 +65,19 @@ msgstr ""
 
 #: src/SUMMARY.md:16
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: src/SUMMARY.md:17
 msgid "Commands"
-msgstr ""
+msgstr "命令"
 
 #: src/SUMMARY.md:18
 msgid "Language support"
-msgstr ""
+msgstr "語言支援"
 
 #: src/SUMMARY.md:19
 msgid "Ecosystem"
-msgstr ""
+msgstr "生態系"
 
 #: src/SUMMARY.md:20
 msgid "Migrating from Vim"
@@ -89,15 +89,15 @@ msgstr ""
 
 #: src/SUMMARY.md:22
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: src/SUMMARY.md:23
 msgid "Editor"
-msgstr ""
+msgstr "編輯器"
 
 #: src/SUMMARY.md:24
 msgid "Themes"
-msgstr ""
+msgstr "主題"
 
 #: src/SUMMARY.md:25
 msgid "Key remapping"
@@ -105,11 +105,11 @@ msgstr ""
 
 #: src/SUMMARY.md:26
 msgid "Languages"
-msgstr ""
+msgstr "語言"
 
 #: src/SUMMARY.md:27
 msgid "Guides"
-msgstr ""
+msgstr "指南"
 
 #: src/SUMMARY.md:28
 msgid "Adding languages"
