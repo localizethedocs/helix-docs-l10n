@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:45Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/jumplist.md:1
+msgid "Using the jumplist"
+msgstr ""
+
+#: src/jumplist.md:3
+msgid ""
+"To help with quick navigation, Helix maintains a list of \"jumps\" called "
+"the jumplist. Whenever you make a significant movement (see next section), "
+"Helix stores your selections from before the move as a jump. A jump serves "
+"as a kind of checkpoint, allowing you to jump to a separate location, make "
+"edits, and return to where you were with your previous selections. This way, "
+"the jumplist tracks both your previous location and your selections. You can "
+"manually save a jump by using `Ctrl-s`. To jump backward in the jumplist, "
+"use `Ctrl-o`; to go forward, use `Ctrl-i`. To view and select from the full "
+"jumplist, use `Space-j` to open the jumplist picker."
+msgstr ""
+
+#: src/jumplist.md:10
+msgid "What makes a jump"
+msgstr ""
+
+#: src/jumplist.md:11
+msgid ""
+"The following is a non-exhaustive list of which actions add a jump to the "
+"jumplist:"
+msgstr ""
+
+#: src/jumplist.md:12
+msgid "Switching buffers"
+msgstr ""
+
+#: src/jumplist.md:13
+msgid "Using the buffer picker, going to the next/previous buffer"
+msgstr ""
+
+#: src/jumplist.md:14
+msgid "Going to the last accessed/modified file"
+msgstr ""
+
+#: src/jumplist.md:15
+msgid "Making a new file (`:new FILE`)"
+msgstr ""
+
+#: src/jumplist.md:16
+msgid "Opening a file (`:open FILE`)"
+msgstr ""
+
+#: src/jumplist.md:17
+msgid ""
+"Includes `:log-open`, `:config-open`, `:config-open-workspace`, `:tutor`"
+msgstr ""
+
+#: src/jumplist.md:18
+msgid "Navigating by pickers, global search, or the file explorer"
+msgstr ""
+
+#: src/jumplist.md:19
+msgid "`goto_file` (`gf`)"
+msgstr ""
+
+#: src/jumplist.md:20
+msgid "Big in-file movements"
+msgstr ""
+
+#: src/jumplist.md:21
+msgid "`select_regex` (`s`)"
+msgstr ""
+
+#: src/jumplist.md:22
+msgid "`split_regex` (`S`)"
+msgstr ""
+
+#: src/jumplist.md:23
+msgid "`search` (`/`)"
+msgstr ""
+
+#: src/jumplist.md:24
+msgid "`keep_selections` and `remove_selections` (`K` and `<A-K>`)"
+msgstr ""
+
+#: src/jumplist.md:25
+msgid "`goto_file_start` (`gg`)"
+msgstr ""
+
+#: src/jumplist.md:26
+msgid "`goto_file_end`"
+msgstr ""
+
+#: src/jumplist.md:27
+msgid "`goto_last_line` (`ge`)"
+msgstr ""
+
+#: src/jumplist.md:28
+msgid "`:goto 123` / `:123` / `123G`"
+msgstr ""
+
+#: src/jumplist.md:29
+msgid "`goto_definition` (`gd`)"
+msgstr ""
+
+#: src/jumplist.md:30
+msgid "`goto_declaration` (`gD`)"
+msgstr ""
+
+#: src/jumplist.md:31
+msgid "`goto_type_definition` (`gy`)"
+msgstr ""
+
+#: src/jumplist.md:32
+msgid "`goto_reference` (`gr`)"
+msgstr ""
+
+#: src/jumplist.md:33
+msgid "Other"
+msgstr ""
+
+#: src/jumplist.md:34
+msgid "`Ctrl-s` manually creates a jump"
+msgstr ""
+
+#: src/jumplist.md:35
+msgid ""
+"Trying to close a modified buffer can switch you to that buffer and create a "
+"jump"
+msgstr ""
+
+#: src/jumplist.md:36
+msgid "The debugger can create jumps as you jump stack frames"
+msgstr ""

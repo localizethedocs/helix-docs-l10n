@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:46Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/configuration.md:1
+msgid "Configuration"
+msgstr ""
+
+#: src/configuration.md:3
+msgid ""
+"To override global configuration parameters, create a `config.toml` file "
+"located in your config directory:"
+msgstr ""
+
+#: src/configuration.md:5
+msgid "Linux and Mac: `~/.config/helix/config.toml`"
+msgstr ""
+
+#: src/configuration.md:6
+msgid "Windows: `%AppData%\\helix\\config.toml`"
+msgstr ""
+
+#: src/configuration.md:8
+msgid ""
+"💡 You can easily open the config file by typing `:config-open` within Helix "
+"normal mode."
+msgstr ""
+
+#: src/configuration.md:10
+msgid "Example config:"
+msgstr ""
+
+#: src/configuration.md:12
+msgid ""
+"```toml\n"
+"theme = \"onedark\"\n"
+"\n"
+"[editor]\n"
+"line-number = \"relative\"\n"
+"mouse = false\n"
+"\n"
+"[editor.cursor-shape]\n"
+"insert = \"bar\"\n"
+"normal = \"block\"\n"
+"select = \"underline\"\n"
+"\n"
+"[editor.file-picker]\n"
+"hidden = false\n"
+"```"
+msgstr ""
+
+#: src/configuration.md:28
+msgid ""
+"You can use a custom configuration file by specifying it with the `-c` or `--"
+"config` command line argument, for example `hx -c path/to/custom-config."
+"toml`. You can reload the config file by issuing the `:config-reload` "
+"command. Alternatively, on Unix operating systems, you can reload it by "
+"sending the USR1 signal to the Helix process, such as by using the command "
+"`pkill -USR1 hx`."
+msgstr ""
+
+#: src/configuration.md:33
+msgid ""
+"Finally, you can have a `config.toml` and a `languages.toml` local to a "
+"project by putting it under a `.helix` directory in your repository. Its "
+"settings will be merged with the configuration directory and the built-in "
+"configuration."
+msgstr ""

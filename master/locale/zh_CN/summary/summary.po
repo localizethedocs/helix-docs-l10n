@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:45Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr ""
+
+#: src/SUMMARY.md:3
+msgid "Helix"
+msgstr ""
+
+#: src/SUMMARY.md:5
+msgid "Installation"
+msgstr ""
+
+#: src/SUMMARY.md:6
+msgid "Package Managers"
+msgstr ""
+
+#: src/SUMMARY.md:7
+msgid "Building from source"
+msgstr ""
+
+#: src/SUMMARY.md:8
+msgid "Usage"
+msgstr ""
+
+#: src/SUMMARY.md:9
+msgid "Registers"
+msgstr ""
+
+#: src/SUMMARY.md:10
+msgid "Surround"
+msgstr ""
+
+#: src/SUMMARY.md:11
+msgid "Textobjects"
+msgstr ""
+
+#: src/SUMMARY.md:12
+msgid "Syntax aware motions"
+msgstr ""
+
+#: src/SUMMARY.md:13
+msgid "Pickers"
+msgstr ""
+
+#: src/SUMMARY.md:14
+msgid "Jumplist"
+msgstr ""
+
+#: src/SUMMARY.md:15
+msgid "Keymap"
+msgstr ""
+
+#: src/SUMMARY.md:16
+msgid "Command line"
+msgstr ""
+
+#: src/SUMMARY.md:17
+msgid "Commands"
+msgstr ""
+
+#: src/SUMMARY.md:18
+msgid "Language support"
+msgstr ""
+
+#: src/SUMMARY.md:19
+msgid "Ecosystem"
+msgstr ""
+
+#: src/SUMMARY.md:20
+msgid "Migrating from Vim"
+msgstr ""
+
+#: src/SUMMARY.md:21
+msgid "Helix mode in other software"
+msgstr ""
+
+#: src/SUMMARY.md:22
+msgid "Configuration"
+msgstr ""
+
+#: src/SUMMARY.md:23
+msgid "Editor"
+msgstr ""
+
+#: src/SUMMARY.md:24
+msgid "Themes"
+msgstr ""
+
+#: src/SUMMARY.md:25
+msgid "Key remapping"
+msgstr ""
+
+#: src/SUMMARY.md:26
+msgid "Languages"
+msgstr ""
+
+#: src/SUMMARY.md:27
+msgid "Guides"
+msgstr ""
+
+#: src/SUMMARY.md:28
+msgid "Adding languages"
+msgstr ""
+
+#: src/SUMMARY.md:29
+msgid "Adding textobject queries"
+msgstr ""
+
+#: src/SUMMARY.md:30
+msgid "Adding indent queries"
+msgstr ""
+
+#: src/SUMMARY.md:31
+msgid "Adding injection queries"
+msgstr ""
+
+#: src/SUMMARY.md:32
+msgid "Adding tags queries"
+msgstr ""
+
+#: src/SUMMARY.md:33
+msgid "Adding rainbow bracket queries"
+msgstr ""
