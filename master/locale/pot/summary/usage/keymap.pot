@@ -1,0 +1,3100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:45Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/keymap.md:1
+msgid "Keymap"
+msgstr ""
+
+#: src/keymap.md:3
+msgid "[Normal mode](#normal-mode)"
+msgstr ""
+
+#: src/keymap.md:4
+msgid "[Movement](#movement)"
+msgstr ""
+
+#: src/keymap.md:5
+msgid "[Changes](#changes)"
+msgstr ""
+
+#: src/keymap.md:6
+msgid "[Shell](#shell)"
+msgstr ""
+
+#: src/keymap.md:7
+msgid "[Selection manipulation](#selection-manipulation)"
+msgstr ""
+
+#: src/keymap.md:8
+msgid "[Search](#search)"
+msgstr ""
+
+#: src/keymap.md:9
+msgid "[Minor modes](#minor-modes)"
+msgstr ""
+
+#: src/keymap.md:10
+msgid "[View mode](#view-mode)"
+msgstr ""
+
+#: src/keymap.md:11
+msgid "[Goto mode](#goto-mode)"
+msgstr ""
+
+#: src/keymap.md:12
+msgid "[Match mode](#match-mode)"
+msgstr ""
+
+#: src/keymap.md:13
+msgid "[Window mode](#window-mode)"
+msgstr ""
+
+#: src/keymap.md:14
+msgid "[Space mode](#space-mode)"
+msgstr ""
+
+#: src/keymap.md:15
+msgid "[Popup](#popup)"
+msgstr ""
+
+#: src/keymap.md:16
+msgid "[Completion Menu](#completion-menu)"
+msgstr ""
+
+#: src/keymap.md:17
+msgid "[Signature-help Popup](#signature-help-popup)"
+msgstr ""
+
+#: src/keymap.md:18
+msgid "[Unimpaired](#unimpaired)"
+msgstr ""
+
+#: src/keymap.md:19
+msgid "[Insert mode](#insert-mode)"
+msgstr ""
+
+#: src/keymap.md:20
+msgid "[Select / extend mode](#select--extend-mode)"
+msgstr ""
+
+#: src/keymap.md:21
+msgid "[Picker](#picker)"
+msgstr ""
+
+#: src/keymap.md:22
+msgid "[Prompt](#prompt)"
+msgstr ""
+
+#: src/keymap.md:24
+msgid ""
+"💡 Mappings marked (**LSP**) require an active language server for the file."
+msgstr ""
+
+#: src/keymap.md:26
+msgid ""
+"💡 Mappings marked (**TS**) require a tree-sitter grammar for the file type."
+msgstr ""
+
+#: src/keymap.md:28
+msgid ""
+"⚠️ Some terminals' default key mappings conflict with Helix's. If any of the "
+"mappings described on this page do not work as expected, check your "
+"terminal's mappings to ensure they do not conflict. See the [wiki](https://"
+"github.com/helix-editor/helix/wiki/Terminal-Support) for known conflicts."
+msgstr ""
+
+#: src/keymap.md:30
+msgid "Normal mode"
+msgstr ""
+
+#: src/keymap.md:32
+msgid ""
+"Normal mode is the default mode when you launch helix. You can return to it "
+"from other modes by pressing the `Escape` key."
+msgstr ""
+
+#: src/keymap.md:34
+msgid "Movement"
+msgstr ""
+
+#: src/keymap.md:36
+msgid ""
+"NOTE: Unlike Vim, `f`, `F`, `t` and `T` are not confined to the current line."
+msgstr ""
+
+#: src/keymap.md:38
+msgid "Hereafter, `<n>` represents an integer by typing a sequence of digits."
+msgstr ""
+
+#: src/keymap.md:40 src/keymap.md:70 src/keymap.md:106 src/keymap.md:117
+#: src/keymap.md:159 src/keymap.md:172 src/keymap.md:196 src/keymap.md:215
+#: src/keymap.md:248 src/keymap.md:265 src/keymap.md:289 src/keymap.md:324
+#: src/keymap.md:333 src/keymap.md:346 src/keymap.md:355 src/keymap.md:394
+#: src/keymap.md:411 src/keymap.md:458 src/keymap.md:477
+msgid "Key"
+msgstr ""
+
+#: src/keymap.md:40 src/keymap.md:70 src/keymap.md:106 src/keymap.md:117
+#: src/keymap.md:159 src/keymap.md:172 src/keymap.md:196 src/keymap.md:215
+#: src/keymap.md:248 src/keymap.md:265 src/keymap.md:289 src/keymap.md:324
+#: src/keymap.md:333 src/keymap.md:346 src/keymap.md:355 src/keymap.md:394
+#: src/keymap.md:411 src/keymap.md:458 src/keymap.md:477
+msgid "Description"
+msgstr ""
+
+#: src/keymap.md:40 src/keymap.md:70 src/keymap.md:106 src/keymap.md:117
+#: src/keymap.md:159 src/keymap.md:172 src/keymap.md:196 src/keymap.md:215
+#: src/keymap.md:248 src/keymap.md:265 src/keymap.md:289 src/keymap.md:355
+#: src/keymap.md:394 src/keymap.md:411
+msgid "Command"
+msgstr ""
+
+#: src/keymap.md:42
+msgid "`h`, `Left`"
+msgstr ""
+
+#: src/keymap.md:42
+msgid "Move left"
+msgstr ""
+
+#: src/keymap.md:42 src/keymap.md:415
+msgid "`move_char_left`"
+msgstr ""
+
+#: src/keymap.md:43
+msgid "`j`, `Down`"
+msgstr ""
+
+#: src/keymap.md:43
+msgid "Move down"
+msgstr ""
+
+#: src/keymap.md:43
+msgid "`move_visual_line_down`"
+msgstr ""
+
+#: src/keymap.md:44
+msgid "`k`, `Up`"
+msgstr ""
+
+#: src/keymap.md:44
+msgid "Move up"
+msgstr ""
+
+#: src/keymap.md:44
+msgid "`move_visual_line_up`"
+msgstr ""
+
+#: src/keymap.md:45
+msgid "`l`, `Right`"
+msgstr ""
+
+#: src/keymap.md:45
+msgid "Move right"
+msgstr ""
+
+#: src/keymap.md:45 src/keymap.md:416
+msgid "`move_char_right`"
+msgstr ""
+
+#: src/keymap.md:46 src/keymap.md:240 src/keymap.md:306
+msgid "`w`"
+msgstr ""
+
+#: src/keymap.md:46
+msgid "Move next word start"
+msgstr ""
+
+#: src/keymap.md:46
+msgid "`move_next_word_start`"
+msgstr ""
+
+#: src/keymap.md:47 src/keymap.md:200 src/keymap.md:228 src/keymap.md:293
+msgid "`b`"
+msgstr ""
+
+#: src/keymap.md:47
+msgid "Move previous word start"
+msgstr ""
+
+#: src/keymap.md:47
+msgid "`move_prev_word_start`"
+msgstr ""
+
+#: src/keymap.md:48 src/keymap.md:221
+msgid "`e`"
+msgstr ""
+
+#: src/keymap.md:48
+msgid "Move next word end"
+msgstr ""
+
+#: src/keymap.md:48
+msgid "`move_next_word_end`"
+msgstr ""
+
+#: src/keymap.md:49
+msgid "`W`"
+msgstr ""
+
+#: src/keymap.md:49
+msgid "Move next WORD start"
+msgstr ""
+
+#: src/keymap.md:49
+msgid "`move_next_long_word_start`"
+msgstr ""
+
+#: src/keymap.md:50
+msgid "`B`"
+msgstr ""
+
+#: src/keymap.md:50
+msgid "Move previous WORD start"
+msgstr ""
+
+#: src/keymap.md:50
+msgid "`move_prev_long_word_start`"
+msgstr ""
+
+#: src/keymap.md:51
+msgid "`E`"
+msgstr ""
+
+#: src/keymap.md:51
+msgid "Move next WORD end"
+msgstr ""
+
+#: src/keymap.md:51
+msgid "`move_next_long_word_end`"
+msgstr ""
+
+#: src/keymap.md:52 src/keymap.md:199 src/keymap.md:226
+msgid "`t`"
+msgstr ""
+
+#: src/keymap.md:52
+msgid "Find till next char"
+msgstr ""
+
+#: src/keymap.md:52
+msgid "`find_till_char`"
+msgstr ""
+
+#: src/keymap.md:53 src/keymap.md:222 src/keymap.md:270 src/keymap.md:291
+msgid "`f`"
+msgstr ""
+
+#: src/keymap.md:53
+msgid "Find next char"
+msgstr ""
+
+#: src/keymap.md:53
+msgid "`find_next_char`"
+msgstr ""
+
+#: src/keymap.md:54
+msgid "`T`"
+msgstr ""
+
+#: src/keymap.md:54
+msgid "Find till previous char"
+msgstr ""
+
+#: src/keymap.md:54
+msgid "`till_prev_char`"
+msgstr ""
+
+#: src/keymap.md:55 src/keymap.md:271 src/keymap.md:292
+msgid "`F`"
+msgstr ""
+
+#: src/keymap.md:55
+msgid "Find previous char"
+msgstr ""
+
+#: src/keymap.md:55
+msgid "`find_prev_char`"
+msgstr ""
+
+#: src/keymap.md:56
+msgid "`<n>G`, `<n>gg`"
+msgstr ""
+
+#: src/keymap.md:56 src/keymap.md:217
+msgid "Go to line number `<n>`"
+msgstr ""
+
+#: src/keymap.md:56
+msgid "`goto_line`"
+msgstr ""
+
+#: src/keymap.md:57
+msgid "`Alt-.`"
+msgstr ""
+
+#: src/keymap.md:57
+msgid "Repeat last motion (`f`, `t`, `m`, `[` or `]`)"
+msgstr ""
+
+#: src/keymap.md:57
+msgid "`repeat_last_motion`"
+msgstr ""
+
+#: src/keymap.md:58 src/keymap.md:419 src/keymap.md:464
+msgid "`Home`"
+msgstr ""
+
+#: src/keymap.md:58
+msgid "Move to the start of the line"
+msgstr ""
+
+#: src/keymap.md:58 src/keymap.md:223 src/keymap.md:419
+msgid "`goto_line_start`"
+msgstr ""
+
+#: src/keymap.md:59 src/keymap.md:420 src/keymap.md:465
+msgid "`End`"
+msgstr ""
+
+#: src/keymap.md:59
+msgid "Move to the end of the line"
+msgstr ""
+
+#: src/keymap.md:59 src/keymap.md:224
+msgid "`goto_line_end`"
+msgstr ""
+
+#: src/keymap.md:60 src/keymap.md:205
+msgid "`Ctrl-b`, `PageUp`"
+msgstr ""
+
+#: src/keymap.md:60 src/keymap.md:205
+msgid "Move page up"
+msgstr ""
+
+#: src/keymap.md:60 src/keymap.md:205 src/keymap.md:417
+msgid "`page_up`"
+msgstr ""
+
+#: src/keymap.md:61 src/keymap.md:204
+msgid "`Ctrl-f`, `PageDown`"
+msgstr ""
+
+#: src/keymap.md:61 src/keymap.md:204
+msgid "Move page down"
+msgstr ""
+
+#: src/keymap.md:61 src/keymap.md:204 src/keymap.md:418
+msgid "`page_down`"
+msgstr ""
+
+#: src/keymap.md:62 src/keymap.md:206 src/keymap.md:326 src/keymap.md:402
+#: src/keymap.md:488
+msgid "`Ctrl-u`"
+msgstr ""
+
+#: src/keymap.md:62 src/keymap.md:206
+msgid "Move cursor and page half page up"
+msgstr ""
+
+#: src/keymap.md:62 src/keymap.md:206
+msgid "`page_cursor_half_up`"
+msgstr ""
+
+#: src/keymap.md:63 src/keymap.md:207 src/keymap.md:327
+msgid "`Ctrl-d`"
+msgstr ""
+
+#: src/keymap.md:63 src/keymap.md:207
+msgid "Move cursor and page half page down"
+msgstr ""
+
+#: src/keymap.md:63 src/keymap.md:207
+msgid "`page_cursor_half_down`"
+msgstr ""
+
+#: src/keymap.md:64
+msgid "`Ctrl-i`"
+msgstr ""
+
+#: src/keymap.md:64
+msgid "Jump forward on the jumplist"
+msgstr ""
+
+#: src/keymap.md:64
+msgid "`jump_forward`"
+msgstr ""
+
+#: src/keymap.md:65
+msgid "`Ctrl-o`"
+msgstr ""
+
+#: src/keymap.md:65
+msgid "Jump backward on the jumplist"
+msgstr ""
+
+#: src/keymap.md:65
+msgid "`jump_backward`"
+msgstr ""
+
+#: src/keymap.md:66 src/keymap.md:397 src/keymap.md:468 src/keymap.md:492
+msgid "`Ctrl-s`"
+msgstr ""
+
+#: src/keymap.md:66
+msgid "Save the current selection to the jumplist"
+msgstr ""
+
+#: src/keymap.md:66
+msgid "`save_selection`"
+msgstr ""
+
+#: src/keymap.md:68
+msgid "Changes"
+msgstr ""
+
+#: src/keymap.md:72 src/keymap.md:231 src/keymap.md:302
+msgid "`r`"
+msgstr ""
+
+#: src/keymap.md:72
+msgid "Replace with a character"
+msgstr ""
+
+#: src/keymap.md:72
+msgid "`replace`"
+msgstr ""
+
+#: src/keymap.md:73 src/keymap.md:314
+msgid "`R`"
+msgstr ""
+
+#: src/keymap.md:73
+msgid "Replace with yanked text"
+msgstr ""
+
+#: src/keymap.md:73
+msgid "`replace_with_yanked`"
+msgstr ""
+
+#: src/keymap.md:74
+msgid "`~`"
+msgstr ""
+
+#: src/keymap.md:74
+msgid "Switch case of the selected text"
+msgstr ""
+
+#: src/keymap.md:74
+msgid "`switch_case`"
+msgstr ""
+
+#: src/keymap.md:75
+msgid "`` ` ``"
+msgstr ""
+
+#: src/keymap.md:75
+msgid "Set the selected text to lower case"
+msgstr ""
+
+#: src/keymap.md:75
+msgid "`switch_to_lowercase`"
+msgstr ""
+
+#: src/keymap.md:76
+msgid "`` Alt-` ``"
+msgstr ""
+
+#: src/keymap.md:76
+msgid "Set the selected text to upper case"
+msgstr ""
+
+#: src/keymap.md:76
+msgid "`switch_to_uppercase`"
+msgstr ""
+
+#: src/keymap.md:77 src/keymap.md:232
+msgid "`i`"
+msgstr ""
+
+#: src/keymap.md:77
+msgid "Insert before selection"
+msgstr ""
+
+#: src/keymap.md:77
+msgid "`insert_mode`"
+msgstr ""
+
+#: src/keymap.md:78 src/keymap.md:233 src/keymap.md:303
+msgid "`a`"
+msgstr ""
+
+#: src/keymap.md:78
+msgid "Insert after selection (append)"
+msgstr ""
+
+#: src/keymap.md:78
+msgid "`append_mode`"
+msgstr ""
+
+#: src/keymap.md:79
+msgid "`I`"
+msgstr ""
+
+#: src/keymap.md:79
+msgid "Insert at the start of the line"
+msgstr ""
+
+#: src/keymap.md:79
+msgid "`insert_at_line_start`"
+msgstr ""
+
+#: src/keymap.md:80
+msgid "`A`"
+msgstr ""
+
+#: src/keymap.md:80
+msgid "Insert at the end of the line"
+msgstr ""
+
+#: src/keymap.md:80
+msgid "`insert_at_line_end`"
+msgstr ""
+
+#: src/keymap.md:81
+msgid "`o`"
+msgstr ""
+
+#: src/keymap.md:81
+msgid "Open new line below selection"
+msgstr ""
+
+#: src/keymap.md:81
+msgid "`open_below`"
+msgstr ""
+
+#: src/keymap.md:82
+msgid "`O`"
+msgstr ""
+
+#: src/keymap.md:82
+msgid "Open new line above selection"
+msgstr ""
+
+#: src/keymap.md:82
+msgid "`open_above`"
+msgstr ""
+
+#: src/keymap.md:83 src/keymap.md:237
+msgid "`.`"
+msgstr ""
+
+#: src/keymap.md:83
+msgid "Repeat last insert"
+msgstr ""
+
+#: src/keymap.md:83 src/keymap.md:175 src/keymap.md:176 src/keymap.md:178
+#: src/keymap.md:179 src/keymap.md:180 src/keymap.md:181 src/keymap.md:296
+#: src/keymap.md:306
+msgid "N/A"
+msgstr ""
+
+#: src/keymap.md:84
+msgid "`u`"
+msgstr ""
+
+#: src/keymap.md:84
+msgid "Undo change"
+msgstr ""
+
+#: src/keymap.md:84
+msgid "`undo`"
+msgstr ""
+
+#: src/keymap.md:85
+msgid "`U`"
+msgstr ""
+
+#: src/keymap.md:85
+msgid "Redo change"
+msgstr ""
+
+#: src/keymap.md:85
+msgid "`redo`"
+msgstr ""
+
+#: src/keymap.md:86
+msgid "`Alt-u`"
+msgstr ""
+
+#: src/keymap.md:86
+msgid "Move backward in history"
+msgstr ""
+
+#: src/keymap.md:86
+msgid "`earlier`"
+msgstr ""
+
+#: src/keymap.md:87
+msgid "`Alt-U`"
+msgstr ""
+
+#: src/keymap.md:87
+msgid "Move forward in history"
+msgstr ""
+
+#: src/keymap.md:87
+msgid "`later`"
+msgstr ""
+
+#: src/keymap.md:88 src/keymap.md:230 src/keymap.md:312
+msgid "`y`"
+msgstr ""
+
+#: src/keymap.md:88
+msgid "Yank selection"
+msgstr ""
+
+#: src/keymap.md:88
+msgid "`yank`"
+msgstr ""
+
+#: src/keymap.md:89 src/keymap.md:236 src/keymap.md:310
+msgid "`p`"
+msgstr ""
+
+#: src/keymap.md:89
+msgid "Paste after selection"
+msgstr ""
+
+#: src/keymap.md:89
+msgid "`paste_after`"
+msgstr ""
+
+#: src/keymap.md:90 src/keymap.md:311
+msgid "`P`"
+msgstr ""
+
+#: src/keymap.md:90
+msgid "Paste before selection"
+msgstr ""
+
+#: src/keymap.md:90
+msgid "`paste_before`"
+msgstr ""
+
+#: src/keymap.md:91
+msgid "`\"` `<reg>`"
+msgstr ""
+
+#: src/keymap.md:91
+msgid "Select a register to yank to or paste from"
+msgstr ""
+
+#: src/keymap.md:91
+msgid "`select_register`"
+msgstr ""
+
+#: src/keymap.md:92
+msgid "`>`"
+msgstr ""
+
+#: src/keymap.md:92
+msgid "Indent selection"
+msgstr ""
+
+#: src/keymap.md:92
+msgid "`indent`"
+msgstr ""
+
+#: src/keymap.md:93
+msgid "`<`"
+msgstr ""
+
+#: src/keymap.md:93
+msgid "Unindent selection"
+msgstr ""
+
+#: src/keymap.md:93
+msgid "`unindent`"
+msgstr ""
+
+#: src/keymap.md:94
+msgid "`=`"
+msgstr ""
+
+#: src/keymap.md:94
+msgid "Format selection (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:94
+msgid "`format_selections`"
+msgstr ""
+
+#: src/keymap.md:95 src/keymap.md:229 src/keymap.md:300
+msgid "`d`"
+msgstr ""
+
+#: src/keymap.md:95
+msgid "Delete selection"
+msgstr ""
+
+#: src/keymap.md:95
+msgid "`delete_selection`"
+msgstr ""
+
+#: src/keymap.md:96
+msgid "`Alt-d`"
+msgstr ""
+
+#: src/keymap.md:96
+msgid "Delete selection, without yanking"
+msgstr ""
+
+#: src/keymap.md:96
+msgid "`delete_selection_noyank`"
+msgstr ""
+
+#: src/keymap.md:97 src/keymap.md:227 src/keymap.md:307
+msgid "`c`"
+msgstr ""
+
+#: src/keymap.md:97
+msgid "Change selection (delete and enter insert mode)"
+msgstr ""
+
+#: src/keymap.md:97
+msgid "`change_selection`"
+msgstr ""
+
+#: src/keymap.md:98 src/keymap.md:309
+msgid "`Alt-c`"
+msgstr ""
+
+#: src/keymap.md:98
+msgid "Change selection (delete and enter insert mode, without yanking)"
+msgstr ""
+
+#: src/keymap.md:98
+msgid "`change_selection_noyank`"
+msgstr ""
+
+#: src/keymap.md:99
+msgid "`Ctrl-a`"
+msgstr ""
+
+#: src/keymap.md:99
+msgid "Increment object (number) under cursor"
+msgstr ""
+
+#: src/keymap.md:99
+msgid "`increment`"
+msgstr ""
+
+#: src/keymap.md:100 src/keymap.md:398
+msgid "`Ctrl-x`"
+msgstr ""
+
+#: src/keymap.md:100
+msgid "Decrement object (number) under cursor"
+msgstr ""
+
+#: src/keymap.md:100
+msgid "`decrement`"
+msgstr ""
+
+#: src/keymap.md:101
+msgid "`Q`"
+msgstr ""
+
+#: src/keymap.md:101
+msgid "Start/stop macro recording to the selected register (experimental)"
+msgstr ""
+
+#: src/keymap.md:101
+msgid "`record_macro`"
+msgstr ""
+
+#: src/keymap.md:102
+msgid "`q`"
+msgstr ""
+
+#: src/keymap.md:102
+msgid "Play back a recorded macro from the selected register (experimental)"
+msgstr ""
+
+#: src/keymap.md:102
+msgid "`replay_macro`"
+msgstr ""
+
+#: src/keymap.md:104
+msgid "Shell"
+msgstr ""
+
+#: src/keymap.md:108 src/keymap.md:220
+msgid "<code>\\|</code>"
+msgstr ""
+
+#: src/keymap.md:108
+msgid "Pipe each selection through shell command, replacing with output"
+msgstr ""
+
+#: src/keymap.md:108
+msgid "`shell_pipe`"
+msgstr ""
+
+#: src/keymap.md:109
+msgid "<code>Alt-\\|</code>"
+msgstr ""
+
+#: src/keymap.md:109
+msgid "Pipe each selection into shell command, ignoring output"
+msgstr ""
+
+#: src/keymap.md:109
+msgid "`shell_pipe_to`"
+msgstr ""
+
+#: src/keymap.md:110
+msgid "`!`"
+msgstr ""
+
+#: src/keymap.md:110
+msgid "Run shell command, inserting output before each selection"
+msgstr ""
+
+#: src/keymap.md:110
+msgid "`shell_insert_output`"
+msgstr ""
+
+#: src/keymap.md:111
+msgid "`Alt-!`"
+msgstr ""
+
+#: src/keymap.md:111
+msgid "Run shell command, appending output after each selection"
+msgstr ""
+
+#: src/keymap.md:111
+msgid "`shell_append_output`"
+msgstr ""
+
+#: src/keymap.md:112
+msgid "`$`"
+msgstr ""
+
+#: src/keymap.md:112
+msgid ""
+"Pipe each selection into shell command, keep selections where command "
+"returned 0"
+msgstr ""
+
+#: src/keymap.md:112
+msgid "`shell_keep_pipe`"
+msgstr ""
+
+#: src/keymap.md:115
+msgid "Selection manipulation"
+msgstr ""
+
+#: src/keymap.md:119 src/keymap.md:225 src/keymap.md:298
+msgid "`s`"
+msgstr ""
+
+#: src/keymap.md:119
+msgid "Select all regex matches inside selections"
+msgstr ""
+
+#: src/keymap.md:119
+msgid "`select_regex`"
+msgstr ""
+
+#: src/keymap.md:120 src/keymap.md:299
+msgid "`S`"
+msgstr ""
+
+#: src/keymap.md:120
+msgid "Split selection into sub selections on regex matches"
+msgstr ""
+
+#: src/keymap.md:120
+msgid "`split_selection`"
+msgstr ""
+
+#: src/keymap.md:121
+msgid "`Alt-s`"
+msgstr ""
+
+#: src/keymap.md:121
+msgid "Split selection on newlines"
+msgstr ""
+
+#: src/keymap.md:121
+msgid "`split_selection_on_newline`"
+msgstr ""
+
+#: src/keymap.md:122
+msgid "`Alt-minus`"
+msgstr ""
+
+#: src/keymap.md:122
+msgid "Merge selections"
+msgstr ""
+
+#: src/keymap.md:122
+msgid "`merge_selections`"
+msgstr ""
+
+#: src/keymap.md:123
+msgid "`Alt-_`"
+msgstr ""
+
+#: src/keymap.md:123
+msgid "Merge consecutive selections"
+msgstr ""
+
+#: src/keymap.md:123
+msgid "`merge_consecutive_selections`"
+msgstr ""
+
+#: src/keymap.md:124
+msgid "`&`"
+msgstr ""
+
+#: src/keymap.md:124
+msgid "Align selection in columns"
+msgstr ""
+
+#: src/keymap.md:124
+msgid "`align_selections`"
+msgstr ""
+
+#: src/keymap.md:125
+msgid "`_`"
+msgstr ""
+
+#: src/keymap.md:125
+msgid "Trim whitespace from the selection"
+msgstr ""
+
+#: src/keymap.md:125
+msgid "`trim_selections`"
+msgstr ""
+
+#: src/keymap.md:126
+msgid "`;`"
+msgstr ""
+
+#: src/keymap.md:126
+msgid "Collapse selection onto a single cursor"
+msgstr ""
+
+#: src/keymap.md:126
+msgid "`collapse_selection`"
+msgstr ""
+
+#: src/keymap.md:127
+msgid "`Alt-;`"
+msgstr ""
+
+#: src/keymap.md:127
+msgid "Flip selection cursor and anchor"
+msgstr ""
+
+#: src/keymap.md:127
+msgid "`flip_selections`"
+msgstr ""
+
+#: src/keymap.md:128
+msgid "`Alt-:`"
+msgstr ""
+
+#: src/keymap.md:128
+msgid "Ensures the selection is in forward direction"
+msgstr ""
+
+#: src/keymap.md:128
+msgid "`ensure_selections_forward`"
+msgstr ""
+
+#: src/keymap.md:129
+msgid "`,`"
+msgstr ""
+
+#: src/keymap.md:129
+msgid "Keep only the primary selection"
+msgstr ""
+
+#: src/keymap.md:129
+msgid "`keep_primary_selection`"
+msgstr ""
+
+#: src/keymap.md:130
+msgid "`Alt-,`"
+msgstr ""
+
+#: src/keymap.md:130
+msgid "Remove the primary selection"
+msgstr ""
+
+#: src/keymap.md:130
+msgid "`remove_primary_selection`"
+msgstr ""
+
+#: src/keymap.md:131 src/keymap.md:308
+msgid "`C`"
+msgstr ""
+
+#: src/keymap.md:131
+msgid "Copy selection onto the next line (Add cursor below)"
+msgstr ""
+
+#: src/keymap.md:131
+msgid "`copy_selection_on_next_line`"
+msgstr ""
+
+#: src/keymap.md:132
+msgid "`Alt-C`"
+msgstr ""
+
+#: src/keymap.md:132
+msgid "Copy selection onto the previous line (Add cursor above)"
+msgstr ""
+
+#: src/keymap.md:132
+msgid "`copy_selection_on_prev_line`"
+msgstr ""
+
+#: src/keymap.md:133
+msgid "`(`"
+msgstr ""
+
+#: src/keymap.md:133
+msgid "Rotate main selection backward"
+msgstr ""
+
+#: src/keymap.md:133
+msgid "`rotate_selections_backward`"
+msgstr ""
+
+#: src/keymap.md:134
+msgid "`)`"
+msgstr ""
+
+#: src/keymap.md:134
+msgid "Rotate main selection forward"
+msgstr ""
+
+#: src/keymap.md:134
+msgid "`rotate_selections_forward`"
+msgstr ""
+
+#: src/keymap.md:135
+msgid "`Alt-(`"
+msgstr ""
+
+#: src/keymap.md:135
+msgid "Rotate selection contents backward"
+msgstr ""
+
+#: src/keymap.md:135
+msgid "`rotate_selection_contents_backward`"
+msgstr ""
+
+#: src/keymap.md:136
+msgid "`Alt-)`"
+msgstr ""
+
+#: src/keymap.md:136
+msgid "Rotate selection contents forward"
+msgstr ""
+
+#: src/keymap.md:136
+msgid "`rotate_selection_contents_forward`"
+msgstr ""
+
+#: src/keymap.md:137
+msgid "`%`"
+msgstr ""
+
+#: src/keymap.md:137
+msgid "Select entire file"
+msgstr ""
+
+#: src/keymap.md:137
+msgid "`select_all`"
+msgstr ""
+
+#: src/keymap.md:138
+msgid "`x`"
+msgstr ""
+
+#: src/keymap.md:138
+msgid "Select current line, if already selected, extend to next line"
+msgstr ""
+
+#: src/keymap.md:138
+msgid "`extend_line_below`"
+msgstr ""
+
+#: src/keymap.md:139
+msgid "`X`"
+msgstr ""
+
+#: src/keymap.md:139
+msgid "Extend selection to line bounds (line-wise selection)"
+msgstr ""
+
+#: src/keymap.md:139
+msgid "`extend_to_line_bounds`"
+msgstr ""
+
+#: src/keymap.md:140
+msgid "`Alt-x`"
+msgstr ""
+
+#: src/keymap.md:140
+msgid "Shrink selection to line bounds (line-wise selection)"
+msgstr ""
+
+#: src/keymap.md:140
+msgid "`shrink_to_line_bounds`"
+msgstr ""
+
+#: src/keymap.md:141 src/keymap.md:279
+msgid "`J`"
+msgstr ""
+
+#: src/keymap.md:141
+msgid "Join lines inside selection"
+msgstr ""
+
+#: src/keymap.md:141
+msgid "`join_selections`"
+msgstr ""
+
+#: src/keymap.md:142
+msgid "`Alt-J`"
+msgstr ""
+
+#: src/keymap.md:142
+msgid "Join lines inside selection and select the inserted space"
+msgstr ""
+
+#: src/keymap.md:142
+msgid "`join_selections_space`"
+msgstr ""
+
+#: src/keymap.md:143 src/keymap.md:280
+msgid "`K`"
+msgstr ""
+
+#: src/keymap.md:143
+msgid "Keep selections matching the regex"
+msgstr ""
+
+#: src/keymap.md:143
+msgid "`keep_selections`"
+msgstr ""
+
+#: src/keymap.md:144
+msgid "`Alt-K`"
+msgstr ""
+
+#: src/keymap.md:144
+msgid "Remove selections matching the regex"
+msgstr ""
+
+#: src/keymap.md:144
+msgid "`remove_selections`"
+msgstr ""
+
+#: src/keymap.md:145 src/keymap.md:338
+msgid "`Ctrl-c`"
+msgstr ""
+
+#: src/keymap.md:145
+msgid "Comment/uncomment the selections"
+msgstr ""
+
+#: src/keymap.md:145 src/keymap.md:307
+msgid "`toggle_comments`"
+msgstr ""
+
+#: src/keymap.md:146
+msgid "`Alt-o`, `Alt-up`"
+msgstr ""
+
+#: src/keymap.md:146
+msgid "Expand selection to parent syntax node (**TS**)"
+msgstr ""
+
+#: src/keymap.md:146
+msgid "`expand_selection`"
+msgstr ""
+
+#: src/keymap.md:147
+msgid "`Alt-i`, `Alt-down`"
+msgstr ""
+
+#: src/keymap.md:147
+msgid "Shrink syntax tree object selection (**TS**)"
+msgstr ""
+
+#: src/keymap.md:147
+msgid "`shrink_selection`"
+msgstr ""
+
+#: src/keymap.md:148
+msgid "`Alt-p`, `Alt-left`"
+msgstr ""
+
+#: src/keymap.md:148
+msgid "Select previous sibling node in syntax tree (**TS**)"
+msgstr ""
+
+#: src/keymap.md:148
+msgid "`select_prev_sibling`"
+msgstr ""
+
+#: src/keymap.md:149
+msgid "`Alt-n`, `Alt-right`"
+msgstr ""
+
+#: src/keymap.md:149
+msgid "Select next sibling node in syntax tree (**TS**)"
+msgstr ""
+
+#: src/keymap.md:149
+msgid "`select_next_sibling`"
+msgstr ""
+
+#: src/keymap.md:150
+msgid "`Alt-a`"
+msgstr ""
+
+#: src/keymap.md:150
+msgid "Select all sibling nodes in syntax tree (**TS**)"
+msgstr ""
+
+#: src/keymap.md:150
+msgid "`select_all_siblings`"
+msgstr ""
+
+#: src/keymap.md:151
+msgid "`Alt-I`, `Alt-Shift-down`"
+msgstr ""
+
+#: src/keymap.md:151
+msgid "Select all children nodes in syntax tree (**TS**)"
+msgstr ""
+
+#: src/keymap.md:151
+msgid "`select_all_children`"
+msgstr ""
+
+#: src/keymap.md:152
+msgid "`Alt-e`"
+msgstr ""
+
+#: src/keymap.md:152
+msgid "Move to end of parent node in syntax tree (**TS**)"
+msgstr ""
+
+#: src/keymap.md:152
+msgid "`move_parent_node_end`"
+msgstr ""
+
+#: src/keymap.md:153
+msgid "`Alt-b`"
+msgstr ""
+
+#: src/keymap.md:153
+msgid "Move to start of parent node in syntax tree (**TS**)"
+msgstr ""
+
+#: src/keymap.md:153
+msgid "`move_parent_node_start`"
+msgstr ""
+
+#: src/keymap.md:155
+msgid "Search"
+msgstr ""
+
+#: src/keymap.md:157
+msgid ""
+"Search commands all operate on the `/` register by default. To use a "
+"different register, use `\"<char>`."
+msgstr ""
+
+#: src/keymap.md:161 src/keymap.md:315
+msgid "`/`"
+msgstr ""
+
+#: src/keymap.md:161
+msgid "Search for regex pattern"
+msgstr ""
+
+#: src/keymap.md:161
+msgid "`search`"
+msgstr ""
+
+#: src/keymap.md:162 src/keymap.md:316
+msgid "`?`"
+msgstr ""
+
+#: src/keymap.md:162
+msgid "Search for previous pattern"
+msgstr ""
+
+#: src/keymap.md:162
+msgid "`rsearch`"
+msgstr ""
+
+#: src/keymap.md:163 src/keymap.md:235
+msgid "`n`"
+msgstr ""
+
+#: src/keymap.md:163
+msgid "Select next search match"
+msgstr ""
+
+#: src/keymap.md:163
+msgid "`search_next`"
+msgstr ""
+
+#: src/keymap.md:164
+msgid "`N`"
+msgstr ""
+
+#: src/keymap.md:164
+msgid "Select previous search match"
+msgstr ""
+
+#: src/keymap.md:164
+msgid "`search_prev`"
+msgstr ""
+
+#: src/keymap.md:165
+msgid "`*`"
+msgstr ""
+
+#: src/keymap.md:165
+msgid ""
+"Use current selection as the search pattern, automatically wrapping with "
+"`\\b` on word boundaries"
+msgstr ""
+
+#: src/keymap.md:165
+msgid "`search_selection_detect_word_boundaries`"
+msgstr ""
+
+#: src/keymap.md:166
+msgid "`Alt-*`"
+msgstr ""
+
+#: src/keymap.md:166
+msgid "Use current selection as the search pattern"
+msgstr ""
+
+#: src/keymap.md:166
+msgid "`search_selection`"
+msgstr ""
+
+#: src/keymap.md:168
+msgid "Minor modes"
+msgstr ""
+
+#: src/keymap.md:170
+msgid ""
+"These sub-modes are accessible from normal mode and typically switch back to "
+"normal mode after a command."
+msgstr ""
+
+#: src/keymap.md:174
+msgid "`v`"
+msgstr ""
+
+#: src/keymap.md:174
+msgid "Enter [select (extend) mode](#select--extend-mode)"
+msgstr ""
+
+#: src/keymap.md:174
+msgid "`select_mode`"
+msgstr ""
+
+#: src/keymap.md:175 src/keymap.md:218 src/keymap.md:295
+msgid "`g`"
+msgstr ""
+
+#: src/keymap.md:175
+msgid "Enter [goto mode](#goto-mode)"
+msgstr ""
+
+#: src/keymap.md:176 src/keymap.md:201 src/keymap.md:234 src/keymap.md:250
+msgid "`m`"
+msgstr ""
+
+#: src/keymap.md:176
+msgid "Enter [match mode](#match-mode)"
+msgstr ""
+
+#: src/keymap.md:177
+msgid "`:`"
+msgstr ""
+
+#: src/keymap.md:177
+msgid "Enter command mode"
+msgstr ""
+
+#: src/keymap.md:177
+msgid "`command_mode`"
+msgstr ""
+
+#: src/keymap.md:178
+msgid "`z`"
+msgstr ""
+
+#: src/keymap.md:178
+msgid "Enter [view mode](#view-mode)"
+msgstr ""
+
+#: src/keymap.md:179
+msgid "`Z`"
+msgstr ""
+
+#: src/keymap.md:179
+msgid "Enter sticky [view mode](#view-mode)"
+msgstr ""
+
+#: src/keymap.md:180
+msgid "`Ctrl-w`"
+msgstr ""
+
+#: src/keymap.md:180 src/keymap.md:306
+msgid "Enter [window mode](#window-mode)"
+msgstr ""
+
+#: src/keymap.md:181
+msgid "`Space`"
+msgstr ""
+
+#: src/keymap.md:181
+msgid "Enter [space mode](#space-mode)"
+msgstr ""
+
+#: src/keymap.md:183
+msgid ""
+"These modes (except command mode) can be configured by [remapping keys]"
+"(https://docs.helix-editor.com/remapping.html#minor-modes)."
+msgstr ""
+
+#: src/keymap.md:186
+msgid "View mode"
+msgstr ""
+
+#: src/keymap.md:188
+msgid "Accessed by typing `z` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:190
+msgid ""
+"View mode is intended for scrolling and manipulating the view without "
+"changing the selection. The \"sticky\" variant of this mode (accessed by "
+"typing `Z` in normal mode) is persistent and can be exited using the escape "
+"key. This is useful when you're simply looking over text and not actively "
+"editing it."
+msgstr ""
+
+#: src/keymap.md:198
+msgid "`z`, `c`"
+msgstr ""
+
+#: src/keymap.md:198
+msgid "Vertically center the line"
+msgstr ""
+
+#: src/keymap.md:198
+msgid "`align_view_center`"
+msgstr ""
+
+#: src/keymap.md:199
+msgid "Align the line to the top of the screen"
+msgstr ""
+
+#: src/keymap.md:199
+msgid "`align_view_top`"
+msgstr ""
+
+#: src/keymap.md:200
+msgid "Align the line to the bottom of the screen"
+msgstr ""
+
+#: src/keymap.md:200
+msgid "`align_view_bottom`"
+msgstr ""
+
+#: src/keymap.md:201
+msgid "Align the line to the middle of the screen (horizontally)"
+msgstr ""
+
+#: src/keymap.md:201
+msgid "`align_view_middle`"
+msgstr ""
+
+#: src/keymap.md:202
+msgid "`j`, `down`"
+msgstr ""
+
+#: src/keymap.md:202
+msgid "Scroll the view downwards"
+msgstr ""
+
+#: src/keymap.md:202
+msgid "`scroll_down`"
+msgstr ""
+
+#: src/keymap.md:203
+msgid "`k`, `up`"
+msgstr ""
+
+#: src/keymap.md:203
+msgid "Scroll the view upwards"
+msgstr ""
+
+#: src/keymap.md:203
+msgid "`scroll_up`"
+msgstr ""
+
+#: src/keymap.md:209
+msgid "Goto mode"
+msgstr ""
+
+#: src/keymap.md:211
+msgid "Accessed by typing `g` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:213
+msgid "Jumps to various locations."
+msgstr ""
+
+#: src/keymap.md:217
+msgid "`<n>g`"
+msgstr ""
+
+#: src/keymap.md:217 src/keymap.md:218
+msgid "`goto_file_start`"
+msgstr ""
+
+#: src/keymap.md:218
+msgid "Go to the start of the file"
+msgstr ""
+
+#: src/keymap.md:219
+msgid "<code>\\<n\\>\\|</code>"
+msgstr ""
+
+#: src/keymap.md:219
+msgid "Go to column number `<n>`"
+msgstr ""
+
+#: src/keymap.md:219 src/keymap.md:220
+msgid "`goto_column`"
+msgstr ""
+
+#: src/keymap.md:220
+msgid "Go to the start of line"
+msgstr ""
+
+#: src/keymap.md:221
+msgid "Go to the end of the file"
+msgstr ""
+
+#: src/keymap.md:221
+msgid "`goto_last_line`"
+msgstr ""
+
+#: src/keymap.md:222
+msgid "Go to files in the selections"
+msgstr ""
+
+#: src/keymap.md:222 src/keymap.md:270 src/keymap.md:271
+msgid "`goto_file`"
+msgstr ""
+
+#: src/keymap.md:223 src/keymap.md:304
+msgid "`h`"
+msgstr ""
+
+#: src/keymap.md:223
+msgid "Go to the start of the line"
+msgstr ""
+
+#: src/keymap.md:224
+msgid "`l`"
+msgstr ""
+
+#: src/keymap.md:224
+msgid "Go to the end of the line"
+msgstr ""
+
+#: src/keymap.md:225
+msgid "Go to first non-whitespace character of the line"
+msgstr ""
+
+#: src/keymap.md:225
+msgid "`goto_first_nonwhitespace`"
+msgstr ""
+
+#: src/keymap.md:226
+msgid "Go to the top of the screen"
+msgstr ""
+
+#: src/keymap.md:226
+msgid "`goto_window_top`"
+msgstr ""
+
+#: src/keymap.md:227
+msgid "Go to the middle of the screen"
+msgstr ""
+
+#: src/keymap.md:227
+msgid "`goto_window_center`"
+msgstr ""
+
+#: src/keymap.md:228
+msgid "Go to the bottom of the screen"
+msgstr ""
+
+#: src/keymap.md:228
+msgid "`goto_window_bottom`"
+msgstr ""
+
+#: src/keymap.md:229
+msgid "Go to definition (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:229
+msgid "`goto_definition`"
+msgstr ""
+
+#: src/keymap.md:230
+msgid "Go to type definition (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:230
+msgid "`goto_type_definition`"
+msgstr ""
+
+#: src/keymap.md:231
+msgid "Go to references (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:231
+msgid "`goto_reference`"
+msgstr ""
+
+#: src/keymap.md:232
+msgid "Go to implementation (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:232
+msgid "`goto_implementation`"
+msgstr ""
+
+#: src/keymap.md:233
+msgid "Go to the last accessed/alternate file"
+msgstr ""
+
+#: src/keymap.md:233
+msgid "`goto_last_accessed_file`"
+msgstr ""
+
+#: src/keymap.md:234
+msgid "Go to the last modified/alternate file"
+msgstr ""
+
+#: src/keymap.md:234
+msgid "`goto_last_modified_file`"
+msgstr ""
+
+#: src/keymap.md:235
+msgid "Go to next buffer"
+msgstr ""
+
+#: src/keymap.md:235
+msgid "`goto_next_buffer`"
+msgstr ""
+
+#: src/keymap.md:236
+msgid "Go to previous buffer"
+msgstr ""
+
+#: src/keymap.md:236
+msgid "`goto_previous_buffer`"
+msgstr ""
+
+#: src/keymap.md:237
+msgid "Go to last modification in current file"
+msgstr ""
+
+#: src/keymap.md:237
+msgid "`goto_last_modification`"
+msgstr ""
+
+#: src/keymap.md:238 src/keymap.md:294
+msgid "`j`"
+msgstr ""
+
+#: src/keymap.md:238
+msgid "Move down textual (instead of visual) line"
+msgstr ""
+
+#: src/keymap.md:238 src/keymap.md:414
+msgid "`move_line_down`"
+msgstr ""
+
+#: src/keymap.md:239 src/keymap.md:297
+msgid "`k`"
+msgstr ""
+
+#: src/keymap.md:239
+msgid "Move up textual (instead of visual) line"
+msgstr ""
+
+#: src/keymap.md:239 src/keymap.md:413
+msgid "`move_line_up`"
+msgstr ""
+
+#: src/keymap.md:240
+msgid ""
+"Show labels at each word and select the word that belongs to the entered "
+"labels"
+msgstr ""
+
+#: src/keymap.md:240
+msgid "`goto_word`"
+msgstr ""
+
+#: src/keymap.md:242
+msgid "Match mode"
+msgstr ""
+
+#: src/keymap.md:244
+msgid "Accessed by typing `m` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:246
+msgid ""
+"Please refer to the relevant sections for detailed explanations about "
+"[surround](./surround.md) and [textobjects](./textobjects.md)."
+msgstr ""
+
+#: src/keymap.md:250
+msgid "Goto matching bracket (**TS**)"
+msgstr ""
+
+#: src/keymap.md:250
+msgid "`match_brackets`"
+msgstr ""
+
+#: src/keymap.md:251
+msgid "`s` `<char>`"
+msgstr ""
+
+#: src/keymap.md:251
+msgid "Surround current selection with `<char>`"
+msgstr ""
+
+#: src/keymap.md:251
+msgid "`surround_add`"
+msgstr ""
+
+#: src/keymap.md:252
+msgid "`r` `<from><to>`"
+msgstr ""
+
+#: src/keymap.md:252
+msgid "Replace surround character `<from>` with `<to>`"
+msgstr ""
+
+#: src/keymap.md:252
+msgid "`surround_replace`"
+msgstr ""
+
+#: src/keymap.md:253
+msgid "`d` `<char>`"
+msgstr ""
+
+#: src/keymap.md:253
+msgid "Delete surround character `<char>`"
+msgstr ""
+
+#: src/keymap.md:253
+msgid "`surround_delete`"
+msgstr ""
+
+#: src/keymap.md:254
+msgid "`a` `<object>`"
+msgstr ""
+
+#: src/keymap.md:254
+msgid "Select around textobject"
+msgstr ""
+
+#: src/keymap.md:254
+msgid "`select_textobject_around`"
+msgstr ""
+
+#: src/keymap.md:255
+msgid "`i` `<object>`"
+msgstr ""
+
+#: src/keymap.md:255
+msgid "Select inside textobject"
+msgstr ""
+
+#: src/keymap.md:255
+msgid "`select_textobject_inner`"
+msgstr ""
+
+#: src/keymap.md:257
+msgid "TODO: Mappings for selecting syntax nodes (a superset of `[`)."
+msgstr ""
+
+#: src/keymap.md:259
+msgid "Window mode"
+msgstr ""
+
+#: src/keymap.md:261
+msgid "Accessed by typing `Ctrl-w` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:263
+msgid ""
+"This layer is similar to Vim keybindings as Kakoune does not support windows."
+msgstr ""
+
+#: src/keymap.md:267
+msgid "`w`, `Ctrl-w`"
+msgstr ""
+
+#: src/keymap.md:267
+msgid "Switch to next window"
+msgstr ""
+
+#: src/keymap.md:267
+msgid "`rotate_view`"
+msgstr ""
+
+#: src/keymap.md:268
+msgid "`v`, `Ctrl-v`"
+msgstr ""
+
+#: src/keymap.md:268
+msgid "Vertical right split"
+msgstr ""
+
+#: src/keymap.md:268
+msgid "`vsplit`"
+msgstr ""
+
+#: src/keymap.md:269
+msgid "`s`, `Ctrl-s`"
+msgstr ""
+
+#: src/keymap.md:269
+msgid "Horizontal bottom split"
+msgstr ""
+
+#: src/keymap.md:269
+msgid "`hsplit`"
+msgstr ""
+
+#: src/keymap.md:270
+msgid "Go to files in the selections in horizontal splits"
+msgstr ""
+
+#: src/keymap.md:271
+msgid "Go to files in the selections in vertical splits"
+msgstr ""
+
+#: src/keymap.md:272
+msgid "`h`, `Ctrl-h`, `Left`"
+msgstr ""
+
+#: src/keymap.md:272
+msgid "Move to left split"
+msgstr ""
+
+#: src/keymap.md:272
+msgid "`jump_view_left`"
+msgstr ""
+
+#: src/keymap.md:273
+msgid "`j`, `Ctrl-j`, `Down`"
+msgstr ""
+
+#: src/keymap.md:273
+msgid "Move to split below"
+msgstr ""
+
+#: src/keymap.md:273
+msgid "`jump_view_down`"
+msgstr ""
+
+#: src/keymap.md:274
+msgid "`k`, `Ctrl-k`, `Up`"
+msgstr ""
+
+#: src/keymap.md:274
+msgid "Move to split above"
+msgstr ""
+
+#: src/keymap.md:274
+msgid "`jump_view_up`"
+msgstr ""
+
+#: src/keymap.md:275
+msgid "`l`, `Ctrl-l`, `Right`"
+msgstr ""
+
+#: src/keymap.md:275
+msgid "Move to right split"
+msgstr ""
+
+#: src/keymap.md:275
+msgid "`jump_view_right`"
+msgstr ""
+
+#: src/keymap.md:276
+msgid "`q`, `Ctrl-q`"
+msgstr ""
+
+#: src/keymap.md:276
+msgid "Close current window"
+msgstr ""
+
+#: src/keymap.md:276
+msgid "`wclose`"
+msgstr ""
+
+#: src/keymap.md:277
+msgid "`o`, `Ctrl-o`"
+msgstr ""
+
+#: src/keymap.md:277
+msgid "Only keep the current window, closing all the others"
+msgstr ""
+
+#: src/keymap.md:277
+msgid "`wonly`"
+msgstr ""
+
+#: src/keymap.md:278
+msgid "`H`"
+msgstr ""
+
+#: src/keymap.md:278
+msgid "Swap window to the left"
+msgstr ""
+
+#: src/keymap.md:278
+msgid "`swap_view_left`"
+msgstr ""
+
+#: src/keymap.md:279
+msgid "Swap window downwards"
+msgstr ""
+
+#: src/keymap.md:279
+msgid "`swap_view_down`"
+msgstr ""
+
+#: src/keymap.md:280
+msgid "Swap window upwards"
+msgstr ""
+
+#: src/keymap.md:280
+msgid "`swap_view_up`"
+msgstr ""
+
+#: src/keymap.md:281
+msgid "`L`"
+msgstr ""
+
+#: src/keymap.md:281
+msgid "Swap window to the right"
+msgstr ""
+
+#: src/keymap.md:281
+msgid "`swap_view_right`"
+msgstr ""
+
+#: src/keymap.md:283
+msgid "Space mode"
+msgstr ""
+
+#: src/keymap.md:285
+msgid "Accessed by typing `Space` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:287
+msgid "This layer is a kludge of mappings, mostly pickers."
+msgstr ""
+
+#: src/keymap.md:291
+msgid "Open file picker at LSP workspace root"
+msgstr ""
+
+#: src/keymap.md:291
+msgid "`file_picker`"
+msgstr ""
+
+#: src/keymap.md:292
+msgid "Open file picker at current working directory"
+msgstr ""
+
+#: src/keymap.md:292
+msgid "`file_picker_in_current_directory`"
+msgstr ""
+
+#: src/keymap.md:293
+msgid "Open buffer picker"
+msgstr ""
+
+#: src/keymap.md:293
+msgid "`buffer_picker`"
+msgstr ""
+
+#: src/keymap.md:294
+msgid "Open jumplist picker"
+msgstr ""
+
+#: src/keymap.md:294
+msgid "`jumplist_picker`"
+msgstr ""
+
+#: src/keymap.md:295
+msgid "Open changed file picker"
+msgstr ""
+
+#: src/keymap.md:295
+msgid "`changed_file_picker`"
+msgstr ""
+
+#: src/keymap.md:296
+msgid "`G`"
+msgstr ""
+
+#: src/keymap.md:296
+msgid "Debug (experimental)"
+msgstr ""
+
+#: src/keymap.md:297
+msgid "Show documentation for item under cursor in a [popup](#popup) (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:297
+msgid "`hover`"
+msgstr ""
+
+#: src/keymap.md:298
+msgid "Open document symbol picker (**LSP** or **TS**)"
+msgstr ""
+
+#: src/keymap.md:298
+msgid "`lsp_or_syntax_symbol_picker`"
+msgstr ""
+
+#: src/keymap.md:299
+msgid "Open workspace symbol picker (**LSP** or **TS**)"
+msgstr ""
+
+#: src/keymap.md:299
+msgid "`lsp_or_syntax_workspace_symbol_picker`"
+msgstr ""
+
+#: src/keymap.md:300
+msgid "Open document diagnostics picker (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:300
+msgid "`diagnostics_picker`"
+msgstr ""
+
+#: src/keymap.md:301
+msgid "`D`"
+msgstr ""
+
+#: src/keymap.md:301
+msgid "Open workspace diagnostics picker (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:301
+msgid "`workspace_diagnostics_picker`"
+msgstr ""
+
+#: src/keymap.md:302
+msgid "Rename symbol (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:302
+msgid "`rename_symbol`"
+msgstr ""
+
+#: src/keymap.md:303
+msgid "Apply code action (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:303
+msgid "`code_action`"
+msgstr ""
+
+#: src/keymap.md:304
+msgid "Select symbol references (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:304
+msgid "`select_references_to_symbol_under_cursor`"
+msgstr ""
+
+#: src/keymap.md:305
+msgid "`'`"
+msgstr ""
+
+#: src/keymap.md:305
+msgid "Open last fuzzy picker"
+msgstr ""
+
+#: src/keymap.md:305
+msgid "`last_picker`"
+msgstr ""
+
+#: src/keymap.md:307
+msgid "Comment/uncomment selections"
+msgstr ""
+
+#: src/keymap.md:308
+msgid "Block comment/uncomment selections"
+msgstr ""
+
+#: src/keymap.md:308
+msgid "`toggle_block_comments`"
+msgstr ""
+
+#: src/keymap.md:309
+msgid "Line comment/uncomment selections"
+msgstr ""
+
+#: src/keymap.md:309
+msgid "`toggle_line_comments`"
+msgstr ""
+
+#: src/keymap.md:310
+msgid "Paste system clipboard after selections"
+msgstr ""
+
+#: src/keymap.md:310
+msgid "`paste_clipboard_after`"
+msgstr ""
+
+#: src/keymap.md:311
+msgid "Paste system clipboard before selections"
+msgstr ""
+
+#: src/keymap.md:311
+msgid "`paste_clipboard_before`"
+msgstr ""
+
+#: src/keymap.md:312
+msgid "Yank selections to clipboard"
+msgstr ""
+
+#: src/keymap.md:312
+msgid "`yank_to_clipboard`"
+msgstr ""
+
+#: src/keymap.md:313
+msgid "`Y`"
+msgstr ""
+
+#: src/keymap.md:313
+msgid "Yank main selection to clipboard"
+msgstr ""
+
+#: src/keymap.md:313
+msgid "`yank_main_selection_to_clipboard`"
+msgstr ""
+
+#: src/keymap.md:314
+msgid "Replace selections by clipboard contents"
+msgstr ""
+
+#: src/keymap.md:314
+msgid "`replace_selections_with_clipboard`"
+msgstr ""
+
+#: src/keymap.md:315
+msgid "Global search in workspace folder"
+msgstr ""
+
+#: src/keymap.md:315
+msgid "`global_search`"
+msgstr ""
+
+#: src/keymap.md:316
+msgid "Open command palette"
+msgstr ""
+
+#: src/keymap.md:316
+msgid "`command_palette`"
+msgstr ""
+
+#: src/keymap.md:318
+msgid ""
+"💡 Global search displays results in a fuzzy picker, use `Space + '` to "
+"bring it back up after opening a file."
+msgstr ""
+
+#: src/keymap.md:320
+msgid "Popup"
+msgstr ""
+
+#: src/keymap.md:322
+msgid ""
+"Displays documentation for item under cursor. Remapping currently not "
+"supported."
+msgstr ""
+
+#: src/keymap.md:326
+msgid "Scroll up"
+msgstr ""
+
+#: src/keymap.md:327
+msgid "Scroll down"
+msgstr ""
+
+#: src/keymap.md:329
+msgid "Completion Menu"
+msgstr ""
+
+#: src/keymap.md:331
+msgid ""
+"Displays documentation for the selected completion item. Remapping currently "
+"not supported."
+msgstr ""
+
+#: src/keymap.md:335
+msgid "`Shift-Tab`, `Ctrl-p`, `Up`"
+msgstr ""
+
+#: src/keymap.md:335 src/keymap.md:460
+msgid "Previous entry"
+msgstr ""
+
+#: src/keymap.md:336
+msgid "`Tab`, `Ctrl-n`, `Down`"
+msgstr ""
+
+#: src/keymap.md:336 src/keymap.md:461
+msgid "Next entry"
+msgstr ""
+
+#: src/keymap.md:337 src/keymap.md:466 src/keymap.md:498
+msgid "`Enter`"
+msgstr ""
+
+#: src/keymap.md:337
+msgid "Close menu and accept completion"
+msgstr ""
+
+#: src/keymap.md:338
+msgid "Close menu and reject completion"
+msgstr ""
+
+#: src/keymap.md:340
+msgid "Any other keypresses result in the completion being accepted."
+msgstr ""
+
+#: src/keymap.md:342
+msgid "Signature-help Popup"
+msgstr ""
+
+#: src/keymap.md:344
+msgid ""
+"Displays the signature of the selected completion item. Remapping currently "
+"not supported."
+msgstr ""
+
+#: src/keymap.md:348
+msgid "`Alt-p`"
+msgstr ""
+
+#: src/keymap.md:348
+msgid "Previous signature"
+msgstr ""
+
+#: src/keymap.md:349
+msgid "`Alt-n`"
+msgstr ""
+
+#: src/keymap.md:349
+msgid "Next signature"
+msgstr ""
+
+#: src/keymap.md:351
+msgid "Unimpaired"
+msgstr ""
+
+#: src/keymap.md:353
+msgid ""
+"These mappings are in the style of [vim-unimpaired](https://github.com/tpope/"
+"vim-unimpaired)."
+msgstr ""
+
+#: src/keymap.md:357
+msgid "`]d`"
+msgstr ""
+
+#: src/keymap.md:357
+msgid "Go to next diagnostic (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:357
+msgid "`goto_next_diag`"
+msgstr ""
+
+#: src/keymap.md:358
+msgid "`[d`"
+msgstr ""
+
+#: src/keymap.md:358
+msgid "Go to previous diagnostic (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:358
+msgid "`goto_prev_diag`"
+msgstr ""
+
+#: src/keymap.md:359
+msgid "`]D`"
+msgstr ""
+
+#: src/keymap.md:359
+msgid "Go to last diagnostic in document (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:359
+msgid "`goto_last_diag`"
+msgstr ""
+
+#: src/keymap.md:360
+msgid "`[D`"
+msgstr ""
+
+#: src/keymap.md:360
+msgid "Go to first diagnostic in document (**LSP**)"
+msgstr ""
+
+#: src/keymap.md:360
+msgid "`goto_first_diag`"
+msgstr ""
+
+#: src/keymap.md:361
+msgid "`]f`"
+msgstr ""
+
+#: src/keymap.md:361
+msgid "Go to next function (**TS**)"
+msgstr ""
+
+#: src/keymap.md:361
+msgid "`goto_next_function`"
+msgstr ""
+
+#: src/keymap.md:362
+msgid "`[f`"
+msgstr ""
+
+#: src/keymap.md:362
+msgid "Go to previous function (**TS**)"
+msgstr ""
+
+#: src/keymap.md:362
+msgid "`goto_prev_function`"
+msgstr ""
+
+#: src/keymap.md:363
+msgid "`]t`"
+msgstr ""
+
+#: src/keymap.md:363
+msgid "Go to next type definition (**TS**)"
+msgstr ""
+
+#: src/keymap.md:363
+msgid "`goto_next_class`"
+msgstr ""
+
+#: src/keymap.md:364
+msgid "`[t`"
+msgstr ""
+
+#: src/keymap.md:364
+msgid "Go to previous type definition (**TS**)"
+msgstr ""
+
+#: src/keymap.md:364
+msgid "`goto_prev_class`"
+msgstr ""
+
+#: src/keymap.md:365
+msgid "`]a`"
+msgstr ""
+
+#: src/keymap.md:365
+msgid "Go to next argument/parameter (**TS**)"
+msgstr ""
+
+#: src/keymap.md:365
+msgid "`goto_next_parameter`"
+msgstr ""
+
+#: src/keymap.md:366
+msgid "`[a`"
+msgstr ""
+
+#: src/keymap.md:366
+msgid "Go to previous argument/parameter (**TS**)"
+msgstr ""
+
+#: src/keymap.md:366
+msgid "`goto_prev_parameter`"
+msgstr ""
+
+#: src/keymap.md:367
+msgid "`]c`"
+msgstr ""
+
+#: src/keymap.md:367
+msgid "Go to next comment (**TS**)"
+msgstr ""
+
+#: src/keymap.md:367
+msgid "`goto_next_comment`"
+msgstr ""
+
+#: src/keymap.md:368
+msgid "`[c`"
+msgstr ""
+
+#: src/keymap.md:368
+msgid "Go to previous comment (**TS**)"
+msgstr ""
+
+#: src/keymap.md:368
+msgid "`goto_prev_comment`"
+msgstr ""
+
+#: src/keymap.md:369
+msgid "`]T`"
+msgstr ""
+
+#: src/keymap.md:369
+msgid "Go to next test (**TS**)"
+msgstr ""
+
+#: src/keymap.md:369
+msgid "`goto_next_test`"
+msgstr ""
+
+#: src/keymap.md:370
+msgid "`[T`"
+msgstr ""
+
+#: src/keymap.md:370
+msgid "Go to previous test (**TS**)"
+msgstr ""
+
+#: src/keymap.md:370
+msgid "`goto_prev_test`"
+msgstr ""
+
+#: src/keymap.md:371
+msgid "`]p`"
+msgstr ""
+
+#: src/keymap.md:371
+msgid "Go to next paragraph"
+msgstr ""
+
+#: src/keymap.md:371
+msgid "`goto_next_paragraph`"
+msgstr ""
+
+#: src/keymap.md:372
+msgid "`[p`"
+msgstr ""
+
+#: src/keymap.md:372
+msgid "Go to previous paragraph"
+msgstr ""
+
+#: src/keymap.md:372
+msgid "`goto_prev_paragraph`"
+msgstr ""
+
+#: src/keymap.md:373
+msgid "`]g`"
+msgstr ""
+
+#: src/keymap.md:373
+msgid "Go to next change"
+msgstr ""
+
+#: src/keymap.md:373
+msgid "`goto_next_change`"
+msgstr ""
+
+#: src/keymap.md:374
+msgid "`[g`"
+msgstr ""
+
+#: src/keymap.md:374
+msgid "Go to previous change"
+msgstr ""
+
+#: src/keymap.md:374
+msgid "`goto_prev_change`"
+msgstr ""
+
+#: src/keymap.md:375
+msgid "`]G`"
+msgstr ""
+
+#: src/keymap.md:375
+msgid "Go to last change"
+msgstr ""
+
+#: src/keymap.md:375
+msgid "`goto_last_change`"
+msgstr ""
+
+#: src/keymap.md:376
+msgid "`[G`"
+msgstr ""
+
+#: src/keymap.md:376
+msgid "Go to first change"
+msgstr ""
+
+#: src/keymap.md:376
+msgid "`goto_first_change`"
+msgstr ""
+
+#: src/keymap.md:377
+msgid "`[x`"
+msgstr ""
+
+#: src/keymap.md:377
+msgid "Go to next (X)HTML element"
+msgstr ""
+
+#: src/keymap.md:377
+msgid "`goto_next_xml_element`"
+msgstr ""
+
+#: src/keymap.md:378
+msgid "`]x`"
+msgstr ""
+
+#: src/keymap.md:378
+msgid "Go to previous (X)HTML element"
+msgstr ""
+
+#: src/keymap.md:378
+msgid "`goto_prev_xml_element`"
+msgstr ""
+
+#: src/keymap.md:379
+msgid "`]Space`"
+msgstr ""
+
+#: src/keymap.md:379
+msgid "Add newline below"
+msgstr ""
+
+#: src/keymap.md:379
+msgid "`add_newline_below`"
+msgstr ""
+
+#: src/keymap.md:380
+msgid "`[Space`"
+msgstr ""
+
+#: src/keymap.md:380
+msgid "Add newline above"
+msgstr ""
+
+#: src/keymap.md:380
+msgid "`add_newline_above`"
+msgstr ""
+
+#: src/keymap.md:382
+msgid "Insert mode"
+msgstr ""
+
+#: src/keymap.md:384
+msgid "Accessed by typing `i` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:386
+msgid ""
+"Insert mode bindings are minimal by default. Helix is designed to be a modal "
+"editor, and this is reflected in the user experience and internal mechanics. "
+"Changes to the text are only saved for undos when escaping from insert mode "
+"to normal mode."
+msgstr ""
+
+#: src/keymap.md:391
+msgid ""
+"💡 New users are strongly encouraged to learn the modal editing paradigm to "
+"get the smoothest experience."
+msgstr ""
+
+#: src/keymap.md:396
+msgid "`Escape`"
+msgstr ""
+
+#: src/keymap.md:396
+msgid "Switch to normal mode"
+msgstr ""
+
+#: src/keymap.md:396
+msgid "`normal_mode`"
+msgstr ""
+
+#: src/keymap.md:397
+msgid "Commit undo checkpoint"
+msgstr ""
+
+#: src/keymap.md:397
+msgid "`commit_undo_checkpoint`"
+msgstr ""
+
+#: src/keymap.md:398
+msgid "Autocomplete"
+msgstr ""
+
+#: src/keymap.md:398
+msgid "`completion`"
+msgstr ""
+
+#: src/keymap.md:399 src/keymap.md:495
+msgid "`Ctrl-r`"
+msgstr ""
+
+#: src/keymap.md:399
+msgid "Insert a register content"
+msgstr ""
+
+#: src/keymap.md:399
+msgid "`insert_register`"
+msgstr ""
+
+#: src/keymap.md:400
+msgid "`Ctrl-w`, `Alt-Backspace`"
+msgstr ""
+
+#: src/keymap.md:400 src/keymap.md:486
+msgid "Delete previous word"
+msgstr ""
+
+#: src/keymap.md:400
+msgid "`delete_word_backward`"
+msgstr ""
+
+#: src/keymap.md:401
+msgid "`Alt-d`, `Alt-Delete`"
+msgstr ""
+
+#: src/keymap.md:401 src/keymap.md:487
+msgid "Delete next word"
+msgstr ""
+
+#: src/keymap.md:401
+msgid "`delete_word_forward`"
+msgstr ""
+
+#: src/keymap.md:402 src/keymap.md:488
+msgid "Delete to start of line"
+msgstr ""
+
+#: src/keymap.md:402
+msgid "`kill_to_line_start`"
+msgstr ""
+
+#: src/keymap.md:403 src/keymap.md:489
+msgid "`Ctrl-k`"
+msgstr ""
+
+#: src/keymap.md:403 src/keymap.md:489
+msgid "Delete to end of line"
+msgstr ""
+
+#: src/keymap.md:403
+msgid "`kill_to_line_end`"
+msgstr ""
+
+#: src/keymap.md:404
+msgid "`Ctrl-h`, `Backspace`, `Shift-Backspace`"
+msgstr ""
+
+#: src/keymap.md:404 src/keymap.md:490
+msgid "Delete previous char"
+msgstr ""
+
+#: src/keymap.md:404
+msgid "`delete_char_backward`"
+msgstr ""
+
+#: src/keymap.md:405
+msgid "`Ctrl-d`, `Delete`"
+msgstr ""
+
+#: src/keymap.md:405 src/keymap.md:491
+msgid "Delete next char"
+msgstr ""
+
+#: src/keymap.md:405
+msgid "`delete_char_forward`"
+msgstr ""
+
+#: src/keymap.md:406
+msgid "`Ctrl-j`, `Enter`"
+msgstr ""
+
+#: src/keymap.md:406
+msgid "Insert new line"
+msgstr ""
+
+#: src/keymap.md:406
+msgid "`insert_newline`"
+msgstr ""
+
+#: src/keymap.md:408
+msgid ""
+"These keys are not recommended, but are included for new users less familiar "
+"with modal editors."
+msgstr ""
+
+#: src/keymap.md:413
+msgid "`Up`"
+msgstr ""
+
+#: src/keymap.md:413
+msgid "Move to previous line"
+msgstr ""
+
+#: src/keymap.md:414
+msgid "`Down`"
+msgstr ""
+
+#: src/keymap.md:414
+msgid "Move to next line"
+msgstr ""
+
+#: src/keymap.md:415
+msgid "`Left`"
+msgstr ""
+
+#: src/keymap.md:415 src/keymap.md:481
+msgid "Backward a char"
+msgstr ""
+
+#: src/keymap.md:416
+msgid "`Right`"
+msgstr ""
+
+#: src/keymap.md:416 src/keymap.md:483
+msgid "Forward a char"
+msgstr ""
+
+#: src/keymap.md:417
+msgid "`PageUp`"
+msgstr ""
+
+#: src/keymap.md:417
+msgid "Move one page up"
+msgstr ""
+
+#: src/keymap.md:418
+msgid "`PageDown`"
+msgstr ""
+
+#: src/keymap.md:418
+msgid "Move one page down"
+msgstr ""
+
+#: src/keymap.md:419
+msgid "Move to line start"
+msgstr ""
+
+#: src/keymap.md:420
+msgid "Move to line end"
+msgstr ""
+
+#: src/keymap.md:420
+msgid "`goto_line_end_newline`"
+msgstr ""
+
+#: src/keymap.md:422
+msgid ""
+"As you become more comfortable with modal editing, you may want to disable "
+"some insert mode bindings. You can do this by editing your `config.toml` "
+"file."
+msgstr ""
+
+#: src/keymap.md:425
+msgid ""
+"```toml\n"
+"[keys.insert]\n"
+"up = \"no_op\"\n"
+"down = \"no_op\"\n"
+"left = \"no_op\"\n"
+"right = \"no_op\"\n"
+"pageup = \"no_op\"\n"
+"pagedown = \"no_op\"\n"
+"home = \"no_op\"\n"
+"end = \"no_op\"\n"
+"```"
+msgstr ""
+
+#: src/keymap.md:437
+msgid "Select / extend mode"
+msgstr ""
+
+#: src/keymap.md:439
+msgid "Accessed by typing `v` in [normal mode](#normal-mode)."
+msgstr ""
+
+#: src/keymap.md:441
+msgid ""
+"Select mode echoes Normal mode, but changes any movements to extend "
+"selections rather than replace them. Goto motions are also changed to "
+"extend, so that `vgl`, for example, extends the selection to the end of the "
+"line."
+msgstr ""
+
+#: src/keymap.md:446
+msgid ""
+"Search is also affected. By default, `n` and `N` will remove the current "
+"selection and select the next instance of the search term. Toggling this "
+"mode before pressing `n` or `N` makes it possible to keep the current "
+"selection. Toggling it on and off during your iterative searching allows you "
+"to selectively add search terms to your selections."
+msgstr ""
+
+#: src/keymap.md:452
+msgid "Picker"
+msgstr ""
+
+#: src/keymap.md:454
+msgid ""
+"Keys to use within picker. Remapping currently not supported. See the "
+"documentation page on [pickers](./pickers.md) for more info. [Prompt]"
+"(#prompt) keybinds also work in pickers, except where they conflict with "
+"picker keybinds."
+msgstr ""
+
+#: src/keymap.md:460
+msgid "`Shift-Tab`, `Up`, `Ctrl-p`"
+msgstr ""
+
+#: src/keymap.md:461
+msgid "`Tab`, `Down`, `Ctrl-n`"
+msgstr ""
+
+#: src/keymap.md:462
+msgid "`PageUp`, `Ctrl-u`"
+msgstr ""
+
+#: src/keymap.md:462
+msgid "Page up"
+msgstr ""
+
+#: src/keymap.md:463
+msgid "`PageDown`, `Ctrl-d`"
+msgstr ""
+
+#: src/keymap.md:463
+msgid "Page down"
+msgstr ""
+
+#: src/keymap.md:464
+msgid "Go to first entry"
+msgstr ""
+
+#: src/keymap.md:465
+msgid "Go to last entry"
+msgstr ""
+
+#: src/keymap.md:466 src/keymap.md:498
+msgid "Open selected"
+msgstr ""
+
+#: src/keymap.md:467
+msgid "`Alt-Enter`"
+msgstr ""
+
+#: src/keymap.md:467
+msgid "Open selected in the background without closing the picker"
+msgstr ""
+
+#: src/keymap.md:468
+msgid "Open horizontally"
+msgstr ""
+
+#: src/keymap.md:469
+msgid "`Ctrl-v`"
+msgstr ""
+
+#: src/keymap.md:469
+msgid "Open vertically"
+msgstr ""
+
+#: src/keymap.md:470
+msgid "`Ctrl-t`"
+msgstr ""
+
+#: src/keymap.md:470
+msgid "Toggle preview"
+msgstr ""
+
+#: src/keymap.md:471 src/keymap.md:479
+msgid "`Escape`, `Ctrl-c`"
+msgstr ""
+
+#: src/keymap.md:471
+msgid "Close picker"
+msgstr ""
+
+#: src/keymap.md:473
+msgid "Prompt"
+msgstr ""
+
+#: src/keymap.md:475
+msgid "Keys to use within prompt, Remapping currently not supported."
+msgstr ""
+
+#: src/keymap.md:479
+msgid "Close prompt"
+msgstr ""
+
+#: src/keymap.md:480
+msgid "`Alt-b`, `Ctrl-Left`"
+msgstr ""
+
+#: src/keymap.md:480
+msgid "Backward a word"
+msgstr ""
+
+#: src/keymap.md:481
+msgid "`Ctrl-b`, `Left`"
+msgstr ""
+
+#: src/keymap.md:482
+msgid "`Alt-f`, `Ctrl-Right`"
+msgstr ""
+
+#: src/keymap.md:482
+msgid "Forward a word"
+msgstr ""
+
+#: src/keymap.md:483
+msgid "`Ctrl-f`, `Right`"
+msgstr ""
+
+#: src/keymap.md:484
+msgid "`Ctrl-e`, `End`"
+msgstr ""
+
+#: src/keymap.md:484
+msgid "Move prompt end"
+msgstr ""
+
+#: src/keymap.md:485
+msgid "`Ctrl-a`, `Home`"
+msgstr ""
+
+#: src/keymap.md:485
+msgid "Move prompt start"
+msgstr ""
+
+#: src/keymap.md:486
+msgid "`Ctrl-w`, `Alt-Backspace`, `Ctrl-Backspace`"
+msgstr ""
+
+#: src/keymap.md:487
+msgid "`Alt-d`, `Alt-Delete`, `Ctrl-Delete`"
+msgstr ""
+
+#: src/keymap.md:490
+msgid "`Backspace`, `Ctrl-h`, `Shift-Backspace`"
+msgstr ""
+
+#: src/keymap.md:491
+msgid "`Delete`, `Ctrl-d`"
+msgstr ""
+
+#: src/keymap.md:492
+msgid "Insert a word under doc cursor, may be changed to Ctrl-r Ctrl-w later"
+msgstr ""
+
+#: src/keymap.md:493
+msgid "`Ctrl-p`, `Up`"
+msgstr ""
+
+#: src/keymap.md:493
+msgid "Select previous history"
+msgstr ""
+
+#: src/keymap.md:494
+msgid "`Ctrl-n`, `Down`"
+msgstr ""
+
+#: src/keymap.md:494
+msgid "Select next history"
+msgstr ""
+
+#: src/keymap.md:495
+msgid "Insert the content of the register selected by following input char"
+msgstr ""
+
+#: src/keymap.md:496
+msgid "`Tab`"
+msgstr ""
+
+#: src/keymap.md:496
+msgid "Select next completion item"
+msgstr ""
+
+#: src/keymap.md:497
+msgid "`BackTab`"
+msgstr ""
+
+#: src/keymap.md:497
+msgid "Select previous completion item"
+msgstr ""
