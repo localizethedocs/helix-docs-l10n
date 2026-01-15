@@ -1,4 +1,10 @@
 <div align="center">
+<picture>
+  <img height="100" src="https://cdn.jsdelivr.net/gh/localizethedocs/static/mark/helix.svg">
+</picture>
+</div>
+
+<div align="center">
 <h1 id="localization-of-helix-documentation">Localization of Helix Documentation</h1>
 </div>
 
