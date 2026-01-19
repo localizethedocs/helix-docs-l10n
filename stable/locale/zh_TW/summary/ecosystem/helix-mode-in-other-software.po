@@ -13,7 +13,7 @@ msgstr ""
 
 #: src/other-software.md:1
 msgid "Helix mode in other software"
-msgstr ""
+msgstr "其他軟體中的 Helix 模式"
 
 #: src/other-software.md:3
 msgid ""
@@ -32,7 +32,7 @@ msgstr ""
 
 #: src/other-software.md:7
 msgid "Other editors"
-msgstr ""
+msgstr "其他編輯器"
 
 #: src/other-software.md:9
 msgid "Editor"

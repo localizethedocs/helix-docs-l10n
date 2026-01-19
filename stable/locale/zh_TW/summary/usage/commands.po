@@ -719,7 +719,7 @@ msgstr ""
 
 #: src/commands.md:91
 msgid "`:pipe-to`"
-msgstr ""
+msgstr "`:pipe-to`"
 
 #: src/commands.md:91
 msgid "Pipe each selection to the shell command, ignoring output."

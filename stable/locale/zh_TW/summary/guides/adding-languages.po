@@ -50,7 +50,7 @@ msgstr ""
 
 #: src/guides/adding_languages.md:22
 msgid "Grammar configuration"
-msgstr ""
+msgstr "文法組態"
 
 #: src/guides/adding_languages.md:24
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: src/guides/adding_languages.md:30
 msgid "Queries"
-msgstr ""
+msgstr "查詢"
 
 #: src/guides/adding_languages.md:32
 msgid ""
@@ -96,7 +96,7 @@ msgstr ""
 
 #: src/guides/adding_languages.md:41
 msgid "Common issues"
-msgstr ""
+msgstr "常見議題"
 
 #: src/guides/adding_languages.md:43
 msgid ""
