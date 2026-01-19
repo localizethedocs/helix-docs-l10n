@@ -61,7 +61,7 @@ msgstr ""
 
 #: src/from-vim.md:20
 msgid "Delete/Change Commands"
-msgstr ""
+msgstr "刪除/變更命令"
 
 #: src/from-vim.md:22
 msgid "delete a word:"
@@ -411,6 +411,10 @@ msgid ""
 "insert = \"bar\"\n"
 "```"
 msgstr ""
+"```toml\n"
+"[editor.cursor-shape]\n"
+"insert = \"bar\"\n"
+"```"
 
 #: src/from-vim.md:139
 msgid "TODO: Mention textobjects, surround, registers"

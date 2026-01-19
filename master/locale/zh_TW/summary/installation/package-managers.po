@@ -13,23 +13,23 @@ msgstr ""
 
 #: src/package-managers.md:1
 msgid "Package managers"
-msgstr ""
+msgstr "軟體包管理器"
 
 #: src/package-managers.md:3
 msgid "[Linux](#linux)"
-msgstr ""
+msgstr "[Linux](#linux)"
 
 #: src/package-managers.md:4
 msgid "[Debian](#debian)"
-msgstr ""
+msgstr "[Debian](#debian)"
 
 #: src/package-managers.md:5
 msgid "[Ubuntu/Mint](#ubuntumint)"
-msgstr ""
+msgstr "[Ubuntu/Mint](#ubuntumint)"
 
 #: src/package-managers.md:6
 msgid "[Fedora/RHEL](#fedorarhel)"
-msgstr ""
+msgstr "[Fedora/RHEL](#fedorarhel)"
 
 #: src/package-managers.md:7
 msgid "[Arch Linux extra](#arch-linux-extra)"
@@ -37,51 +37,51 @@ msgstr ""
 
 #: src/package-managers.md:8
 msgid "[NixOS](#nixos)"
-msgstr ""
+msgstr "[NixOS](#nixos)"
 
 #: src/package-managers.md:9
 msgid "[Flatpak](#flatpak)"
-msgstr ""
+msgstr "[Flatpak](#flatpak)"
 
 #: src/package-managers.md:10
 msgid "[Snap](#snap)"
-msgstr ""
+msgstr "[Snap](#snap)"
 
 #: src/package-managers.md:11
 msgid "[AppImage](#appimage)"
-msgstr ""
+msgstr "[AppImage](#appimage)"
 
 #: src/package-managers.md:12
 msgid "[macOS](#macos)"
-msgstr ""
+msgstr "[macOS](#macos)"
 
 #: src/package-managers.md:13
 msgid "[Homebrew Core](#homebrew-core)"
-msgstr ""
+msgstr "[Homebrew Core](#homebrew-core)"
 
 #: src/package-managers.md:14
 msgid "[MacPorts](#macports)"
-msgstr ""
+msgstr "[MacPorts](#macports)"
 
 #: src/package-managers.md:15
 msgid "[Windows](#windows)"
-msgstr ""
+msgstr "[Windows](#windows)"
 
 #: src/package-managers.md:16
 msgid "[Winget](#winget)"
-msgstr ""
+msgstr "[Winget](#winget)"
 
 #: src/package-managers.md:17
 msgid "[Scoop](#scoop)"
-msgstr ""
+msgstr "[Scoop](#scoop)"
 
 #: src/package-managers.md:18
 msgid "[Chocolatey](#chocolatey)"
-msgstr ""
+msgstr "[Chocolatey](#chocolatey)"
 
 #: src/package-managers.md:19
 msgid "[MSYS2](#msys2)"
-msgstr ""
+msgstr "[MSYS2](#msys2)"
 
 #: src/package-managers.md:21
 msgid ""
@@ -211,7 +211,7 @@ msgstr ""
 
 #: src/package-managers.md:102
 msgid "AppImage"
-msgstr ""
+msgstr "AppImage"
 
 #: src/package-managers.md:104
 msgid ""
@@ -219,6 +219,9 @@ msgid ""
 "Download the official Helix AppImage from the [latest releases](https://"
 "github.com/helix-editor/helix/releases/latest) page."
 msgstr ""
+"使用 Linux [AppImage](https://appimage.org/) 格式安裝 Helix。請從[最新發行版]"
+"(https://github.com/helix-editor/helix/releases/latest)頁面下載官方的 Helix "
+"AppImage。"
 
 #: src/package-managers.md:108
 msgid "# change permission for executable mode\n"
@@ -237,11 +240,11 @@ msgstr ""
 
 #: src/package-managers.md:114
 msgid "\"$HOME/.local/bin\""
-msgstr ""
+msgstr "\"$HOME/.local/bin\""
 
 #: src/package-managers.md:115
 msgid "\"$HOME/.local/bin/hx\""
-msgstr ""
+msgstr "\"$HOME/.local/bin/hx\""
 
 #: src/package-managers.md:118
 msgid "and make sure `~/.local/bin` is in your `PATH`."

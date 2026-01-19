@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/command-line.md:4
 msgid "[Flags](#flags)"
-msgstr ""
+msgstr "[旗標](#flags)"
 
 #: src/command-line.md:5
 msgid "[Expansions](#expansions)"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: src/command-line.md:20
 msgid "Flags"
-msgstr ""
+msgstr "旗標"
 
 #: src/command-line.md:22
 msgid ""
@@ -224,11 +224,11 @@ msgstr ""
 
 #: src/command-line.md:51
 msgid "Current working directory"
-msgstr ""
+msgstr "當前工作目錄"
 
 #: src/command-line.md:52
 msgid "`workspace_directory`"
-msgstr ""
+msgstr "`workspace_directory`"
 
 #: src/command-line.md:52
 msgid ""
@@ -332,15 +332,15 @@ msgstr ""
 
 #: src/command-line.md:73
 msgid "`:pipe`"
-msgstr ""
+msgstr "`:pipe`"
 
 #: src/command-line.md:74
 msgid "`:pipe-to`"
-msgstr ""
+msgstr "`:pipe-to`"
 
 #: src/command-line.md:75
 msgid "`:run-shell-command`"
-msgstr ""
+msgstr "`:run-shell-command`"
 
 #: src/command-line.md:77
 msgid ""

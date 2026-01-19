@@ -25,7 +25,7 @@ msgstr ""
 
 #: src/building-from-source.md:5
 msgid "[Windows](#windows)"
-msgstr ""
+msgstr "[Windows](#windows)"
 
 #: src/building-from-source.md:6
 msgid "[Multiple runtime directories](#multiple-runtime-directories)"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: src/building-from-source.md:10
 msgid "[Building the Debian package](#building-the-debian-package)"
-msgstr ""
+msgstr "[建置 Debian 軟體包](#building-the-debian-package)"
 
 #: src/building-from-source.md:12
 msgid "Requirements:"
@@ -60,11 +60,11 @@ msgstr ""
 
 #: src/building-from-source.md:18
 msgid "The [Rust toolchain](https://www.rust-lang.org/tools/install)"
-msgstr ""
+msgstr "[Rust 工具鏈](https://www.rust-lang.org/tools/install)"
 
 #: src/building-from-source.md:19
 msgid "The [Git version control system](https://git-scm.com/)"
-msgstr ""
+msgstr "[Git 版本控制系統](https://git-scm.com/)"
 
 #: src/building-from-source.md:20
 msgid ""
@@ -156,10 +156,13 @@ msgid ""
 "files using the Windows setting (search for `Edit environment variables for "
 "your account`) or use the `setx` command in Cmd:"
 msgstr ""
+"您可以透過 Windows 設定（搜尋 `Edit environment variables for your account`）"
+"來組態 `HELIX_RUNTIME` 環境變數指向執行時檔案，或是使用 Cmd 中的 `setx` 命"
+"令："
 
 #: src/building-from-source.md:86
 msgid "\"%userprofile%\\src\\helix\\runtime\""
-msgstr ""
+msgstr "\"%userprofile%\\src\\helix\\runtime\""
 
 #: src/building-from-source.md:89
 msgid ""
@@ -229,7 +232,7 @@ msgstr ""
 
 #: src/building-from-source.md:110
 msgid "`$HELIX_RUNTIME`"
-msgstr ""
+msgstr "`$HELIX_RUNTIME`"
 
 #: src/building-from-source.md:111
 msgid ""
@@ -346,7 +349,7 @@ msgstr ""
 
 #: src/building-from-source.md:174
 msgid "Building the Debian package"
-msgstr ""
+msgstr "建置 Debian 軟體包"
 
 #: src/building-from-source.md:176
 msgid ""
@@ -396,7 +399,7 @@ msgstr ""
 
 #: src/building-from-source.md:206
 msgid ".desktop file"
-msgstr ""
+msgstr ".desktop 檔案"
 
 #: src/building-from-source.md:207
 msgid ""

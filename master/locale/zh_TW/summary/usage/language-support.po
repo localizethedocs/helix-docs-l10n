@@ -13,7 +13,7 @@ msgstr ""
 
 #: src/lang-support.md:1
 msgid "Language Support"
-msgstr ""
+msgstr "語言支援"
 
 #: src/lang-support.md:3
 msgid ""

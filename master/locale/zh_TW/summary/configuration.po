@@ -23,11 +23,11 @@ msgstr ""
 
 #: src/configuration.md:5
 msgid "Linux and Mac: `~/.config/helix/config.toml`"
-msgstr ""
+msgstr "Linux 和 Mac：`~/.config/helix/config.toml`"
 
 #: src/configuration.md:6
 msgid "Windows: `%AppData%\\helix\\config.toml`"
-msgstr ""
+msgstr "Windows：`%AppData%\\helix\\config.toml`"
 
 #: src/configuration.md:8
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/configuration.md:10
 msgid "Example config:"
-msgstr ""
+msgstr "範例組態："
 
 #: src/configuration.md:12
 msgid ""
@@ -57,6 +57,21 @@ msgid ""
 "hidden = false\n"
 "```"
 msgstr ""
+"```toml\n"
+"theme = \"onedark\"\n"
+"\n"
+"[editor]\n"
+"line-number = \"relative\"\n"
+"mouse = false\n"
+"\n"
+"[editor.cursor-shape]\n"
+"insert = \"bar\"\n"
+"normal = \"block\"\n"
+"select = \"underline\"\n"
+"\n"
+"[editor.file-picker]\n"
+"hidden = false\n"
+"```"
 
 #: src/configuration.md:28
 msgid ""

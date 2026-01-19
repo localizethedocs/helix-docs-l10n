@@ -86,19 +86,19 @@ msgstr ""
 
 #: src/guides/textobject.md:29
 msgid "`entry.inside`"
-msgstr ""
+msgstr "`entry.inside`"
 
 #: src/guides/textobject.md:30
 msgid "`entry.around`"
-msgstr ""
+msgstr "`entry.around`"
 
 #: src/guides/textobject.md:31
 msgid "`xml-element.inside`"
-msgstr ""
+msgstr "`xml-element.inside`"
 
 #: src/guides/textobject.md:32
 msgid "`xml-element.around`"
-msgstr ""
+msgstr "`xml-element.around`"
 
 #: src/guides/textobject.md:34
 msgid ""
@@ -119,15 +119,15 @@ msgstr ""
 
 #: src/guides/textobject.md:41
 msgid "`object.movement`"
-msgstr ""
+msgstr "`object.movement`"
 
 #: src/guides/textobject.md:42
 msgid "`object.around`"
-msgstr ""
+msgstr "`object.around`"
 
 #: src/guides/textobject.md:43
 msgid "`object.inside`"
-msgstr ""
+msgstr "`object.inside`"
 
 #: src/guides/textobject.md:45
 msgid ""
