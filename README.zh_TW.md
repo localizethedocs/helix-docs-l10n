@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h1 id="localization-of-helix-documentation">Localization of Helix Documentation</h1>
+<h1 id="localization-of-helix-documentation">Helix 文件的在地化</h1>
 </div>
 
 <details><summary><strong>切換語言</strong></summary>
@@ -27,7 +27,7 @@
   <li><a href="#support-this-project">支援此專案</a></li>
   <li><a href="#sponsorship">贊助</a></li>
   <li><a href="#code-contributors">程式碼貢獻者</a></li>
-  <li><a href="#translation-contributors">Translation Contributors</a></li>
+  <li><a href="#translation-contributors">翻譯貢獻者</a></li>
   <li><a href="#financial-contributors">財務貢獻者</a></li>
   <li><a href="#licenses">授權條款</a></li>
 </ul>
@@ -487,7 +487,7 @@ This project is currently maintained by:
 <img width="100%" alt="GitHub Contributors SVG" src="https://contrib.nn.ci/api?repo=localizethedocs/helix-docs-l10n&no_bot=true" />
 </div>
 
-<h2 id="translation-contributors"><a href="#table-of-contents">Translation Contributors</a></h2>
+<h2 id="translation-contributors"><a href="#table-of-contents">翻譯貢獻者</a></h2>
 
 <div align="center">
 <img width="100%" alt="Crowdin Contributors SVG" src="https://cdn.jsdelivr.net/gh/localizethedocs/helix-docs-l10n@static/crowdin-contributors.svg">
