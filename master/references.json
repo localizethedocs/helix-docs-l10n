@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-01-19 16:07:26 +0900",
-      "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-      "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+      "date" : "2026-01-25 14:01:37 -0500",
+      "hash" : "799b712e2c9d49837280b0afd7d27d0353965165",
+      "title" : "Fix markdown notation and typos in Decoration::render_virt_lines"
     }
   },
   "type" : "branch",
