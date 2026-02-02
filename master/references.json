@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-01-19 16:07:26 +0900",
-      "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-      "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+      "date" : "2026-02-01 09:27:17 -0600",
+      "hash" : "583dba4cc4c8d9a6963efb74d32159ef1446473d",
+      "title" : "Highlight symlinks in file and dir prompt completions (#15108)"
     }
   },
   "type" : "branch",
