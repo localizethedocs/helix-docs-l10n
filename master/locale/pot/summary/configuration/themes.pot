@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-02-02T08:38:46Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1052,261 +1052,269 @@ msgid "Directory names in prompt completion"
 msgstr ""
 
 #: src/themes.md:333
-msgid "`ui.virtual.ruler`"
+msgid "`ui.text.symlink`"
 msgstr ""
 
 #: src/themes.md:333
+msgid "Symlink names in prompt completion"
+msgstr ""
+
+#: src/themes.md:334
+msgid "`ui.virtual.ruler`"
+msgstr ""
+
+#: src/themes.md:334
 msgid ""
 "Ruler columns (see the [`editor.rulers` config](./configuration.md#editor-"
 "section))"
 msgstr ""
 
-#: src/themes.md:334
+#: src/themes.md:335
 msgid "`ui.virtual.whitespace`"
 msgstr ""
 
-#: src/themes.md:334
+#: src/themes.md:335
 msgid "Visible whitespace characters"
 msgstr ""
 
-#: src/themes.md:335
+#: src/themes.md:336
 msgid "`ui.virtual.indent-guide`"
 msgstr ""
 
-#: src/themes.md:335
+#: src/themes.md:336
 msgid "Vertical indent width guides"
 msgstr ""
 
-#: src/themes.md:336
+#: src/themes.md:337
 msgid "`ui.virtual.inlay-hint`"
 msgstr ""
 
-#: src/themes.md:336
+#: src/themes.md:337
 msgid "Default style for inlay hints of all kinds"
 msgstr ""
 
-#: src/themes.md:337
+#: src/themes.md:338
 msgid "`ui.virtual.inlay-hint.parameter`"
 msgstr ""
 
-#: src/themes.md:337
+#: src/themes.md:338
 msgid ""
 "Style for inlay hints of kind `parameter` (language servers are not required "
 "to set a kind)"
 msgstr ""
 
-#: src/themes.md:338
+#: src/themes.md:339
 msgid "`ui.virtual.inlay-hint.type`"
 msgstr ""
 
-#: src/themes.md:338
+#: src/themes.md:339
 msgid ""
 "Style for inlay hints of kind `type` (language servers are not required to "
 "set a kind)"
 msgstr ""
 
-#: src/themes.md:339
+#: src/themes.md:340
 msgid "`ui.virtual.wrap`"
 msgstr ""
 
-#: src/themes.md:339
+#: src/themes.md:340
 msgid ""
 "Soft-wrap indicator (see the [`editor.soft-wrap` config](./configuration."
 "md#editor-section))"
 msgstr ""
 
-#: src/themes.md:340
+#: src/themes.md:341
 msgid "`ui.virtual.jump-label`"
 msgstr ""
 
-#: src/themes.md:340
+#: src/themes.md:341
 msgid "Style for virtual jump labels"
 msgstr ""
 
-#: src/themes.md:341
+#: src/themes.md:342
 msgid "`ui.menu`"
 msgstr ""
 
-#: src/themes.md:341
+#: src/themes.md:342
 msgid "Code and command completion menus"
 msgstr ""
 
-#: src/themes.md:342
+#: src/themes.md:343
 msgid "`ui.menu.selected`"
 msgstr ""
 
-#: src/themes.md:342
+#: src/themes.md:343
 msgid "Selected autocomplete item"
 msgstr ""
 
-#: src/themes.md:343
+#: src/themes.md:344
 msgid "`ui.menu.scroll`"
 msgstr ""
 
-#: src/themes.md:343
+#: src/themes.md:344
 msgid "`fg` sets thumb color, `bg` sets track color of scrollbar"
 msgstr ""
 
-#: src/themes.md:344
+#: src/themes.md:345
 msgid "`ui.selection`"
 msgstr ""
 
-#: src/themes.md:344
+#: src/themes.md:345
 msgid "For selections in the editing area"
 msgstr ""
 
-#: src/themes.md:345
+#: src/themes.md:346
 msgid "`ui.selection.primary`"
 msgstr ""
 
-#: src/themes.md:346
+#: src/themes.md:347
 msgid "`ui.highlight`"
 msgstr ""
 
-#: src/themes.md:346
+#: src/themes.md:347
 msgid "Highlighted lines in the picker preview"
 msgstr ""
 
-#: src/themes.md:347
+#: src/themes.md:348
 msgid "`ui.highlight.frameline`"
 msgstr ""
 
-#: src/themes.md:347
+#: src/themes.md:348
 msgid "Line at which debugging execution is paused at"
 msgstr ""
 
-#: src/themes.md:348
+#: src/themes.md:349
 msgid "`ui.cursorline.primary`"
 msgstr ""
 
-#: src/themes.md:348
+#: src/themes.md:349
 msgid ""
 "The line of the primary cursor ([if cursorline is enabled](./configuration."
 "md#editor-section))"
 msgstr ""
 
-#: src/themes.md:349
+#: src/themes.md:350
 msgid "`ui.cursorline.secondary`"
 msgstr ""
 
-#: src/themes.md:349
+#: src/themes.md:350
 msgid ""
 "The lines of any other cursors ([if cursorline is enabled](./configuration."
 "md#editor-section))"
 msgstr ""
 
-#: src/themes.md:350
+#: src/themes.md:351
 msgid "`ui.cursorcolumn.primary`"
 msgstr ""
 
-#: src/themes.md:350
+#: src/themes.md:351
 msgid ""
 "The column of the primary cursor ([if cursorcolumn is enabled](./"
 "configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:351
+#: src/themes.md:352
 msgid "`ui.cursorcolumn.secondary`"
 msgstr ""
 
-#: src/themes.md:351
+#: src/themes.md:352
 msgid ""
 "The columns of any other cursors ([if cursorcolumn is enabled](./"
 "configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:352
+#: src/themes.md:353
 msgid "`warning`"
 msgstr ""
 
-#: src/themes.md:352
+#: src/themes.md:353
 msgid "Diagnostics warning (gutter)"
 msgstr ""
 
-#: src/themes.md:353
+#: src/themes.md:354
 msgid "`error`"
 msgstr ""
 
-#: src/themes.md:353
+#: src/themes.md:354
 msgid "Diagnostics error (gutter)"
 msgstr ""
 
-#: src/themes.md:354
+#: src/themes.md:355
 msgid "`info`"
 msgstr ""
 
-#: src/themes.md:354
+#: src/themes.md:355
 msgid "Diagnostics info (gutter)"
 msgstr ""
 
-#: src/themes.md:355
+#: src/themes.md:356
 msgid "`hint`"
 msgstr ""
 
-#: src/themes.md:355
+#: src/themes.md:356
 msgid "Diagnostics hint (gutter)"
 msgstr ""
 
-#: src/themes.md:356
+#: src/themes.md:357
 msgid "`diagnostic`"
 msgstr ""
 
-#: src/themes.md:356
+#: src/themes.md:357
 msgid "Diagnostics fallback style (editing area)"
 msgstr ""
 
-#: src/themes.md:357
+#: src/themes.md:358
 msgid "`diagnostic.hint`"
 msgstr ""
 
-#: src/themes.md:357
+#: src/themes.md:358
 msgid "Diagnostics hint (editing area)"
 msgstr ""
 
-#: src/themes.md:358
+#: src/themes.md:359
 msgid "`diagnostic.info`"
 msgstr ""
 
-#: src/themes.md:358
+#: src/themes.md:359
 msgid "Diagnostics info (editing area)"
 msgstr ""
 
-#: src/themes.md:359
+#: src/themes.md:360
 msgid "`diagnostic.warning`"
 msgstr ""
 
-#: src/themes.md:359
+#: src/themes.md:360
 msgid "Diagnostics warning (editing area)"
 msgstr ""
 
-#: src/themes.md:360
+#: src/themes.md:361
 msgid "`diagnostic.error`"
 msgstr ""
 
-#: src/themes.md:360
+#: src/themes.md:361
 msgid "Diagnostics error (editing area)"
 msgstr ""
 
-#: src/themes.md:361
+#: src/themes.md:362
 msgid "`diagnostic.unnecessary`"
 msgstr ""
 
-#: src/themes.md:361
+#: src/themes.md:362
 msgid "Diagnostics with unnecessary tag (editing area)"
 msgstr ""
 
-#: src/themes.md:362
+#: src/themes.md:363
 msgid "`diagnostic.deprecated`"
 msgstr ""
 
-#: src/themes.md:362
+#: src/themes.md:363
 msgid "Diagnostics with deprecated tag (editing area)"
 msgstr ""
 
-#: src/themes.md:363
+#: src/themes.md:364
 msgid "`tabstop`"
 msgstr ""
 
-#: src/themes.md:363
+#: src/themes.md:364
 msgid "Snippet placeholder"
 msgstr ""
