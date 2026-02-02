@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/guides/injection.md:1
+msgid "Adding Injection Queries"
+msgstr ""
+
+#: src/guides/injection.md:3
+msgid ""
+"Writing language injection queries allows one to highlight a specific node "
+"as a different language. In addition to the [standard](https://tree-sitter."
+"github.io/tree-sitter/3-syntax-highlighting.html#language-injection) "
+"language injection options used by tree-sitter, there are a few Helix "
+"specific extensions that allow for more control."
+msgstr ""
+
+#: src/guides/injection.md:7
+msgid ""
+"An example of a simple query that would highlight all strings as bash in Nix:"
+msgstr ""
+
+#: src/guides/injection.md:10
+msgid "\"bash\""
+msgstr ""
+
+#: src/guides/injection.md:12
+msgid ""
+"Another example is this query, which highlights links in comments and "
+"keywords like \"TODO\", by reusing the dedicated \"comment\" language:"
+msgstr ""
+
+#: src/guides/injection.md:13
+msgid ""
+"```\n"
+"((comment) @injection.content\n"
+"  (#set! injection.language \"comment\"))\n"
+"```"
+msgstr ""
+
+#: src/guides/injection.md:18
+msgid "Capture Types"
+msgstr ""
+
+#: src/guides/injection.md:20
+msgid ""
+"`@injection.language` (standard): The captured node may contain the language "
+"name used to highlight the node captured by `@injection.content`."
+msgstr ""
+
+#: src/guides/injection.md:24
+msgid ""
+"`@injection.content` (standard): Marks the content to be highlighted as the "
+"language captured with `@injection.language` _et al_."
+msgstr ""
+
+#: src/guides/injection.md:27
+msgid ""
+"`@injection.filename` (extension): The captured node may contain a filename "
+"with a file-extension known to Helix, highlighting `@injection.content` as "
+"that language. This uses the language extensions defined in both the default "
+"languages.toml distributed with Helix, as well as user defined languages."
+msgstr ""
+
+#: src/guides/injection.md:32
+msgid ""
+"`@injection.shebang` (extension): The captured node may contain a shebang "
+"used to choose a language to highlight as. This also uses the shebangs "
+"defined in the default and user `languages.toml`."
+msgstr ""
+
+#: src/guides/injection.md:36
+msgid "Settings"
+msgstr ""
+
+#: src/guides/injection.md:38
+msgid ""
+"`injection.combined` (standard): Indicates that all the matching nodes in "
+"the tree should have their content parsed as one nested document."
+msgstr ""
+
+#: src/guides/injection.md:42
+msgid ""
+"`injection.language` (standard): Forces the captured content to be "
+"highlighted as the given language"
+msgstr ""
+
+#: src/guides/injection.md:45
+msgid ""
+"`injection.include-children` (standard): Indicates that the content node’s "
+"entire text should be re-parsed, including the text of its child nodes. By "
+"default, child nodes’ text will be excluded from the injected document."
+msgstr ""
+
+#: src/guides/injection.md:49
+msgid ""
+"`injection.include-unnamed-children` (extension): Same as `injection.include-"
+"children` but only for unnamed child nodes."
+msgstr ""
+
+#: src/guides/injection.md:52
+msgid "Predicates"
+msgstr ""
+
+#: src/guides/injection.md:54
+msgid ""
+"`#eq?` (standard): The first argument (a capture) must be equal to the "
+"second argument (a capture or a string)."
+msgstr ""
+
+#: src/guides/injection.md:58
+msgid ""
+"`#match?` (standard): The first argument (a capture) must match the regex "
+"given in the second argument (a string)."
+msgstr ""
+
+#: src/guides/injection.md:62
+msgid ""
+"`#any-of?` (standard): The first argument (a capture) must be one of the "
+"other arguments (strings)."
+msgstr ""
