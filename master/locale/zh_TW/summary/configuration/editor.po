@@ -790,7 +790,7 @@ msgstr ""
 
 #: src/editor.md:129 src/editor.md:149
 msgid "`diagnostics`"
-msgstr ""
+msgstr "`diagnostics`"
 
 #: src/editor.md:129
 msgid "A list of severities which are displayed for the current buffer"
