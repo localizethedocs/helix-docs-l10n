@@ -23,11 +23,11 @@ msgstr ""
 
 #: src/languages.md:6
 msgid "`languages.toml` files"
-msgstr ""
+msgstr "`languages.toml` 檔案"
 
 #: src/languages.md:8
 msgid "There are three possible locations for a `languages.toml` file:"
-msgstr ""
+msgstr "`languages.toml` 檔案有三種可能的位置："
 
 #: src/languages.md:10
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: src/languages.md:34
 msgid "Language configuration"
-msgstr ""
+msgstr "語言組態"
 
 #: src/languages.md:36
 msgid ""
@@ -89,6 +89,17 @@ msgid ""
 "language-servers = [ \"mylang-lsp\" ]\n"
 "```"
 msgstr ""
+"```toml\n"
+"[[language]]\n"
+"name = \"mylang\"\n"
+"scope = \"source.mylang\"\n"
+"injection-regex = \"mylang\"\n"
+"file-types = [\"mylang\", \"myl\"]\n"
+"comment-tokens = \"#\"\n"
+"indent = { tab-width = 2, unit = \"  \" }\n"
+"formatter = { command = \"mylang-formatter\" , args = [\"--stdin\"] }\n"
+"language-servers = [ \"mylang-lsp\" ]\n"
+"```"
 
 #: src/languages.md:51
 msgid "These configuration keys are available:"
@@ -335,6 +346,10 @@ msgid ""
 "{ glob = \".github/workflows/*.yaml\" } ]\n"
 "```"
 msgstr ""
+"```toml\n"
+"file-types = [\"toml\", { glob = \"Makefile\" }, { glob = \".git/config\" }, "
+"{ glob = \".github/workflows/*.yaml\" } ]\n"
+"```"
 
 #: src/languages.md:87
 msgid ""
@@ -386,7 +401,7 @@ msgstr ""
 
 #: src/languages.md:115
 msgid "Language Server configuration"
-msgstr ""
+msgstr "語言伺服器組態"
 
 #: src/languages.md:117
 msgid ""
@@ -550,6 +565,12 @@ msgid ""
 "[ \"format\" ] }, \"typescript-language-server\" ]\n"
 "```"
 msgstr ""
+"```toml\n"
+"[[language]]\n"
+"name = \"typescript\"\n"
+"language-servers = [ { name = \"efm-lsp-prettier\", only-features = "
+"[ \"format\" ] }, \"typescript-language-server\" ]\n"
+"```"
 
 #: src/languages.md:180
 msgid "or equivalent:"
@@ -564,6 +585,12 @@ msgid ""
 "features = [ \"format\" ] }, \"efm-lsp-prettier\" ]\n"
 "```"
 msgstr ""
+"```toml\n"
+"[[language]]\n"
+"name = \"typescript\"\n"
+"language-servers = [ { name = \"typescript-language-server\", except-"
+"features = [ \"format\" ] }, \"efm-lsp-prettier\" ]\n"
+"```"
 
 #: src/languages.md:188
 msgid ""
@@ -586,75 +613,75 @@ msgstr ""
 
 #: src/languages.md:196
 msgid "`format`"
-msgstr ""
+msgstr "`format`"
 
 #: src/languages.md:197
 msgid "`goto-definition`"
-msgstr ""
+msgstr "`goto-definition`"
 
 #: src/languages.md:198
 msgid "`goto-declaration`"
-msgstr ""
+msgstr "`goto-declaration`"
 
 #: src/languages.md:199
 msgid "`goto-type-definition`"
-msgstr ""
+msgstr "`goto-type-definition`"
 
 #: src/languages.md:200
 msgid "`goto-reference`"
-msgstr ""
+msgstr "`goto-reference`"
 
 #: src/languages.md:201
 msgid "`goto-implementation`"
-msgstr ""
+msgstr "`goto-implementation`"
 
 #: src/languages.md:202
 msgid "`signature-help`"
-msgstr ""
+msgstr "`signature-help`"
 
 #: src/languages.md:203
 msgid "`hover`"
-msgstr ""
+msgstr "`hover`"
 
 #: src/languages.md:204
 msgid "`document-highlight`"
-msgstr ""
+msgstr "`document-highlight`"
 
 #: src/languages.md:205
 msgid "`completion`"
-msgstr ""
+msgstr "`completion`"
 
 #: src/languages.md:206
 msgid "`code-action`"
-msgstr ""
+msgstr "`code-action`"
 
 #: src/languages.md:207
 msgid "`workspace-command`"
-msgstr ""
+msgstr "`workspace-command`"
 
 #: src/languages.md:208
 msgid "`document-symbols`"
-msgstr ""
+msgstr "`document-symbols`"
 
 #: src/languages.md:209
 msgid "`workspace-symbols`"
-msgstr ""
+msgstr "`workspace-symbols`"
 
 #: src/languages.md:210
 msgid "`diagnostics`"
-msgstr ""
+msgstr "`diagnostics`"
 
 #: src/languages.md:211
 msgid "`rename-symbol`"
-msgstr ""
+msgstr "`rename-symbol`"
 
 #: src/languages.md:212
 msgid "`inlay-hints`"
-msgstr ""
+msgstr "`inlay-hints`"
 
 #: src/languages.md:214
 msgid "Tree-sitter grammar configuration"
-msgstr ""
+msgstr "Tree-sitter 文法組態"
 
 #: src/languages.md:216
 msgid ""
@@ -671,6 +698,12 @@ msgid ""
 "\"a250c4582510ff34767ec3b7dcdd3c24e8c8aa68\" }\n"
 "```"
 msgstr ""
+"```toml\n"
+"[[grammar]]\n"
+"name = \"mylang\"\n"
+"source = { git = \"https://github.com/example/mylang\", rev = "
+"\"a250c4582510ff34767ec3b7dcdd3c24e8c8aa68\" }\n"
+"```"
 
 #: src/languages.md:225
 msgid "Grammar configuration takes these keys:"

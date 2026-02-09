@@ -73,6 +73,9 @@ msgid ""
 "key = \"#ffffff\"\n"
 "```"
 msgstr ""
+"```toml\n"
+"key = \"#ffffff\"\n"
+"```"
 
 #: src/themes.md:28
 msgid ""
@@ -120,6 +123,14 @@ msgid ""
 "black = \"#000000\"\n"
 "```"
 msgstr ""
+"```toml\n"
+"\"ui.background\" = \"white\"\n"
+"\"ui.text\" = \"black\"\n"
+"\n"
+"[palette]\n"
+"white = \"#ffffff\"\n"
+"black = \"#000000\"\n"
+"```"
 
 #: src/themes.md:57
 msgid ""
@@ -140,71 +151,71 @@ msgstr ""
 
 #: src/themes.md:66
 msgid "`default`"
-msgstr ""
+msgstr "`default`"
 
 #: src/themes.md:67
 msgid "`black`"
-msgstr ""
+msgstr "`black`"
 
 #: src/themes.md:68
 msgid "`red`"
-msgstr ""
+msgstr "`red`"
 
 #: src/themes.md:69
 msgid "`green`"
-msgstr ""
+msgstr "`green`"
 
 #: src/themes.md:70
 msgid "`yellow`"
-msgstr ""
+msgstr "`yellow`"
 
 #: src/themes.md:71
 msgid "`blue`"
-msgstr ""
+msgstr "`blue`"
 
 #: src/themes.md:72
 msgid "`magenta`"
-msgstr ""
+msgstr "`magenta`"
 
 #: src/themes.md:73
 msgid "`cyan`"
-msgstr ""
+msgstr "`cyan`"
 
 #: src/themes.md:74
 msgid "`gray`"
-msgstr ""
+msgstr "`gray`"
 
 #: src/themes.md:75
 msgid "`light-red`"
-msgstr ""
+msgstr "`light-red`"
 
 #: src/themes.md:76
 msgid "`light-green`"
-msgstr ""
+msgstr "`light-green`"
 
 #: src/themes.md:77
 msgid "`light-yellow`"
-msgstr ""
+msgstr "`light-yellow`"
 
 #: src/themes.md:78
 msgid "`light-blue`"
-msgstr ""
+msgstr "`light-blue`"
 
 #: src/themes.md:79
 msgid "`light-magenta`"
-msgstr ""
+msgstr "`light-magenta`"
 
 #: src/themes.md:80
 msgid "`light-cyan`"
-msgstr ""
+msgstr "`light-cyan`"
 
 #: src/themes.md:81
 msgid "`light-gray`"
-msgstr ""
+msgstr "`light-gray`"
 
 #: src/themes.md:82
 msgid "`white`"
-msgstr ""
+msgstr "`white`"
 
 #: src/themes.md:84
 msgid "Modifiers"
@@ -275,19 +286,19 @@ msgstr ""
 
 #: src/themes.md:111
 msgid "`line`"
-msgstr ""
+msgstr "`line`"
 
 #: src/themes.md:112
 msgid "`curl`"
-msgstr ""
+msgstr "`curl`"
 
 #: src/themes.md:113
 msgid "`dashed`"
-msgstr ""
+msgstr "`dashed`"
 
 #: src/themes.md:114
 msgid "`dotted`"
-msgstr ""
+msgstr "`dotted`"
 
 #: src/themes.md:115
 msgid "`double_line`"

@@ -37,11 +37,11 @@ msgstr ""
 
 #: src/lang-support.md:12
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 #: src/lang-support.md:12
 msgid "Syntax Highlighting"
-msgstr ""
+msgstr "語法標明"
 
 #: src/lang-support.md:12
 msgid "Treesitter Textobjects"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: src/lang-support.md:12
 msgid "Auto Indent"
-msgstr ""
+msgstr "自動縮排"
 
 #: src/lang-support.md:12
 msgid "Default language servers"
