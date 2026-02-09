@@ -1,0 +1,1778 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/lang-support.md:1
+msgid "Language Support"
+msgstr "語言支援"
+
+#: src/lang-support.md:3
+msgid ""
+"The following languages and Language Servers are supported. To use Language "
+"Server features, you must first [configure](https://github.com/helix-editor/"
+"helix/wiki/Language-Server-Configurations) the appropriate Language Server."
+msgstr ""
+
+#: src/lang-support.md:7
+msgid ""
+"You can check the language support in your installed helix version with `hx "
+"--health`."
+msgstr ""
+
+#: src/lang-support.md:9
+msgid ""
+"Also see the [Language Configuration](./languages.md) docs and the [Adding "
+"Languages](./guides/adding_languages.md) guide for more language "
+"configuration information."
+msgstr ""
+
+#: src/lang-support.md:12
+msgid "Language"
+msgstr "語言"
+
+#: src/lang-support.md:12
+msgid "Syntax Highlighting"
+msgstr "語法標明"
+
+#: src/lang-support.md:12
+msgid "Treesitter Textobjects"
+msgstr ""
+
+#: src/lang-support.md:12
+msgid "Auto Indent"
+msgstr "自動縮排"
+
+#: src/lang-support.md:12
+msgid "Default language servers"
+msgstr ""
+
+#: src/lang-support.md:14
+msgid "ada"
+msgstr ""
+
+#: src/lang-support.md:14 src/lang-support.md:15 src/lang-support.md:16
+#: src/lang-support.md:17 src/lang-support.md:18 src/lang-support.md:19
+#: src/lang-support.md:20 src/lang-support.md:21 src/lang-support.md:22
+#: src/lang-support.md:23 src/lang-support.md:24 src/lang-support.md:25
+#: src/lang-support.md:26 src/lang-support.md:27 src/lang-support.md:28
+#: src/lang-support.md:29 src/lang-support.md:30 src/lang-support.md:32
+#: src/lang-support.md:33 src/lang-support.md:34 src/lang-support.md:35
+#: src/lang-support.md:36 src/lang-support.md:37 src/lang-support.md:38
+#: src/lang-support.md:39 src/lang-support.md:40 src/lang-support.md:41
+#: src/lang-support.md:42 src/lang-support.md:43 src/lang-support.md:44
+#: src/lang-support.md:45 src/lang-support.md:46 src/lang-support.md:47
+#: src/lang-support.md:48 src/lang-support.md:49 src/lang-support.md:50
+#: src/lang-support.md:51 src/lang-support.md:52 src/lang-support.md:53
+#: src/lang-support.md:54 src/lang-support.md:55 src/lang-support.md:56
+#: src/lang-support.md:57 src/lang-support.md:58 src/lang-support.md:59
+#: src/lang-support.md:60 src/lang-support.md:61 src/lang-support.md:62
+#: src/lang-support.md:63 src/lang-support.md:64 src/lang-support.md:65
+#: src/lang-support.md:66 src/lang-support.md:67 src/lang-support.md:68
+#: src/lang-support.md:69 src/lang-support.md:70 src/lang-support.md:71
+#: src/lang-support.md:72 src/lang-support.md:73 src/lang-support.md:74
+#: src/lang-support.md:75 src/lang-support.md:76 src/lang-support.md:77
+#: src/lang-support.md:78 src/lang-support.md:79 src/lang-support.md:80
+#: src/lang-support.md:81 src/lang-support.md:82 src/lang-support.md:83
+#: src/lang-support.md:84 src/lang-support.md:85 src/lang-support.md:86
+#: src/lang-support.md:87 src/lang-support.md:88 src/lang-support.md:89
+#: src/lang-support.md:90 src/lang-support.md:91 src/lang-support.md:92
+#: src/lang-support.md:93 src/lang-support.md:94 src/lang-support.md:95
+#: src/lang-support.md:96 src/lang-support.md:97 src/lang-support.md:98
+#: src/lang-support.md:99 src/lang-support.md:100 src/lang-support.md:101
+#: src/lang-support.md:102 src/lang-support.md:103 src/lang-support.md:104
+#: src/lang-support.md:105 src/lang-support.md:106 src/lang-support.md:107
+#: src/lang-support.md:108 src/lang-support.md:109 src/lang-support.md:110
+#: src/lang-support.md:111 src/lang-support.md:112 src/lang-support.md:113
+#: src/lang-support.md:114 src/lang-support.md:115 src/lang-support.md:116
+#: src/lang-support.md:117 src/lang-support.md:118 src/lang-support.md:119
+#: src/lang-support.md:120 src/lang-support.md:121 src/lang-support.md:123
+#: src/lang-support.md:124 src/lang-support.md:125 src/lang-support.md:126
+#: src/lang-support.md:127 src/lang-support.md:128 src/lang-support.md:129
+#: src/lang-support.md:130 src/lang-support.md:131 src/lang-support.md:132
+#: src/lang-support.md:133 src/lang-support.md:134 src/lang-support.md:135
+#: src/lang-support.md:136 src/lang-support.md:137 src/lang-support.md:138
+#: src/lang-support.md:139 src/lang-support.md:140 src/lang-support.md:141
+#: src/lang-support.md:142 src/lang-support.md:143 src/lang-support.md:144
+#: src/lang-support.md:145 src/lang-support.md:146 src/lang-support.md:147
+#: src/lang-support.md:148 src/lang-support.md:149 src/lang-support.md:150
+#: src/lang-support.md:151 src/lang-support.md:152 src/lang-support.md:153
+#: src/lang-support.md:154 src/lang-support.md:155 src/lang-support.md:156
+#: src/lang-support.md:157 src/lang-support.md:158 src/lang-support.md:159
+#: src/lang-support.md:160 src/lang-support.md:161 src/lang-support.md:162
+#: src/lang-support.md:163 src/lang-support.md:164 src/lang-support.md:165
+#: src/lang-support.md:166 src/lang-support.md:168 src/lang-support.md:169
+#: src/lang-support.md:170 src/lang-support.md:171 src/lang-support.md:172
+#: src/lang-support.md:173 src/lang-support.md:174 src/lang-support.md:175
+#: src/lang-support.md:176 src/lang-support.md:177 src/lang-support.md:178
+#: src/lang-support.md:179 src/lang-support.md:180 src/lang-support.md:181
+#: src/lang-support.md:182 src/lang-support.md:183 src/lang-support.md:184
+#: src/lang-support.md:185 src/lang-support.md:186 src/lang-support.md:187
+#: src/lang-support.md:188 src/lang-support.md:189 src/lang-support.md:190
+#: src/lang-support.md:191 src/lang-support.md:192 src/lang-support.md:193
+#: src/lang-support.md:194 src/lang-support.md:195 src/lang-support.md:196
+#: src/lang-support.md:197 src/lang-support.md:198 src/lang-support.md:199
+#: src/lang-support.md:200 src/lang-support.md:201 src/lang-support.md:202
+#: src/lang-support.md:203 src/lang-support.md:204 src/lang-support.md:205
+#: src/lang-support.md:206 src/lang-support.md:207 src/lang-support.md:208
+#: src/lang-support.md:209 src/lang-support.md:210 src/lang-support.md:211
+#: src/lang-support.md:212 src/lang-support.md:213 src/lang-support.md:214
+#: src/lang-support.md:215 src/lang-support.md:216 src/lang-support.md:217
+#: src/lang-support.md:218 src/lang-support.md:219 src/lang-support.md:220
+#: src/lang-support.md:221 src/lang-support.md:222 src/lang-support.md:223
+#: src/lang-support.md:224 src/lang-support.md:225 src/lang-support.md:226
+#: src/lang-support.md:227 src/lang-support.md:228 src/lang-support.md:229
+#: src/lang-support.md:230 src/lang-support.md:231 src/lang-support.md:232
+#: src/lang-support.md:233 src/lang-support.md:234 src/lang-support.md:235
+#: src/lang-support.md:236 src/lang-support.md:237 src/lang-support.md:238
+#: src/lang-support.md:239 src/lang-support.md:240 src/lang-support.md:241
+#: src/lang-support.md:242 src/lang-support.md:243 src/lang-support.md:244
+#: src/lang-support.md:245 src/lang-support.md:246 src/lang-support.md:247
+#: src/lang-support.md:248 src/lang-support.md:249 src/lang-support.md:250
+#: src/lang-support.md:251 src/lang-support.md:252 src/lang-support.md:253
+#: src/lang-support.md:254 src/lang-support.md:255 src/lang-support.md:256
+#: src/lang-support.md:257 src/lang-support.md:258 src/lang-support.md:259
+#: src/lang-support.md:260 src/lang-support.md:261 src/lang-support.md:262
+#: src/lang-support.md:263 src/lang-support.md:264 src/lang-support.md:265
+#: src/lang-support.md:266 src/lang-support.md:267 src/lang-support.md:268
+#: src/lang-support.md:269 src/lang-support.md:270 src/lang-support.md:271
+#: src/lang-support.md:272 src/lang-support.md:273 src/lang-support.md:274
+#: src/lang-support.md:275 src/lang-support.md:276 src/lang-support.md:277
+#: src/lang-support.md:278 src/lang-support.md:279 src/lang-support.md:280
+#: src/lang-support.md:281 src/lang-support.md:282 src/lang-support.md:283
+#: src/lang-support.md:284 src/lang-support.md:285 src/lang-support.md:286
+#: src/lang-support.md:287 src/lang-support.md:288 src/lang-support.md:289
+#: src/lang-support.md:290
+msgid "✓"
+msgstr ""
+
+#: src/lang-support.md:14 src/lang-support.md:104
+msgid "`ada_language_server`"
+msgstr ""
+
+#: src/lang-support.md:15
+msgid "adl"
+msgstr ""
+
+#: src/lang-support.md:16
+msgid "agda"
+msgstr ""
+
+#: src/lang-support.md:17
+msgid "alloy"
+msgstr ""
+
+#: src/lang-support.md:18
+msgid "amber"
+msgstr ""
+
+#: src/lang-support.md:18
+msgid "`amber-lsp`"
+msgstr ""
+
+#: src/lang-support.md:19
+msgid "astro"
+msgstr ""
+
+#: src/lang-support.md:19
+msgid "`astro-ls`"
+msgstr ""
+
+#: src/lang-support.md:20
+msgid "awk"
+msgstr ""
+
+#: src/lang-support.md:20
+msgid "`awk-language-server`"
+msgstr ""
+
+#: src/lang-support.md:21
+msgid "bash"
+msgstr ""
+
+#: src/lang-support.md:21
+msgid "`bash-language-server`"
+msgstr ""
+
+#: src/lang-support.md:22
+msgid "bass"
+msgstr ""
+
+#: src/lang-support.md:22
+msgid "`bass`"
+msgstr ""
+
+#: src/lang-support.md:23
+msgid "beancount"
+msgstr ""
+
+#: src/lang-support.md:23
+msgid "`beancount-language-server`"
+msgstr ""
+
+#: src/lang-support.md:24
+msgid "bibtex"
+msgstr ""
+
+#: src/lang-support.md:24 src/lang-support.md:146
+msgid "`texlab`"
+msgstr ""
+
+#: src/lang-support.md:25
+msgid "bicep"
+msgstr ""
+
+#: src/lang-support.md:25
+msgid "`bicep-langserver`"
+msgstr ""
+
+#: src/lang-support.md:26
+msgid "bitbake"
+msgstr ""
+
+#: src/lang-support.md:26
+msgid "`bitbake-language-server`"
+msgstr ""
+
+#: src/lang-support.md:27
+msgid "blade"
+msgstr ""
+
+#: src/lang-support.md:28
+msgid "blueprint"
+msgstr ""
+
+#: src/lang-support.md:28
+msgid "`blueprint-compiler`"
+msgstr ""
+
+#: src/lang-support.md:29
+msgid "c"
+msgstr ""
+
+#: src/lang-support.md:29 src/lang-support.md:44 src/lang-support.md:183
+msgid "`clangd`"
+msgstr ""
+
+#: src/lang-support.md:30
+msgid "c-sharp"
+msgstr ""
+
+#: src/lang-support.md:30
+msgid "`OmniSharp`"
+msgstr ""
+
+#: src/lang-support.md:31
+msgid "cabal"
+msgstr ""
+
+#: src/lang-support.md:31 src/lang-support.md:110
+msgid "`haskell-language-server-wrapper`"
+msgstr ""
+
+#: src/lang-support.md:32
+msgid "caddyfile"
+msgstr ""
+
+#: src/lang-support.md:33
+msgid "cairo"
+msgstr ""
+
+#: src/lang-support.md:33
+msgid "`cairo-language-server`"
+msgstr ""
+
+#: src/lang-support.md:34
+msgid "capnp"
+msgstr ""
+
+#: src/lang-support.md:35
+msgid "cel"
+msgstr ""
+
+#: src/lang-support.md:36
+msgid "circom"
+msgstr ""
+
+#: src/lang-support.md:36
+msgid "`circom-lsp`"
+msgstr ""
+
+#: src/lang-support.md:37
+msgid "clarity"
+msgstr ""
+
+#: src/lang-support.md:37
+msgid "`clarinet`"
+msgstr ""
+
+#: src/lang-support.md:38
+msgid "clojure"
+msgstr ""
+
+#: src/lang-support.md:38
+msgid "`clojure-lsp`"
+msgstr ""
+
+#: src/lang-support.md:39
+msgid "cmake"
+msgstr ""
+
+#: src/lang-support.md:39
+msgid "`neocmakelsp`, `cmake-language-server`"
+msgstr ""
+
+#: src/lang-support.md:40
+msgid "codeql"
+msgstr ""
+
+#: src/lang-support.md:40
+msgid "`codeql`"
+msgstr ""
+
+#: src/lang-support.md:41
+msgid "comment"
+msgstr ""
+
+#: src/lang-support.md:42
+msgid "common-lisp"
+msgstr ""
+
+#: src/lang-support.md:42
+msgid "`cl-lsp`"
+msgstr ""
+
+#: src/lang-support.md:43
+msgid "cpon"
+msgstr ""
+
+#: src/lang-support.md:44
+msgid "cpp"
+msgstr ""
+
+#: src/lang-support.md:45
+msgid "crystal"
+msgstr ""
+
+#: src/lang-support.md:45
+msgid "`crystalline`, `ameba-ls`"
+msgstr ""
+
+#: src/lang-support.md:46
+msgid "css"
+msgstr ""
+
+#: src/lang-support.md:46 src/lang-support.md:226
+msgid "`vscode-css-language-server`"
+msgstr ""
+
+#: src/lang-support.md:47
+msgid "csv"
+msgstr ""
+
+#: src/lang-support.md:48
+msgid "cue"
+msgstr ""
+
+#: src/lang-support.md:48
+msgid "`cuelsp`"
+msgstr ""
+
+#: src/lang-support.md:49
+msgid "cylc"
+msgstr ""
+
+#: src/lang-support.md:50
+msgid "d"
+msgstr ""
+
+#: src/lang-support.md:50
+msgid "`serve-d`"
+msgstr ""
+
+#: src/lang-support.md:51
+msgid "dart"
+msgstr ""
+
+#: src/lang-support.md:51
+msgid "`dart`"
+msgstr ""
+
+#: src/lang-support.md:52
+msgid "dbml"
+msgstr ""
+
+#: src/lang-support.md:53
+msgid "debian"
+msgstr ""
+
+#: src/lang-support.md:54
+msgid "devicetree"
+msgstr ""
+
+#: src/lang-support.md:54
+msgid "`dts-lsp`"
+msgstr ""
+
+#: src/lang-support.md:55
+msgid "dhall"
+msgstr ""
+
+#: src/lang-support.md:55
+msgid "`dhall-lsp-server`"
+msgstr ""
+
+#: src/lang-support.md:56
+msgid "diff"
+msgstr ""
+
+#: src/lang-support.md:57
+msgid "djot"
+msgstr ""
+
+#: src/lang-support.md:58
+msgid "docker-compose"
+msgstr ""
+
+#: src/lang-support.md:58
+msgid "`docker-compose-langserver`, `yaml-language-server`"
+msgstr ""
+
+#: src/lang-support.md:59
+msgid "dockerfile"
+msgstr ""
+
+#: src/lang-support.md:59
+msgid "`docker-langserver`"
+msgstr ""
+
+#: src/lang-support.md:60
+msgid "dot"
+msgstr ""
+
+#: src/lang-support.md:60
+msgid "`dot-language-server`"
+msgstr ""
+
+#: src/lang-support.md:61
+msgid "dtd"
+msgstr ""
+
+#: src/lang-support.md:62
+msgid "dune"
+msgstr ""
+
+#: src/lang-support.md:63
+msgid "dunstrc"
+msgstr ""
+
+#: src/lang-support.md:64
+msgid "earthfile"
+msgstr ""
+
+#: src/lang-support.md:64
+msgid "`earthlyls`"
+msgstr ""
+
+#: src/lang-support.md:65
+msgid "edoc"
+msgstr ""
+
+#: src/lang-support.md:66
+msgid "eex"
+msgstr ""
+
+#: src/lang-support.md:67
+msgid "ejs"
+msgstr ""
+
+#: src/lang-support.md:68
+msgid "elisp"
+msgstr ""
+
+#: src/lang-support.md:69
+msgid "elixir"
+msgstr ""
+
+#: src/lang-support.md:69 src/lang-support.md:113
+msgid "`elixir-ls`"
+msgstr ""
+
+#: src/lang-support.md:70
+msgid "elm"
+msgstr ""
+
+#: src/lang-support.md:70
+msgid "`elm-language-server`"
+msgstr ""
+
+#: src/lang-support.md:71
+msgid "elvish"
+msgstr ""
+
+#: src/lang-support.md:71
+msgid "`elvish`"
+msgstr ""
+
+#: src/lang-support.md:72
+msgid "env"
+msgstr ""
+
+#: src/lang-support.md:73
+msgid "erb"
+msgstr ""
+
+#: src/lang-support.md:74
+msgid "erlang"
+msgstr ""
+
+#: src/lang-support.md:74
+msgid "`erlang_ls`, `elp`"
+msgstr ""
+
+#: src/lang-support.md:75
+msgid "esdl"
+msgstr ""
+
+#: src/lang-support.md:76
+msgid "fennel"
+msgstr ""
+
+#: src/lang-support.md:76
+msgid "`fennel-ls`"
+msgstr ""
+
+#: src/lang-support.md:77
+msgid "fga"
+msgstr ""
+
+#: src/lang-support.md:78
+msgid "fidl"
+msgstr ""
+
+#: src/lang-support.md:79
+msgid "fish"
+msgstr ""
+
+#: src/lang-support.md:79
+msgid "`fish-lsp`"
+msgstr ""
+
+#: src/lang-support.md:80
+msgid "forth"
+msgstr ""
+
+#: src/lang-support.md:80
+msgid "`forth-lsp`"
+msgstr ""
+
+#: src/lang-support.md:81
+msgid "fortran"
+msgstr ""
+
+#: src/lang-support.md:81
+msgid "`fortls`"
+msgstr ""
+
+#: src/lang-support.md:82
+msgid "fsharp"
+msgstr ""
+
+#: src/lang-support.md:82
+msgid "`fsautocomplete`"
+msgstr ""
+
+#: src/lang-support.md:83
+msgid "gas"
+msgstr ""
+
+#: src/lang-support.md:83 src/lang-support.md:171
+msgid "`asm-lsp`"
+msgstr ""
+
+#: src/lang-support.md:84
+msgid "gdscript"
+msgstr ""
+
+#: src/lang-support.md:85
+msgid "gemini"
+msgstr ""
+
+#: src/lang-support.md:86
+msgid "gherkin"
+msgstr ""
+
+#: src/lang-support.md:87
+msgid "ghostty"
+msgstr ""
+
+#: src/lang-support.md:88
+msgid "git-attributes"
+msgstr ""
+
+#: src/lang-support.md:89
+msgid "git-commit"
+msgstr ""
+
+#: src/lang-support.md:90
+msgid "git-config"
+msgstr ""
+
+#: src/lang-support.md:91
+msgid "git-ignore"
+msgstr ""
+
+#: src/lang-support.md:92
+msgid "git-notes"
+msgstr ""
+
+#: src/lang-support.md:93
+msgid "git-rebase"
+msgstr ""
+
+#: src/lang-support.md:94
+msgid "gjs"
+msgstr ""
+
+#: src/lang-support.md:94 src/lang-support.md:108
+msgid ""
+"`typescript-language-server`, `vscode-eslint-language-server`, `ember-"
+"language-server`"
+msgstr ""
+
+#: src/lang-support.md:95
+msgid "gleam"
+msgstr ""
+
+#: src/lang-support.md:95
+msgid "`gleam`"
+msgstr ""
+
+#: src/lang-support.md:96
+msgid "glimmer"
+msgstr ""
+
+#: src/lang-support.md:96
+msgid "`ember-language-server`"
+msgstr ""
+
+#: src/lang-support.md:97
+msgid "glsl"
+msgstr ""
+
+#: src/lang-support.md:97
+msgid "`glsl_analyzer`"
+msgstr ""
+
+#: src/lang-support.md:98
+msgid "gn"
+msgstr ""
+
+#: src/lang-support.md:99
+msgid "go"
+msgstr ""
+
+#: src/lang-support.md:99
+msgid "`gopls`, `golangci-lint-langserver`"
+msgstr ""
+
+#: src/lang-support.md:100
+msgid "godot-resource"
+msgstr ""
+
+#: src/lang-support.md:101
+msgid "gomod"
+msgstr ""
+
+#: src/lang-support.md:101 src/lang-support.md:102 src/lang-support.md:103
+msgid "`gopls`"
+msgstr ""
+
+#: src/lang-support.md:102
+msgid "gotmpl"
+msgstr ""
+
+#: src/lang-support.md:103
+msgid "gowork"
+msgstr ""
+
+#: src/lang-support.md:104
+msgid "gpr"
+msgstr ""
+
+#: src/lang-support.md:105
+msgid "graphql"
+msgstr ""
+
+#: src/lang-support.md:105
+msgid "`graphql-lsp`"
+msgstr ""
+
+#: src/lang-support.md:106
+msgid "gren"
+msgstr ""
+
+#: src/lang-support.md:107
+msgid "groovy"
+msgstr ""
+
+#: src/lang-support.md:108
+msgid "gts"
+msgstr ""
+
+#: src/lang-support.md:109
+msgid "hare"
+msgstr ""
+
+#: src/lang-support.md:110
+msgid "haskell"
+msgstr ""
+
+#: src/lang-support.md:111
+msgid "haskell-persistent"
+msgstr ""
+
+#: src/lang-support.md:112
+msgid "hcl"
+msgstr ""
+
+#: src/lang-support.md:112 src/lang-support.md:255
+msgid "`terraform-ls`"
+msgstr ""
+
+#: src/lang-support.md:113
+msgid "heex"
+msgstr ""
+
+#: src/lang-support.md:114
+msgid "helm"
+msgstr ""
+
+#: src/lang-support.md:114
+msgid "`helm_ls`"
+msgstr ""
+
+#: src/lang-support.md:115
+msgid "hocon"
+msgstr ""
+
+#: src/lang-support.md:116
+msgid "hoon"
+msgstr ""
+
+#: src/lang-support.md:117
+msgid "hosts"
+msgstr ""
+
+#: src/lang-support.md:118
+msgid "html"
+msgstr ""
+
+#: src/lang-support.md:118
+msgid "`vscode-html-language-server`, `superhtml`"
+msgstr ""
+
+#: src/lang-support.md:119
+msgid "htmldjango"
+msgstr ""
+
+#: src/lang-support.md:119
+msgid "`djlsp`, `vscode-html-language-server`, `superhtml`"
+msgstr ""
+
+#: src/lang-support.md:120
+msgid "hurl"
+msgstr ""
+
+#: src/lang-support.md:121
+msgid "hyprlang"
+msgstr ""
+
+#: src/lang-support.md:121
+msgid "`hyprls`"
+msgstr ""
+
+#: src/lang-support.md:122
+msgid "idris"
+msgstr ""
+
+#: src/lang-support.md:122
+msgid "`idris2-lsp`"
+msgstr ""
+
+#: src/lang-support.md:123
+msgid "iex"
+msgstr ""
+
+#: src/lang-support.md:124
+msgid "ini"
+msgstr ""
+
+#: src/lang-support.md:125
+msgid "ink"
+msgstr ""
+
+#: src/lang-support.md:126
+msgid "inko"
+msgstr ""
+
+#: src/lang-support.md:127
+msgid "janet"
+msgstr ""
+
+#: src/lang-support.md:128
+msgid "java"
+msgstr ""
+
+#: src/lang-support.md:128
+msgid "`jdtls`"
+msgstr ""
+
+#: src/lang-support.md:129
+msgid "javascript"
+msgstr ""
+
+#: src/lang-support.md:129 src/lang-support.md:139 src/lang-support.md:261
+#: src/lang-support.md:263
+msgid "`typescript-language-server`"
+msgstr ""
+
+#: src/lang-support.md:130
+msgid "jinja"
+msgstr ""
+
+#: src/lang-support.md:131
+msgid "jjdescription"
+msgstr ""
+
+#: src/lang-support.md:132
+msgid "jq"
+msgstr ""
+
+#: src/lang-support.md:132
+msgid "`jq-lsp`"
+msgstr ""
+
+#: src/lang-support.md:133
+msgid "jsdoc"
+msgstr ""
+
+#: src/lang-support.md:134
+msgid "json"
+msgstr ""
+
+#: src/lang-support.md:134 src/lang-support.md:135 src/lang-support.md:137
+msgid "`vscode-json-language-server`"
+msgstr ""
+
+#: src/lang-support.md:135
+msgid "json-ld"
+msgstr ""
+
+#: src/lang-support.md:136
+msgid "json5"
+msgstr ""
+
+#: src/lang-support.md:137
+msgid "jsonc"
+msgstr ""
+
+#: src/lang-support.md:138
+msgid "jsonnet"
+msgstr ""
+
+#: src/lang-support.md:138
+msgid "`jsonnet-language-server`"
+msgstr ""
+
+#: src/lang-support.md:139
+msgid "jsx"
+msgstr ""
+
+#: src/lang-support.md:140
+msgid "julia"
+msgstr ""
+
+#: src/lang-support.md:140
+msgid "`julia`"
+msgstr ""
+
+#: src/lang-support.md:141
+msgid "just"
+msgstr ""
+
+#: src/lang-support.md:141
+msgid "`just-lsp`"
+msgstr ""
+
+#: src/lang-support.md:142
+msgid "kdl"
+msgstr ""
+
+#: src/lang-support.md:143
+msgid "koka"
+msgstr ""
+
+#: src/lang-support.md:143
+msgid "`koka`"
+msgstr ""
+
+#: src/lang-support.md:144
+msgid "kotlin"
+msgstr ""
+
+#: src/lang-support.md:144
+msgid "`kotlin-language-server`"
+msgstr ""
+
+#: src/lang-support.md:145
+msgid "koto"
+msgstr ""
+
+#: src/lang-support.md:145
+msgid "`koto-ls`"
+msgstr ""
+
+#: src/lang-support.md:146
+msgid "latex"
+msgstr ""
+
+#: src/lang-support.md:147
+msgid "ld"
+msgstr ""
+
+#: src/lang-support.md:148
+msgid "ldif"
+msgstr ""
+
+#: src/lang-support.md:149
+msgid "lean"
+msgstr ""
+
+#: src/lang-support.md:149
+msgid "`lean`"
+msgstr ""
+
+#: src/lang-support.md:150
+msgid "ledger"
+msgstr ""
+
+#: src/lang-support.md:151
+msgid "llvm"
+msgstr ""
+
+#: src/lang-support.md:152
+msgid "llvm-mir"
+msgstr ""
+
+#: src/lang-support.md:153
+msgid "llvm-mir-yaml"
+msgstr ""
+
+#: src/lang-support.md:154
+msgid "log"
+msgstr ""
+
+#: src/lang-support.md:155
+msgid "lpf"
+msgstr ""
+
+#: src/lang-support.md:156
+msgid "lua"
+msgstr ""
+
+#: src/lang-support.md:156
+msgid "`lua-language-server`"
+msgstr ""
+
+#: src/lang-support.md:157
+msgid "luau"
+msgstr ""
+
+#: src/lang-support.md:157
+msgid "`luau-lsp`"
+msgstr ""
+
+#: src/lang-support.md:158
+msgid "mail"
+msgstr ""
+
+#: src/lang-support.md:159
+msgid "make"
+msgstr ""
+
+#: src/lang-support.md:160
+msgid "markdoc"
+msgstr ""
+
+#: src/lang-support.md:160
+msgid "`markdoc-ls`"
+msgstr ""
+
+#: src/lang-support.md:161
+msgid "markdown"
+msgstr ""
+
+#: src/lang-support.md:161
+msgid "`marksman`, `markdown-oxide`"
+msgstr ""
+
+#: src/lang-support.md:162
+msgid "markdown-rustdoc"
+msgstr ""
+
+#: src/lang-support.md:163
+msgid "markdown.inline"
+msgstr ""
+
+#: src/lang-support.md:164
+msgid "matlab"
+msgstr ""
+
+#: src/lang-support.md:165
+msgid "mermaid"
+msgstr ""
+
+#: src/lang-support.md:166
+msgid "meson"
+msgstr ""
+
+#: src/lang-support.md:166
+msgid "`mesonlsp`"
+msgstr ""
+
+#: src/lang-support.md:167
+msgid "mint"
+msgstr ""
+
+#: src/lang-support.md:167
+msgid "`mint`"
+msgstr ""
+
+#: src/lang-support.md:168
+msgid "mojo"
+msgstr ""
+
+#: src/lang-support.md:168
+msgid "`pixi`"
+msgstr ""
+
+#: src/lang-support.md:169
+msgid "move"
+msgstr ""
+
+#: src/lang-support.md:170
+msgid "msbuild"
+msgstr ""
+
+#: src/lang-support.md:171
+msgid "nasm"
+msgstr ""
+
+#: src/lang-support.md:172
+msgid "nestedtext"
+msgstr ""
+
+#: src/lang-support.md:173
+msgid "nginx"
+msgstr ""
+
+#: src/lang-support.md:174
+msgid "nickel"
+msgstr ""
+
+#: src/lang-support.md:174
+msgid "`nls`"
+msgstr ""
+
+#: src/lang-support.md:175
+msgid "nim"
+msgstr ""
+
+#: src/lang-support.md:175
+msgid "`nimlangserver`"
+msgstr ""
+
+#: src/lang-support.md:176
+msgid "nix"
+msgstr ""
+
+#: src/lang-support.md:176
+msgid "`nil`, `nixd`"
+msgstr ""
+
+#: src/lang-support.md:177
+msgid "nu"
+msgstr ""
+
+#: src/lang-support.md:177
+msgid "`nu`"
+msgstr ""
+
+#: src/lang-support.md:178
+msgid "nunjucks"
+msgstr ""
+
+#: src/lang-support.md:179
+msgid "ocaml"
+msgstr ""
+
+#: src/lang-support.md:179 src/lang-support.md:180
+msgid "`ocamllsp`"
+msgstr ""
+
+#: src/lang-support.md:180
+msgid "ocaml-interface"
+msgstr ""
+
+#: src/lang-support.md:181
+msgid "odin"
+msgstr ""
+
+#: src/lang-support.md:181
+msgid "`ols`"
+msgstr ""
+
+#: src/lang-support.md:182
+msgid "ohm"
+msgstr ""
+
+#: src/lang-support.md:183
+msgid "opencl"
+msgstr ""
+
+#: src/lang-support.md:184
+msgid "openscad"
+msgstr ""
+
+#: src/lang-support.md:184
+msgid "`openscad-lsp`"
+msgstr ""
+
+#: src/lang-support.md:185
+msgid "org"
+msgstr ""
+
+#: src/lang-support.md:186
+msgid "pascal"
+msgstr ""
+
+#: src/lang-support.md:186
+msgid "`pasls`"
+msgstr ""
+
+#: src/lang-support.md:187
+msgid "passwd"
+msgstr ""
+
+#: src/lang-support.md:188
+msgid "pem"
+msgstr ""
+
+#: src/lang-support.md:189
+msgid "perl"
+msgstr ""
+
+#: src/lang-support.md:189
+msgid "`perlnavigator`"
+msgstr ""
+
+#: src/lang-support.md:190
+msgid "pest"
+msgstr ""
+
+#: src/lang-support.md:190
+msgid "`pest-language-server`"
+msgstr ""
+
+#: src/lang-support.md:191
+msgid "php"
+msgstr ""
+
+#: src/lang-support.md:191
+msgid "`intelephense`"
+msgstr ""
+
+#: src/lang-support.md:192
+msgid "php-only"
+msgstr ""
+
+#: src/lang-support.md:193
+msgid "pkgbuild"
+msgstr ""
+
+#: src/lang-support.md:193
+msgid "`termux-language-server`, `bash-language-server`"
+msgstr ""
+
+#: src/lang-support.md:194
+msgid "pkl"
+msgstr ""
+
+#: src/lang-support.md:194
+msgid "`pkl-lsp`"
+msgstr ""
+
+#: src/lang-support.md:195
+msgid "po"
+msgstr ""
+
+#: src/lang-support.md:196
+msgid "pod"
+msgstr ""
+
+#: src/lang-support.md:197
+msgid "ponylang"
+msgstr ""
+
+#: src/lang-support.md:198
+msgid "powershell"
+msgstr ""
+
+#: src/lang-support.md:199
+msgid "prisma"
+msgstr ""
+
+#: src/lang-support.md:199
+msgid "`prisma-language-server`"
+msgstr ""
+
+#: src/lang-support.md:200
+msgid "prolog"
+msgstr ""
+
+#: src/lang-support.md:200
+msgid "`swipl`"
+msgstr ""
+
+#: src/lang-support.md:201
+msgid "properties"
+msgstr ""
+
+#: src/lang-support.md:202
+msgid "protobuf"
+msgstr ""
+
+#: src/lang-support.md:202
+msgid "`buf`, `pb`, `protols`"
+msgstr ""
+
+#: src/lang-support.md:203
+msgid "prql"
+msgstr ""
+
+#: src/lang-support.md:204
+msgid "pug"
+msgstr ""
+
+#: src/lang-support.md:205
+msgid "purescript"
+msgstr ""
+
+#: src/lang-support.md:205
+msgid "`purescript-language-server`"
+msgstr ""
+
+#: src/lang-support.md:206
+msgid "python"
+msgstr ""
+
+#: src/lang-support.md:206
+msgid "`ty`, `ruff`, `jedi-language-server`, `pylsp`"
+msgstr ""
+
+#: src/lang-support.md:207
+msgid "qml"
+msgstr ""
+
+#: src/lang-support.md:207
+msgid "`qmlls`"
+msgstr ""
+
+#: src/lang-support.md:208
+msgid "quarto"
+msgstr ""
+
+#: src/lang-support.md:209
+msgid "quint"
+msgstr ""
+
+#: src/lang-support.md:209
+msgid "`quint-language-server`"
+msgstr ""
+
+#: src/lang-support.md:210
+msgid "r"
+msgstr ""
+
+#: src/lang-support.md:210 src/lang-support.md:215
+msgid "`R`"
+msgstr ""
+
+#: src/lang-support.md:211
+msgid "racket"
+msgstr ""
+
+#: src/lang-support.md:211
+msgid "`racket`"
+msgstr ""
+
+#: src/lang-support.md:212
+msgid "regex"
+msgstr ""
+
+#: src/lang-support.md:213
+msgid "rego"
+msgstr ""
+
+#: src/lang-support.md:213
+msgid "`regols`"
+msgstr ""
+
+#: src/lang-support.md:214
+msgid "rescript"
+msgstr ""
+
+#: src/lang-support.md:214
+msgid "`rescript-language-server`"
+msgstr ""
+
+#: src/lang-support.md:215
+msgid "rmarkdown"
+msgstr ""
+
+#: src/lang-support.md:216
+msgid "robot"
+msgstr ""
+
+#: src/lang-support.md:216
+msgid "`robotframework_ls`"
+msgstr ""
+
+#: src/lang-support.md:217
+msgid "ron"
+msgstr ""
+
+#: src/lang-support.md:218
+msgid "rst"
+msgstr ""
+
+#: src/lang-support.md:219
+msgid "ruby"
+msgstr ""
+
+#: src/lang-support.md:219
+msgid "`ruby-lsp`, `solargraph`"
+msgstr ""
+
+#: src/lang-support.md:220
+msgid "rust"
+msgstr ""
+
+#: src/lang-support.md:220
+msgid "`rust-analyzer`"
+msgstr ""
+
+#: src/lang-support.md:221
+msgid "rust-format-args"
+msgstr ""
+
+#: src/lang-support.md:222
+msgid "rust-format-args-macro"
+msgstr ""
+
+#: src/lang-support.md:223
+msgid "sage"
+msgstr ""
+
+#: src/lang-support.md:224
+msgid "scala"
+msgstr ""
+
+#: src/lang-support.md:224
+msgid "`metals`"
+msgstr ""
+
+#: src/lang-support.md:225
+msgid "scheme"
+msgstr ""
+
+#: src/lang-support.md:226
+msgid "scss"
+msgstr ""
+
+#: src/lang-support.md:227
+msgid "slang"
+msgstr ""
+
+#: src/lang-support.md:227
+msgid "`slangd`"
+msgstr ""
+
+#: src/lang-support.md:228
+msgid "slint"
+msgstr ""
+
+#: src/lang-support.md:228
+msgid "`slint-lsp`"
+msgstr ""
+
+#: src/lang-support.md:229
+msgid "smali"
+msgstr ""
+
+#: src/lang-support.md:230
+msgid "smithy"
+msgstr ""
+
+#: src/lang-support.md:230
+msgid "`cs`"
+msgstr ""
+
+#: src/lang-support.md:231
+msgid "sml"
+msgstr ""
+
+#: src/lang-support.md:232
+msgid "snakemake"
+msgstr ""
+
+#: src/lang-support.md:232
+msgid "`pylsp`"
+msgstr ""
+
+#: src/lang-support.md:233
+msgid "solidity"
+msgstr ""
+
+#: src/lang-support.md:233
+msgid "`solc`"
+msgstr ""
+
+#: src/lang-support.md:234
+msgid "sourcepawn"
+msgstr ""
+
+#: src/lang-support.md:234
+msgid "`sourcepawn-studio`"
+msgstr ""
+
+#: src/lang-support.md:235
+msgid "spade"
+msgstr ""
+
+#: src/lang-support.md:235
+msgid "`spade-language-server`"
+msgstr ""
+
+#: src/lang-support.md:236
+msgid "spicedb"
+msgstr ""
+
+#: src/lang-support.md:237
+msgid "sql"
+msgstr ""
+
+#: src/lang-support.md:238
+msgid "sshclientconfig"
+msgstr ""
+
+#: src/lang-support.md:239
+msgid "starlark"
+msgstr ""
+
+#: src/lang-support.md:239
+msgid "`starpls`"
+msgstr ""
+
+#: src/lang-support.md:240
+msgid "strace"
+msgstr ""
+
+#: src/lang-support.md:241
+msgid "supercollider"
+msgstr ""
+
+#: src/lang-support.md:242
+msgid "svelte"
+msgstr ""
+
+#: src/lang-support.md:242
+msgid "`svelteserver`"
+msgstr ""
+
+#: src/lang-support.md:243
+msgid "sway"
+msgstr ""
+
+#: src/lang-support.md:243
+msgid "`forc`"
+msgstr ""
+
+#: src/lang-support.md:244
+msgid "swift"
+msgstr ""
+
+#: src/lang-support.md:244
+msgid "`sourcekit-lsp`"
+msgstr ""
+
+#: src/lang-support.md:245
+msgid "systemd"
+msgstr ""
+
+#: src/lang-support.md:245
+msgid "`systemd-lsp`"
+msgstr ""
+
+#: src/lang-support.md:246
+msgid "t32"
+msgstr ""
+
+#: src/lang-support.md:247
+msgid "tablegen"
+msgstr ""
+
+#: src/lang-support.md:248
+msgid "tact"
+msgstr ""
+
+#: src/lang-support.md:249
+msgid "task"
+msgstr ""
+
+#: src/lang-support.md:250
+msgid "tcl"
+msgstr ""
+
+#: src/lang-support.md:251
+msgid "teal"
+msgstr ""
+
+#: src/lang-support.md:251
+msgid "`teal-language-server`"
+msgstr ""
+
+#: src/lang-support.md:252
+msgid "templ"
+msgstr ""
+
+#: src/lang-support.md:252
+msgid "`templ`"
+msgstr ""
+
+#: src/lang-support.md:253
+msgid "tera"
+msgstr ""
+
+#: src/lang-support.md:254
+msgid "textproto"
+msgstr ""
+
+#: src/lang-support.md:255
+msgid "tfvars"
+msgstr ""
+
+#: src/lang-support.md:256
+msgid "thrift"
+msgstr ""
+
+#: src/lang-support.md:257
+msgid "tlaplus"
+msgstr ""
+
+#: src/lang-support.md:258
+msgid "todotxt"
+msgstr ""
+
+#: src/lang-support.md:259
+msgid "toml"
+msgstr ""
+
+#: src/lang-support.md:259
+msgid "`taplo`, `tombi`"
+msgstr ""
+
+#: src/lang-support.md:260
+msgid "tsq"
+msgstr ""
+
+#: src/lang-support.md:260
+msgid "`ts_query_ls`"
+msgstr ""
+
+#: src/lang-support.md:261
+msgid "tsx"
+msgstr ""
+
+#: src/lang-support.md:262
+msgid "twig"
+msgstr ""
+
+#: src/lang-support.md:263
+msgid "typescript"
+msgstr ""
+
+#: src/lang-support.md:264
+msgid "typespec"
+msgstr ""
+
+#: src/lang-support.md:264
+msgid "`tsp-server`"
+msgstr ""
+
+#: src/lang-support.md:265
+msgid "typst"
+msgstr ""
+
+#: src/lang-support.md:265
+msgid "`tinymist`"
+msgstr ""
+
+#: src/lang-support.md:266
+msgid "ungrammar"
+msgstr ""
+
+#: src/lang-support.md:267
+msgid "unison"
+msgstr ""
+
+#: src/lang-support.md:268
+msgid "uxntal"
+msgstr ""
+
+#: src/lang-support.md:269
+msgid "v"
+msgstr ""
+
+#: src/lang-support.md:269
+msgid "`v-analyzer`"
+msgstr ""
+
+#: src/lang-support.md:270
+msgid "vala"
+msgstr ""
+
+#: src/lang-support.md:270
+msgid "`vala-language-server`"
+msgstr ""
+
+#: src/lang-support.md:271
+msgid "vento"
+msgstr ""
+
+#: src/lang-support.md:272
+msgid "verilog"
+msgstr ""
+
+#: src/lang-support.md:272
+msgid "`svlangserver`"
+msgstr ""
+
+#: src/lang-support.md:273
+msgid "vhdl"
+msgstr ""
+
+#: src/lang-support.md:273
+msgid "`vhdl_ls`"
+msgstr ""
+
+#: src/lang-support.md:274
+msgid "vhs"
+msgstr ""
+
+#: src/lang-support.md:275
+msgid "vue"
+msgstr ""
+
+#: src/lang-support.md:275
+msgid "`vue-language-server`"
+msgstr ""
+
+#: src/lang-support.md:276
+msgid "wast"
+msgstr ""
+
+#: src/lang-support.md:277
+msgid "wat"
+msgstr ""
+
+#: src/lang-support.md:277
+msgid "`wat_server`"
+msgstr ""
+
+#: src/lang-support.md:278
+msgid "webc"
+msgstr ""
+
+#: src/lang-support.md:279
+msgid "werk"
+msgstr ""
+
+#: src/lang-support.md:280
+msgid "wesl"
+msgstr ""
+
+#: src/lang-support.md:281
+msgid "wgsl"
+msgstr ""
+
+#: src/lang-support.md:281
+msgid "`wgsl-analyzer`"
+msgstr ""
+
+#: src/lang-support.md:282
+msgid "wit"
+msgstr ""
+
+#: src/lang-support.md:283
+msgid "wren"
+msgstr ""
+
+#: src/lang-support.md:284
+msgid "xit"
+msgstr ""
+
+#: src/lang-support.md:285
+msgid "xml"
+msgstr ""
+
+#: src/lang-support.md:286
+msgid "xtc"
+msgstr ""
+
+#: src/lang-support.md:287
+msgid "yaml"
+msgstr ""
+
+#: src/lang-support.md:287
+msgid "`yaml-language-server`, `ansible-language-server`"
+msgstr ""
+
+#: src/lang-support.md:288
+msgid "yara"
+msgstr ""
+
+#: src/lang-support.md:288
+msgid "`yls`"
+msgstr ""
+
+#: src/lang-support.md:289
+msgid "yuck"
+msgstr ""
+
+#: src/lang-support.md:290
+msgid "zig"
+msgstr ""
+
+#: src/lang-support.md:290
+msgid "`zls`"
+msgstr ""
