@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-01-19 16:07:26 +0900",
-      "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-      "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+      "date" : "2026-02-16 10:00:54 -0500",
+      "hash" : "9880d2b0b387b3040bd0a1c396de9a9a8cb4b053",
+      "title" : "update jjconfig globs for secure-config (#15293)"
     }
   },
   "type" : "branch",
