@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/guides/indent.md:1
+msgid "Adding indent queries"
+msgstr ""
+
+#: src/guides/indent.md:3
+msgid ""
+"Helix uses tree-sitter to correctly indent new lines. This requires a tree- "
+"sitter grammar and an `indent.scm` query file placed in `runtime/queries/ "
+"{language}/indents.scm`. The indentation for a line is calculated by "
+"traversing the syntax tree from the lowest node at the beginning of the new "
+"line (see [Indent queries](#indent-queries)). Each of these nodes "
+"contributes to the total indent when it is captured by the query (in what "
+"way depends on the name of the capture."
+msgstr ""
+
+#: src/guides/indent.md:11
+msgid ""
+"Note that it matters where these added indents begin. For example, multiple "
+"indent level increases that start on the same line only increase the total "
+"indent level by 1. See [Capture types](#capture-types)."
+msgstr ""
+
+#: src/guides/indent.md:15
+msgid ""
+"By default, Helix uses the `hybrid` indentation heuristic. This means that "
+"indent queries are not used to compute the expected absolute indentation of "
+"a line but rather the expected difference in indentation between the new and "
+"an already existing line. This difference is then added to the actual "
+"indentation of the already existing line. Since this makes errors in the "
+"indent queries harder to find, it is recommended to disable it when testing "
+"via `:set indent-heuristic tree-sitter`. The rest of this guide assumes that "
+"the `tree-sitter` heuristic is used."
+msgstr ""
+
+#: src/guides/indent.md:24
+msgid "Indent queries"
+msgstr ""
+
+#: src/guides/indent.md:26
+msgid ""
+"When Helix is inserting a new line through `o`, `O`, or `<ret>`, to "
+"determine the indent level for the new line, the query in `indents.scm` is "
+"run on the document. The starting position of the query is the end of the "
+"line above where a new line will be inserted."
+msgstr ""
+
+#: src/guides/indent.md:31
+msgid ""
+"For `o`, the inserted line is the line below the cursor, so that starting "
+"position of the query is the end of the current line."
+msgstr ""
+
+#: src/guides/indent.md:36
+msgid "// ←─────────────────╮\n"
+msgstr ""
+
+#: src/guides/indent.md:37
+msgid "//←╮  ↑  ↑                     │\n"
+msgstr ""
+
+#: src/guides/indent.md:38
+msgid "// │  │  ╰── query start       │\n"
+msgstr ""
+
+#: src/guides/indent.md:39
+msgid "// │  ╰───── cursor            ├─ traversal \n"
+msgstr ""
+
+#: src/guides/indent.md:40
+msgid "// ╰──────── new line inserted │  start node\n"
+msgstr ""
+
+#: src/guides/indent.md:41
+msgid ""
+"//                             │\n"
+"//  ↑                                               │\n"
+"//  ╰───────────────────────────────────────────────╯\n"
+msgstr ""
+
+#: src/guides/indent.md:48
+msgid ""
+"For `O`, the newly inserted line is the _current_ line, so the starting "
+"position of the query is the end of the line above the cursor."
+msgstr ""
+
+#: src/guides/indent.md:52
+msgid "// ←─╮\n"
+msgstr ""
+
+#: src/guides/indent.md:53
+msgid "// ←╮          ↑     │\n"
+msgstr ""
+
+#: src/guides/indent.md:54
+msgid "//    ↑   ╭───╯          │     │\n"
+msgstr ""
+
+#: src/guides/indent.md:55
+msgid "//    │   │ query start ─╯     │\n"
+msgstr ""
+
+#: src/guides/indent.md:56
+msgid "//    ╰───┼ cursor             ├─ traversal\n"
+msgstr ""
+
+#: src/guides/indent.md:57
+msgid "//        ╰ new line inserted  │  start node\n"
+msgstr ""
+
+#: src/guides/indent.md:58 src/guides/indent.md:59
+msgid "//                             │\n"
+msgstr ""
+
+#: src/guides/indent.md:60
+msgid "// ←──────────────────────────────────────────────╯\n"
+msgstr ""
+
+#: src/guides/indent.md:63
+msgid ""
+"From this starting node, the syntax tree is traversed up until the root "
+"node. Each indent capture is collected along the way, and then combined "
+"according to their [capture types](#capture-types) and [scopes](#scopes) to "
+"a final indent level for the line."
+msgstr ""
+
+#: src/guides/indent.md:68
+msgid "Capture types"
+msgstr ""
+
+#: src/guides/indent.md:70
+msgid ""
+"`@indent` (default scope `tail`): Increase the indent level by 1. Multiple "
+"occurrences in the same line _do not_ stack. If there is at least one "
+"`@indent` and one `@outdent` capture on the same line, the indent level "
+"isn't changed at all."
+msgstr ""
+
+#: src/guides/indent.md:74
+msgid ""
+"`@outdent` (default scope `all`): Decrease the indent level by 1. The same "
+"rules as for `@indent` apply."
+msgstr ""
+
+#: src/guides/indent.md:76
+msgid ""
+"`@indent.always` (default scope `tail`): Increase the indent level by 1. "
+"Multiple occurrences on the same line _do_ stack. The final indent level is "
+"`@indent.always` – `@outdent.always`. If an `@indent` and an `@indent."
+"always` are on the same line, the `@indent` is ignored."
+msgstr ""
+
+#: src/guides/indent.md:81
+msgid ""
+"`@outdent.always` (default scope `all`): Decrease the indent level by 1. The "
+"same rules as for `@indent.always` apply."
+msgstr ""
+
+#: src/guides/indent.md:83
+msgid ""
+"`@align` (default scope `all`): Align everything inside this node to some "
+"anchor. The anchor is given by the start of the node captured by `@anchor` "
+"in the same pattern. Every pattern with an `@align` should contain exactly "
+"one `@anchor`. Indent (and outdent) for nodes below (in terms of their "
+"starting line) the `@align` node is added to the indentation required for "
+"alignment."
+msgstr ""
+
+#: src/guides/indent.md:89
+msgid ""
+"`@extend`: Extend the range of this node to the end of the line and to lines "
+"that are indented more than the line that this node starts on. This is "
+"useful for languages like Python, where for the purpose of indentation some "
+"nodes (like functions or classes) should also contain indented lines that "
+"follow them."
+msgstr ""
+
+#: src/guides/indent.md:94
+msgid ""
+"`@extend.prevent-once`: Prevents the first extension of an ancestor of this "
+"node. For example, in Python a return expression always ends the block that "
+"it is in. Note that this only stops the extension of the next `@extend` "
+"capture. If multiple ancestors are captured, only the extension of the "
+"innermost one is prevented. All other ancestors are unaffected (regardless "
+"of whether the innermost ancestor would actually have been extended)."
+msgstr ""
+
+#: src/guides/indent.md:102
+msgid "`@indent` / `@outdent`"
+msgstr ""
+
+#: src/guides/indent.md:104
+msgid "Consider this example:"
+msgstr ""
+
+#: src/guides/indent.md:108
+msgid ""
+"//                       ↑\n"
+"    //                       ├───────────────────────╮ indent level\n"
+"    //                    @indent                    ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n"
+"    //                                               │\n"
+msgstr ""
+
+#: src/guides/indent.md:112
+msgid ""
+"//  │      1\n"
+"    //                 ↑                       ↑     │\n"
+"    //                 ├───────────────────────┼─────┼┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n"
+"    //              @indent                 @indent  │\n"
+"    //                                               │      2\n"
+msgstr ""
+
+#: src/guides/indent.md:117
+msgid "//                    │\n"
+msgstr ""
+
+#: src/guides/indent.md:118
+msgid ""
+"//                                          ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n"
+"  //↑↑↑                                              │      1\n"
+msgstr ""
+
+#: src/guides/indent.md:120
+msgid ""
+"//╰┼┴──────────────────────────────────────────────┴┄┄┄┄┄┄┄┄┄┄┄┄┄┄\n"
+"// 3x @outdent\n"
+msgstr ""
+
+#: src/guides/indent.md:129
+msgid ""
+"Note how on the second line, we have two blocks begin on the same line. In "
+"this case, since both captures occur on the same line, they are combined and "
+"only result in a net increase of 1. Also note that the closing `}`s are part "
+"of the `@indent` captures, but the 3 `@outdent`s also combine into 1 and "
+"result in that line losing one indent level."
+msgstr ""
+
+#: src/guides/indent.md:135
+msgid "`@extend` / `@extend.prevent-once`"
+msgstr ""
+
+#: src/guides/indent.md:137
+msgid ""
+"For an example of where `@extend` can be useful, consider Python, which is "
+"whitespace-sensitive."
+msgstr ""
+
+#: src/guides/indent.md:151 src/guides/indent.md:191
+msgid "#  ←─╮\n"
+msgstr ""
+
+#: src/guides/indent.md:152 src/guides/indent.md:192
+msgid "#                     │\n"
+msgstr ""
+
+#: src/guides/indent.md:153
+msgid "# ╭─── query start    │\n"
+msgstr ""
+
+#: src/guides/indent.md:154
+msgid "# │ ╭─ cursor         │\n"
+msgstr ""
+
+#: src/guides/indent.md:155
+msgid ""
+"# │ │                 │\n"
+"        #     ↑            ↑      │ │                 │\n"
+"        #     │            ╰──────╯ │                 │\n"
+"        #     ╰─────────────────────╯                 │\n"
+"        #                                             ├─ traversal\n"
+msgstr ""
+
+#: src/guides/indent.md:160
+msgid "#              │  start node\n"
+msgstr ""
+
+#: src/guides/indent.md:161 src/guides/indent.md:162 src/guides/indent.md:163
+#: src/guides/indent.md:164 src/guides/indent.md:165 src/guides/indent.md:166
+msgid "#              │\n"
+msgstr ""
+
+#: src/guides/indent.md:167
+msgid "# ←─────────────────────────────────────────╯\n"
+msgstr ""
+
+#: src/guides/indent.md:170
+msgid ""
+"Without braces to catch the scope of the function, the smallest descendant "
+"of the cursor on a line feed ends up being the entire inside of the class. "
+"Because of this, it will miss the entire function node and its indent "
+"capture, leading to an indent level one too small."
+msgstr ""
+
+#: src/guides/indent.md:175
+msgid ""
+"To address this case, `@extend` tells helix to \"extend\" the captured "
+"node's span to the line feed and every consecutive line that has a greater "
+"indent level than the line of the node."
+msgstr ""
+
+#: src/guides/indent.md:193
+msgid "# ╭─── query start    ├─ traversal\n"
+msgstr ""
+
+#: src/guides/indent.md:194
+msgid "# │ ╭─ cursor         │  start node\n"
+msgstr ""
+
+#: src/guides/indent.md:195
+msgid ""
+"# │ │ ←───────────────╯\n"
+"        #     ↑            ↑      │ │                 \n"
+"        #     │            ╰──────╯ │\n"
+"        #     ╰─────────────────────╯\n"
+msgstr ""
+
+#: src/guides/indent.md:209
+msgid ""
+"Furthermore, there are some cases where extending to everything with a "
+"greater indent level may not be desirable. Consider the `need_hero` function "
+"above. If our cursor is on the last line of the returned expression."
+msgstr ""
+
+#: src/guides/indent.md:228
+msgid ""
+"# ←─── cursor\n"
+"    #←────────── where cursor should go on new line\n"
+msgstr ""
+
+#: src/guides/indent.md:232
+msgid ""
+"In Python, the are a few tokens that will always end a scope, such as a "
+"return statement. Since the scope ends, so should the indent level. But "
+"because the function span is extended to every line with a greater indent "
+"level, a new line would just continue on the same level. And an `@outdent` "
+"would not help us here either, since it would cause everything in the "
+"parentheses to become outdented as well."
+msgstr ""
+
+#: src/guides/indent.md:239
+msgid ""
+"To help, we need to signal an end to the extension. We can do this with "
+"`@extend.prevent-once`."
+msgstr ""
+
+#: src/guides/indent.md:253
+msgid "`@indent.always` / `@outdent.always`"
+msgstr ""
+
+#: src/guides/indent.md:255
+msgid ""
+"As mentioned before, normally if there is more than one `@indent` or "
+"`@outdent` capture on the same line, they are combined."
+msgstr ""
+
+#: src/guides/indent.md:258
+msgid ""
+"Sometimes, there are cases when you may want to ensure that every indent "
+"capture is additive, regardless of how many occur on the same line. Consider "
+"this example in YAML."
+msgstr ""
+
+#: src/guides/indent.md:263
+msgid "foo"
+msgstr ""
+
+#: src/guides/indent.md:263 src/guides/indent.md:271
+msgid "bar"
+msgstr ""
+
+#: src/guides/indent.md:263
+msgid ""
+"# ↑ ↑\n"
+"# │ ╰─────────────── start of map\n"
+"# ╰───────────────── start of list element\n"
+"    baz"
+msgstr ""
+
+#: src/guides/indent.md:267
+msgid ""
+"quux # ←─── cursor\n"
+"    # ←───────────── where the cursor should go on a new line\n"
+"    garply"
+msgstr ""
+
+#: src/guides/indent.md:269
+msgid "waldo"
+msgstr ""
+
+#: src/guides/indent.md:270
+msgid "quux"
+msgstr ""
+
+#: src/guides/indent.md:271
+msgid "baz"
+msgstr ""
+
+#: src/guides/indent.md:272
+msgid "xyzzy"
+msgstr ""
+
+#: src/guides/indent.md:272
+msgid "thud"
+msgstr ""
+
+#: src/guides/indent.md:273
+msgid "fred"
+msgstr ""
+
+#: src/guides/indent.md:273
+msgid "plugh"
+msgstr ""
+
+#: src/guides/indent.md:276
+msgid ""
+"In YAML, you often have lists of maps. In these cases, the syntax is such "
+"that the list element and the map both start on the same line. But we really "
+"do want to start an indentation for each of these so that subsequent keys in "
+"the map hang over the list and align properly. This is where `@indent."
+"always` helps."
+msgstr ""
+
+#: src/guides/indent.md:293
+msgid "Predicates"
+msgstr ""
+
+#: src/guides/indent.md:295
+msgid ""
+"In some cases, an S-expression cannot express exactly what pattern should be "
+"matched. For that, tree-sitter allows for predicates to appear anywhere "
+"within a pattern, similar to how `#set!` declarations work:"
+msgstr ""
+
+#: src/guides/indent.md:306
+msgid ""
+"The number of arguments depends on the predicate that's used. Each argument "
+"is either a capture (`@name`) or a string (`\"some string\"`). The following "
+"predicates are supported by tree-sitter:"
+msgstr ""
+
+#: src/guides/indent.md:310
+msgid ""
+"`#eq?`/`#not-eq?`: The first argument (a capture) must/must not be equal to "
+"the second argument (a capture or a string)."
+msgstr ""
+
+#: src/guides/indent.md:314
+msgid ""
+"`#match?`/`#not-match?`: The first argument (a capture) must/must not match "
+"the regex given in the second argument (a string)."
+msgstr ""
+
+#: src/guides/indent.md:318
+msgid ""
+"`#any-of?`/`#not-any-of?`: The first argument (a capture) must/must not be "
+"one of the other arguments (strings)."
+msgstr ""
+
+#: src/guides/indent.md:322
+msgid "Additionally, we support some custom predicates for indent queries:"
+msgstr ""
+
+#: src/guides/indent.md:324
+msgid ""
+"`#not-kind-eq?`: The kind of the first argument (a capture) must not be "
+"equal to the second argument (a string)."
+msgstr ""
+
+#: src/guides/indent.md:328
+msgid ""
+"`#same-line?`/`#not-same-line?`: The captures given by the 2 arguments must/"
+"must not start on the same line."
+msgstr ""
+
+#: src/guides/indent.md:331
+msgid ""
+"`#one-line?`/`#not-one-line?`: The captures given by the fist argument must/"
+"must span a total of one line."
+msgstr ""
+
+#: src/guides/indent.md:334
+msgid "Scopes"
+msgstr ""
+
+#: src/guides/indent.md:336
+msgid ""
+"Added indents don't always apply to the whole node. For example, in most "
+"cases when a node should be indented, we actually only want everything "
+"except for its first line to be indented. For this, there are several scopes "
+"(more scopes may be added in the future if required):"
+msgstr ""
+
+#: src/guides/indent.md:341
+msgid ""
+"`tail`: This scope applies to everything except for the first line of the "
+"captured node."
+msgstr ""
+
+#: src/guides/indent.md:344
+msgid ""
+"`all`: This scope applies to the whole captured node. This is only different "
+"from `tail` when the captured node is the first node on its line."
+msgstr ""
+
+#: src/guides/indent.md:348
+msgid "For example, imagine we have the following function"
+msgstr ""
+
+#: src/guides/indent.md:351
+msgid "// ←─────────────────────────────────────╮\n"
+msgstr ""
+
+#: src/guides/indent.md:352
+msgid "\"on me\""
+msgstr ""
+
+#: src/guides/indent.md:352
+msgid "// ←──────────────╮  scope:  │\n"
+msgstr ""
+
+#: src/guides/indent.md:353
+msgid "\"me on\""
+msgstr ""
+
+#: src/guides/indent.md:353
+msgid "//     ├─ \"tail\"  ├─ (block) @indent\n"
+msgstr ""
+
+#: src/guides/indent.md:354
+msgid "//     │          │\n"
+msgstr ""
+
+#: src/guides/indent.md:355
+msgid ""
+"// ←───────────────────────────────────┴──────────┴─ \"}\" @outdent\n"
+"                                         //                scope: \"all\"\n"
+msgstr ""
+
+#: src/guides/indent.md:359
+msgid "We can write the following query with the `#set!` declaration:"
+msgstr ""
+
+#: src/guides/indent.md:363
+msgid "\"scope\" \"tail\""
+msgstr ""
+
+#: src/guides/indent.md:364
+msgid "\"}\""
+msgstr ""
+
+#: src/guides/indent.md:365
+msgid "\"scope\" \"all\""
+msgstr ""
+
+#: src/guides/indent.md:368
+msgid ""
+"As we can see, the \"tail\" scope covers the node, except for the first "
+"line. Everything up to and including the closing brace gets an indent level "
+"of 1. Then, on the closing brace, we encounter an outdent with a scope of "
+"\"all\", which means the first line is included, and the indent level is "
+"cancelled out on this line. (Note these scopes are the defaults for "
+"`@indent` and `@outdent`—they are written explicitly for demonstration.)"
+msgstr ""
