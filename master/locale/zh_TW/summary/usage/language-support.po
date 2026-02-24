@@ -177,123 +177,123 @@ msgstr ""
 
 #: src/lang-support.md:14 src/lang-support.md:118
 msgid "`ada_language_server`"
-msgstr ""
+msgstr "`ada_language_server`"
 
 #: src/lang-support.md:15
 msgid "adl"
-msgstr ""
+msgstr "adl"
 
 #: src/lang-support.md:16
 msgid "agda"
-msgstr ""
+msgstr "agda"
 
 #: src/lang-support.md:17
 msgid "alloy"
-msgstr ""
+msgstr "alloy"
 
 #: src/lang-support.md:18
 msgid "amber"
-msgstr ""
+msgstr "amber"
 
 #: src/lang-support.md:18
 msgid "`amber-lsp`"
-msgstr ""
+msgstr "`amber-lsp`"
 
 #: src/lang-support.md:19
 msgid "astro"
-msgstr ""
+msgstr "astro"
 
 #: src/lang-support.md:19
 msgid "`astro-ls`"
-msgstr ""
+msgstr "`astro-ls`"
 
 #: src/lang-support.md:20
 msgid "awk"
-msgstr ""
+msgstr "awk"
 
 #: src/lang-support.md:20
 msgid "`awk-language-server`"
-msgstr ""
+msgstr "`awk-language-server`"
 
 #: src/lang-support.md:21
 msgid "bash"
-msgstr ""
+msgstr "bash"
 
 #: src/lang-support.md:21
 msgid "`bash-language-server`"
-msgstr ""
+msgstr "`bash-language-server`"
 
 #: src/lang-support.md:22
 msgid "basic"
-msgstr ""
+msgstr "basic"
 
 #: src/lang-support.md:23
 msgid "bass"
-msgstr ""
+msgstr "bass"
 
 #: src/lang-support.md:23
 msgid "`bass`"
-msgstr ""
+msgstr "`bass`"
 
 #: src/lang-support.md:24
 msgid "beancount"
-msgstr ""
+msgstr "beancount"
 
 #: src/lang-support.md:24
 msgid "`beancount-language-server`"
-msgstr ""
+msgstr "`beancount-language-server`"
 
 #: src/lang-support.md:25
 msgid "bibtex"
-msgstr ""
+msgstr "bibtex"
 
 #: src/lang-support.md:25 src/lang-support.md:170
 msgid "`texlab`"
-msgstr ""
+msgstr "`texlab`"
 
 #: src/lang-support.md:26
 msgid "bicep"
-msgstr ""
+msgstr "bicep"
 
 #: src/lang-support.md:26
 msgid "`bicep-langserver`"
-msgstr ""
+msgstr "`bicep-langserver`"
 
 #: src/lang-support.md:27
 msgid "bitbake"
-msgstr ""
+msgstr "bitbake"
 
 #: src/lang-support.md:27
 msgid "`bitbake-language-server`"
-msgstr ""
+msgstr "`bitbake-language-server`"
 
 #: src/lang-support.md:28
 msgid "blade"
-msgstr ""
+msgstr "blade"
 
 #: src/lang-support.md:29
 msgid "blueprint"
-msgstr ""
+msgstr "blueprint"
 
 #: src/lang-support.md:29
 msgid "`blueprint-compiler`"
-msgstr ""
+msgstr "`blueprint-compiler`"
 
 #: src/lang-support.md:30
 msgid "bovex"
-msgstr ""
+msgstr "bovex"
 
 #: src/lang-support.md:31
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #: src/lang-support.md:31 src/lang-support.md:47 src/lang-support.md:211
 msgid "`clangd`"
-msgstr ""
+msgstr "`clangd`"
 
 #: src/lang-support.md:32
 msgid "c-sharp"
-msgstr ""
+msgstr "c-sharp"
 
 #: src/lang-support.md:32
 msgid "`OmniSharp`, `csharp-ls`"
@@ -575,31 +575,31 @@ msgstr ""
 
 #: src/lang-support.md:78
 msgid "elm"
-msgstr ""
+msgstr "elm"
 
 #: src/lang-support.md:78
 msgid "`elm-language-server`"
-msgstr ""
+msgstr "`elm-language-server`"
 
 #: src/lang-support.md:79
 msgid "elvish"
-msgstr ""
+msgstr "elvish"
 
 #: src/lang-support.md:79
 msgid "`elvish`"
-msgstr ""
+msgstr "`elvish`"
 
 #: src/lang-support.md:80
 msgid "env"
-msgstr ""
+msgstr "env"
 
 #: src/lang-support.md:81
 msgid "erb"
-msgstr ""
+msgstr "erb"
 
 #: src/lang-support.md:82
 msgid "erlang"
-msgstr ""
+msgstr "erlang"
 
 #: src/lang-support.md:82
 msgid "`erlang_ls`, `elp`"
