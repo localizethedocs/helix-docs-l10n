@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-01-19 16:07:26 +0900",
-      "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-      "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+      "date" : "2026-03-01 19:17:46 +0900",
+      "hash" : "2910a7cc92c9132df1a69493628339f85e52eb07",
+      "title" : "build(deps): bump the rust-dependencies group with 8 updates (#15363)"
     }
   },
   "type" : "branch",
