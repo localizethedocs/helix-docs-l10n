@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-01-19 16:07:26 +0900",
-      "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-      "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+      "date" : "2026-03-10 10:58:50 -0400",
+      "hash" : "6551e1b2b8df6c5eebeac7be93c92e80eea40340",
+      "title" : "feat!: rm bovex-tree-sitter and queries (#15407)"
     }
   },
   "type" : "branch",
