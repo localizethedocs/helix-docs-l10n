@@ -57,11 +57,11 @@ msgstr ""
 
 #: src/lang-support.md:12
 msgid "Rainbow Brackets"
-msgstr ""
+msgstr "彩虹括號"
 
 #: src/lang-support.md:12
 msgid "Default language servers"
-msgstr ""
+msgstr "預設語言伺服器"
 
 #: src/lang-support.md:14
 msgid "ada"
@@ -309,91 +309,91 @@ msgstr ""
 
 #: src/lang-support.md:34
 msgid "caddyfile"
-msgstr ""
+msgstr "caddyfile"
 
 #: src/lang-support.md:35
 msgid "cairo"
-msgstr ""
+msgstr "cairo"
 
 #: src/lang-support.md:35
 msgid "`cairo-language-server`"
-msgstr ""
+msgstr "`cairo-language-server`"
 
 #: src/lang-support.md:36
 msgid "capnp"
-msgstr ""
+msgstr "capnp"
 
 #: src/lang-support.md:37
 msgid "cel"
-msgstr ""
+msgstr "cel"
 
 #: src/lang-support.md:38
 msgid "chuck"
-msgstr ""
+msgstr "chuck"
 
 #: src/lang-support.md:39
 msgid "circom"
-msgstr ""
+msgstr "circom"
 
 #: src/lang-support.md:39
 msgid "`circom-lsp`"
-msgstr ""
+msgstr "`circom-lsp`"
 
 #: src/lang-support.md:40
 msgid "clarity"
-msgstr ""
+msgstr "clarity"
 
 #: src/lang-support.md:40
 msgid "`clarinet`"
-msgstr ""
+msgstr "`clarinet`"
 
 #: src/lang-support.md:41
 msgid "clojure"
-msgstr ""
+msgstr "clojure"
 
 #: src/lang-support.md:41
 msgid "`clojure-lsp`"
-msgstr ""
+msgstr "`clojure-lsp`"
 
 #: src/lang-support.md:42
 msgid "cmake"
-msgstr ""
+msgstr "cmake"
 
 #: src/lang-support.md:42
 msgid "`neocmakelsp`, `cmake-language-server`"
-msgstr ""
+msgstr "`neocmakelsp`、`cmake-language-server`"
 
 #: src/lang-support.md:43
 msgid "codeql"
-msgstr ""
+msgstr "codeql"
 
 #: src/lang-support.md:43
 msgid "`codeql`"
-msgstr ""
+msgstr "`codeql`"
 
 #: src/lang-support.md:44
 msgid "comment"
-msgstr ""
+msgstr "comment"
 
 #: src/lang-support.md:45
 msgid "common-lisp"
-msgstr ""
+msgstr "common-lisp"
 
 #: src/lang-support.md:45
 msgid "`cl-lsp`"
-msgstr ""
+msgstr "`cl-lsp`"
 
 #: src/lang-support.md:46
 msgid "cpon"
-msgstr ""
+msgstr "cpon"
 
 #: src/lang-support.md:47
 msgid "cpp"
-msgstr ""
+msgstr "cpp"
 
 #: src/lang-support.md:48
 msgid "cross-config"
-msgstr ""
+msgstr "cross-config"
 
 #: src/lang-support.md:48 src/lang-support.md:99 src/lang-support.md:149
 #: src/lang-support.md:194 src/lang-support.md:298
@@ -515,59 +515,59 @@ msgstr ""
 
 #: src/lang-support.md:66
 msgid "`dot-language-server`"
-msgstr ""
+msgstr "`dot-language-server`"
 
 #: src/lang-support.md:67
 msgid "doxyfile"
-msgstr ""
+msgstr "doxyfile"
 
 #: src/lang-support.md:68
 msgid "dtd"
-msgstr ""
+msgstr "dtd"
 
 #: src/lang-support.md:69
 msgid "dune"
-msgstr ""
+msgstr "dune"
 
 #: src/lang-support.md:70
 msgid "dunstrc"
-msgstr ""
+msgstr "dunstrc"
 
 #: src/lang-support.md:71
 msgid "earthfile"
-msgstr ""
+msgstr "earthfile"
 
 #: src/lang-support.md:71
 msgid "`earthlyls`"
-msgstr ""
+msgstr "`earthlyls`"
 
 #: src/lang-support.md:72
 msgid "edoc"
-msgstr ""
+msgstr "edoc"
 
 #: src/lang-support.md:73
 msgid "eex"
-msgstr ""
+msgstr "eex"
 
 #: src/lang-support.md:74
 msgid "eiffel"
-msgstr ""
+msgstr "eiffel"
 
 #: src/lang-support.md:74
 msgid "`eiffel-language-server`"
-msgstr ""
+msgstr "`eiffel-language-server`"
 
 #: src/lang-support.md:75
 msgid "ejs"
-msgstr ""
+msgstr "ejs"
 
 #: src/lang-support.md:76
 msgid "elisp"
-msgstr ""
+msgstr "elisp"
 
 #: src/lang-support.md:77
 msgid "elixir"
-msgstr ""
+msgstr "elixir"
 
 #: src/lang-support.md:77 src/lang-support.md:130
 msgid "`elixir-ls`, `expert`"
@@ -659,71 +659,71 @@ msgstr ""
 
 #: src/lang-support.md:92
 msgid "fsharp"
-msgstr ""
+msgstr "fsharp"
 
 #: src/lang-support.md:92
 msgid "`fsautocomplete`"
-msgstr ""
+msgstr "`fsautocomplete`"
 
 #: src/lang-support.md:93
 msgid "gas"
-msgstr ""
+msgstr "gas"
 
 #: src/lang-support.md:93 src/lang-support.md:198
 msgid "`asm-lsp`"
-msgstr ""
+msgstr "`asm-lsp`"
 
 #: src/lang-support.md:94
 msgid "gdscript"
-msgstr ""
+msgstr "gdscript"
 
 #: src/lang-support.md:95
 msgid "gemini"
-msgstr ""
+msgstr "gemini"
 
 #: src/lang-support.md:96
 msgid "gherkin"
-msgstr ""
+msgstr "gherkin"
 
 #: src/lang-support.md:97
 msgid "ghostty"
-msgstr ""
+msgstr "ghostty"
 
 #: src/lang-support.md:98
 msgid "git-attributes"
-msgstr ""
+msgstr "git-attributes"
 
 #: src/lang-support.md:99
 msgid "git-cliff-config"
-msgstr ""
+msgstr "git-cliff-config"
 
 #: src/lang-support.md:100
 msgid "git-commit"
-msgstr ""
+msgstr "git-commit"
 
 #: src/lang-support.md:100
 msgid "`commit-lsp`"
-msgstr ""
+msgstr "`commit-lsp`"
 
 #: src/lang-support.md:101
 msgid "git-config"
-msgstr ""
+msgstr "git-config"
 
 #: src/lang-support.md:102
 msgid "git-ignore"
-msgstr ""
+msgstr "git-ignore"
 
 #: src/lang-support.md:103
 msgid "git-notes"
-msgstr ""
+msgstr "git-notes"
 
 #: src/lang-support.md:104
 msgid "git-rebase"
-msgstr ""
+msgstr "git-rebase"
 
 #: src/lang-support.md:105
 msgid "github-action"
-msgstr ""
+msgstr "github-action"
 
 #: src/lang-support.md:105
 msgid "`actions-languageserver`, `yaml-language-server`"
@@ -789,123 +789,123 @@ msgstr ""
 
 #: src/lang-support.md:114
 msgid "godot-resource"
-msgstr ""
+msgstr "godot-resource"
 
 #: src/lang-support.md:115
 msgid "gomod"
-msgstr ""
+msgstr "gomod"
 
 #: src/lang-support.md:115 src/lang-support.md:116 src/lang-support.md:117
 msgid "`gopls`"
-msgstr ""
+msgstr "`gopls`"
 
 #: src/lang-support.md:116
 msgid "gotmpl"
-msgstr ""
+msgstr "gotmpl"
 
 #: src/lang-support.md:117
 msgid "gowork"
-msgstr ""
+msgstr "gowork"
 
 #: src/lang-support.md:118
 msgid "gpr"
-msgstr ""
+msgstr "gpr"
 
 #: src/lang-support.md:119
 msgid "graphql"
-msgstr ""
+msgstr "graphql"
 
 #: src/lang-support.md:119
 msgid "`graphql-lsp`"
-msgstr ""
+msgstr "`graphql-lsp`"
 
 #: src/lang-support.md:120
 msgid "gren"
-msgstr ""
+msgstr "gren"
 
 #: src/lang-support.md:121
 msgid "groovy"
-msgstr ""
+msgstr "groovy"
 
 #: src/lang-support.md:122
 msgid "gts"
-msgstr ""
+msgstr "gts"
 
 #: src/lang-support.md:123
 msgid "hare"
-msgstr ""
+msgstr "hare"
 
 #: src/lang-support.md:123
 msgid "`hare-lsp`"
-msgstr ""
+msgstr "`hare-lsp`"
 
 #: src/lang-support.md:124
 msgid "haskell"
-msgstr ""
+msgstr "haskell"
 
 #: src/lang-support.md:125
 msgid "haskell-literate"
-msgstr ""
+msgstr "haskell-literate"
 
 #: src/lang-support.md:126
 msgid "haskell-persistent"
-msgstr ""
+msgstr "haskell-persistent"
 
 #: src/lang-support.md:127
 msgid "haxe"
-msgstr ""
+msgstr "haxe"
 
 #: src/lang-support.md:128
 msgid "hcl"
-msgstr ""
+msgstr "hcl"
 
 #: src/lang-support.md:128 src/lang-support.md:294
 msgid "`terraform-ls`"
-msgstr ""
+msgstr "`terraform-ls`"
 
 #: src/lang-support.md:129
 msgid "hdl"
-msgstr ""
+msgstr "hdl"
 
 #: src/lang-support.md:129
 msgid "`hdls`"
-msgstr ""
+msgstr "`hdls`"
 
 #: src/lang-support.md:130
 msgid "heex"
-msgstr ""
+msgstr "heex"
 
 #: src/lang-support.md:131
 msgid "helm"
-msgstr ""
+msgstr "helm"
 
 #: src/lang-support.md:131
 msgid "`helm_ls`"
-msgstr ""
+msgstr "`helm_ls`"
 
 #: src/lang-support.md:132
 msgid "hocon"
-msgstr ""
+msgstr "hocon"
 
 #: src/lang-support.md:133
 msgid "hoon"
-msgstr ""
+msgstr "hoon"
 
 #: src/lang-support.md:134
 msgid "hosts"
-msgstr ""
+msgstr "hosts"
 
 #: src/lang-support.md:135
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #: src/lang-support.md:135
 msgid "`vscode-html-language-server`, `superhtml`"
-msgstr ""
+msgstr "`vscode-html-language-server`、`superhtml`"
 
 #: src/lang-support.md:136
 msgid "htmldjango"
-msgstr ""
+msgstr "htmldjango"
 
 #: src/lang-support.md:136
 msgid "`djlsp`, `vscode-html-language-server`, `superhtml`"
@@ -913,63 +913,63 @@ msgstr ""
 
 #: src/lang-support.md:137
 msgid "hurl"
-msgstr ""
+msgstr "hurl"
 
 #: src/lang-support.md:138
 msgid "hy"
-msgstr ""
+msgstr "hy"
 
 #: src/lang-support.md:138
 msgid "`hyuga`"
-msgstr ""
+msgstr "`hyuga`"
 
 #: src/lang-support.md:139
 msgid "hyprlang"
-msgstr ""
+msgstr "hyprlang"
 
 #: src/lang-support.md:139
 msgid "`hyprls`"
-msgstr ""
+msgstr "`hyprls`"
 
 #: src/lang-support.md:140
 msgid "idris"
-msgstr ""
+msgstr "idris"
 
 #: src/lang-support.md:140
 msgid "`idris2-lsp`"
-msgstr ""
+msgstr "`idris2-lsp`"
 
 #: src/lang-support.md:141
 msgid "iex"
-msgstr ""
+msgstr "iex"
 
 #: src/lang-support.md:142
 msgid "ini"
-msgstr ""
+msgstr "ini"
 
 #: src/lang-support.md:143
 msgid "ink"
-msgstr ""
+msgstr "ink"
 
 #: src/lang-support.md:144
 msgid "inko"
-msgstr ""
+msgstr "inko"
 
 #: src/lang-support.md:145
 msgid "janet"
-msgstr ""
+msgstr "janet"
 
 #: src/lang-support.md:146
 msgid "java"
-msgstr ""
+msgstr "java"
 
 #: src/lang-support.md:146
 msgid "`jdtls`"
-msgstr ""
+msgstr "`jdtls`"
 
 #: src/lang-support.md:147
 msgid "javascript"
-msgstr ""
+msgstr "javascript"
 
 #: src/lang-support.md:147 src/lang-support.md:160 src/lang-support.md:300
 #: src/lang-support.md:302
@@ -1110,83 +1110,83 @@ msgstr ""
 
 #: src/lang-support.md:172
 msgid "ldif"
-msgstr ""
+msgstr "ldif"
 
 #: src/lang-support.md:173
 msgid "lean"
-msgstr ""
+msgstr "lean"
 
 #: src/lang-support.md:173
 msgid "`lake`"
-msgstr ""
+msgstr "`lake`"
 
 #: src/lang-support.md:174
 msgid "ledger"
-msgstr ""
+msgstr "ledger"
 
 #: src/lang-support.md:175
 msgid "llvm"
-msgstr ""
+msgstr "llvm"
 
 #: src/lang-support.md:176
 msgid "llvm-mir"
-msgstr ""
+msgstr "llvm-mir"
 
 #: src/lang-support.md:177
 msgid "llvm-mir-yaml"
-msgstr ""
+msgstr "llvm-mir-yaml"
 
 #: src/lang-support.md:178
 msgid "log"
-msgstr ""
+msgstr "log"
 
 #: src/lang-support.md:179
 msgid "lpf"
-msgstr ""
+msgstr "lpf"
 
 #: src/lang-support.md:180
 msgid "lua"
-msgstr ""
+msgstr "lua"
 
 #: src/lang-support.md:180
 msgid "`lua-language-server`"
-msgstr ""
+msgstr "`lua-language-server`"
 
 #: src/lang-support.md:181
 msgid "lua-format-string"
-msgstr ""
+msgstr "lua-format-string"
 
 #: src/lang-support.md:182
 msgid "luap"
-msgstr ""
+msgstr "luap"
 
 #: src/lang-support.md:183
 msgid "luau"
-msgstr ""
+msgstr "luau"
 
 #: src/lang-support.md:183
 msgid "`luau-lsp`"
-msgstr ""
+msgstr "`luau-lsp`"
 
 #: src/lang-support.md:184
 msgid "mail"
-msgstr ""
+msgstr "mail"
 
 #: src/lang-support.md:185
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #: src/lang-support.md:186
 msgid "markdoc"
-msgstr ""
+msgstr "markdoc"
 
 #: src/lang-support.md:186
 msgid "`markdoc-ls`"
-msgstr ""
+msgstr "`markdoc-ls`"
 
 #: src/lang-support.md:187
 msgid "markdown"
-msgstr ""
+msgstr "markdown"
 
 #: src/lang-support.md:187
 msgid "`marksman`, `markdown-oxide`, `rumdl`"
@@ -1194,99 +1194,99 @@ msgstr ""
 
 #: src/lang-support.md:188
 msgid "markdown-rustdoc"
-msgstr ""
+msgstr "markdown-rustdoc"
 
 #: src/lang-support.md:189
 msgid "markdown.inline"
-msgstr ""
+msgstr "markdown.inline"
 
 #: src/lang-support.md:190
 msgid "matlab"
-msgstr ""
+msgstr "matlab"
 
 #: src/lang-support.md:191
 msgid "mermaid"
-msgstr ""
+msgstr "mermaid"
 
 #: src/lang-support.md:192
 msgid "meson"
-msgstr ""
+msgstr "meson"
 
 #: src/lang-support.md:192
 msgid "`mesonlsp`"
-msgstr ""
+msgstr "`mesonlsp`"
 
 #: src/lang-support.md:193
 msgid "mint"
-msgstr ""
+msgstr "mint"
 
 #: src/lang-support.md:193
 msgid "`mint`"
-msgstr ""
+msgstr "`mint`"
 
 #: src/lang-support.md:194
 msgid "miseconfig"
-msgstr ""
+msgstr "miseconfig"
 
 #: src/lang-support.md:195
 msgid "mojo"
-msgstr ""
+msgstr "mojo"
 
 #: src/lang-support.md:195
 msgid "`pixi`"
-msgstr ""
+msgstr "`pixi`"
 
 #: src/lang-support.md:196
 msgid "move"
-msgstr ""
+msgstr "move"
 
 #: src/lang-support.md:197
 msgid "msbuild"
-msgstr ""
+msgstr "msbuild"
 
 #: src/lang-support.md:198
 msgid "nasm"
-msgstr ""
+msgstr "nasm"
 
 #: src/lang-support.md:199
 msgid "nearley"
-msgstr ""
+msgstr "nearley"
 
 #: src/lang-support.md:200
 msgid "nestedtext"
-msgstr ""
+msgstr "nestedtext"
 
 #: src/lang-support.md:201
 msgid "nginx"
-msgstr ""
+msgstr "nginx"
 
 #: src/lang-support.md:202
 msgid "nickel"
-msgstr ""
+msgstr "nickel"
 
 #: src/lang-support.md:202
 msgid "`nls`"
-msgstr ""
+msgstr "`nls`"
 
 #: src/lang-support.md:203
 msgid "nim"
-msgstr ""
+msgstr "nim"
 
 #: src/lang-support.md:203
 msgid "`nimlangserver`"
-msgstr ""
+msgstr "`nimlangserver`"
 
 #: src/lang-support.md:204
 msgid "nix"
-msgstr ""
+msgstr "nix"
 
 #: src/lang-support.md:204
 msgid "`nil`, `nixd`"
-msgstr ""
+msgstr "`nil`、`nixd`"
 
 #: src/lang-support.md:205
 msgid "nu"
-msgstr ""
+msgstr "nu"
 
 #: src/lang-support.md:205
 msgid "`nu`, `nu-lint`"
@@ -1294,99 +1294,99 @@ msgstr ""
 
 #: src/lang-support.md:206
 msgid "nunjucks"
-msgstr ""
+msgstr "nunjucks"
 
 #: src/lang-support.md:207
 msgid "ocaml"
-msgstr ""
+msgstr "ocaml"
 
 #: src/lang-support.md:207 src/lang-support.md:208
 msgid "`ocamllsp`"
-msgstr ""
+msgstr "`ocamllsp`"
 
 #: src/lang-support.md:208
 msgid "ocaml-interface"
-msgstr ""
+msgstr "ocaml-interface"
 
 #: src/lang-support.md:209
 msgid "odin"
-msgstr ""
+msgstr "odin"
 
 #: src/lang-support.md:209
 msgid "`ols`"
-msgstr ""
+msgstr "`ols`"
 
 #: src/lang-support.md:210
 msgid "ohm"
-msgstr ""
+msgstr "ohm"
 
 #: src/lang-support.md:211
 msgid "opencl"
-msgstr ""
+msgstr "opencl"
 
 #: src/lang-support.md:212
 msgid "openscad"
-msgstr ""
+msgstr "openscad"
 
 #: src/lang-support.md:212
 msgid "`openscad-lsp`"
-msgstr ""
+msgstr "`openscad-lsp`"
 
 #: src/lang-support.md:213
 msgid "org"
-msgstr ""
+msgstr "org"
 
 #: src/lang-support.md:214
 msgid "pascal"
-msgstr ""
+msgstr "pascal"
 
 #: src/lang-support.md:214
 msgid "`pasls`"
-msgstr ""
+msgstr "`pasls`"
 
 #: src/lang-support.md:215
 msgid "passwd"
-msgstr ""
+msgstr "passwd"
 
 #: src/lang-support.md:216
 msgid "pem"
-msgstr ""
+msgstr "pem"
 
 #: src/lang-support.md:217
 msgid "perl"
-msgstr ""
+msgstr "perl"
 
 #: src/lang-support.md:217
 msgid "`perlnavigator`"
-msgstr ""
+msgstr "`perlnavigator`"
 
 #: src/lang-support.md:218
 msgid "pest"
-msgstr ""
+msgstr "pest"
 
 #: src/lang-support.md:218
 msgid "`pest-language-server`"
-msgstr ""
+msgstr "`pest-language-server`"
 
 #: src/lang-support.md:219
 msgid "php"
-msgstr ""
+msgstr "php"
 
 #: src/lang-support.md:219
 msgid "`intelephense`"
-msgstr ""
+msgstr "`intelephense`"
 
 #: src/lang-support.md:220
 msgid "php-only"
-msgstr ""
+msgstr "php-only"
 
 #: src/lang-support.md:221
 msgid "pip-requirements"
-msgstr ""
+msgstr "pip-requirements"
 
 #: src/lang-support.md:222
 msgid "pkgbuild"
-msgstr ""
+msgstr "pkgbuild"
 
 #: src/lang-support.md:222
 msgid "`termux-language-server`, `bash-language-server`"
@@ -1586,183 +1586,183 @@ msgstr ""
 
 #: src/lang-support.md:254
 msgid "rust"
-msgstr ""
+msgstr "rust"
 
 #: src/lang-support.md:254
 msgid "`rust-analyzer`"
-msgstr ""
+msgstr "`rust-analyzer`"
 
 #: src/lang-support.md:255
 msgid "rust-format-args"
-msgstr ""
+msgstr "rust-format-args"
 
 #: src/lang-support.md:256
 msgid "rust-format-args-macro"
-msgstr ""
+msgstr "rust-format-args-macro"
 
 #: src/lang-support.md:257
 msgid "sage"
-msgstr ""
+msgstr "sage"
 
 #: src/lang-support.md:258
 msgid "scala"
-msgstr ""
+msgstr "scala"
 
 #: src/lang-support.md:258
 msgid "`metals`"
-msgstr ""
+msgstr "`metals`"
 
 #: src/lang-support.md:259
 msgid "scfg"
-msgstr ""
+msgstr "scfg"
 
 #: src/lang-support.md:260
 msgid "scheme"
-msgstr ""
+msgstr "scheme"
 
 #: src/lang-support.md:261
 msgid "scss"
-msgstr ""
+msgstr "scss"
 
 #: src/lang-support.md:262
 msgid "shellcheckrc"
-msgstr ""
+msgstr "shellcheckrc"
 
 #: src/lang-support.md:263
 msgid "slang"
-msgstr ""
+msgstr "slang"
 
 #: src/lang-support.md:263
 msgid "`slangd`"
-msgstr ""
+msgstr "`slangd`"
 
 #: src/lang-support.md:264
 msgid "slint"
-msgstr ""
+msgstr "slint"
 
 #: src/lang-support.md:264
 msgid "`slint-lsp`"
-msgstr ""
+msgstr "`slint-lsp`"
 
 #: src/lang-support.md:265
 msgid "slisp"
-msgstr ""
+msgstr "slisp"
 
 #: src/lang-support.md:266
 msgid "smali"
-msgstr ""
+msgstr "smali"
 
 #: src/lang-support.md:267
 msgid "smithy"
-msgstr ""
+msgstr "smithy"
 
 #: src/lang-support.md:267
 msgid "`cs`"
-msgstr ""
+msgstr "`cs`"
 
 #: src/lang-support.md:268
 msgid "sml"
-msgstr ""
+msgstr "sml"
 
 #: src/lang-support.md:269
 msgid "snakemake"
-msgstr ""
+msgstr "snakemake"
 
 #: src/lang-support.md:269
 msgid "`pylsp`"
-msgstr ""
+msgstr "`pylsp`"
 
 #: src/lang-support.md:270
 msgid "solidity"
-msgstr ""
+msgstr "solidity"
 
 #: src/lang-support.md:270
 msgid "`solc`"
-msgstr ""
+msgstr "`solc`"
 
 #: src/lang-support.md:271
 msgid "sourcepawn"
-msgstr ""
+msgstr "sourcepawn"
 
 #: src/lang-support.md:271
 msgid "`sourcepawn-studio`"
-msgstr ""
+msgstr "`sourcepawn-studio`"
 
 #: src/lang-support.md:272
 msgid "spade"
-msgstr ""
+msgstr "spade"
 
 #: src/lang-support.md:272
 msgid "`spade-language-server`"
-msgstr ""
+msgstr "`spade-language-server`"
 
 #: src/lang-support.md:273
 msgid "spicedb"
-msgstr ""
+msgstr "spicedb"
 
 #: src/lang-support.md:274
 msgid "sql"
-msgstr ""
+msgstr "sql"
 
 #: src/lang-support.md:275
 msgid "sshclientconfig"
-msgstr ""
+msgstr "sshclientconfig"
 
 #: src/lang-support.md:276
 msgid "starlark"
-msgstr ""
+msgstr "starlark"
 
 #: src/lang-support.md:276
 msgid "`starpls`"
-msgstr ""
+msgstr "`starpls`"
 
 #: src/lang-support.md:277
 msgid "strace"
-msgstr ""
+msgstr "strace"
 
 #: src/lang-support.md:278
 msgid "strictdoc"
-msgstr ""
+msgstr "strictdoc"
 
 #: src/lang-support.md:279
 msgid "supercollider"
-msgstr ""
+msgstr "supercollider"
 
 #: src/lang-support.md:280
 msgid "svelte"
-msgstr ""
+msgstr "svelte"
 
 #: src/lang-support.md:280
 msgid "`svelteserver`"
-msgstr ""
+msgstr "`svelteserver`"
 
 #: src/lang-support.md:281
 msgid "sway"
-msgstr ""
+msgstr "sway"
 
 #: src/lang-support.md:281
 msgid "`forc`"
-msgstr ""
+msgstr "`forc`"
 
 #: src/lang-support.md:282
 msgid "swift"
-msgstr ""
+msgstr "swift"
 
 #: src/lang-support.md:282
 msgid "`sourcekit-lsp`"
-msgstr ""
+msgstr "`sourcekit-lsp`"
 
 #: src/lang-support.md:283
 msgid "systemd"
-msgstr ""
+msgstr "systemd"
 
 #: src/lang-support.md:283
 msgid "`systemd-lsp`"
-msgstr ""
+msgstr "`systemd-lsp`"
 
 #: src/lang-support.md:284
 msgid "systemverilog"
-msgstr ""
+msgstr "systemverilog"
 
 #: src/lang-support.md:284
 msgid "`svlangserver`, `verible-verilog-ls`"
@@ -1770,15 +1770,15 @@ msgstr ""
 
 #: src/lang-support.md:285
 msgid "t32"
-msgstr ""
+msgstr "t32"
 
 #: src/lang-support.md:286
 msgid "tablegen"
-msgstr ""
+msgstr "tablegen"
 
 #: src/lang-support.md:287
 msgid "tact"
-msgstr ""
+msgstr "tact"
 
 #: src/lang-support.md:288
 msgid "task"
@@ -1974,35 +1974,35 @@ msgstr ""
 
 #: src/lang-support.md:323
 msgid "wit"
-msgstr ""
+msgstr "wit"
 
 #: src/lang-support.md:324
 msgid "woodpecker-ci"
-msgstr ""
+msgstr "woodpecker-ci"
 
 #: src/lang-support.md:324
 msgid "`yaml-language-server`"
-msgstr ""
+msgstr "`yaml-language-server`"
 
 #: src/lang-support.md:325
 msgid "wren"
-msgstr ""
+msgstr "wren"
 
 #: src/lang-support.md:326
 msgid "xit"
-msgstr ""
+msgstr "xit"
 
 #: src/lang-support.md:327
 msgid "xml"
-msgstr ""
+msgstr "xml"
 
 #: src/lang-support.md:328
 msgid "xtc"
-msgstr ""
+msgstr "xtc"
 
 #: src/lang-support.md:329
 msgid "yaml"
-msgstr ""
+msgstr "yaml"
 
 #: src/lang-support.md:329
 msgid "`yaml-language-server`, `ansible-language-server`"

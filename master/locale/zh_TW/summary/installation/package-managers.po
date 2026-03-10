@@ -91,7 +91,7 @@ msgstr ""
 
 #: src/package-managers.md:23
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: src/package-managers.md:25
 msgid "The following third party repositories are available:"
@@ -126,7 +126,7 @@ msgstr ""
 
 #: src/package-managers.md:43
 msgid "Fedora/RHEL"
-msgstr ""
+msgstr "Fedora/RHEL"
 
 #: src/package-managers.md:49
 msgid "Arch Linux extra"
@@ -252,19 +252,19 @@ msgstr ""
 
 #: src/package-managers.md:120
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: src/package-managers.md:122
 msgid "Homebrew Core"
-msgstr ""
+msgstr "Homebrew Core"
 
 #: src/package-managers.md:128
 msgid "MacPorts"
-msgstr ""
+msgstr "MacPorts"
 
 #: src/package-managers.md:134
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: src/package-managers.md:136
 msgid ""
@@ -272,10 +272,13 @@ msgid ""
 "package-manager/winget/), [Scoop](https://scoop.sh/), [Chocolatey](https://"
 "chocolatey.org/) or [MSYS2](https://msys2.org/)."
 msgstr ""
+"使用 [Winget](https://learn.microsoft.com/en-us/windows/package-manager/"
+"winget/)、[Scoop](https://scoop.sh/)、[Chocolatey](https://chocolatey.org/) "
+"或 [MSYS2](https://msys2.org/) 在 Windows 上安裝。"
 
 #: src/package-managers.md:139
 msgid "Winget"
-msgstr ""
+msgstr "Winget"
 
 #: src/package-managers.md:140
 msgid ""

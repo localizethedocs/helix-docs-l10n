@@ -125,7 +125,7 @@ msgstr ""
 
 #: src/jumplist.md:33
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: src/jumplist.md:34
 msgid "`Ctrl-s` manually creates a jump"
