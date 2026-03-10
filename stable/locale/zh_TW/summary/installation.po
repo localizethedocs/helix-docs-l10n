@@ -40,7 +40,7 @@ msgstr ""
 
 #: src/install.md:15
 msgid "Pre-built binaries"
-msgstr ""
+msgstr "預先建置的二進位檔"
 
 #: src/install.md:17
 msgid ""
@@ -48,6 +48,9 @@ msgid ""
 "com/helix-editor/helix/releases). The tarball contents include an `hx` "
 "binary and a `runtime` directory. To set up Helix:"
 msgstr ""
+"從 [GitHub Releases 頁面]( https://github.com/helix-editor/helix/releases)下"
+"載預先編譯的二進位檔案。壓縮檔內容包含 `hx` 二進位執行檔及 `runtime` 目錄。設"
+"定 Helix 的步驟如下："
 
 #: src/install.md:21
 msgid ""

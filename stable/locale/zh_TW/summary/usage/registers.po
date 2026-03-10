@@ -13,11 +13,11 @@ msgstr ""
 
 #: src/registers.md:1
 msgid "Registers"
-msgstr ""
+msgstr "暫存器"
 
 #: src/registers.md:3
 msgid "[User-defined registers](#user-defined-registers)"
-msgstr ""
+msgstr "[使用者定義的暫存器](#使用者定義的暫存器)"
 
 #: src/registers.md:4
 msgid "[Default registers](#default-registers)"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/registers.md:12
 msgid "User-defined registers"
-msgstr ""
+msgstr "使用者定義的暫存器"
 
 #: src/registers.md:14
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: src/registers.md:25
 msgid "Default registers"
-msgstr ""
+msgstr "預設暫存器"
 
 #: src/registers.md:27
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: src/registers.md:30 src/registers.md:41
 msgid "Register character"
-msgstr ""
+msgstr "暫存器字元"
 
 #: src/registers.md:30
 msgid "Contains"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: src/registers.md:32
 msgid "Last search"
-msgstr ""
+msgstr "最後一次搜尋"
 
 #: src/registers.md:33
 msgid "`:`"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: src/registers.md:33
 msgid "Last executed command"
-msgstr ""
+msgstr "最後一次執行的命令"
 
 #: src/registers.md:34
 msgid "`\"`"
@@ -117,11 +117,11 @@ msgstr ""
 
 #: src/registers.md:35
 msgid "Last recorded macro"
-msgstr ""
+msgstr "最後一次錄製的巨集"
 
 #: src/registers.md:37
 msgid "Special registers"
-msgstr ""
+msgstr "特殊暫存器"
 
 #: src/registers.md:39
 msgid "Some registers have special behavior when read from and written to."
@@ -173,7 +173,7 @@ msgstr ""
 
 #: src/registers.md:46
 msgid "Name of the current file"
-msgstr ""
+msgstr "當前檔案的名稱"
 
 #: src/registers.md:47
 msgid "`+`"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: src/registers.md:47
 msgid "Reads from the system clipboard"
-msgstr ""
+msgstr "從系統剪貼簿讀出"
 
 #: src/registers.md:47
 msgid "Joins and yanks to the system clipboard"
@@ -193,7 +193,7 @@ msgstr ""
 
 #: src/registers.md:48
 msgid "Reads from the primary clipboard"
-msgstr ""
+msgstr "從主要剪貼簿讀出"
 
 #: src/registers.md:48
 msgid "Joins and yanks to the primary clipboard"

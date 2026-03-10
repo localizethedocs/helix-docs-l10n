@@ -17,7 +17,7 @@ msgstr ""
 
 #: src/keymap.md:3
 msgid "[Normal mode](#normal-mode)"
-msgstr ""
+msgstr "[普通模式](#普通模式)"
 
 #: src/keymap.md:4
 msgid "[Movement](#movement)"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/keymap.md:8
 msgid "[Search](#search)"
-msgstr ""
+msgstr "[搜尋](#search)"
 
 #: src/keymap.md:9
 msgid "[Minor modes](#minor-modes)"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: src/keymap.md:10
 msgid "[View mode](#view-mode)"
-msgstr ""
+msgstr "[檢視模式](#view-mode)"
 
 #: src/keymap.md:11
 msgid "[Goto mode](#goto-mode)"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: src/keymap.md:19
 msgid "[Insert mode](#insert-mode)"
-msgstr ""
+msgstr "[插入模式](#insert-mode)"
 
 #: src/keymap.md:20
 msgid "[Select / extend mode](#select--extend-mode)"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: src/keymap.md:30
 msgid "Normal mode"
-msgstr ""
+msgstr "普通模式"
 
 #: src/keymap.md:32
 msgid ""
@@ -153,7 +153,7 @@ msgstr ""
 #: src/keymap.md:244 src/keymap.md:261 src/keymap.md:285 src/keymap.md:351
 #: src/keymap.md:388 src/keymap.md:405
 msgid "Command"
-msgstr ""
+msgstr "命令"
 
 #: src/keymap.md:40
 msgid "`h`, `Left`"
