@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -380,12 +380,20 @@ msgstr ""
 msgid "bar"
 msgstr ""
 
-#: src/guides/indent.md:264
-msgid ""
-"# ↑ ↑\n"
-"# │ ╰─────────────── start of map\n"
-"# ╰───────────────── start of list element\n"
-"    baz"
+#: src/guides/indent.md:265
+msgid "↑ ↑"
+msgstr ""
+
+#: src/guides/indent.md:266
+msgid "│ ╰─────────────── start of map"
+msgstr ""
+
+#: src/guides/indent.md:267
+msgid "╰───────────────── start of list element"
+msgstr ""
+
+#: src/guides/indent.md:268 src/guides/indent.md:272
+msgid "baz"
 msgstr ""
 
 #: src/guides/indent.md:268
@@ -401,10 +409,6 @@ msgstr ""
 
 #: src/guides/indent.md:271
 msgid "quux"
-msgstr ""
-
-#: src/guides/indent.md:272
-msgid "baz"
 msgstr ""
 
 #: src/guides/indent.md:273

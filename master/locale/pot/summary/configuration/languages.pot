@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -94,17 +94,17 @@ msgstr ""
 msgid "These configuration keys are available:"
 msgstr ""
 
-#: src/languages.md:53 src/languages.md:140 src/languages.md:229
-#: src/languages.md:237
+#: src/languages.md:53 src/languages.md:165 src/languages.md:258
+#: src/languages.md:266
 msgid "Key"
 msgstr ""
 
-#: src/languages.md:53 src/languages.md:140 src/languages.md:229
-#: src/languages.md:237
+#: src/languages.md:53 src/languages.md:165 src/languages.md:258
+#: src/languages.md:266
 msgid "Description"
 msgstr ""
 
-#: src/languages.md:55 src/languages.md:231
+#: src/languages.md:55 src/languages.md:260
 msgid "`name`"
 msgstr ""
 
@@ -172,8 +172,9 @@ msgstr ""
 
 #: src/languages.md:61
 msgid ""
-"A set of marker files to look for when trying to find the workspace root. "
-"For example `Cargo.lock`, `yarn.lock`"
+"A set of marker files used for LSP working directory selection. Helix starts "
+"at the file, walks upward, and remembers the _topmost_ i.e. _last_ directory "
+"that contains a marker file. For example Cargo.lock, yarn.lock"
 msgstr ""
 
 #: src/languages.md:62
@@ -310,9 +311,9 @@ msgstr ""
 
 #: src/languages.md:75
 msgid ""
-"Directories relative to the workspace root that are treated as LSP roots. "
-"Should only be set in `.helix/config.toml`. Overwrites the setting of the "
-"same name in `config.toml` if set."
+"Directories (relative to the workspace root) that stop the upward root "
+"search early. Meant for project-specific hard overrides in a local `.helix/"
+"config.toml`;"
 msgstr ""
 
 #: src/languages.md:76
@@ -336,17 +337,75 @@ msgid "Overrides the `editor.rainbow-brackets` config key for the language"
 msgstr ""
 
 #: src/languages.md:79
-msgid "File-type detection and the `file-types` key"
+msgid "Project and LSP root selection"
 msgstr ""
 
 #: src/languages.md:81
+msgid "This is the model Helix uses:"
+msgstr ""
+
+#: src/languages.md:83
+msgid ""
+"The **workspace root** is found once by walking upward from the current "
+"working directory and picking the first directory that contains `.git`, `."
+"svn`, `.jj`, or `.helix`. If none are found, the current working directory "
+"is the workspace root."
+msgstr ""
+
+#: src/languages.md:87
+msgid ""
+"Root markers (`roots`) are used only for LSP root selection and are found by "
+"starting at the **file**, not the folder Helix was opened in."
+msgstr ""
+
+#: src/languages.md:89
+msgid ""
+"We use the **topmost** directory that has a root marker (we stop the search "
+"at the workspace root)."
+msgstr ""
+
+#: src/languages.md:91
+msgid ""
+"In most cases, root markers are enough. In some repos there are multiple "
+"nested root markers and whether you want the inner or outer one is project "
+"specific. For these situations, use `workspace-lsp-roots` to stop the search "
+"early in a particular directory."
+msgstr ""
+
+#: src/languages.md:95
+msgid ""
+"`workspace-lsp-roots` is meant to be set in the **project-specific** config: "
+"`$PROJECT/.helix/config.toml`."
+msgstr ""
+
+#: src/languages.md:98
+msgid ""
+"Interaction with `required-root-patterns` (a language_server configuration "
+"key):"
+msgstr ""
+
+#: src/languages.md:100
+msgid ""
+"After the LSP root is selected, Helix checks for `required-root-patterns` in "
+"that directory. If none match, the server is not started."
+msgstr ""
+
+#: src/languages.md:102
+msgid "This is validation, not root detection."
+msgstr ""
+
+#: src/languages.md:104
+msgid "File-type detection and the `file-types` key"
+msgstr ""
+
+#: src/languages.md:106
 msgid ""
 "Helix determines which language configuration to use based on the `file-"
 "types` key from the above section. `file-types` is a list of strings or "
 "tables, for example:"
 msgstr ""
 
-#: src/languages.md:85
+#: src/languages.md:110
 msgid ""
 "```toml\n"
 "file-types = [\"toml\", { glob = \"Makefile\" }, { glob = \".git/config\" }, "
@@ -354,13 +413,13 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:89
+#: src/languages.md:114
 msgid ""
 "When determining a language configuration to use, Helix searches the file-"
 "types with the following priorities:"
 msgstr ""
 
-#: src/languages.md:92
+#: src/languages.md:117
 msgid ""
 "Glob: values in `glob` tables are checked against the full path of the given "
 "file. Globs are standard Unix-style path globs (e.g. the kind you use in "
@@ -376,25 +435,25 @@ msgid ""
 "automatically be added to ensure it matches for any subdirectory."
 msgstr ""
 
-#: src/languages.md:103
+#: src/languages.md:128
 msgid ""
 "Extension: if there are no glob matches, any `file-types` string that "
 "matches the file extension of a given file wins. In the example above, the "
 "`\"toml\"` config matches files like `Cargo.toml` or `languages.toml`."
 msgstr ""
 
-#: src/languages.md:107
+#: src/languages.md:132
 msgid "Configuring the formatter command"
 msgstr ""
 
-#: src/languages.md:109
+#: src/languages.md:134
 msgid ""
 "[Command line expansions](./command-line.md#expansions) are supported in the "
 "arguments of the formatter command. In particular, the `%{buffer_name}` "
 "variable can be passed as argument to the formatter:"
 msgstr ""
 
-#: src/languages.md:113
+#: src/languages.md:138
 msgid ""
 "```toml\n"
 "formatter = { command = \"mylang-formatter\" , args = [\"--stdin\", \"--"
@@ -402,21 +461,21 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:117
+#: src/languages.md:142
 msgid "Language Server configuration"
 msgstr ""
 
-#: src/languages.md:119
+#: src/languages.md:144
 msgid ""
 "Language servers are configured separately in the table `language-server` in "
 "the same file as the languages `languages.toml`"
 msgstr ""
 
-#: src/languages.md:121
+#: src/languages.md:146
 msgid "For example:"
 msgstr ""
 
-#: src/languages.md:123
+#: src/languages.md:148
 msgid ""
 "```toml\n"
 "[language-server.mylang-lsp]\n"
@@ -435,67 +494,67 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:138
+#: src/languages.md:163
 msgid "These are the available options for a language server."
 msgstr ""
 
-#: src/languages.md:142
+#: src/languages.md:167
 msgid "`command`"
 msgstr ""
 
-#: src/languages.md:142
+#: src/languages.md:167
 msgid ""
 "The name or path of the language server binary to execute. Binaries must be "
 "in `$PATH`"
 msgstr ""
 
-#: src/languages.md:143
+#: src/languages.md:168
 msgid "`args`"
 msgstr ""
 
-#: src/languages.md:143
+#: src/languages.md:168
 msgid "A list of arguments to pass to the language server binary"
 msgstr ""
 
-#: src/languages.md:144
+#: src/languages.md:169
 msgid "`config`"
 msgstr ""
 
-#: src/languages.md:144
+#: src/languages.md:169
 msgid "Language server initialization options"
 msgstr ""
 
-#: src/languages.md:145
+#: src/languages.md:170
 msgid "`timeout`"
 msgstr ""
 
-#: src/languages.md:145
+#: src/languages.md:170
 msgid ""
 "The maximum time a request to the language server may take, in seconds. "
 "Defaults to `20`"
 msgstr ""
 
-#: src/languages.md:146
+#: src/languages.md:171
 msgid "`environment`"
 msgstr ""
 
-#: src/languages.md:146
+#: src/languages.md:171
 msgid ""
 "Any environment variables that will be used when starting the language "
 "server `{ \"KEY1\" = \"Value1\", \"KEY2\" = \"Value2\" }`"
 msgstr ""
 
-#: src/languages.md:147
+#: src/languages.md:172
 msgid "`required-root-patterns`"
 msgstr ""
 
-#: src/languages.md:147
+#: src/languages.md:172
 msgid ""
-"A list of `glob` patterns to look for in the working directory. The language "
-"server is started if at least one of them is found."
+"A list of `glob` patterns to look for in the working directory of the lsp. "
+"The language server is only started if at least one of them is found."
 msgstr ""
 
-#: src/languages.md:149
+#: src/languages.md:174
 msgid ""
 "A `format` sub-table within `config` can be used to pass extra formatting "
 "options to [Document Formatting Requests](https://microsoft.github.io/"
@@ -503,7 +562,7 @@ msgid ""
 "#textDocument_formatting). For example, with typescript:"
 msgstr ""
 
-#: src/languages.md:153
+#: src/languages.md:178
 msgid ""
 "```toml\n"
 "[language-server.typescript-language-server]\n"
@@ -515,43 +574,43 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:159
+#: src/languages.md:184
 msgid "Configuring Language Servers for a language"
 msgstr ""
 
-#: src/languages.md:161
+#: src/languages.md:186
 msgid ""
 "The `language-servers` attribute in a language tells helix which language "
 "servers are used for this language."
 msgstr ""
 
-#: src/languages.md:163
+#: src/languages.md:188
 msgid ""
 "They have to be defined in the `[language-server]` table as described in the "
 "previous section."
 msgstr ""
 
-#: src/languages.md:165
+#: src/languages.md:190
 msgid ""
 "Different languages can use the same language server instance, e.g. "
 "`typescript-language-server` is used for javascript, jsx, tsx and typescript "
 "by default."
 msgstr ""
 
-#: src/languages.md:167
+#: src/languages.md:192
 msgid ""
 "The definition order of language servers affects the order in the results "
 "list of code action menu."
 msgstr ""
 
-#: src/languages.md:169
+#: src/languages.md:194
 msgid ""
 "In case multiple language servers are specified in the `language-servers` "
 "attribute of a `language`, it's often useful to only enable/disable certain "
 "language-server features for these language servers."
 msgstr ""
 
-#: src/languages.md:172
+#: src/languages.md:197
 msgid ""
 "As an example, `efm-lsp-prettier` of the previous example is used only with "
 "a formatting command `prettier`, so everything else should be handled by the "
@@ -559,7 +618,7 @@ msgid ""
 "configuration for typescript could look like this:"
 msgstr ""
 
-#: src/languages.md:176
+#: src/languages.md:201
 msgid ""
 "```toml\n"
 "[[language]]\n"
@@ -569,11 +628,11 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:182
+#: src/languages.md:207
 msgid "or equivalent:"
 msgstr ""
 
-#: src/languages.md:184
+#: src/languages.md:209
 msgid ""
 "```toml\n"
 "[[language]]\n"
@@ -583,7 +642,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:190
+#: src/languages.md:215
 msgid ""
 "Each requested LSP feature is prioritized in the order of the `language-"
 "servers` array. For example, the first `goto-definition` supported language "
@@ -598,89 +657,105 @@ msgid ""
 "tried (and so on)."
 msgstr ""
 
-#: src/languages.md:196
+#: src/languages.md:221
 msgid "The list of supported features is:"
 msgstr ""
 
-#: src/languages.md:198
+#: src/languages.md:223
 msgid "`format`"
 msgstr ""
 
-#: src/languages.md:199
-msgid "`goto-definition`"
-msgstr ""
-
-#: src/languages.md:200
+#: src/languages.md:224
 msgid "`goto-declaration`"
 msgstr ""
 
-#: src/languages.md:201
+#: src/languages.md:225
+msgid "`goto-definition`"
+msgstr ""
+
+#: src/languages.md:226
 msgid "`goto-type-definition`"
 msgstr ""
 
-#: src/languages.md:202
+#: src/languages.md:227
 msgid "`goto-reference`"
 msgstr ""
 
-#: src/languages.md:203
+#: src/languages.md:228
 msgid "`goto-implementation`"
 msgstr ""
 
-#: src/languages.md:204
+#: src/languages.md:229
 msgid "`signature-help`"
 msgstr ""
 
-#: src/languages.md:205
+#: src/languages.md:230
 msgid "`hover`"
 msgstr ""
 
-#: src/languages.md:206
+#: src/languages.md:231
 msgid "`document-highlight`"
 msgstr ""
 
-#: src/languages.md:207
+#: src/languages.md:232
 msgid "`completion`"
 msgstr ""
 
-#: src/languages.md:208
+#: src/languages.md:233
 msgid "`code-action`"
 msgstr ""
 
-#: src/languages.md:209
+#: src/languages.md:234
+msgid "`document-links`"
+msgstr ""
+
+#: src/languages.md:235
 msgid "`workspace-command`"
 msgstr ""
 
-#: src/languages.md:210
+#: src/languages.md:236
 msgid "`document-symbols`"
 msgstr ""
 
-#: src/languages.md:211
+#: src/languages.md:237
 msgid "`workspace-symbols`"
 msgstr ""
 
-#: src/languages.md:212
+#: src/languages.md:238
 msgid "`diagnostics`"
 msgstr ""
 
-#: src/languages.md:213
+#: src/languages.md:239
+msgid "`pull-diagnostics`"
+msgstr ""
+
+#: src/languages.md:240
 msgid "`rename-symbol`"
 msgstr ""
 
-#: src/languages.md:214
+#: src/languages.md:241
 msgid "`inlay-hints`"
 msgstr ""
 
-#: src/languages.md:216
+#: src/languages.md:242
+msgid "`document-colors`"
+msgstr ""
+
+#: src/languages.md:243
+msgid "`call-hierarchy`"
+msgstr ""
+
+#: src/languages.md:245
 msgid "Tree-sitter grammar configuration"
 msgstr ""
 
-#: src/languages.md:218
+#: src/languages.md:247
 msgid ""
 "The source for a language's tree-sitter grammar is specified in a "
 "`[[grammar]]` section in `languages.toml`. For example:"
 msgstr ""
 
-#: src/languages.md:221
+#: src/languages.md:250
 msgid ""
 "```toml\n"
 "[[grammar]]\n"
@@ -690,50 +765,50 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:227
+#: src/languages.md:256
 msgid "Grammar configuration takes these keys:"
 msgstr ""
 
-#: src/languages.md:231
+#: src/languages.md:260
 msgid "The name of the tree-sitter grammar"
 msgstr ""
 
-#: src/languages.md:232
+#: src/languages.md:261
 msgid "`source`"
 msgstr ""
 
-#: src/languages.md:232
+#: src/languages.md:261
 msgid ""
 "The method of fetching the grammar - a table with a schema defined below"
 msgstr ""
 
-#: src/languages.md:234
+#: src/languages.md:263
 msgid ""
 "Where `source` is a table with either these keys when using a grammar from a "
 "git repository:"
 msgstr ""
 
-#: src/languages.md:239
+#: src/languages.md:268
 msgid "`git`"
 msgstr ""
 
-#: src/languages.md:239
+#: src/languages.md:268
 msgid "A git remote URL from which the grammar should be cloned"
 msgstr ""
 
-#: src/languages.md:240
+#: src/languages.md:269
 msgid "`rev`"
 msgstr ""
 
-#: src/languages.md:240
+#: src/languages.md:269
 msgid "The revision (commit hash or tag) which should be fetched"
 msgstr ""
 
-#: src/languages.md:241
+#: src/languages.md:270
 msgid "`subpath`"
 msgstr ""
 
-#: src/languages.md:241
+#: src/languages.md:270
 msgid ""
 "A path within the grammar directory which should be built. Some grammar "
 "repositories host multiple grammars (for example `tree-sitter-typescript` "
@@ -742,17 +817,17 @@ msgid ""
 "of repository is used"
 msgstr ""
 
-#: src/languages.md:243
+#: src/languages.md:272
 msgid "Choosing grammars"
 msgstr ""
 
-#: src/languages.md:245
+#: src/languages.md:274
 msgid ""
 "You may use a top-level `use-grammars` key to control which grammars are "
 "fetched and built when using `hx --grammar fetch` and `hx --grammar build`."
 msgstr ""
 
-#: src/languages.md:248
+#: src/languages.md:277
 msgid ""
 "```toml\n"
 "# Note: this key must come **before** the [[language]] and [[grammar]] "
@@ -763,6 +838,6 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/languages.md:255
+#: src/languages.md:284
 msgid "When omitted, all grammars are fetched and built."
 msgstr ""
