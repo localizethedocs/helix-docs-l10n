@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -76,61 +76,65 @@ msgid "Language support"
 msgstr "語言支援"
 
 #: src/SUMMARY.md:19
+msgid "Workspace trust"
+msgstr ""
+
+#: src/SUMMARY.md:20
 msgid "Ecosystem"
 msgstr "生態系"
 
-#: src/SUMMARY.md:20
+#: src/SUMMARY.md:21
 msgid "Migrating from Vim"
 msgstr ""
 
-#: src/SUMMARY.md:21
+#: src/SUMMARY.md:22
 msgid "Helix mode in other software"
 msgstr ""
 
-#: src/SUMMARY.md:22
+#: src/SUMMARY.md:23
 msgid "Configuration"
 msgstr "組態"
 
-#: src/SUMMARY.md:23
+#: src/SUMMARY.md:24
 msgid "Editor"
 msgstr "編輯器"
 
-#: src/SUMMARY.md:24
+#: src/SUMMARY.md:25
 msgid "Themes"
 msgstr "主題"
 
-#: src/SUMMARY.md:25
+#: src/SUMMARY.md:26
 msgid "Key remapping"
 msgstr ""
 
-#: src/SUMMARY.md:26
+#: src/SUMMARY.md:27
 msgid "Languages"
 msgstr "語言"
 
-#: src/SUMMARY.md:27
+#: src/SUMMARY.md:28
 msgid "Guides"
 msgstr "指南"
 
-#: src/SUMMARY.md:28
+#: src/SUMMARY.md:29
 msgid "Adding languages"
 msgstr ""
 
-#: src/SUMMARY.md:29
+#: src/SUMMARY.md:30
 msgid "Adding textobject queries"
 msgstr ""
 
-#: src/SUMMARY.md:30
+#: src/SUMMARY.md:31
 msgid "Adding indent queries"
 msgstr ""
 
-#: src/SUMMARY.md:31
+#: src/SUMMARY.md:32
 msgid "Adding injection queries"
 msgstr ""
 
-#: src/SUMMARY.md:32
+#: src/SUMMARY.md:33
 msgid "Adding tags queries"
 msgstr ""
 
-#: src/SUMMARY.md:33
+#: src/SUMMARY.md:34
 msgid "Adding rainbow bracket queries"
 msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -90,49 +90,59 @@ msgstr ""
 #: src/themes.md:35
 msgid ""
 "```toml\n"
+"# Valid hex-color format is `#RGB` or `#RRGGBB`\n"
+"# (each letter is a nibble)\n"
 "key = \"#ffffff\"\n"
 "```"
 msgstr ""
-"```toml\n"
-"key = \"#ffffff\"\n"
-"```"
 
-#: src/themes.md:39
+#: src/themes.md:41
 msgid ""
 "If the key contains a dot `'.'`, it must be quoted to prevent it being "
 "parsed as a [dotted key](https://toml.io/en/v1.0.0#keys)."
 msgstr ""
 
-#: src/themes.md:41
+#: src/themes.md:43
 msgid ""
 "```toml\n"
-"\"key.key\" = \"#ffffff\"\n"
+"\"key.key\" = \"#fff\"\n"
 "```"
 msgstr ""
 
-#: src/themes.md:45
+#: src/themes.md:47
+msgid ""
+"Color values must be either a [CSS hex RGB string](https://developer.mozilla."
+"org/en-US/docs/Web/CSS/Reference/Values/hex-color) or a name declared in the "
+"[`palette`](#color-palettes)."
+msgstr ""
+
+#: src/themes.md:49
+msgid "💡 Note that Helix doesn't support transparency (alpha channel)."
+msgstr ""
+
+#: src/themes.md:51
 msgid ""
 "For inspiration, you can find the default `theme.toml` [here](https://github."
 "com/helix-editor/helix/blob/master/theme.toml) and user-submitted themes "
 "[here](https://github.com/helix-editor/helix/blob/master/runtime/themes)."
 msgstr ""
 
-#: src/themes.md:51
+#: src/themes.md:57
 msgid "The details of theme creation"
 msgstr ""
 
-#: src/themes.md:53
+#: src/themes.md:59
 msgid "Color palettes"
 msgstr ""
 
-#: src/themes.md:55
+#: src/themes.md:61
 msgid ""
 "It's recommended to define a palette of named colors, and refer to them in "
 "the configuration values in your theme. To do this, add a table called "
 "`palette` to your theme file:"
 msgstr ""
 
-#: src/themes.md:59
+#: src/themes.md:65
 msgid ""
 "```toml\n"
 "\"ui.background\" = \"white\"\n"
@@ -152,188 +162,188 @@ msgstr ""
 "black = \"#000000\"\n"
 "```"
 
-#: src/themes.md:68
+#: src/themes.md:74
 msgid ""
 "Keep in mind that the `[palette]` table includes all keys after its header, "
 "so it should be defined after the normal theme options."
 msgstr ""
 
-#: src/themes.md:71
+#: src/themes.md:77
 msgid ""
 "The default palette uses the terminal's default 16 colors, and the colors "
 "names are listed below. The `[palette]` section in the config file takes "
 "precedence over it and is merged into the default palette."
 msgstr ""
 
-#: src/themes.md:75
+#: src/themes.md:81
 msgid "Color Name"
 msgstr ""
 
-#: src/themes.md:77
+#: src/themes.md:83
 msgid "`default`"
 msgstr "`default`"
 
-#: src/themes.md:78
+#: src/themes.md:84
 msgid "`black`"
 msgstr "`black`"
 
-#: src/themes.md:79
+#: src/themes.md:85
 msgid "`red`"
 msgstr "`red`"
 
-#: src/themes.md:80
+#: src/themes.md:86
 msgid "`green`"
 msgstr "`green`"
 
-#: src/themes.md:81
+#: src/themes.md:87
 msgid "`yellow`"
 msgstr "`yellow`"
 
-#: src/themes.md:82
+#: src/themes.md:88
 msgid "`blue`"
 msgstr "`blue`"
 
-#: src/themes.md:83
+#: src/themes.md:89
 msgid "`magenta`"
 msgstr "`magenta`"
 
-#: src/themes.md:84
+#: src/themes.md:90
 msgid "`cyan`"
 msgstr "`cyan`"
 
-#: src/themes.md:85
+#: src/themes.md:91
 msgid "`gray`"
 msgstr "`gray`"
 
-#: src/themes.md:86
+#: src/themes.md:92
 msgid "`light-red`"
 msgstr "`light-red`"
 
-#: src/themes.md:87
+#: src/themes.md:93
 msgid "`light-green`"
 msgstr "`light-green`"
 
-#: src/themes.md:88
+#: src/themes.md:94
 msgid "`light-yellow`"
 msgstr "`light-yellow`"
 
-#: src/themes.md:89
+#: src/themes.md:95
 msgid "`light-blue`"
 msgstr "`light-blue`"
 
-#: src/themes.md:90
+#: src/themes.md:96
 msgid "`light-magenta`"
 msgstr "`light-magenta`"
 
-#: src/themes.md:91
+#: src/themes.md:97
 msgid "`light-cyan`"
 msgstr "`light-cyan`"
 
-#: src/themes.md:92
+#: src/themes.md:98
 msgid "`light-gray`"
 msgstr "`light-gray`"
 
-#: src/themes.md:93
+#: src/themes.md:99
 msgid "`white`"
 msgstr "`white`"
 
-#: src/themes.md:95
+#: src/themes.md:101
 msgid "Modifiers"
 msgstr ""
 
-#: src/themes.md:97
+#: src/themes.md:103
 msgid ""
 "The following values may be used as modifier, provided they are supported by "
 "your terminal emulator."
 msgstr ""
 
-#: src/themes.md:100 src/themes.md:120
+#: src/themes.md:106 src/themes.md:126
 msgid "Modifier"
 msgstr ""
 
-#: src/themes.md:102 src/themes.md:254
+#: src/themes.md:108 src/themes.md:264
 msgid "`bold`"
 msgstr ""
 
-#: src/themes.md:103
+#: src/themes.md:109
 msgid "`dim`"
 msgstr ""
 
-#: src/themes.md:104 src/themes.md:255
+#: src/themes.md:110 src/themes.md:265
 msgid "`italic`"
 msgstr ""
 
-#: src/themes.md:105
+#: src/themes.md:111
 msgid "`underlined`"
 msgstr ""
 
-#: src/themes.md:106
+#: src/themes.md:112
 msgid "`slow_blink`"
 msgstr ""
 
-#: src/themes.md:107
+#: src/themes.md:113
 msgid "`rapid_blink`"
 msgstr ""
 
-#: src/themes.md:108
+#: src/themes.md:114
 msgid "`reversed`"
 msgstr ""
 
-#: src/themes.md:109
+#: src/themes.md:115
 msgid "`hidden`"
 msgstr ""
 
-#: src/themes.md:110
+#: src/themes.md:116
 msgid "`crossed_out`"
 msgstr ""
 
-#: src/themes.md:112
+#: src/themes.md:118
 msgid ""
 "💡 The `underlined` modifier is deprecated and only available for backwards "
 "compatibility. Its behavior is equivalent to setting `underline."
 "style=\"line\"`."
 msgstr ""
 
-#: src/themes.md:115
+#: src/themes.md:121
 msgid "Underline style"
 msgstr ""
 
-#: src/themes.md:117
+#: src/themes.md:123
 msgid ""
 "One of the following values may be used as a value for `underline.style`, "
 "providing it is supported by your terminal emulator."
 msgstr ""
 
-#: src/themes.md:122
+#: src/themes.md:128
 msgid "`line`"
 msgstr "`line`"
 
-#: src/themes.md:123
+#: src/themes.md:129
 msgid "`curl`"
 msgstr "`curl`"
 
-#: src/themes.md:124
+#: src/themes.md:130
 msgid "`dashed`"
 msgstr "`dashed`"
 
-#: src/themes.md:125
+#: src/themes.md:131
 msgid "`dotted`"
 msgstr "`dotted`"
 
-#: src/themes.md:126
+#: src/themes.md:132
 msgid "`double_line`"
 msgstr ""
 
-#: src/themes.md:129
+#: src/themes.md:135
 msgid "Inheritance"
 msgstr ""
 
-#: src/themes.md:131
+#: src/themes.md:137
 msgid ""
 "Extend other themes by setting the `inherits` property to an existing theme."
 msgstr ""
 
-#: src/themes.md:133
+#: src/themes.md:139
 msgid ""
 "```toml\n"
 "inherits = \"boo_berry\"\n"
@@ -347,17 +357,17 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/themes.md:144
+#: src/themes.md:150
 msgid "Rainbow"
 msgstr ""
 
-#: src/themes.md:146
+#: src/themes.md:152
 msgid ""
 "The `rainbow` key is used for rainbow highlight for matching brackets. The "
 "key is a list of styles."
 msgstr ""
 
-#: src/themes.md:149
+#: src/themes.md:155
 msgid ""
 "```toml\n"
 "rainbow = [\"#ff0000\", \"#ffa500\", \"#fff000\", { fg = \"#00ff00\", "
@@ -365,959 +375,992 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/themes.md:153
+#: src/themes.md:159
 msgid "Colors from the palette and modifiers may be used."
 msgstr ""
 
-#: src/themes.md:155
+#: src/themes.md:161
 msgid "Scopes"
 msgstr ""
 
-#: src/themes.md:157
+#: src/themes.md:163
 msgid "The following is a list of scopes available to use for styling:"
 msgstr ""
 
-#: src/themes.md:159
+#: src/themes.md:165
 msgid "Syntax highlighting"
 msgstr ""
 
-#: src/themes.md:161
+#: src/themes.md:167
 msgid ""
 "These keys match [tree-sitter scopes](https://tree-sitter.github.io/tree-"
 "sitter/3-syntax-highlighting.html#highlights)."
 msgstr ""
 
-#: src/themes.md:163
+#: src/themes.md:169
 msgid ""
 "When determining styling for a highlight, the longest matching theme key "
 "will be used. For example, if the highlight is `function.builtin.static`, "
 "the key `function.builtin` will be used instead of `function`."
 msgstr ""
 
-#: src/themes.md:165
+#: src/themes.md:171
 msgid ""
 "We use a similar set of scopes as [Sublime Text](https://www.sublimetext.com/"
 "docs/scope_naming.html). See also [TextMate](https://macromates.com/manual/"
 "en/language_grammars) scopes."
 msgstr ""
 
-#: src/themes.md:169
+#: src/themes.md:175
 msgid "`attribute` - Class attributes, HTML tag attributes"
 msgstr ""
 
-#: src/themes.md:171
+#: src/themes.md:177
 msgid "`type` - Types"
 msgstr ""
 
-#: src/themes.md:172
+#: src/themes.md:178
 msgid "`builtin` - Primitive types provided by the language (`int`, `usize`)"
 msgstr ""
 
-#: src/themes.md:173
+#: src/themes.md:179
 msgid "`parameter` - Generic type parameters (`T`)"
 msgstr ""
 
-#: src/themes.md:174
+#: src/themes.md:180
 msgid "`enum`"
 msgstr ""
 
-#: src/themes.md:175
+#: src/themes.md:181
 msgid "`variant`"
 msgstr ""
 
-#: src/themes.md:176
+#: src/themes.md:182
 msgid "`constructor`"
 msgstr ""
 
-#: src/themes.md:178
+#: src/themes.md:184
 msgid "`constant` (TODO: constant.other.placeholder for `%v`)"
 msgstr ""
 
-#: src/themes.md:179
+#: src/themes.md:185
 msgid ""
 "`builtin` Special constants provided by the language (`true`, `false`, `nil` "
 "etc)"
 msgstr ""
 
-#: src/themes.md:180
+#: src/themes.md:186
 msgid "`boolean`"
 msgstr ""
 
-#: src/themes.md:181
+#: src/themes.md:187
 msgid "`character`"
 msgstr ""
 
-#: src/themes.md:182
+#: src/themes.md:188
 msgid "`escape`"
 msgstr ""
 
-#: src/themes.md:183
+#: src/themes.md:189
 msgid "`numeric` (numbers)"
 msgstr ""
 
-#: src/themes.md:184
+#: src/themes.md:190
 msgid "`integer`"
 msgstr ""
 
-#: src/themes.md:185
+#: src/themes.md:191
 msgid "`float`"
 msgstr ""
 
-#: src/themes.md:187
+#: src/themes.md:193
 msgid "`string` (TODO: string.quoted.{single, double}, string.raw/.unquoted)?"
 msgstr ""
 
-#: src/themes.md:188
+#: src/themes.md:194
 msgid "`regexp` - Regular expressions"
 msgstr ""
 
-#: src/themes.md:189
+#: src/themes.md:195
 msgid "`special`"
 msgstr ""
 
-#: src/themes.md:190
+#: src/themes.md:196
 msgid "`path`"
 msgstr ""
 
-#: src/themes.md:191
+#: src/themes.md:197
 msgid "`url`"
 msgstr ""
 
-#: src/themes.md:192
+#: src/themes.md:198
 msgid "`symbol` - Erlang/Elixir atoms, Ruby symbols, Clojure keywords"
 msgstr ""
 
-#: src/themes.md:194
+#: src/themes.md:200
 msgid "`comment` - Code comments"
 msgstr ""
 
-#: src/themes.md:195
+#: src/themes.md:201
 msgid "`line` - Single line comments (`//`)"
 msgstr ""
 
-#: src/themes.md:196
+#: src/themes.md:202
 msgid "`documentation` - Line documentation comments (e.g. `///` in Rust)"
 msgstr ""
 
-#: src/themes.md:197
+#: src/themes.md:203
 msgid "`block` - Block comments (e.g. (`/* */`)"
 msgstr ""
 
-#: src/themes.md:198
+#: src/themes.md:204
 msgid "`documentation` - Block documentation comments (e.g. `/** */` in Rust)"
 msgstr ""
 
-#: src/themes.md:199
+#: src/themes.md:205
 msgid "`unused` - Unused variables and patterns, e.g. `_` and `_foo`"
 msgstr ""
 
-#: src/themes.md:201
+#: src/themes.md:207
 msgid "`variable` - Variables"
 msgstr ""
 
-#: src/themes.md:202
+#: src/themes.md:208
+msgid "`mutable` - Mutable variables (e.g. marked with `mut` in Rust)"
+msgstr ""
+
+#: src/themes.md:209
 msgid "`builtin` - Reserved language variables (`self`, `this`, `super`, etc.)"
 msgstr ""
 
-#: src/themes.md:203
+#: src/themes.md:210
+msgid "`mutable` - Mutable language variables (e.g. `mut self` in Rust)"
+msgstr ""
+
+#: src/themes.md:211
 msgid "`parameter` - Function parameters"
 msgstr ""
 
-#: src/themes.md:204
+#: src/themes.md:212
+msgid ""
+"`mutable` - Mutable function parameters (e.g. marked with `mut` in Rust)"
+msgstr ""
+
+#: src/themes.md:213
 msgid "`other`"
 msgstr ""
 
-#: src/themes.md:205
+#: src/themes.md:214
 msgid "`member` - Fields of composite data types (e.g. structs, unions)"
 msgstr ""
 
-#: src/themes.md:206
+#: src/themes.md:215
 msgid ""
 "`private` - Private fields that use a unique syntax (currently just "
 "ECMAScript-based languages)"
 msgstr ""
 
-#: src/themes.md:208
+#: src/themes.md:217
 msgid "`label` - `.class`, `#id` in CSS, etc."
 msgstr ""
 
-#: src/themes.md:210
+#: src/themes.md:219
 msgid "`punctuation`"
 msgstr ""
 
-#: src/themes.md:211
+#: src/themes.md:220
 msgid "`delimiter` - Commas, colons"
 msgstr ""
 
-#: src/themes.md:212
+#: src/themes.md:221
 msgid "`bracket` - Parentheses, angle brackets, etc."
 msgstr ""
 
-#: src/themes.md:213
+#: src/themes.md:222
 msgid "`special` - String interpolation brackets."
 msgstr ""
 
-#: src/themes.md:215
+#: src/themes.md:224
 msgid "`keyword`"
 msgstr ""
 
-#: src/themes.md:216
+#: src/themes.md:225
 msgid "`control`"
 msgstr ""
 
-#: src/themes.md:217
+#: src/themes.md:226
 msgid "`conditional` - `if`, `else`"
 msgstr ""
 
-#: src/themes.md:218
+#: src/themes.md:227
 msgid "`repeat` - `for`, `while`, `loop`"
 msgstr ""
 
-#: src/themes.md:219
+#: src/themes.md:228
 msgid "`import` - `import`, `export`"
 msgstr ""
 
-#: src/themes.md:220
+#: src/themes.md:229
 msgid "`return`"
 msgstr ""
 
-#: src/themes.md:221
+#: src/themes.md:230
 msgid "`exception`"
 msgstr ""
 
-#: src/themes.md:222
+#: src/themes.md:231
 msgid "`operator` - `or`, `in`"
 msgstr ""
 
-#: src/themes.md:223
+#: src/themes.md:232
 msgid "`directive` - Preprocessor directives (`#if` in C)"
 msgstr ""
 
-#: src/themes.md:224
+#: src/themes.md:233
 msgid "`function` - `fn`, `func`"
 msgstr ""
 
-#: src/themes.md:225
+#: src/themes.md:234
 msgid "`storage` - Keywords describing how things are stored"
 msgstr ""
 
-#: src/themes.md:226
+#: src/themes.md:235
 msgid "`type` - The type of something, `class`, `function`, `var`, `let`, etc."
 msgstr ""
 
-#: src/themes.md:227
+#: src/themes.md:236
 msgid ""
 "`modifier` - Storage modifiers like `static`, `mut`, `const`, `ref`, etc."
 msgstr ""
 
-#: src/themes.md:229
+#: src/themes.md:238
 msgid "`operator` - `||`, `+=`, `>`"
 msgstr ""
 
-#: src/themes.md:231
+#: src/themes.md:240
 msgid "`function`"
 msgstr ""
 
-#: src/themes.md:232 src/themes.md:239
+#: src/themes.md:241 src/themes.md:248
 msgid "`builtin`"
 msgstr ""
 
-#: src/themes.md:233
+#: src/themes.md:242
 msgid "`method`"
 msgstr ""
 
-#: src/themes.md:234
+#: src/themes.md:243
 msgid ""
 "`private` - Private methods that use a unique syntax (currently just "
 "ECMAScript-based languages)"
 msgstr ""
 
-#: src/themes.md:235
+#: src/themes.md:244
 msgid "`macro`"
 msgstr ""
 
-#: src/themes.md:236
+#: src/themes.md:245
 msgid "`special` (preprocessor in C)"
 msgstr ""
 
-#: src/themes.md:238
+#: src/themes.md:247
 msgid "`tag` - Tags (e.g. `<body>` in HTML)"
 msgstr ""
 
-#: src/themes.md:241
+#: src/themes.md:250
 msgid "`namespace`"
 msgstr ""
 
-#: src/themes.md:243
-msgid "`special` - `derive` in Rust, etc."
+#: src/themes.md:252
+msgid ""
+"`special` - `derive` in Rust, bolded query-match in pickers (includes file "
+"explorer), etc. See also [\\#2380](https://github.com/helix-editor/helix/"
+"issues/2380)"
 msgstr ""
 
-#: src/themes.md:245 src/themes.md:280
+#: src/themes.md:255 src/themes.md:290
 msgid "`markup`"
 msgstr ""
 
-#: src/themes.md:246 src/themes.md:284
+#: src/themes.md:256 src/themes.md:294
 msgid "`heading`"
 msgstr ""
 
-#: src/themes.md:247
+#: src/themes.md:257
 msgid "`marker`"
 msgstr ""
 
-#: src/themes.md:248
+#: src/themes.md:258
 msgid "`1`, `2`, `3`, `4`, `5`, `6` - heading text for h1 through h6"
 msgstr ""
 
-#: src/themes.md:249
+#: src/themes.md:259
 msgid "`list`"
 msgstr ""
 
-#: src/themes.md:250
+#: src/themes.md:260
 msgid "`unnumbered`"
 msgstr ""
 
-#: src/themes.md:251
+#: src/themes.md:261
 msgid "`numbered`"
 msgstr ""
 
-#: src/themes.md:252
+#: src/themes.md:262
 msgid "`checked`"
 msgstr ""
 
-#: src/themes.md:253
+#: src/themes.md:263
 msgid "`unchecked`"
 msgstr ""
 
-#: src/themes.md:256
+#: src/themes.md:266
 msgid "`strikethrough`"
 msgstr ""
 
-#: src/themes.md:257
+#: src/themes.md:267
 msgid "`link`"
 msgstr ""
 
-#: src/themes.md:258
+#: src/themes.md:268
 msgid "`url` - URLs pointed to by links"
 msgstr ""
 
-#: src/themes.md:259
+#: src/themes.md:269
 msgid "`label` - non-URL link references"
 msgstr ""
 
-#: src/themes.md:260
+#: src/themes.md:270
 msgid "`text` - URL and image descriptions in links"
 msgstr ""
 
-#: src/themes.md:261
+#: src/themes.md:271
 msgid "`quote`"
 msgstr ""
 
-#: src/themes.md:262 src/themes.md:287
+#: src/themes.md:272 src/themes.md:297
 msgid "`raw`"
 msgstr ""
 
-#: src/themes.md:263 src/themes.md:288
+#: src/themes.md:273 src/themes.md:298
 msgid "`inline`"
 msgstr ""
 
-#: src/themes.md:264
+#: src/themes.md:274
 msgid "`block`"
 msgstr ""
 
-#: src/themes.md:266
+#: src/themes.md:276
 msgid "`diff` - version control changes"
 msgstr ""
 
-#: src/themes.md:267
+#: src/themes.md:277
 msgid "`plus` - additions"
 msgstr ""
 
-#: src/themes.md:268 src/themes.md:270 src/themes.md:274
+#: src/themes.md:278 src/themes.md:280 src/themes.md:284
 msgid "`gutter` - gutter indicator"
 msgstr ""
 
-#: src/themes.md:269
+#: src/themes.md:279
 msgid "`minus` - deletions"
 msgstr ""
 
-#: src/themes.md:271
+#: src/themes.md:281
 msgid "`delta` - modifications"
 msgstr ""
 
-#: src/themes.md:272
+#: src/themes.md:282
 msgid "`moved` - renamed or moved files/changes"
 msgstr ""
 
-#: src/themes.md:273
+#: src/themes.md:283
 msgid "`conflict` - merge conflicts"
 msgstr ""
 
-#: src/themes.md:276
+#: src/themes.md:286
 msgid "Interface"
 msgstr ""
 
-#: src/themes.md:278
+#: src/themes.md:288
 msgid "These scopes are used for theming the editor interface:"
 msgstr ""
 
-#: src/themes.md:281
+#: src/themes.md:291
 msgid "`normal`"
 msgstr ""
 
-#: src/themes.md:282 src/themes.md:285 src/themes.md:289
+#: src/themes.md:292 src/themes.md:295 src/themes.md:299
 msgid "`completion` - for completion doc popup UI"
 msgstr ""
 
-#: src/themes.md:283 src/themes.md:286 src/themes.md:290
+#: src/themes.md:293 src/themes.md:296 src/themes.md:300
 msgid "`hover` - for hover popup UI"
 msgstr ""
 
-#: src/themes.md:293
+#: src/themes.md:303
 msgid "Key"
 msgstr ""
 
-#: src/themes.md:293
+#: src/themes.md:303
 msgid "Notes"
 msgstr ""
 
-#: src/themes.md:295
+#: src/themes.md:305
 msgid "`ui.background`"
 msgstr ""
 
-#: src/themes.md:296
+#: src/themes.md:306
 msgid "`ui.background.separator`"
 msgstr ""
 
-#: src/themes.md:296
+#: src/themes.md:306
 msgid "Picker separator below input line"
 msgstr ""
 
-#: src/themes.md:297
+#: src/themes.md:307
 msgid "`ui.cursor`"
 msgstr ""
 
-#: src/themes.md:298
+#: src/themes.md:308
 msgid "`ui.cursor.normal`"
 msgstr ""
 
-#: src/themes.md:299
+#: src/themes.md:309
 msgid "`ui.cursor.insert`"
 msgstr ""
 
-#: src/themes.md:300
+#: src/themes.md:310
 msgid "`ui.cursor.select`"
 msgstr ""
 
-#: src/themes.md:301
+#: src/themes.md:311
 msgid "`ui.cursor.match`"
 msgstr ""
 
-#: src/themes.md:301
+#: src/themes.md:311
 msgid "Matching bracket etc."
 msgstr ""
 
-#: src/themes.md:302
+#: src/themes.md:312
 msgid "`ui.cursor.primary`"
 msgstr ""
 
-#: src/themes.md:302
+#: src/themes.md:312
 msgid "Cursor with primary selection"
 msgstr ""
 
-#: src/themes.md:303
+#: src/themes.md:313
 msgid "`ui.cursor.primary.normal`"
 msgstr ""
 
-#: src/themes.md:304
+#: src/themes.md:314
 msgid "`ui.cursor.primary.insert`"
 msgstr ""
 
-#: src/themes.md:305
+#: src/themes.md:315
 msgid "`ui.cursor.primary.select`"
 msgstr ""
 
-#: src/themes.md:306
+#: src/themes.md:316
 msgid "`ui.debug.breakpoint`"
 msgstr ""
 
-#: src/themes.md:306
+#: src/themes.md:316
 msgid "Breakpoint indicator, found in the gutter"
 msgstr ""
 
-#: src/themes.md:307
+#: src/themes.md:317
 msgid "`ui.debug.active`"
 msgstr ""
 
-#: src/themes.md:307
+#: src/themes.md:317
 msgid ""
 "Indicator for the line at which debugging execution is paused at, found in "
 "the gutter"
 msgstr ""
 
-#: src/themes.md:308
+#: src/themes.md:318
 msgid "`ui.gutter`"
 msgstr ""
 
-#: src/themes.md:308
+#: src/themes.md:318
 msgid "Gutter"
 msgstr ""
 
-#: src/themes.md:309
+#: src/themes.md:319
 msgid "`ui.gutter.selected`"
 msgstr ""
 
-#: src/themes.md:309
+#: src/themes.md:319
 msgid "Gutter for the line the cursor is on"
 msgstr ""
 
-#: src/themes.md:310
+#: src/themes.md:320
 msgid "`ui.linenr`"
 msgstr ""
 
-#: src/themes.md:310
+#: src/themes.md:320
 msgid "Line numbers"
 msgstr ""
 
-#: src/themes.md:311
+#: src/themes.md:321
 msgid "`ui.linenr.selected`"
 msgstr ""
 
-#: src/themes.md:311
+#: src/themes.md:321
 msgid "Line number for the line the cursor is on"
 msgstr ""
 
-#: src/themes.md:312
+#: src/themes.md:322
 msgid "`ui.statusline`"
 msgstr ""
 
-#: src/themes.md:312
+#: src/themes.md:322
 msgid "Statusline"
 msgstr ""
 
-#: src/themes.md:313
+#: src/themes.md:323
 msgid "`ui.statusline.inactive`"
 msgstr ""
 
-#: src/themes.md:313
+#: src/themes.md:323
 msgid "Statusline (unfocused document)"
 msgstr ""
 
-#: src/themes.md:314
+#: src/themes.md:324
 msgid "`ui.statusline.normal`"
 msgstr ""
 
-#: src/themes.md:314
+#: src/themes.md:324
 msgid ""
 "Statusline mode during normal mode ([only if `editor.color-modes` is enabled]"
 "(./configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:315
+#: src/themes.md:325
 msgid "`ui.statusline.insert`"
 msgstr ""
 
-#: src/themes.md:315
+#: src/themes.md:325
 msgid ""
 "Statusline mode during insert mode ([only if `editor.color-modes` is enabled]"
 "(./configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:316
+#: src/themes.md:326
 msgid "`ui.statusline.select`"
 msgstr ""
 
-#: src/themes.md:316
+#: src/themes.md:326
 msgid ""
 "Statusline mode during select mode ([only if `editor.color-modes` is enabled]"
 "(./configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:317
+#: src/themes.md:327
 msgid "`ui.statusline.separator`"
 msgstr ""
 
-#: src/themes.md:317
+#: src/themes.md:327
 msgid "Separator character in statusline"
 msgstr ""
 
-#: src/themes.md:318
+#: src/themes.md:328
 msgid "`ui.bufferline`"
 msgstr ""
 
-#: src/themes.md:318
+#: src/themes.md:328
 msgid "Style for the buffer line"
 msgstr ""
 
-#: src/themes.md:319
+#: src/themes.md:329
 msgid "`ui.bufferline.active`"
 msgstr ""
 
-#: src/themes.md:319
+#: src/themes.md:329
 msgid "Style for the active buffer in buffer line"
 msgstr ""
 
-#: src/themes.md:320
+#: src/themes.md:330
 msgid "`ui.bufferline.background`"
 msgstr ""
 
-#: src/themes.md:320
+#: src/themes.md:330
 msgid "Style for bufferline background"
 msgstr ""
 
-#: src/themes.md:321
+#: src/themes.md:331
 msgid "`ui.popup`"
 msgstr ""
 
-#: src/themes.md:321
+#: src/themes.md:331
 msgid "Documentation popups (e.g. Space + k)"
 msgstr ""
 
-#: src/themes.md:322
+#: src/themes.md:332
 msgid "`ui.popup.info`"
 msgstr ""
 
-#: src/themes.md:322
+#: src/themes.md:332
 msgid "Prompt for multiple key options"
 msgstr ""
 
-#: src/themes.md:323
+#: src/themes.md:333
 msgid "`ui.picker.header`"
 msgstr ""
 
-#: src/themes.md:323
+#: src/themes.md:333
 msgid "Header row area in pickers with multiple columns"
 msgstr ""
 
-#: src/themes.md:324
+#: src/themes.md:334
 msgid "`ui.picker.header.column`"
 msgstr ""
 
-#: src/themes.md:324
+#: src/themes.md:334
 msgid "Column names in pickers with multiple columns"
 msgstr ""
 
-#: src/themes.md:325
+#: src/themes.md:335
 msgid "`ui.picker.header.column.active`"
 msgstr ""
 
-#: src/themes.md:325
+#: src/themes.md:335
 msgid ""
 "The column name in pickers with multiple columns where the cursor is "
 "entering into."
 msgstr ""
 
-#: src/themes.md:326
+#: src/themes.md:336
 msgid "`ui.window`"
 msgstr ""
 
-#: src/themes.md:326
+#: src/themes.md:336
 msgid "Borderlines separating splits"
 msgstr ""
 
-#: src/themes.md:327
+#: src/themes.md:337
 msgid "`ui.help`"
 msgstr ""
 
-#: src/themes.md:327
+#: src/themes.md:337
 msgid "Description box for commands"
 msgstr ""
 
-#: src/themes.md:328
+#: src/themes.md:338
 msgid "`ui.text`"
 msgstr ""
 
-#: src/themes.md:328
+#: src/themes.md:338
 msgid "Default text style, command prompts, popup text, etc."
 msgstr ""
 
-#: src/themes.md:329
+#: src/themes.md:339
 msgid "`ui.text.focus`"
 msgstr ""
 
-#: src/themes.md:329
+#: src/themes.md:339
 msgid "The currently selected line in the picker"
 msgstr ""
 
-#: src/themes.md:330
+#: src/themes.md:340
 msgid "`ui.text.inactive`"
 msgstr ""
 
-#: src/themes.md:330
+#: src/themes.md:340
 msgid "Same as `ui.text` but when the text is inactive (e.g. suggestions)"
 msgstr ""
 
-#: src/themes.md:331
+#: src/themes.md:341
 msgid "`ui.text.info`"
 msgstr ""
 
-#: src/themes.md:331
+#: src/themes.md:341
 msgid "The key: command text in `ui.popup.info` boxes"
 msgstr ""
 
-#: src/themes.md:332
+#: src/themes.md:342
 msgid "`ui.text.directory`"
 msgstr ""
 
-#: src/themes.md:332
+#: src/themes.md:342
 msgid "Directory names in prompt completion"
 msgstr ""
 
-#: src/themes.md:333
+#: src/themes.md:343
+msgid "`ui.text.symlink`"
+msgstr ""
+
+#: src/themes.md:343
+msgid "Symlink names in prompt completion"
+msgstr ""
+
+#: src/themes.md:344
 msgid "`ui.virtual.ruler`"
 msgstr ""
 
-#: src/themes.md:333
+#: src/themes.md:344
 msgid ""
 "Ruler columns (see the [`editor.rulers` config](./configuration.md#editor-"
 "section))"
 msgstr ""
 
-#: src/themes.md:334
+#: src/themes.md:345
 msgid "`ui.virtual.whitespace`"
 msgstr ""
 
-#: src/themes.md:334
+#: src/themes.md:345
 msgid "Visible whitespace characters"
 msgstr ""
 
-#: src/themes.md:335
+#: src/themes.md:346
 msgid "`ui.virtual.indent-guide`"
 msgstr ""
 
-#: src/themes.md:335
+#: src/themes.md:346
 msgid "Vertical indent width guides"
 msgstr ""
 
-#: src/themes.md:336
+#: src/themes.md:347
 msgid "`ui.virtual.inlay-hint`"
 msgstr ""
 
-#: src/themes.md:336
+#: src/themes.md:347
 msgid "Default style for inlay hints of all kinds"
 msgstr ""
 
-#: src/themes.md:337
+#: src/themes.md:348
 msgid "`ui.virtual.inlay-hint.parameter`"
 msgstr ""
 
-#: src/themes.md:337
+#: src/themes.md:348
 msgid ""
 "Style for inlay hints of kind `parameter` (language servers are not required "
 "to set a kind)"
 msgstr ""
 
-#: src/themes.md:338
+#: src/themes.md:349
 msgid "`ui.virtual.inlay-hint.type`"
 msgstr ""
 
-#: src/themes.md:338
+#: src/themes.md:349
 msgid ""
 "Style for inlay hints of kind `type` (language servers are not required to "
 "set a kind)"
 msgstr ""
 
-#: src/themes.md:339
+#: src/themes.md:350
 msgid "`ui.virtual.wrap`"
 msgstr ""
 
-#: src/themes.md:339
+#: src/themes.md:350
 msgid ""
 "Soft-wrap indicator (see the [`editor.soft-wrap` config](./configuration."
 "md#editor-section))"
 msgstr ""
 
-#: src/themes.md:340
+#: src/themes.md:351
 msgid "`ui.virtual.jump-label`"
 msgstr ""
 
-#: src/themes.md:340
+#: src/themes.md:351
 msgid "Style for virtual jump labels"
 msgstr ""
 
-#: src/themes.md:341
+#: src/themes.md:352
 msgid "`ui.menu`"
 msgstr ""
 
-#: src/themes.md:341
+#: src/themes.md:352
 msgid "Code and command completion menus"
 msgstr ""
 
-#: src/themes.md:342
+#: src/themes.md:353
 msgid "`ui.menu.selected`"
 msgstr ""
 
-#: src/themes.md:342
+#: src/themes.md:353
 msgid "Selected autocomplete item"
 msgstr ""
 
-#: src/themes.md:343
+#: src/themes.md:354
 msgid "`ui.menu.scroll`"
 msgstr ""
 
-#: src/themes.md:343
+#: src/themes.md:354
 msgid "`fg` sets thumb color, `bg` sets track color of scrollbar"
 msgstr ""
 
-#: src/themes.md:344
+#: src/themes.md:355
 msgid "`ui.selection`"
 msgstr ""
 
-#: src/themes.md:344
+#: src/themes.md:355
 msgid "For selections in the editing area"
 msgstr ""
 
-#: src/themes.md:345
+#: src/themes.md:356
 msgid "`ui.selection.primary`"
 msgstr ""
 
-#: src/themes.md:346
+#: src/themes.md:357
 msgid "`ui.highlight`"
 msgstr ""
 
-#: src/themes.md:346
+#: src/themes.md:357
 msgid "Highlighted lines in the picker preview"
 msgstr ""
 
-#: src/themes.md:347
+#: src/themes.md:358
 msgid "`ui.highlight.frameline`"
 msgstr ""
 
-#: src/themes.md:347
+#: src/themes.md:358
 msgid "Line at which debugging execution is paused at"
 msgstr ""
 
-#: src/themes.md:348
+#: src/themes.md:359
 msgid "`ui.cursorline.primary`"
 msgstr ""
 
-#: src/themes.md:348
+#: src/themes.md:359
 msgid ""
 "The line of the primary cursor ([if cursorline is enabled](./configuration."
 "md#editor-section))"
 msgstr ""
 
-#: src/themes.md:349
+#: src/themes.md:360
 msgid "`ui.cursorline.secondary`"
 msgstr ""
 
-#: src/themes.md:349
+#: src/themes.md:360
 msgid ""
 "The lines of any other cursors ([if cursorline is enabled](./configuration."
 "md#editor-section))"
 msgstr ""
 
-#: src/themes.md:350
+#: src/themes.md:361
 msgid "`ui.cursorcolumn.primary`"
 msgstr ""
 
-#: src/themes.md:350
+#: src/themes.md:361
 msgid ""
 "The column of the primary cursor ([if cursorcolumn is enabled](./"
 "configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:351
+#: src/themes.md:362
 msgid "`ui.cursorcolumn.secondary`"
 msgstr ""
 
-#: src/themes.md:351
+#: src/themes.md:362
 msgid ""
 "The columns of any other cursors ([if cursorcolumn is enabled](./"
 "configuration.md#editor-section))"
 msgstr ""
 
-#: src/themes.md:352
+#: src/themes.md:363
 msgid "`warning`"
 msgstr ""
 
-#: src/themes.md:352
+#: src/themes.md:363
 msgid "Diagnostics warning (gutter)"
 msgstr ""
 
-#: src/themes.md:353
+#: src/themes.md:364
 msgid "`error`"
 msgstr ""
 
-#: src/themes.md:353
+#: src/themes.md:364
 msgid "Diagnostics error (gutter)"
 msgstr ""
 
-#: src/themes.md:354
+#: src/themes.md:365
 msgid "`info`"
 msgstr ""
 
-#: src/themes.md:354
+#: src/themes.md:365
 msgid "Diagnostics info (gutter)"
 msgstr ""
 
-#: src/themes.md:355
+#: src/themes.md:366
 msgid "`hint`"
 msgstr ""
 
-#: src/themes.md:355
+#: src/themes.md:366
 msgid "Diagnostics hint (gutter)"
 msgstr ""
 
-#: src/themes.md:356
+#: src/themes.md:367
 msgid "`diagnostic`"
 msgstr ""
 
-#: src/themes.md:356
+#: src/themes.md:367
 msgid "Diagnostics fallback style (editing area)"
 msgstr ""
 
-#: src/themes.md:357
+#: src/themes.md:368
 msgid "`diagnostic.hint`"
 msgstr ""
 
-#: src/themes.md:357
+#: src/themes.md:368
 msgid "Diagnostics hint (editing area)"
 msgstr ""
 
-#: src/themes.md:358
+#: src/themes.md:369
 msgid "`diagnostic.info`"
 msgstr ""
 
-#: src/themes.md:358
+#: src/themes.md:369
 msgid "Diagnostics info (editing area)"
 msgstr ""
 
-#: src/themes.md:359
+#: src/themes.md:370
 msgid "`diagnostic.warning`"
 msgstr ""
 
-#: src/themes.md:359
+#: src/themes.md:370
 msgid "Diagnostics warning (editing area)"
 msgstr ""
 
-#: src/themes.md:360
+#: src/themes.md:371
 msgid "`diagnostic.error`"
 msgstr ""
 
-#: src/themes.md:360
+#: src/themes.md:371
 msgid "Diagnostics error (editing area)"
 msgstr ""
 
-#: src/themes.md:361
+#: src/themes.md:372
 msgid "`diagnostic.unnecessary`"
 msgstr ""
 
-#: src/themes.md:361
+#: src/themes.md:372
 msgid "Diagnostics with unnecessary tag (editing area)"
 msgstr ""
 
-#: src/themes.md:362
+#: src/themes.md:373
 msgid "`diagnostic.deprecated`"
 msgstr ""
 
-#: src/themes.md:362
+#: src/themes.md:373
 msgid "Diagnostics with deprecated tag (editing area)"
 msgstr ""
 
-#: src/themes.md:363
+#: src/themes.md:374
 msgid "`tabstop`"
 msgstr ""
 
-#: src/themes.md:363
+#: src/themes.md:374
 msgid "Snippet placeholder"
 msgstr ""
+
+#~ msgid ""
+#~ "```toml\n"
+#~ "key = \"#ffffff\"\n"
+#~ "```"
+#~ msgstr ""
+#~ "```toml\n"
+#~ "key = \"#ffffff\"\n"
+#~ "```"

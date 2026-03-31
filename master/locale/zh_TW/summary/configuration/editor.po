@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -111,27 +111,27 @@ msgstr ""
 msgid "`[editor]` Section"
 msgstr ""
 
-#: src/editor.md:28 src/editor.md:120 src/editor.md:134 src/editor.md:162
-#: src/editor.md:187 src/editor.md:204 src/editor.md:238 src/editor.md:253
-#: src/editor.md:312 src/editor.md:322 src/editor.md:331 src/editor.md:362
-#: src/editor.md:391 src/editor.md:406 src/editor.md:438 src/editor.md:460
-#: src/editor.md:492 src/editor.md:516
+#: src/editor.md:28 src/editor.md:121 src/editor.md:135 src/editor.md:163
+#: src/editor.md:189 src/editor.md:206 src/editor.md:240 src/editor.md:255
+#: src/editor.md:314 src/editor.md:324 src/editor.md:333 src/editor.md:364
+#: src/editor.md:393 src/editor.md:408 src/editor.md:440 src/editor.md:462
+#: src/editor.md:494 src/editor.md:518
 msgid "Key"
 msgstr ""
 
-#: src/editor.md:28 src/editor.md:120 src/editor.md:134 src/editor.md:162
-#: src/editor.md:187 src/editor.md:204 src/editor.md:238 src/editor.md:253
-#: src/editor.md:312 src/editor.md:322 src/editor.md:331 src/editor.md:362
-#: src/editor.md:391 src/editor.md:406 src/editor.md:438 src/editor.md:460
-#: src/editor.md:492 src/editor.md:516
+#: src/editor.md:28 src/editor.md:121 src/editor.md:135 src/editor.md:163
+#: src/editor.md:189 src/editor.md:206 src/editor.md:240 src/editor.md:255
+#: src/editor.md:314 src/editor.md:324 src/editor.md:333 src/editor.md:364
+#: src/editor.md:393 src/editor.md:408 src/editor.md:440 src/editor.md:462
+#: src/editor.md:494 src/editor.md:518
 msgid "Description"
 msgstr ""
 
-#: src/editor.md:28 src/editor.md:120 src/editor.md:162 src/editor.md:187
-#: src/editor.md:204 src/editor.md:238 src/editor.md:253 src/editor.md:312
-#: src/editor.md:322 src/editor.md:331 src/editor.md:362 src/editor.md:391
-#: src/editor.md:406 src/editor.md:438 src/editor.md:460 src/editor.md:492
-#: src/editor.md:516
+#: src/editor.md:28 src/editor.md:121 src/editor.md:163 src/editor.md:189
+#: src/editor.md:206 src/editor.md:240 src/editor.md:255 src/editor.md:314
+#: src/editor.md:324 src/editor.md:333 src/editor.md:364 src/editor.md:393
+#: src/editor.md:408 src/editor.md:440 src/editor.md:462 src/editor.md:494
+#: src/editor.md:518
 msgid "Default"
 msgstr ""
 
@@ -155,27 +155,27 @@ msgstr ""
 msgid "Enable mouse mode"
 msgstr ""
 
-#: src/editor.md:31 src/editor.md:33 src/editor.md:39 src/editor.md:41
-#: src/editor.md:42 src/editor.md:43 src/editor.md:46 src/editor.md:49
-#: src/editor.md:58 src/editor.md:59 src/editor.md:67 src/editor.md:164
-#: src/editor.md:165 src/editor.md:167 src/editor.md:170 src/editor.md:171
-#: src/editor.md:172 src/editor.md:173 src/editor.md:206 src/editor.md:207
-#: src/editor.md:208 src/editor.md:209 src/editor.md:210 src/editor.md:211
-#: src/editor.md:212 src/editor.md:213 src/editor.md:247 src/editor.md:324
-#: src/editor.md:325 src/editor.md:462 src/editor.md:518
+#: src/editor.md:31 src/editor.md:33 src/editor.md:40 src/editor.md:42
+#: src/editor.md:43 src/editor.md:44 src/editor.md:47 src/editor.md:50
+#: src/editor.md:59 src/editor.md:60 src/editor.md:68 src/editor.md:165
+#: src/editor.md:166 src/editor.md:168 src/editor.md:172 src/editor.md:173
+#: src/editor.md:174 src/editor.md:175 src/editor.md:208 src/editor.md:209
+#: src/editor.md:210 src/editor.md:211 src/editor.md:212 src/editor.md:213
+#: src/editor.md:214 src/editor.md:215 src/editor.md:249 src/editor.md:326
+#: src/editor.md:327 src/editor.md:464 src/editor.md:520
 msgid "`true`"
 msgstr ""
 
 #: src/editor.md:32
-msgid "`default-yank-register`"
+msgid "`mouse-yank-register`"
 msgstr ""
 
 #: src/editor.md:32
-msgid "Default register used for yank/paste"
+msgid "Which register to use for mouse yanks."
 msgstr ""
 
 #: src/editor.md:32
-msgid "`'\"'`"
+msgid " `*`"
 msgstr ""
 
 #: src/editor.md:33
@@ -187,107 +187,120 @@ msgid "Middle click paste support"
 msgstr ""
 
 #: src/editor.md:34
-msgid "`scroll-lines`"
+msgid "`default-yank-register`"
 msgstr ""
 
 #: src/editor.md:34
+msgid "Default register used for yank/paste"
+msgstr ""
+
+#: src/editor.md:34
+msgid "`'\"'`"
+msgstr ""
+
+#: src/editor.md:35
+msgid "`scroll-lines`"
+msgstr ""
+
+#: src/editor.md:35
 msgid "Number of lines to scroll per scroll wheel step"
 msgstr ""
 
-#: src/editor.md:34 src/editor.md:408
+#: src/editor.md:35 src/editor.md:410
 msgid "`3`"
 msgstr ""
 
-#: src/editor.md:35
+#: src/editor.md:36
 msgid "`shell`"
 msgstr ""
 
-#: src/editor.md:35
+#: src/editor.md:36
 msgid "Shell to use when running external commands"
 msgstr ""
 
-#: src/editor.md:35
+#: src/editor.md:36
 msgid "Unix: `[\"sh\", \"-c\"]`<br/>Windows: `[\"cmd\", \"/C\"]`"
 msgstr ""
 
-#: src/editor.md:36
+#: src/editor.md:37
 msgid "`line-number`"
 msgstr ""
 
-#: src/editor.md:36
+#: src/editor.md:37
 msgid ""
 "Line number display: `absolute` simply shows each line's number, while "
 "`relative` shows the distance from the current line. When unfocused or in "
 "insert mode, `relative` will still show absolute line numbers"
 msgstr ""
 
-#: src/editor.md:36
+#: src/editor.md:37
 msgid "`\"absolute\"`"
 msgstr ""
 
-#: src/editor.md:37
+#: src/editor.md:38
 msgid "`cursorline`"
 msgstr ""
 
-#: src/editor.md:37
+#: src/editor.md:38
 msgid "Highlight all lines with a cursor"
 msgstr ""
 
-#: src/editor.md:37 src/editor.md:38 src/editor.md:48 src/editor.md:50
-#: src/editor.md:51 src/editor.md:54 src/editor.md:60 src/editor.md:61
-#: src/editor.md:68 src/editor.md:166 src/editor.md:168 src/editor.md:240
-#: src/editor.md:241 src/editor.md:242 src/editor.md:243 src/editor.md:244
-#: src/editor.md:245 src/editor.md:246 src/editor.md:314 src/editor.md:315
-#: src/editor.md:364 src/editor.md:440 src/editor.md:444 src/editor.md:463
+#: src/editor.md:38 src/editor.md:39 src/editor.md:49 src/editor.md:51
+#: src/editor.md:52 src/editor.md:55 src/editor.md:61 src/editor.md:62
+#: src/editor.md:69 src/editor.md:167 src/editor.md:169 src/editor.md:170
+#: src/editor.md:242 src/editor.md:243 src/editor.md:244 src/editor.md:245
+#: src/editor.md:246 src/editor.md:247 src/editor.md:248 src/editor.md:316
+#: src/editor.md:317 src/editor.md:366 src/editor.md:442 src/editor.md:446
+#: src/editor.md:465
 msgid "`false`"
 msgstr ""
 
-#: src/editor.md:38
+#: src/editor.md:39
 msgid "`cursorcolumn`"
 msgstr ""
 
-#: src/editor.md:38
+#: src/editor.md:39
 msgid "Highlight all columns with a cursor"
 msgstr ""
 
-#: src/editor.md:39
+#: src/editor.md:40
 msgid "`continue-comments`"
 msgstr ""
 
-#: src/editor.md:39
+#: src/editor.md:40
 msgid ""
 "if helix should automatically add a line comment token if you create a new "
 "line inside a comment."
 msgstr ""
 
-#: src/editor.md:40
+#: src/editor.md:41
 msgid "`gutters`"
 msgstr ""
 
-#: src/editor.md:40
+#: src/editor.md:41
 msgid ""
 "Gutters to display: Available are `diagnostics` and `diff` and `line-"
 "numbers` and `spacer`, note that `diagnostics` also includes other features "
 "like breakpoints, 1-width padding will be inserted if gutters is non-empty"
 msgstr ""
 
-#: src/editor.md:40 src/editor.md:393
+#: src/editor.md:41 src/editor.md:395
 msgid "`[\"diagnostics\", \"spacer\", \"line-numbers\", \"spacer\", \"diff\"]`"
 msgstr ""
 
-#: src/editor.md:41
+#: src/editor.md:42
 msgid "`auto-completion`"
 msgstr ""
 
-#: src/editor.md:41
+#: src/editor.md:42
 msgid "Enable automatic pop up of auto-completion"
 msgstr ""
 
-#: src/editor.md:42
+#: src/editor.md:43
 msgid "`path-completion`"
 msgstr ""
 
-#: src/editor.md:42
+#: src/editor.md:43
 msgid ""
 "Enable filepath completion. Show files and directories if an existing path "
 "at the cursor was recognized, either absolute or relative to the current "
@@ -295,227 +308,227 @@ msgid ""
 "saved). Defaults to true."
 msgstr ""
 
-#: src/editor.md:43
+#: src/editor.md:44
 msgid "`auto-format`"
 msgstr ""
 
-#: src/editor.md:43
+#: src/editor.md:44
 msgid "Enable automatic formatting on save[^3]"
 msgstr ""
 
-#: src/editor.md:44
+#: src/editor.md:45
 msgid "`idle-timeout`"
 msgstr ""
 
-#: src/editor.md:44
+#: src/editor.md:45
 msgid "Time in milliseconds since last keypress before idle timers trigger."
 msgstr ""
 
-#: src/editor.md:44 src/editor.md:45
+#: src/editor.md:45 src/editor.md:46
 msgid "`250`"
 msgstr ""
 
-#: src/editor.md:45
+#: src/editor.md:46
 msgid "`completion-timeout`"
 msgstr ""
 
-#: src/editor.md:45
+#: src/editor.md:46
 msgid ""
 "Time in milliseconds after typing a word character before completions are "
 "shown, set to 5 for instant."
 msgstr ""
 
-#: src/editor.md:46
+#: src/editor.md:47
 msgid "`preview-completion-insert`"
 msgstr ""
 
-#: src/editor.md:46
+#: src/editor.md:47
 msgid "Whether to apply completion item instantly when selected"
 msgstr ""
 
-#: src/editor.md:47
+#: src/editor.md:48
 msgid "`completion-trigger-len`"
 msgstr ""
 
-#: src/editor.md:47
+#: src/editor.md:48
 msgid "The min-length of word under cursor to trigger autocompletion"
 msgstr ""
 
-#: src/editor.md:47
+#: src/editor.md:48
 msgid "`2`"
 msgstr ""
 
-#: src/editor.md:48
+#: src/editor.md:49
 msgid "`completion-replace`"
 msgstr ""
 
-#: src/editor.md:48
+#: src/editor.md:49
 msgid ""
 "Whether to make completions always replace the entire word and not just the "
 "part before the cursor"
 msgstr ""
 
-#: src/editor.md:49
+#: src/editor.md:50
 msgid "`auto-info`"
 msgstr ""
 
-#: src/editor.md:49
+#: src/editor.md:50
 msgid "Whether to display info boxes"
 msgstr ""
 
-#: src/editor.md:50
+#: src/editor.md:51
 msgid "`true-color`"
 msgstr ""
 
-#: src/editor.md:50
+#: src/editor.md:51
 msgid ""
 "Whether to override automatic detection of terminal truecolor support in the "
 "event of a false negative"
 msgstr ""
 
-#: src/editor.md:51
+#: src/editor.md:52
 msgid "`undercurl`"
 msgstr ""
 
-#: src/editor.md:51
+#: src/editor.md:52
 msgid ""
 "Whether to override automatic detection of terminal undercurl support in the "
 "event of a false negative"
 msgstr ""
 
-#: src/editor.md:52
+#: src/editor.md:53
 msgid "`rulers`"
 msgstr ""
 
-#: src/editor.md:52
+#: src/editor.md:53
 msgid ""
 "List of column positions at which to display the rulers. Can be overridden "
 "by language specific `rulers` in `languages.toml` file"
 msgstr ""
 
-#: src/editor.md:52 src/editor.md:56 src/editor.md:123
+#: src/editor.md:53 src/editor.md:57 src/editor.md:124
 msgid "`[]`"
 msgstr ""
 
-#: src/editor.md:53
+#: src/editor.md:54
 msgid "`bufferline`"
 msgstr ""
 
-#: src/editor.md:53
+#: src/editor.md:54
 msgid ""
 "Renders a line at the top of the editor displaying open buffers. Can be "
 "`always`, `never` or `multiple` (only shown if more than one buffer is in "
 "use)"
 msgstr ""
 
-#: src/editor.md:53
+#: src/editor.md:54
 msgid "`\"never\"`"
 msgstr ""
 
-#: src/editor.md:54
+#: src/editor.md:55
 msgid "`color-modes`"
 msgstr ""
 
-#: src/editor.md:54
+#: src/editor.md:55
 msgid ""
 "Whether to color the mode indicator with different colors depending on the "
 "mode itself"
 msgstr ""
 
-#: src/editor.md:55
+#: src/editor.md:56
 msgid "`text-width`"
 msgstr ""
 
-#: src/editor.md:55
+#: src/editor.md:56
 msgid ""
 "Maximum line length. Used for the `:reflow` command and soft-wrapping if "
 "`soft-wrap.wrap-at-text-width` is set"
 msgstr ""
 
-#: src/editor.md:55
+#: src/editor.md:56
 msgid "`80`"
 msgstr ""
 
-#: src/editor.md:56
+#: src/editor.md:57
 msgid "`workspace-lsp-roots`"
 msgstr ""
 
-#: src/editor.md:56
+#: src/editor.md:57
 msgid ""
 "Directories relative to the workspace root that are treated as LSP roots. "
 "Should only be set in `.helix/config.toml`"
 msgstr ""
 
-#: src/editor.md:57
+#: src/editor.md:58
 msgid "`default-line-ending`"
 msgstr ""
 
-#: src/editor.md:57
+#: src/editor.md:58
 msgid ""
 "The line ending to use for new documents. Can be `native`, `lf`, `crlf`, "
 "`ff`, `cr` or `nel`. `native` uses the platform's native line ending (`crlf` "
 "on Windows, otherwise `lf`)."
 msgstr ""
 
-#: src/editor.md:57
+#: src/editor.md:58
 msgid "`\"native\"`"
 msgstr ""
 
-#: src/editor.md:58
+#: src/editor.md:59
 msgid "`insert-final-newline`"
 msgstr ""
 
-#: src/editor.md:58
+#: src/editor.md:59
 msgid ""
 "Whether to automatically insert a trailing line-ending on write if missing"
 msgstr ""
 
-#: src/editor.md:59
+#: src/editor.md:60
 msgid "`atomic-save`"
 msgstr ""
 
-#: src/editor.md:59
+#: src/editor.md:60
 msgid ""
 "Whether to use atomic operations to write documents to disk. This prevents "
 "data loss if the editor is interrupted while writing the file, but may "
 "confuse some file watching/hot reloading programs."
 msgstr ""
 
-#: src/editor.md:60
+#: src/editor.md:61
 msgid "`trim-final-newlines`"
 msgstr ""
 
-#: src/editor.md:60
+#: src/editor.md:61
 msgid ""
 "Whether to automatically remove line-endings after the final one on write"
 msgstr ""
 
-#: src/editor.md:61
+#: src/editor.md:62
 msgid "`trim-trailing-whitespace`"
 msgstr ""
 
-#: src/editor.md:61
+#: src/editor.md:62
 msgid ""
 "Whether to automatically remove whitespace preceding line endings on write"
 msgstr ""
 
-#: src/editor.md:62
+#: src/editor.md:63
 msgid "`popup-border`"
 msgstr ""
 
-#: src/editor.md:62
+#: src/editor.md:63
 msgid "Draw border around `popup`, `menu`, `all`, or `none`"
 msgstr ""
 
-#: src/editor.md:62 src/editor.md:333
+#: src/editor.md:63 src/editor.md:335
 msgid "`\"none\"`"
 msgstr ""
 
-#: src/editor.md:63
+#: src/editor.md:64
 msgid "`indent-heuristic`"
 msgstr ""
 
-#: src/editor.md:63
+#: src/editor.md:64
 msgid ""
 "How the indentation for a newly inserted line is computed: `simple` just "
 "copies the indentation level from the previous line, `tree-sitter` computes "
@@ -525,110 +538,110 @@ msgid ""
 "`simple`)."
 msgstr ""
 
-#: src/editor.md:63
+#: src/editor.md:64
 msgid "`\"hybrid\"`"
 msgstr ""
 
-#: src/editor.md:64
+#: src/editor.md:65
 msgid "`jump-label-alphabet`"
 msgstr ""
 
-#: src/editor.md:64
+#: src/editor.md:65
 msgid ""
 "The characters that are used to generate two character jump labels. "
 "Characters at the start of the alphabet are used first."
 msgstr ""
 
-#: src/editor.md:64
+#: src/editor.md:65
 msgid "`\"abcdefghijklmnopqrstuvwxyz\"`"
 msgstr ""
 
-#: src/editor.md:65
+#: src/editor.md:66
 msgid "`end-of-line-diagnostics`"
 msgstr ""
 
-#: src/editor.md:65
+#: src/editor.md:66
 msgid ""
 "Minimum severity of diagnostics to render at the end of the line. Set to "
 "`disable` to disable entirely. Refer to the setting about `inline-"
 "diagnostics` for more details"
 msgstr ""
 
-#: src/editor.md:65
+#: src/editor.md:66
 msgid "`\"hint\"`"
 msgstr ""
 
-#: src/editor.md:66
+#: src/editor.md:67
 msgid "`clipboard-provider`"
 msgstr ""
 
-#: src/editor.md:66
+#: src/editor.md:67
 msgid ""
 "Which API to use for clipboard interaction. One of `pasteboard` (MacOS), "
 "`wayland`, `x-clip`, `x-sel`, `win32-yank`, `termux`, `tmux`, `windows`, "
 "`termcode`, `none`, or a custom command set."
 msgstr ""
 
-#: src/editor.md:66
+#: src/editor.md:67
 msgid "Platform and environment specific."
 msgstr ""
 
-#: src/editor.md:67
+#: src/editor.md:68
 msgid "`editor-config`"
 msgstr ""
 
-#: src/editor.md:67
+#: src/editor.md:68
 msgid ""
 "Whether to read settings from [EditorConfig](https://editorconfig.org) files"
 msgstr ""
 
-#: src/editor.md:68
+#: src/editor.md:69
 msgid "`rainbow-brackets`"
 msgstr ""
 
-#: src/editor.md:68
+#: src/editor.md:69
 msgid ""
 "Whether to render rainbow colors for matching brackets. Requires tree-sitter "
 "`rainbows.scm` queries for the language."
 msgstr ""
 
-#: src/editor.md:69
+#: src/editor.md:70
 msgid "`kitty-keyboard-protocol`"
 msgstr ""
 
-#: src/editor.md:69
+#: src/editor.md:70
 msgid ""
 "Whether to enable Kitty Keyboard Protocol. Can be `enabled`, `disabled` or "
 "`auto`"
 msgstr ""
 
-#: src/editor.md:69
+#: src/editor.md:70
 msgid "`\"auto\"`"
 msgstr ""
 
-#: src/editor.md:71
+#: src/editor.md:72
 msgid ""
 "In most cases, you also need to enable the `auto-format` setting under "
 "`languages.toml`. You can find the reasoning [here](https://github.com/helix-"
 "editor/helix/discussions/9043#discussioncomment-7811497)."
 msgstr ""
 
-#: src/editor.md:73
+#: src/editor.md:74
 msgid "`[editor.clipboard-provider]` Section"
 msgstr ""
 
-#: src/editor.md:75
+#: src/editor.md:76
 msgid ""
 "Helix can be configured either to use a builtin clipboard configuration or "
 "to use a provided command."
 msgstr ""
 
-#: src/editor.md:78
+#: src/editor.md:79
 msgid ""
 "For instance, setting it to use OSC 52 termcodes, the configuration would be:"
 msgstr ""
 
-#: src/editor.md:79
+#: src/editor.md:80
 msgid ""
 "```toml\n"
 "[editor]\n"
@@ -636,13 +649,13 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:84
+#: src/editor.md:85
 msgid ""
 "Alternatively, Helix can be configured to use arbitrary commands for "
 "clipboard integration:"
 msgstr ""
 
-#: src/editor.md:86
+#: src/editor.md:87
 msgid ""
 "```toml\n"
 "[editor.clipboard-provider.custom]\n"
@@ -655,35 +668,35 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:94
+#: src/editor.md:95
 msgid ""
 "For custom commands the contents of the yank/paste is communicated over "
 "stdin/stdout."
 msgstr ""
 
-#: src/editor.md:96
+#: src/editor.md:97
 msgid "`[editor.statusline]` Section"
 msgstr ""
 
-#: src/editor.md:98
+#: src/editor.md:99
 msgid "Allows configuring the statusline at the bottom of the editor."
 msgstr ""
 
-#: src/editor.md:100
+#: src/editor.md:101
 msgid "The configuration distinguishes between three areas of the status line:"
 msgstr ""
 
-#: src/editor.md:102
+#: src/editor.md:103
 msgid ""
 "`[ ... ... LEFT ... ... | ... ... ... CENTER ... ... ... | ... ... "
 "RIGHT ... ... ]`"
 msgstr ""
 
-#: src/editor.md:104
+#: src/editor.md:105
 msgid "Statusline elements can be defined as follows:"
 msgstr ""
 
-#: src/editor.md:106
+#: src/editor.md:107
 msgid ""
 "```toml\n"
 "[editor.statusline]\n"
@@ -700,394 +713,402 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:118
+#: src/editor.md:119
 msgid "The `[editor.statusline]` key takes the following sub-keys:"
 msgstr ""
 
-#: src/editor.md:122
+#: src/editor.md:123
 msgid "`left`"
 msgstr ""
 
-#: src/editor.md:122
+#: src/editor.md:123
 msgid "A list of elements aligned to the left of the statusline"
 msgstr ""
 
-#: src/editor.md:122
+#: src/editor.md:123
 msgid ""
 "`[\"mode\", \"spinner\", \"file-name\", \"read-only-indicator\", \"file-"
 "modification-indicator\"]`"
 msgstr ""
 
-#: src/editor.md:123
+#: src/editor.md:124
 msgid "`center`"
 msgstr ""
 
-#: src/editor.md:123
+#: src/editor.md:124
 msgid "A list of elements aligned to the middle of the statusline"
 msgstr ""
 
-#: src/editor.md:124
+#: src/editor.md:125
 msgid "`right`"
 msgstr ""
 
-#: src/editor.md:124
+#: src/editor.md:125
 msgid "A list of elements aligned to the right of the statusline"
 msgstr ""
 
-#: src/editor.md:124
+#: src/editor.md:125
 msgid ""
 "`[\"diagnostics\", \"selections\", \"register\", \"position\", \"file-"
 "encoding\"]`"
 msgstr ""
 
-#: src/editor.md:125 src/editor.md:155
+#: src/editor.md:126 src/editor.md:156
 msgid "`separator`"
 msgstr ""
 
-#: src/editor.md:125
+#: src/editor.md:126
 msgid "The character used to separate elements in the statusline"
 msgstr ""
 
-#: src/editor.md:125 src/editor.md:365
+#: src/editor.md:126 src/editor.md:367
 msgid "`\"│\"`"
 msgstr ""
 
-#: src/editor.md:126
+#: src/editor.md:127
 msgid "`mode.normal`"
 msgstr ""
 
-#: src/editor.md:126
+#: src/editor.md:127
 msgid "The text shown in the `mode` element for normal mode"
 msgstr ""
 
-#: src/editor.md:126
+#: src/editor.md:127
 msgid "`\"NOR\"`"
 msgstr ""
 
-#: src/editor.md:127
+#: src/editor.md:128
 msgid "`mode.insert`"
 msgstr ""
 
-#: src/editor.md:127
+#: src/editor.md:128
 msgid "The text shown in the `mode` element for insert mode"
 msgstr ""
 
-#: src/editor.md:127
+#: src/editor.md:128
 msgid "`\"INS\"`"
 msgstr ""
 
-#: src/editor.md:128
+#: src/editor.md:129
 msgid "`mode.select`"
 msgstr ""
 
-#: src/editor.md:128
+#: src/editor.md:129
 msgid "The text shown in the `mode` element for select mode"
 msgstr ""
 
-#: src/editor.md:128
+#: src/editor.md:129
 msgid "`\"SEL\"`"
 msgstr ""
 
-#: src/editor.md:129 src/editor.md:149
+#: src/editor.md:130 src/editor.md:150
 msgid "`diagnostics`"
 msgstr "`diagnostics`"
 
-#: src/editor.md:129
+#: src/editor.md:130
 msgid "A list of severities which are displayed for the current buffer"
 msgstr ""
 
-#: src/editor.md:129 src/editor.md:130
+#: src/editor.md:130 src/editor.md:131
 msgid "`[\"warning\", \"error\"]`"
 msgstr ""
 
-#: src/editor.md:130 src/editor.md:150
+#: src/editor.md:131 src/editor.md:151
 msgid "`workspace-diagnostics`"
 msgstr ""
 
-#: src/editor.md:130
+#: src/editor.md:131
 msgid "A list of severities which are displayed for the workspace"
 msgstr ""
 
-#: src/editor.md:132
+#: src/editor.md:133
 msgid "The following statusline elements can be configured:"
 msgstr ""
 
-#: src/editor.md:136
+#: src/editor.md:137
 msgid "`mode`"
 msgstr ""
 
-#: src/editor.md:136
+#: src/editor.md:137
 msgid "The current editor mode (`mode.normal`/`mode.insert`/`mode.select`)"
 msgstr ""
 
-#: src/editor.md:137
+#: src/editor.md:138
 msgid "`spinner`"
 msgstr ""
 
-#: src/editor.md:137
+#: src/editor.md:138
 msgid "A progress spinner indicating LSP activity"
 msgstr ""
 
-#: src/editor.md:138
+#: src/editor.md:139
 msgid "`file-name`"
 msgstr ""
 
-#: src/editor.md:138
+#: src/editor.md:139
 msgid "The path/name of the opened file"
 msgstr ""
 
-#: src/editor.md:139
+#: src/editor.md:140
 msgid "`file-absolute-path`"
 msgstr ""
 
-#: src/editor.md:139
+#: src/editor.md:140
 msgid "The absolute path/name of the opened file"
 msgstr ""
 
-#: src/editor.md:140
+#: src/editor.md:141
 msgid "`file-base-name`"
 msgstr ""
 
-#: src/editor.md:140
+#: src/editor.md:141
 msgid "The basename of the opened file"
 msgstr ""
 
-#: src/editor.md:141
+#: src/editor.md:142
 msgid "`current-working-directory`"
 msgstr ""
 
-#: src/editor.md:141
+#: src/editor.md:142
 msgid "The current working directory"
 msgstr ""
 
-#: src/editor.md:142
+#: src/editor.md:143
 msgid "`file-modification-indicator`"
 msgstr ""
 
-#: src/editor.md:142
+#: src/editor.md:143
 msgid ""
 "The indicator to show whether the file is modified (a `[+]` appears when "
 "there are unsaved changes)"
 msgstr ""
 
-#: src/editor.md:143
+#: src/editor.md:144
 msgid "`file-encoding`"
 msgstr ""
 
-#: src/editor.md:143
+#: src/editor.md:144
 msgid "The encoding of the opened file if it differs from UTF-8"
 msgstr ""
 
-#: src/editor.md:144
+#: src/editor.md:145
 msgid "`file-line-ending`"
 msgstr ""
 
-#: src/editor.md:144
+#: src/editor.md:145
 msgid "The file line endings (CRLF or LF)"
 msgstr ""
 
-#: src/editor.md:145
+#: src/editor.md:146
 msgid "`file-indent-style`"
 msgstr ""
 
-#: src/editor.md:145
+#: src/editor.md:146
 msgid "The file indentation style"
 msgstr ""
 
-#: src/editor.md:146
+#: src/editor.md:147
 msgid "`read-only-indicator`"
 msgstr ""
 
-#: src/editor.md:146
+#: src/editor.md:147
 msgid "An indicator that shows `[readonly]` when a file cannot be written"
 msgstr ""
 
-#: src/editor.md:147
+#: src/editor.md:148
 msgid "`total-line-numbers`"
 msgstr ""
 
-#: src/editor.md:147
+#: src/editor.md:148
 msgid "The total line numbers of the opened file"
 msgstr ""
 
-#: src/editor.md:148
+#: src/editor.md:149
 msgid "`file-type`"
 msgstr ""
 
-#: src/editor.md:148
+#: src/editor.md:149
 msgid "The type of the opened file"
 msgstr ""
 
-#: src/editor.md:149
+#: src/editor.md:150
 msgid "The number of warnings and/or errors"
 msgstr ""
 
-#: src/editor.md:150
+#: src/editor.md:151
 msgid "The number of warnings and/or errors on workspace"
 msgstr ""
 
-#: src/editor.md:151
+#: src/editor.md:152
 msgid "`selections`"
 msgstr ""
 
-#: src/editor.md:151
+#: src/editor.md:152
 msgid "The primary selection index out of the number of active selections"
 msgstr ""
 
-#: src/editor.md:152
+#: src/editor.md:153
 msgid "`primary-selection-length`"
 msgstr ""
 
-#: src/editor.md:152
+#: src/editor.md:153
 msgid "The number of characters currently in primary selection"
 msgstr ""
 
-#: src/editor.md:153
+#: src/editor.md:154
 msgid "`position`"
 msgstr ""
 
-#: src/editor.md:153
+#: src/editor.md:154
 msgid "The cursor position"
 msgstr ""
 
-#: src/editor.md:154
+#: src/editor.md:155
 msgid "`position-percentage`"
 msgstr ""
 
-#: src/editor.md:154
+#: src/editor.md:155
 msgid "The cursor position as a percentage of the total number of lines"
 msgstr ""
 
-#: src/editor.md:155
+#: src/editor.md:156
 msgid ""
 "The string defined in `editor.statusline.separator` (defaults to `\"│\"`)"
 msgstr ""
 
-#: src/editor.md:156
+#: src/editor.md:157
 msgid "`spacer`"
 msgstr ""
 
-#: src/editor.md:156
+#: src/editor.md:157
 msgid ""
 "Inserts a space between elements (multiple/contiguous spacers may be "
 "specified)"
 msgstr ""
 
-#: src/editor.md:157
+#: src/editor.md:158
 msgid "`version-control`"
 msgstr ""
 
-#: src/editor.md:157
+#: src/editor.md:158
 msgid "The current branch name or detached commit hash of the opened workspace"
 msgstr ""
 
-#: src/editor.md:158
+#: src/editor.md:159
 msgid "`register`"
 msgstr ""
 
-#: src/editor.md:158
+#: src/editor.md:159
 msgid "The current selected register"
 msgstr ""
 
-#: src/editor.md:160
+#: src/editor.md:161
 msgid "`[editor.lsp]` Section"
 msgstr ""
 
-#: src/editor.md:164 src/editor.md:440 src/editor.md:462 src/editor.md:518
+#: src/editor.md:165 src/editor.md:442 src/editor.md:464 src/editor.md:520
 msgid "`enable`"
 msgstr ""
 
-#: src/editor.md:164
+#: src/editor.md:165
 msgid ""
 "Enables LSP integration. Setting to false will completely disable language "
 "servers regardless of language settings."
 msgstr ""
 
-#: src/editor.md:165
+#: src/editor.md:166
 msgid "`display-messages`"
 msgstr ""
 
-#: src/editor.md:165
+#: src/editor.md:166
 msgid "Display LSP `window/showMessage` messages below statusline[^1]"
 msgstr ""
 
-#: src/editor.md:166
+#: src/editor.md:167
 msgid "`display-progress-messages`"
 msgstr ""
 
-#: src/editor.md:166
+#: src/editor.md:167
 msgid "Display LSP progress messages below statusline[^1]"
 msgstr ""
 
-#: src/editor.md:167
+#: src/editor.md:168
 msgid "`auto-signature-help`"
 msgstr ""
 
-#: src/editor.md:167
+#: src/editor.md:168
 msgid "Enable automatic popup of signature help (parameter hints)"
 msgstr ""
 
-#: src/editor.md:168
+#: src/editor.md:169
+msgid "`auto-document-highlight`"
+msgstr ""
+
+#: src/editor.md:169
+msgid "Automatically highlight symbol references at the cursor"
+msgstr ""
+
+#: src/editor.md:170
 msgid "`display-inlay-hints`"
 msgstr ""
 
-#: src/editor.md:168
+#: src/editor.md:170
 msgid "Display inlay hints[^2]"
 msgstr ""
 
-#: src/editor.md:169
+#: src/editor.md:171
 msgid "`inlay-hints-length-limit`"
 msgstr ""
 
-#: src/editor.md:169
+#: src/editor.md:171
 msgid "Maximum displayed length (non-zero number) of inlay hints"
 msgstr ""
 
-#: src/editor.md:169 src/editor.md:214
+#: src/editor.md:171 src/editor.md:216
 msgid "Unset by default"
 msgstr ""
 
-#: src/editor.md:170
+#: src/editor.md:172
 msgid "`display-color-swatches`"
 msgstr ""
 
-#: src/editor.md:170
+#: src/editor.md:172
 msgid "Show color swatches next to colors"
 msgstr ""
 
-#: src/editor.md:171
+#: src/editor.md:173
 msgid "`display-signature-help-docs`"
 msgstr ""
 
-#: src/editor.md:171
+#: src/editor.md:173
 msgid "Display docs under signature help popup"
 msgstr ""
 
-#: src/editor.md:172
+#: src/editor.md:174
 msgid "`snippets`"
 msgstr ""
 
-#: src/editor.md:172
+#: src/editor.md:174
 msgid ""
 "Enables snippet completions. Requires a server restart (`:lsp-restart`) to "
 "take effect after `:config-reload`/`:set`."
 msgstr ""
 
-#: src/editor.md:173
+#: src/editor.md:175
 msgid "`goto-reference-include-declaration`"
 msgstr ""
 
-#: src/editor.md:173
+#: src/editor.md:175
 msgid "Include declaration in the goto references popup."
 msgstr ""
 
-#: src/editor.md:175
+#: src/editor.md:177
 msgid ""
 "By default, a progress spinner is shown in the statusline beside the file "
 "path."
 msgstr ""
 
-#: src/editor.md:177
+#: src/editor.md:179
 msgid ""
 "You may also have to activate them in the language server config for them to "
 "appear, not just in Helix. Inlay hints in Helix are still being improved on "
@@ -1095,170 +1116,170 @@ msgid ""
 "any bugs you see so we can fix them!"
 msgstr ""
 
-#: src/editor.md:179
+#: src/editor.md:181
 msgid "`[editor.cursor-shape]` Section"
 msgstr ""
 
-#: src/editor.md:181
+#: src/editor.md:183
 msgid ""
 "Defines the shape of cursor in each mode. Valid values for these options are "
 "`block`, `bar`, `underline`, or `hidden`."
 msgstr ""
 
-#: src/editor.md:184
+#: src/editor.md:186
 msgid ""
 "💡 Due to limitations of the terminal environment, only the primary cursor "
 "can change shape."
 msgstr ""
 
-#: src/editor.md:189
+#: src/editor.md:191
 msgid "`normal`"
 msgstr ""
 
-#: src/editor.md:189
+#: src/editor.md:191
 msgid "Cursor shape in [normal mode](./keymap.md#normal-mode)"
 msgstr ""
 
-#: src/editor.md:189 src/editor.md:190 src/editor.md:191
+#: src/editor.md:191 src/editor.md:192 src/editor.md:193
 msgid "`\"block\"`"
 msgstr ""
 
-#: src/editor.md:190
+#: src/editor.md:192
 msgid "`insert`"
 msgstr ""
 
-#: src/editor.md:190
+#: src/editor.md:192
 msgid "Cursor shape in [insert mode](./keymap.md#insert-mode)"
 msgstr ""
 
-#: src/editor.md:191
+#: src/editor.md:193
 msgid "`select`"
 msgstr ""
 
-#: src/editor.md:191
+#: src/editor.md:193
 msgid "Cursor shape in [select mode](./keymap.md#select--extend-mode)"
 msgstr ""
 
-#: src/editor.md:197
+#: src/editor.md:199
 msgid "`[editor.file-picker]` Section"
 msgstr ""
 
-#: src/editor.md:199
+#: src/editor.md:201
 msgid ""
 "Set options for file picker and global search. Ignoring a file means it is "
 "not visible in the Helix file picker and global search."
 msgstr ""
 
-#: src/editor.md:202
+#: src/editor.md:204
 msgid "All git related options are only enabled in a git repository."
 msgstr ""
 
-#: src/editor.md:206 src/editor.md:240
+#: src/editor.md:208 src/editor.md:242
 msgid "`hidden`"
 msgstr ""
 
-#: src/editor.md:206 src/editor.md:240
+#: src/editor.md:208 src/editor.md:242
 msgid "Enables ignoring hidden files"
 msgstr ""
 
-#: src/editor.md:207 src/editor.md:241
+#: src/editor.md:209 src/editor.md:243
 msgid "`follow-symlinks`"
 msgstr ""
 
-#: src/editor.md:207 src/editor.md:241
+#: src/editor.md:209 src/editor.md:243
 msgid "Follow symlinks instead of ignoring them"
 msgstr ""
 
-#: src/editor.md:208
+#: src/editor.md:210
 msgid "`deduplicate-links`"
 msgstr ""
 
-#: src/editor.md:208
+#: src/editor.md:210
 msgid "Ignore symlinks that point at files already shown in the picker"
 msgstr ""
 
-#: src/editor.md:209 src/editor.md:242
+#: src/editor.md:211 src/editor.md:244
 msgid "`parents`"
 msgstr ""
 
-#: src/editor.md:209 src/editor.md:242
+#: src/editor.md:211 src/editor.md:244
 msgid "Enables reading ignore files from parent directories"
 msgstr ""
 
-#: src/editor.md:210 src/editor.md:243
+#: src/editor.md:212 src/editor.md:245
 msgid "`ignore`"
 msgstr ""
 
-#: src/editor.md:210 src/editor.md:243
+#: src/editor.md:212 src/editor.md:245
 msgid "Enables reading `.ignore` files"
 msgstr ""
 
-#: src/editor.md:211 src/editor.md:244
+#: src/editor.md:213 src/editor.md:246
 msgid "`git-ignore`"
 msgstr ""
 
-#: src/editor.md:211 src/editor.md:244
+#: src/editor.md:213 src/editor.md:246
 msgid "Enables reading `.gitignore` files"
 msgstr ""
 
-#: src/editor.md:212 src/editor.md:245
+#: src/editor.md:214 src/editor.md:247
 msgid "`git-global`"
 msgstr ""
 
-#: src/editor.md:212 src/editor.md:245
+#: src/editor.md:214 src/editor.md:247
 msgid ""
 "Enables reading global `.gitignore`, whose path is specified in git's "
 "config: `core.excludesfile` option"
 msgstr ""
 
-#: src/editor.md:213 src/editor.md:246
+#: src/editor.md:215 src/editor.md:248
 msgid "`git-exclude`"
 msgstr ""
 
-#: src/editor.md:213 src/editor.md:246
+#: src/editor.md:215 src/editor.md:248
 msgid "Enables reading `.git/info/exclude` files"
 msgstr ""
 
-#: src/editor.md:214
+#: src/editor.md:216
 msgid "`max-depth`"
 msgstr ""
 
-#: src/editor.md:214
+#: src/editor.md:216
 msgid "Set with an integer value for maximum depth to recurse"
 msgstr ""
 
-#: src/editor.md:216
+#: src/editor.md:218
 msgid ""
 "Ignore files can be placed locally as `.ignore` or put in your home "
 "directory as `~/.ignore`. They support the usual ignore and negative ignore "
 "(unignore) rules used in `.gitignore` files."
 msgstr ""
 
-#: src/editor.md:218
+#: src/editor.md:220
 msgid ""
 "Additionally, you can use Helix-specific ignore files by creating a local `."
 "helix/ignore` file in the current workspace or a global `ignore` file "
 "located in your Helix config directory:"
 msgstr ""
 
-#: src/editor.md:219
+#: src/editor.md:221
 msgid "Linux and Mac: `~/.config/helix/ignore`"
 msgstr ""
 
-#: src/editor.md:220
+#: src/editor.md:222
 msgid "Windows: `%AppData%\\helix\\ignore`"
 msgstr ""
 
-#: src/editor.md:222 src/editor.md:368 src/editor.md:395 src/editor.md:410
-#: src/editor.md:446 src/editor.md:521
+#: src/editor.md:224 src/editor.md:370 src/editor.md:397 src/editor.md:412
+#: src/editor.md:448 src/editor.md:523
 msgid "Example:"
 msgstr ""
 
-#: src/editor.md:231
+#: src/editor.md:233
 msgid "`[editor.file-explorer]` Section"
 msgstr ""
 
-#: src/editor.md:233
+#: src/editor.md:235
 msgid ""
 "In addition to the options for the file picker and global search, a similar "
 "set of options is presented to configure the file explorer separately. "
@@ -1266,46 +1287,46 @@ msgid ""
 "files."
 msgstr ""
 
-#: src/editor.md:235
+#: src/editor.md:237
 msgid ""
 "Note that the ignore files consulted by the file explorer when `ignore` is "
 "set to true are the same ones used by the file picker, including the "
 "aforementioned Helix-specific ignore files."
 msgstr ""
 
-#: src/editor.md:247
+#: src/editor.md:249
 msgid "`flatten-dirs`"
 msgstr ""
 
-#: src/editor.md:247
+#: src/editor.md:249
 msgid "Enables flattening single child directories"
 msgstr ""
 
-#: src/editor.md:249
+#: src/editor.md:251
 msgid "`[editor.buffer-picker]` Section"
 msgstr ""
 
-#: src/editor.md:251
+#: src/editor.md:253
 msgid "Set options for buffer picker."
 msgstr ""
 
-#: src/editor.md:255
+#: src/editor.md:257
 msgid "`start-position`"
 msgstr ""
 
-#: src/editor.md:255
+#: src/editor.md:257
 msgid "Controls behavior for which buffer is initially selected"
 msgstr ""
 
-#: src/editor.md:255
+#: src/editor.md:257
 msgid "`current`"
 msgstr ""
 
-#: src/editor.md:257 src/editor.md:336
+#: src/editor.md:259 src/editor.md:338
 msgid "Example"
 msgstr ""
 
-#: src/editor.md:259
+#: src/editor.md:261
 msgid ""
 "```toml\n"
 "[editor.buffer-picker]\n"
@@ -1313,27 +1334,27 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:264
+#: src/editor.md:266
 msgid "`[editor.auto-pairs]` Section"
 msgstr ""
 
-#: src/editor.md:266
+#: src/editor.md:268
 msgid ""
 "Enables automatic insertion of pairs to parentheses, brackets, etc. Can be a "
 "simple boolean value, or a specific mapping of pairs of single characters."
 msgstr ""
 
-#: src/editor.md:269
+#: src/editor.md:271
 msgid "To disable auto-pairs altogether, set `auto-pairs` to `false`:"
 msgstr ""
 
-#: src/editor.md:276
+#: src/editor.md:278
 msgid ""
 "The default pairs are <code>(){}\\[\\]''\"\"\\``</code>, but these can be "
 "customized by setting `auto-pairs` to a TOML table:"
 msgstr ""
 
-#: src/editor.md:279
+#: src/editor.md:281
 msgid ""
 "```toml\n"
 "[editor.auto-pairs]\n"
@@ -1346,18 +1367,18 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:289
+#: src/editor.md:291
 msgid ""
 "Additionally, this setting can be used in a language config. Unless the "
 "editor setting is `false`, this will override the editor config in documents "
 "with this language."
 msgstr ""
 
-#: src/editor.md:293
+#: src/editor.md:295
 msgid "Example `languages.toml` that adds `<>` and removes `''`"
 msgstr ""
 
-#: src/editor.md:295
+#: src/editor.md:297
 msgid ""
 "```toml\n"
 "[[language]]\n"
@@ -1373,108 +1394,108 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:308
+#: src/editor.md:310
 msgid "`[editor.auto-save]` Section"
 msgstr ""
 
-#: src/editor.md:310
+#: src/editor.md:312
 msgid "Control auto save behavior."
 msgstr ""
 
-#: src/editor.md:314
+#: src/editor.md:316
 msgid "`focus-lost`"
 msgstr ""
 
-#: src/editor.md:314
+#: src/editor.md:316
 msgid ""
 "Enable automatic saving on the focus moving away from Helix. Requires [focus "
 "event support](https://github.com/helix-editor/helix/wiki/Terminal-Support) "
 "from your terminal"
 msgstr ""
 
-#: src/editor.md:315
+#: src/editor.md:317
 msgid "`after-delay.enable`"
 msgstr ""
 
-#: src/editor.md:315
+#: src/editor.md:317
 msgid ""
 "Enable automatic saving after `auto-save.after-delay.timeout` milliseconds "
 "have passed since last edit."
 msgstr ""
 
-#: src/editor.md:316
+#: src/editor.md:318
 msgid "`after-delay.timeout`"
 msgstr ""
 
-#: src/editor.md:316
+#: src/editor.md:318
 msgid "Time in milliseconds since last edit before auto save timer triggers."
 msgstr ""
 
-#: src/editor.md:316
+#: src/editor.md:318
 msgid "`3000`"
 msgstr ""
 
-#: src/editor.md:318
+#: src/editor.md:320
 msgid "`[editor.search]` Section"
 msgstr ""
 
-#: src/editor.md:320
+#: src/editor.md:322
 msgid "Search specific options."
 msgstr ""
 
-#: src/editor.md:324
+#: src/editor.md:326
 msgid "`smart-case`"
 msgstr ""
 
-#: src/editor.md:324
+#: src/editor.md:326
 msgid ""
 "Enable smart case regex searching (case-insensitive unless pattern contains "
 "upper case characters)"
 msgstr ""
 
-#: src/editor.md:325
+#: src/editor.md:327
 msgid "`wrap-around`"
 msgstr ""
 
-#: src/editor.md:325
+#: src/editor.md:327
 msgid "Whether the search should wrap after depleting the matches"
 msgstr ""
 
-#: src/editor.md:327
+#: src/editor.md:329
 msgid "`[editor.whitespace]` Section"
 msgstr ""
 
-#: src/editor.md:329
+#: src/editor.md:331
 msgid ""
 "Options for rendering whitespace with visible characters. Use `:set "
 "whitespace.render all` to temporarily enable visible whitespace."
 msgstr ""
 
-#: src/editor.md:333 src/editor.md:364
+#: src/editor.md:335 src/editor.md:366
 msgid "`render`"
 msgstr ""
 
-#: src/editor.md:333
+#: src/editor.md:335
 msgid ""
 "Whether to render whitespace. May either be `all` or `none`, or a table with "
 "sub-keys `space`, `nbsp`, `nnbsp`, `tab`, and `newline`"
 msgstr ""
 
-#: src/editor.md:334
+#: src/editor.md:336
 msgid "`characters`"
 msgstr ""
 
-#: src/editor.md:334
+#: src/editor.md:336
 msgid ""
 "Literal characters to use when rendering whitespace. Sub-keys may be any of "
 "`tab`, `space`, `nbsp`, `nnbsp`, `newline` or `tabpad`"
 msgstr ""
 
-#: src/editor.md:334
+#: src/editor.md:336
 msgid "See example below"
 msgstr ""
 
-#: src/editor.md:338
+#: src/editor.md:340
 msgid ""
 "```toml\n"
 "[editor.whitespace]\n"
@@ -1497,39 +1518,39 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:358
+#: src/editor.md:360
 msgid "`[editor.indent-guides]` Section"
 msgstr ""
 
-#: src/editor.md:360
+#: src/editor.md:362
 msgid "Options for rendering vertical indent guides."
 msgstr ""
 
-#: src/editor.md:364
+#: src/editor.md:366
 msgid "Whether to render indent guides"
 msgstr ""
 
-#: src/editor.md:365
+#: src/editor.md:367
 msgid "`character`"
 msgstr ""
 
-#: src/editor.md:365
+#: src/editor.md:367
 msgid "Literal character to use for rendering the indent guide"
 msgstr ""
 
-#: src/editor.md:366
+#: src/editor.md:368
 msgid "`skip-levels`"
 msgstr ""
 
-#: src/editor.md:366
+#: src/editor.md:368
 msgid "Number of indent levels to skip"
 msgstr ""
 
-#: src/editor.md:366
+#: src/editor.md:368
 msgid "`0`"
 msgstr ""
 
-#: src/editor.md:370
+#: src/editor.md:372
 msgid ""
 "```toml\n"
 "[editor.indent-guides]\n"
@@ -1540,17 +1561,17 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:377
+#: src/editor.md:379
 msgid "`[editor.gutters]` Section"
 msgstr ""
 
-#: src/editor.md:379
+#: src/editor.md:381
 msgid ""
 "For simplicity, `editor.gutters` accepts an array of gutter types, which "
 "will use default settings for all gutter components."
 msgstr ""
 
-#: src/editor.md:382
+#: src/editor.md:384
 msgid ""
 "```toml\n"
 "[editor]\n"
@@ -1558,22 +1579,22 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:387
+#: src/editor.md:389
 msgid ""
 "To customize the behavior of gutters, the `[editor.gutters]` section must be "
 "used. This section contains top level settings, as well as settings for "
 "specific gutter components as subsections."
 msgstr ""
 
-#: src/editor.md:393
+#: src/editor.md:395
 msgid "`layout`"
 msgstr ""
 
-#: src/editor.md:393
+#: src/editor.md:395
 msgid "A vector of gutters to display"
 msgstr ""
 
-#: src/editor.md:397
+#: src/editor.md:399
 msgid ""
 "```toml\n"
 "[editor.gutters]\n"
@@ -1581,35 +1602,35 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:402
+#: src/editor.md:404
 msgid "`[editor.gutters.line-numbers]` Section"
 msgstr ""
 
-#: src/editor.md:404
+#: src/editor.md:406
 msgid "Options for the line number gutter"
 msgstr ""
 
-#: src/editor.md:408
+#: src/editor.md:410
 msgid "`min-width`"
 msgstr ""
 
-#: src/editor.md:408
+#: src/editor.md:410
 msgid "The minimum number of characters to use"
 msgstr ""
 
-#: src/editor.md:417
+#: src/editor.md:419
 msgid "`[editor.gutters.diagnostics]` Section"
 msgstr ""
 
-#: src/editor.md:419 src/editor.md:432
+#: src/editor.md:421 src/editor.md:434
 msgid "Currently unused"
 msgstr ""
 
-#: src/editor.md:421
+#: src/editor.md:423
 msgid "`[editor.gutters.diff]` Section"
 msgstr ""
 
-#: src/editor.md:423
+#: src/editor.md:425
 msgid ""
 "The `diff` gutter option displays colored bars indicating whether a `git` "
 "diff represents that a line was added, removed or changed. These colors are "
@@ -1617,77 +1638,77 @@ msgid ""
 "delta`."
 msgstr ""
 
-#: src/editor.md:426
+#: src/editor.md:428
 msgid ""
 "Other diff providers will eventually be supported by a future plugin system."
 msgstr ""
 
-#: src/editor.md:428
+#: src/editor.md:430
 msgid "There are currently no options for this section."
 msgstr ""
 
-#: src/editor.md:430
+#: src/editor.md:432
 msgid "`[editor.gutters.spacer]` Section"
 msgstr ""
 
-#: src/editor.md:434
+#: src/editor.md:436
 msgid "`[editor.soft-wrap]` Section"
 msgstr ""
 
-#: src/editor.md:436
+#: src/editor.md:438
 msgid "Options for soft wrapping lines that exceed the view width:"
 msgstr ""
 
-#: src/editor.md:440
+#: src/editor.md:442
 msgid "Whether soft wrapping is enabled."
 msgstr ""
 
-#: src/editor.md:441 src/editor.md:497
+#: src/editor.md:443 src/editor.md:499
 msgid "`max-wrap`"
 msgstr ""
 
-#: src/editor.md:441
+#: src/editor.md:443
 msgid "Maximum free space left at the end of the line."
 msgstr ""
 
-#: src/editor.md:441 src/editor.md:497
+#: src/editor.md:443 src/editor.md:499
 msgid "`20`"
 msgstr ""
 
-#: src/editor.md:442
+#: src/editor.md:444
 msgid "`max-indent-retain`"
 msgstr ""
 
-#: src/editor.md:442
+#: src/editor.md:444
 msgid "Maximum indentation to carry over when soft wrapping a line."
 msgstr ""
 
-#: src/editor.md:442
+#: src/editor.md:444
 msgid "`40`"
 msgstr ""
 
-#: src/editor.md:443
+#: src/editor.md:445
 msgid "`wrap-indicator`"
 msgstr ""
 
-#: src/editor.md:443
+#: src/editor.md:445
 msgid ""
 "Text inserted before soft wrapped lines, highlighted with `ui.virtual.wrap`"
 msgstr ""
 
-#: src/editor.md:443
+#: src/editor.md:445
 msgid "`\"↪ \"`"
 msgstr ""
 
-#: src/editor.md:444
+#: src/editor.md:446
 msgid "`wrap-at-text-width`"
 msgstr ""
 
-#: src/editor.md:444
+#: src/editor.md:446
 msgid "Soft wrap at `text-width` instead of using the full viewport size."
 msgstr ""
 
-#: src/editor.md:448
+#: src/editor.md:450
 msgid ""
 "```toml\n"
 "[editor.soft-wrap]\n"
@@ -1698,15 +1719,15 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:456
+#: src/editor.md:458
 msgid "`[editor.smart-tab]` Section"
 msgstr ""
 
-#: src/editor.md:458
+#: src/editor.md:460
 msgid "Options for navigating and editing using tab key."
 msgstr ""
 
-#: src/editor.md:462
+#: src/editor.md:464
 msgid ""
 "If set to true, then when the cursor is in a position with non-whitespace to "
 "its left, instead of inserting a tab, it will run `move_parent_node_end`. If "
@@ -1714,11 +1735,11 @@ msgid ""
 "the default bindings, to explicitly insert a tab character, press Shift-tab."
 msgstr ""
 
-#: src/editor.md:463
+#: src/editor.md:465
 msgid "`supersede-menu`"
 msgstr ""
 
-#: src/editor.md:463
+#: src/editor.md:465
 msgid ""
 "Normally, when a menu is on screen, such as when auto complete is triggered, "
 "the tab key is bound to cycling through the items. This means when menus are "
@@ -1728,7 +1749,7 @@ msgid ""
 "the other bindings must be used instead, such as arrow keys or `C-n`/`C-p`."
 msgstr ""
 
-#: src/editor.md:466
+#: src/editor.md:468
 msgid ""
 "Due to lack of support for S-tab in some terminals, the default keybindings "
 "don't fully embrace smart-tab editing experience. If you enjoy smart-tab "
@@ -1737,7 +1758,7 @@ msgid ""
 "keyboard-protocol), consider setting extra keybindings:"
 msgstr ""
 
-#: src/editor.md:468
+#: src/editor.md:470
 msgid ""
 "```\n"
 "[keys.normal]\n"
@@ -1753,19 +1774,19 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/editor.md:481
+#: src/editor.md:483
 msgid "`[editor.inline-diagnostics]` Section"
 msgstr ""
 
-#: src/editor.md:483
+#: src/editor.md:485
 msgid "Options for rendering diagnostics inside the text like shown below"
 msgstr ""
 
-#: src/editor.md:494
+#: src/editor.md:496
 msgid "`cursor-line`"
 msgstr ""
 
-#: src/editor.md:494
+#: src/editor.md:496
 msgid ""
 "The minimum severity that a diagnostic must have to be shown inline on the "
 "line that contains the primary cursor. Set to `disable` to not show any "
@@ -1773,86 +1794,86 @@ msgid ""
 "and will only take effect 350ms after moving the cursor to a different line."
 msgstr ""
 
-#: src/editor.md:494
+#: src/editor.md:496
 msgid "`\"warning\"`"
 msgstr ""
 
-#: src/editor.md:495
+#: src/editor.md:497
 msgid "`other-lines`"
 msgstr ""
 
-#: src/editor.md:495
+#: src/editor.md:497
 msgid ""
 "The minimum severity that a diagnostic must have to be shown inline on a "
 "line that does not contain the cursor-line. Set to `disable` to not show any "
 "diagnostics inline."
 msgstr ""
 
-#: src/editor.md:495
+#: src/editor.md:497
 msgid "`\"disable\"`"
 msgstr ""
 
-#: src/editor.md:496
+#: src/editor.md:498
 msgid "`prefix-len`"
 msgstr ""
 
-#: src/editor.md:496
+#: src/editor.md:498
 msgid "How many horizontal bars `─` are rendered before the diagnostic text."
 msgstr ""
 
-#: src/editor.md:496
+#: src/editor.md:498
 msgid "`1`"
 msgstr ""
 
-#: src/editor.md:497
+#: src/editor.md:499
 msgid "Equivalent of the `editor.soft-wrap.max-wrap` option for diagnostics."
 msgstr ""
 
-#: src/editor.md:498
+#: src/editor.md:500
 msgid "`max-diagnostics`"
 msgstr ""
 
-#: src/editor.md:498
+#: src/editor.md:500
 msgid "Maximum number of diagnostics to render inline for a given line"
 msgstr ""
 
-#: src/editor.md:498
+#: src/editor.md:500
 msgid "`10`"
 msgstr ""
 
-#: src/editor.md:500
+#: src/editor.md:502
 msgid ""
 "The allowed values for `cursor-line` and `other-lines` are: `error`, "
 "`warning`, `info`, `hint`."
 msgstr ""
 
-#: src/editor.md:502
+#: src/editor.md:504
 msgid ""
 "The (first) diagnostic with the highest severity that is not shown inline is "
 "rendered at the end of the line (as long as its severity is higher than the "
 "`end-of-line-diagnostics` config option):"
 msgstr ""
 
-#: src/editor.md:512
+#: src/editor.md:514
 msgid "`[editor.word-completion]` Section"
 msgstr ""
 
-#: src/editor.md:514
+#: src/editor.md:516
 msgid "Options for controlling completion of words from open buffers."
 msgstr ""
 
-#: src/editor.md:518
+#: src/editor.md:520
 msgid "Whether word completion is enabled"
 msgstr ""
 
-#: src/editor.md:519
+#: src/editor.md:521
 msgid "`trigger-length`"
 msgstr ""
 
-#: src/editor.md:519
+#: src/editor.md:521
 msgid "Number of word characters to type before triggering completion"
 msgstr ""
 
-#: src/editor.md:519
+#: src/editor.md:521
 msgid "`7`"
 msgstr ""

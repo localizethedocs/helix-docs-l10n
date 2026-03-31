@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -76,61 +76,65 @@ msgid "Language support"
 msgstr ""
 
 #: src/SUMMARY.md:19
-msgid "Ecosystem"
+msgid "Workspace trust"
 msgstr ""
 
 #: src/SUMMARY.md:20
-msgid "Migrating from Vim"
+msgid "Ecosystem"
 msgstr ""
 
 #: src/SUMMARY.md:21
-msgid "Helix mode in other software"
+msgid "Migrating from Vim"
 msgstr ""
 
 #: src/SUMMARY.md:22
-msgid "Configuration"
+msgid "Helix mode in other software"
 msgstr ""
 
 #: src/SUMMARY.md:23
-msgid "Editor"
+msgid "Configuration"
 msgstr ""
 
 #: src/SUMMARY.md:24
-msgid "Themes"
+msgid "Editor"
 msgstr ""
 
 #: src/SUMMARY.md:25
-msgid "Key remapping"
+msgid "Themes"
 msgstr ""
 
 #: src/SUMMARY.md:26
-msgid "Languages"
+msgid "Key remapping"
 msgstr ""
 
 #: src/SUMMARY.md:27
-msgid "Guides"
+msgid "Languages"
 msgstr ""
 
 #: src/SUMMARY.md:28
-msgid "Adding languages"
+msgid "Guides"
 msgstr ""
 
 #: src/SUMMARY.md:29
-msgid "Adding textobject queries"
+msgid "Adding languages"
 msgstr ""
 
 #: src/SUMMARY.md:30
-msgid "Adding indent queries"
+msgid "Adding textobject queries"
 msgstr ""
 
 #: src/SUMMARY.md:31
-msgid "Adding injection queries"
+msgid "Adding indent queries"
 msgstr ""
 
 #: src/SUMMARY.md:32
-msgid "Adding tags queries"
+msgid "Adding injection queries"
 msgstr ""
 
 #: src/SUMMARY.md:33
+msgid "Adding tags queries"
+msgstr ""
+
+#: src/SUMMARY.md:34
 msgid "Adding rainbow bracket queries"
 msgstr ""

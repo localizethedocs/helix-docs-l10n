@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -124,33 +124,39 @@ msgid ""
 msgstr ""
 
 #: src/building-from-source.md:61
-msgid "Configuring Helix's runtime files"
+msgid ""
+"💡 If you only want to build _some_ grammars, see [`use-grammars`](./"
+"languages.md#choosing-grammars)"
 msgstr ""
 
 #: src/building-from-source.md:63
-msgid "Linux and macOS"
+msgid "Configuring Helix's runtime files"
 msgstr ""
 
 #: src/building-from-source.md:65
+msgid "Linux and macOS"
+msgstr ""
+
+#: src/building-from-source.md:67
 msgid ""
 "The **runtime** directory is one below the Helix source, so either export a "
 "`HELIX_RUNTIME` environment variable to point to that directory and add it "
 "to your `~/.bashrc` or equivalent:"
 msgstr ""
 
-#: src/building-from-source.md:70
+#: src/building-from-source.md:72
 msgid "~/src/helix/runtime"
 msgstr ""
 
-#: src/building-from-source.md:73
+#: src/building-from-source.md:75
 msgid "Or, create a symbolic link:"
 msgstr ""
 
-#: src/building-from-source.md:79
+#: src/building-from-source.md:81
 msgid "Windows"
 msgstr "Windows"
 
-#: src/building-from-source.md:81
+#: src/building-from-source.md:83
 msgid ""
 "Either set the `HELIX_RUNTIME` environment variable to point to the runtime "
 "files using the Windows setting (search for `Edit environment variables for "
@@ -160,35 +166,35 @@ msgstr ""
 "來組態 `HELIX_RUNTIME` 環境變數指向執行時檔案，或是使用 Cmd 中的 `setx` 命"
 "令："
 
-#: src/building-from-source.md:86
+#: src/building-from-source.md:88
 msgid "\"%userprofile%\\src\\helix\\runtime\""
 msgstr "\"%userprofile%\\src\\helix\\runtime\""
 
-#: src/building-from-source.md:89
+#: src/building-from-source.md:91
 msgid ""
 "💡 `%userprofile%` resolves to your user directory like `C:\\Users\\Your-"
 "Name\\` for example."
 msgstr ""
 
-#: src/building-from-source.md:92
+#: src/building-from-source.md:94
 msgid ""
 "Or, create a symlink in `%appdata%\\helix\\` that links to the source code "
 "directory:"
 msgstr ""
 
-#: src/building-from-source.md:94
+#: src/building-from-source.md:96
 msgid "Method"
 msgstr "方法"
 
-#: src/building-from-source.md:94
+#: src/building-from-source.md:96
 msgid "Command"
 msgstr "命令"
 
-#: src/building-from-source.md:96
+#: src/building-from-source.md:98
 msgid "PowerShell"
 msgstr "PowerShell"
 
-#: src/building-from-source.md:96
+#: src/building-from-source.md:98
 msgid ""
 "`New-Item -ItemType Junction -Target \"runtime\" -Path \"$Env:"
 "AppData\\helix\\runtime\"`"
@@ -196,11 +202,11 @@ msgstr ""
 "`New-Item -ItemType Junction -Target \"runtime\" -Path \"$Env:"
 "AppData\\helix\\runtime\"`"
 
-#: src/building-from-source.md:97
+#: src/building-from-source.md:99
 msgid "Cmd"
 msgstr "Cmd"
 
-#: src/building-from-source.md:97
+#: src/building-from-source.md:99
 msgid ""
 "`cd %appdata%\\helix` <br/> `mklink /D runtime \"%userprofile%"
 "\\src\\helix\\runtime\"`"
@@ -208,57 +214,57 @@ msgstr ""
 "`cd %appdata%\\helix` <br/> `mklink /D runtime \"%userprofile%"
 "\\src\\helix\\runtime\"`"
 
-#: src/building-from-source.md:99
+#: src/building-from-source.md:101
 msgid ""
 "💡 On Windows, creating a symbolic link may require running PowerShell or "
 "Cmd as an administrator."
 msgstr ""
 
-#: src/building-from-source.md:102
+#: src/building-from-source.md:104
 msgid "Multiple runtime directories"
 msgstr ""
 
-#: src/building-from-source.md:104
+#: src/building-from-source.md:106
 msgid ""
 "When Helix finds multiple runtime directories it will search through them "
 "for files in the following order:"
 msgstr ""
 
-#: src/building-from-source.md:107
+#: src/building-from-source.md:109
 msgid ""
 "`runtime/` sibling directory to `$CARGO_MANIFEST_DIR` directory (this is "
 "intended for developing and testing helix only)."
 msgstr ""
 
-#: src/building-from-source.md:109
+#: src/building-from-source.md:111
 msgid "`runtime/` subdirectory of OS-dependent helix user config directory."
 msgstr ""
 
-#: src/building-from-source.md:110
+#: src/building-from-source.md:112
 msgid "`$HELIX_RUNTIME`"
 msgstr "`$HELIX_RUNTIME`"
 
-#: src/building-from-source.md:111
+#: src/building-from-source.md:113
 msgid ""
 "Distribution-specific fallback directory (set at compile time—not run time— "
 "with the `HELIX_DEFAULT_RUNTIME` environment variable)"
 msgstr ""
 
-#: src/building-from-source.md:113
+#: src/building-from-source.md:115
 msgid "`runtime/` subdirectory of path to Helix executable."
 msgstr ""
 
-#: src/building-from-source.md:115
+#: src/building-from-source.md:117
 msgid ""
 "This order also sets the priority for selecting which file will be used if "
 "multiple runtime directories have files with the same name."
 msgstr ""
 
-#: src/building-from-source.md:118
+#: src/building-from-source.md:120
 msgid "Note to packagers"
 msgstr ""
 
-#: src/building-from-source.md:120
+#: src/building-from-source.md:122
 msgid ""
 "If you are making a package of Helix for end users, to provide a good out of "
 "the box experience, you should set the `HELIX_DEFAULT_RUNTIME` environment "
@@ -268,50 +274,50 @@ msgid ""
 "build script could follow are:"
 msgstr ""
 
-#: src/building-from-source.md:127
+#: src/building-from-source.md:129
 msgid "`export HELIX_DEFAULT_RUNTIME=/usr/lib/helix/runtime`"
 msgstr "`export HELIX_DEFAULT_RUNTIME=/usr/lib/helix/runtime`"
 
-#: src/building-from-source.md:128
+#: src/building-from-source.md:130
 msgid "`cargo build --profile opt --locked`"
 msgstr "`cargo build --profile opt --locked`"
 
-#: src/building-from-source.md:129
+#: src/building-from-source.md:131
 msgid "`cp -r runtime $BUILD_DIR/usr/lib/helix/`"
 msgstr "`cp -r runtime $BUILD_DIR/usr/lib/helix/`"
 
-#: src/building-from-source.md:130
+#: src/building-from-source.md:132
 msgid "`cp target/opt/hx $BUILD_DIR/usr/bin/hx`"
 msgstr "`cp target/opt/hx $BUILD_DIR/usr/bin/hx`"
 
-#: src/building-from-source.md:132
+#: src/building-from-source.md:134
 msgid ""
 "This way the resulting `hx` binary will always look for its runtime "
 "directory in `/usr/lib/helix/runtime` if the user has no custom runtime in "
 "`~/.config/helix` or `HELIX_RUNTIME`."
 msgstr ""
 
-#: src/building-from-source.md:136
+#: src/building-from-source.md:138
 msgid "Validating the installation"
 msgstr ""
 
-#: src/building-from-source.md:138
+#: src/building-from-source.md:140
 msgid ""
 "To make sure everything is set up as expected you should run the Helix "
 "health check:"
 msgstr ""
 
-#: src/building-from-source.md:145
+#: src/building-from-source.md:147
 msgid ""
 "For more information on the health check results refer to [Health check]"
 "(https://github.com/helix-editor/helix/wiki/Healthcheck)."
 msgstr ""
 
-#: src/building-from-source.md:148
+#: src/building-from-source.md:150
 msgid "Configure the desktop shortcut"
 msgstr "組態桌面捷徑"
 
-#: src/building-from-source.md:150
+#: src/building-from-source.md:152
 msgid ""
 "If your desktop environment supports the [XDG desktop menu](https://"
 "specifications.freedesktop.org/menu-spec/menu-spec-latest.html) you can "
@@ -319,99 +325,98 @@ msgid ""
 "desktop` and icon files to their correct folders:"
 msgstr ""
 
-#: src/building-from-source.md:157
+#: src/building-from-source.md:159
 msgid "# or ~/.local/share/icons\n"
 msgstr "# 或 ~/.local/share/icons\n"
 
-#: src/building-from-source.md:159
+#: src/building-from-source.md:161
 msgid ""
 "It is recommended to convert the links in the `.desktop` file to absolute "
 "paths to avoid potential problems:"
 msgstr ""
 
-#: src/building-from-source.md:162
+#: src/building-from-source.md:164
 msgid "\"s|Exec=hx %F|Exec=$(readlink -f ~/.cargo/bin/hx) %F|g\""
 msgstr "\"s|Exec=hx %F|Exec=$(readlink -f ~/.cargo/bin/hx) %F|g\""
 
-#: src/building-from-source.md:163
-msgid "\"s|Icon=helix|Icon=$(readlink -f ~/.icons/helix.png)|g\""
-msgstr "\"s|Icon=helix|Icon=$(readlink -f ~/.icons/helix.png)|g\""
-
-#: src/building-from-source.md:166
+#: src/building-from-source.md:168
 msgid ""
 "To use another terminal than the system default, you can modify the `."
 "desktop` file. For example, to use `kitty`:"
 msgstr ""
 
-#: src/building-from-source.md:170
+#: src/building-from-source.md:172
 msgid "\"s|Exec=hx %F|Exec=kitty hx %F|g\""
 msgstr "\"s|Exec=hx %F|Exec=kitty hx %F|g\""
 
-#: src/building-from-source.md:171
+#: src/building-from-source.md:173
 msgid "\"s|Terminal=true|Terminal=false|g\""
 msgstr "\"s|Terminal=true|Terminal=false|g\""
 
-#: src/building-from-source.md:174
+#: src/building-from-source.md:176
 msgid "Building the Debian package"
 msgstr "建置 Debian 軟體包"
 
-#: src/building-from-source.md:176
+#: src/building-from-source.md:178
 msgid ""
 "If the `.deb` file provided on the release page uses a `libc` version higher "
 "than that used by your Debian, Ubuntu, or Mint system, you can build the "
 "package from source to match your system's dependencies."
 msgstr ""
 
-#: src/building-from-source.md:180
+#: src/building-from-source.md:182
 msgid "Install `cargo-deb`, the tool used for building the `.deb` file:"
 msgstr ""
 
-#: src/building-from-source.md:186
+#: src/building-from-source.md:188
 msgid ""
 "After cloning and entering the Helix repository as previously described, use "
 "the following command to build the release binary and package it into a `."
 "deb` file in a single step."
 msgstr ""
 
-#: src/building-from-source.md:193
+#: src/building-from-source.md:195
 msgid ""
 "💡 This locks you into the `--release` profile. But you can also build helix "
 "in any way you like. As long as you leave a `target/release/hx` file, it "
 "will get packaged with `cargo deb --no-build`"
 msgstr ""
 
-#: src/building-from-source.md:196
+#: src/building-from-source.md:198
 msgid "💡 Don't worry about the following:"
 msgstr ""
 
-#: src/building-from-source.md:200
+#: src/building-from-source.md:202
 msgid ""
 "Cargo deb just reports which packaged files it didn't derive dependencies "
 "for. But so far the dependency deriving seams very good, even if some of the "
 "grammar files are skipped."
 msgstr ""
 
-#: src/building-from-source.md:203
+#: src/building-from-source.md:205
 msgid ""
 "You can find the resulted `.deb` in `target/debian/`. It should contain "
 "everything it needs, including the"
 msgstr ""
 
-#: src/building-from-source.md:205
+#: src/building-from-source.md:207
 msgid "completions for bash, fish, zsh"
 msgstr ""
 
-#: src/building-from-source.md:206
+#: src/building-from-source.md:208
 msgid ".desktop file"
 msgstr ".desktop 檔案"
 
-#: src/building-from-source.md:207
+#: src/building-from-source.md:209
 msgid ""
 "icon (though desktop environments might use their own since the name of the "
 "package is correctly `helix`)"
 msgstr ""
 "圖示（不過桌面環境可能會使用它們自己的圖示，因為軟體包的正確名稱是 `helix`）"
 
-#: src/building-from-source.md:208
+#: src/building-from-source.md:210
 msgid "launcher to the binary with the runtime"
 msgstr ""
+
+#~ msgid "\"s|Icon=helix|Icon=$(readlink -f ~/.icons/helix.png)|g\""
+#~ msgstr "\"s|Icon=helix|Icon=$(readlink -f ~/.icons/helix.png)|g\""

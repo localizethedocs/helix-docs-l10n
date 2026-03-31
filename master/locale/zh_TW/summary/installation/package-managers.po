@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -52,122 +52,130 @@ msgid "[AppImage](#appimage)"
 msgstr "[AppImage](#appimage)"
 
 #: src/package-managers.md:12
+msgid "[Linux Homebrew Core](#linux-homebrew-core)"
+msgstr ""
+
+#: src/package-managers.md:13
 msgid "[macOS](#macos)"
 msgstr "[macOS](#macos)"
 
-#: src/package-managers.md:13
+#: src/package-managers.md:14
 msgid "[Homebrew Core](#homebrew-core)"
 msgstr "[Homebrew Core](#homebrew-core)"
 
-#: src/package-managers.md:14
+#: src/package-managers.md:15
 msgid "[MacPorts](#macports)"
 msgstr "[MacPorts](#macports)"
 
-#: src/package-managers.md:15
+#: src/package-managers.md:16
 msgid "[Windows](#windows)"
 msgstr "[Windows](#windows)"
 
-#: src/package-managers.md:16
+#: src/package-managers.md:17
 msgid "[Winget](#winget)"
 msgstr "[Winget](#winget)"
 
-#: src/package-managers.md:17
+#: src/package-managers.md:18
 msgid "[Scoop](#scoop)"
 msgstr "[Scoop](#scoop)"
 
-#: src/package-managers.md:18
+#: src/package-managers.md:19
 msgid "[Chocolatey](#chocolatey)"
 msgstr "[Chocolatey](#chocolatey)"
 
-#: src/package-managers.md:19
+#: src/package-managers.md:20
+msgid "[Packably](#packably)"
+msgstr ""
+
+#: src/package-managers.md:21
 msgid "[MSYS2](#msys2)"
 msgstr "[MSYS2](#msys2)"
 
-#: src/package-managers.md:21
+#: src/package-managers.md:23
 msgid ""
 "[![Packaging status](https://repology.org/badge/vertical-allrepos/helix-"
 "editor.svg)](https://repology.org/project/helix-editor/versions)"
 msgstr ""
 
-#: src/package-managers.md:23
+#: src/package-managers.md:25
 msgid "Linux"
 msgstr "Linux"
 
-#: src/package-managers.md:25
+#: src/package-managers.md:27
 msgid "The following third party repositories are available:"
 msgstr ""
 
-#: src/package-managers.md:27
+#: src/package-managers.md:29
 msgid "Debian"
 msgstr ""
 
-#: src/package-managers.md:33
+#: src/package-managers.md:35
 msgid ""
 "If you are running a system older than Debian 13, follow the steps for "
 "[Ubuntu/Mint](#ubuntumint)."
 msgstr ""
 
-#: src/package-managers.md:36
+#: src/package-managers.md:38
 msgid "Ubuntu/Mint"
 msgstr ""
 
-#: src/package-managers.md:38
+#: src/package-managers.md:40
 msgid ""
 "Install the Debian package [from the release page](https://github.com/helix-"
 "editor/helix/releases/latest)."
 msgstr ""
 
-#: src/package-managers.md:40
+#: src/package-managers.md:42
 msgid ""
 "If you are running a system older than Ubuntu 22.04, Mint 21, or Debian 12, "
 "you can build the `.deb` file locally [from source](./building-from-source."
 "md#building-the-debian-package)."
 msgstr ""
 
-#: src/package-managers.md:43
+#: src/package-managers.md:45
 msgid "Fedora/RHEL"
 msgstr "Fedora/RHEL"
 
-#: src/package-managers.md:49
+#: src/package-managers.md:51
 msgid "Arch Linux extra"
 msgstr ""
 
-#: src/package-managers.md:51
+#: src/package-managers.md:53
 msgid "Releases are available in the `extra` repository:"
 msgstr ""
 
-#: src/package-managers.md:57
+#: src/package-managers.md:59
 msgid ""
 "💡 When installed from the `extra` repository, run Helix with `helix` "
 "instead of `hx`."
 msgstr ""
 
-#: src/package-managers.md:59
+#: src/package-managers.md:61
 msgid "For example:"
 msgstr ""
 
-#: src/package-managers.md:63
+#: src/package-managers.md:65
 msgid "to check health"
 msgstr ""
 
-#: src/package-managers.md:65
+#: src/package-managers.md:67
 msgid ""
 "Additionally, a [helix-git](https://aur.archlinux.org/packages/helix-git/) "
 "package is available in the AUR, which builds the master branch."
 msgstr ""
 
-#: src/package-managers.md:68
+#: src/package-managers.md:70
 msgid "NixOS"
 msgstr ""
 
-#: src/package-managers.md:70
+#: src/package-managers.md:72
 msgid ""
 "Helix is available in [nixpkgs](https://github.com/nixos/nixpkgs) through "
 "the `helix` attribute, the unstable channel usually carries the latest "
 "release."
 msgstr ""
 
-#: src/package-managers.md:73
+#: src/package-managers.md:75
 msgid ""
 "Helix is also available as a [flake](https://wiki.nixos.org/wiki/Flakes) in "
 "the project root. Use `nix develop` to spin up a reproducible development "
@@ -176,44 +184,44 @@ msgid ""
 "cache assuming the user accepts the new settings on first use."
 msgstr ""
 
-#: src/package-managers.md:79
+#: src/package-managers.md:81
 msgid ""
 "If you are using a version of Nix without flakes enabled, [install Cachix "
 "CLI](https://docs.cachix.org/installation) and use `cachix use helix` to "
 "configure Nix to use cached outputs when possible."
 msgstr ""
 
-#: src/package-managers.md:83
+#: src/package-managers.md:85
 msgid "Flatpak"
 msgstr ""
 
-#: src/package-managers.md:85
+#: src/package-managers.md:87
 msgid ""
 "Helix is available on [Flathub](https://flathub.org/en-GB/apps/com."
 "helix_editor.Helix):"
 msgstr ""
 
-#: src/package-managers.md:92
+#: src/package-managers.md:94
 msgid "Snap"
 msgstr ""
 
-#: src/package-managers.md:94
+#: src/package-managers.md:96
 msgid ""
 "Helix is available on [Snapcraft](https://snapcraft.io/helix) and can be "
 "installed with:"
 msgstr ""
 
-#: src/package-managers.md:100
+#: src/package-managers.md:102
 msgid ""
 "This will install Helix as both `/snap/bin/helix` and `/snap/bin/hx`, so "
 "make sure `/snap/bin` is in your `PATH`."
 msgstr ""
 
-#: src/package-managers.md:102
+#: src/package-managers.md:104
 msgid "AppImage"
 msgstr "AppImage"
 
-#: src/package-managers.md:104
+#: src/package-managers.md:106
 msgid ""
 "Install Helix using the Linux [AppImage](https://appimage.org/) format. "
 "Download the official Helix AppImage from the [latest releases](https://"
@@ -223,64 +231,78 @@ msgstr ""
 "(https://github.com/helix-editor/helix/releases/latest)頁面下載官方的 Helix "
 "AppImage。"
 
-#: src/package-managers.md:108
+#: src/package-managers.md:110
 msgid "# change permission for executable mode\n"
 msgstr ""
 
-#: src/package-managers.md:109
+#: src/package-managers.md:111
 msgid "# run helix\n"
 msgstr ""
 
-#: src/package-managers.md:112
+#: src/package-managers.md:114
 msgid ""
 "You can optionally [add the `.desktop` file](./building-from-source."
 "md#configure-the-desktop-shortcut). Helix must be installed in `PATH` with "
 "the name `hx`. For example:"
 msgstr ""
 
-#: src/package-managers.md:114
+#: src/package-managers.md:116
 msgid "\"$HOME/.local/bin\""
 msgstr "\"$HOME/.local/bin\""
 
-#: src/package-managers.md:115
+#: src/package-managers.md:117
 msgid "\"$HOME/.local/bin/hx\""
 msgstr "\"$HOME/.local/bin/hx\""
 
-#: src/package-managers.md:118
+#: src/package-managers.md:120
 msgid "and make sure `~/.local/bin` is in your `PATH`."
 msgstr ""
 
-#: src/package-managers.md:120
+#: src/package-managers.md:122
+msgid "Linux Homebrew Core"
+msgstr ""
+
+#: src/package-managers.md:124
+msgid "Checkout the [macOS](#homebrew-core) instructions below."
+msgstr ""
+
+#: src/package-managers.md:126
 msgid "macOS"
 msgstr "macOS"
 
-#: src/package-managers.md:122
+#: src/package-managers.md:128
 msgid "Homebrew Core"
 msgstr "Homebrew Core"
 
-#: src/package-managers.md:128
+#: src/package-managers.md:130
+msgid "Install the latest release:"
+msgstr ""
+
+#: src/package-managers.md:136
+msgid "Or, install the latest nightly version:"
+msgstr ""
+
+#: src/package-managers.md:142
 msgid "MacPorts"
 msgstr "MacPorts"
 
-#: src/package-managers.md:134
+#: src/package-managers.md:148
 msgid "Windows"
 msgstr "Windows"
 
-#: src/package-managers.md:136
+#: src/package-managers.md:150
 msgid ""
 "Install on Windows using [Winget](https://learn.microsoft.com/en-us/windows/"
 "package-manager/winget/), [Scoop](https://scoop.sh/), [Chocolatey](https://"
-"chocolatey.org/) or [MSYS2](https://msys2.org/)."
+"chocolatey.org/), [Packably](https://www.packably.com.br/) or [MSYS2]"
+"(https://msys2.org/)."
 msgstr ""
-"使用 [Winget](https://learn.microsoft.com/en-us/windows/package-manager/"
-"winget/)、[Scoop](https://scoop.sh/)、[Chocolatey](https://chocolatey.org/) "
-"或 [MSYS2](https://msys2.org/) 在 Windows 上安裝。"
 
-#: src/package-managers.md:139
+#: src/package-managers.md:153
 msgid "Winget"
 msgstr "Winget"
 
-#: src/package-managers.md:140
+#: src/package-managers.md:154
 msgid ""
 "Windows Package Manager winget command-line tool is by default available on "
 "Windows 11 and modern versions of Windows 10 as a part of the App Installer. "
@@ -289,18 +311,31 @@ msgid ""
 "already installed, make sure it is updated with the latest version."
 msgstr ""
 
-#: src/package-managers.md:147
+#: src/package-managers.md:161
 msgid "Scoop"
 msgstr ""
 
-#: src/package-managers.md:153
+#: src/package-managers.md:167
 msgid "Chocolatey"
 msgstr ""
 
-#: src/package-managers.md:159
+#: src/package-managers.md:173
+msgid "Packably"
+msgstr ""
+
+#: src/package-managers.md:179
 msgid "MSYS2"
 msgstr ""
 
-#: src/package-managers.md:161
+#: src/package-managers.md:181
 msgid "For 64-bit Windows 8.1 or above:"
 msgstr ""
+
+#~ msgid ""
+#~ "Install on Windows using [Winget](https://learn.microsoft.com/en-us/"
+#~ "windows/package-manager/winget/), [Scoop](https://scoop.sh/), [Chocolatey]"
+#~ "(https://chocolatey.org/) or [MSYS2](https://msys2.org/)."
+#~ msgstr ""
+#~ "使用 [Winget](https://learn.microsoft.com/en-us/windows/package-manager/"
+#~ "winget/)、[Scoop](https://scoop.sh/)、[Chocolatey](https://chocolatey."
+#~ "org/) 或 [MSYS2](https://msys2.org/) 在 Windows 上安裝。"

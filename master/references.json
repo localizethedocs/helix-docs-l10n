@@ -16,9 +16,9 @@
       "branch" : "master",
       "commit" : 
       {
-        "date" : "2026-01-19 16:07:26 +0900",
-        "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-        "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+        "date" : "2026-03-30 22:21:45 -0400",
+        "hash" : "035450a2de62142b4117c01b89fff3d4f1b4d51f",
+        "title" : "docs: fix typo in theme guide (#15552)"
       }
     },
     "zh_TW" : 
@@ -26,9 +26,9 @@
       "branch" : "master",
       "commit" : 
       {
-        "date" : "2026-01-19 16:07:26 +0900",
-        "hash" : "d1ae83e9ccd7905acbc29969371e2c68f63bc078",
-        "title" : "Revert \"build(deps): bump `unicode-width` from `=0.1.12` to `=0.1.14` (#14643)\" (#15150)"
+        "date" : "2026-03-30 22:21:45 -0400",
+        "hash" : "035450a2de62142b4117c01b89fff3d4f1b4d51f",
+        "title" : "docs: fix typo in theme guide (#15552)"
       }
     }
   },
