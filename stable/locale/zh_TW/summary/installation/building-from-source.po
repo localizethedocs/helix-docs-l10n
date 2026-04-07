@@ -335,7 +335,7 @@ msgstr "\"s|Exec=hx %F|Exec=$(readlink -f ~/.cargo/bin/hx) %F|g\""
 
 #: src/building-from-source.md:163
 msgid "\"s|Icon=helix|Icon=$(readlink -f ~/.icons/helix.png)|g\""
-msgstr "\"s|Icon=helix|Icon=$(readlink -f ~/.icons/helix.png)|g\""
+msgstr ""
 
 #: src/building-from-source.md:166
 msgid ""

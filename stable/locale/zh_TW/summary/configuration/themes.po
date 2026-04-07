@@ -73,9 +73,6 @@ msgid ""
 "key = \"#ffffff\"\n"
 "```"
 msgstr ""
-"```toml\n"
-"key = \"#ffffff\"\n"
-"```"
 
 #: src/themes.md:28
 msgid ""

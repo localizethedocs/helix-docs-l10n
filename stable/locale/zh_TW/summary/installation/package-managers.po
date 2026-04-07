@@ -268,9 +268,6 @@ msgid ""
 "package-manager/winget/), [Scoop](https://scoop.sh/), [Chocolatey](https://"
 "chocolatey.org/) or [MSYS2](https://msys2.org/)."
 msgstr ""
-"使用 [Winget](https://learn.microsoft.com/en-us/windows/package-manager/"
-"winget/)、[Scoop](https://scoop.sh/)、[Chocolatey](https://chocolatey.org/) "
-"或 [MSYS2](https://msys2.org/) 在 Windows 上安裝。"
 
 #: src/package-managers.md:140
 msgid "Winget"
