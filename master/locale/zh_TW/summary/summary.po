@@ -57,7 +57,7 @@ msgstr ""
 
 #: src/SUMMARY.md:14
 msgid "Jumplist"
-msgstr ""
+msgstr "跳轉列表"
 
 #: src/SUMMARY.md:15
 msgid "Keymap"

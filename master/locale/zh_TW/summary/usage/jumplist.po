@@ -13,7 +13,7 @@ msgstr ""
 
 #: src/jumplist.md:1
 msgid "Using the jumplist"
-msgstr ""
+msgstr "使用跳轉列表"
 
 #: src/jumplist.md:3
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: src/jumplist.md:12
 msgid "Switching buffers"
-msgstr ""
+msgstr "切換緩衝區"
 
 #: src/jumplist.md:13
 msgid "Using the buffer picker, going to the next/previous buffer"

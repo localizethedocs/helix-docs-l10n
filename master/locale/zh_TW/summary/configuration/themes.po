@@ -1355,12 +1355,3 @@ msgstr ""
 #: src/themes.md:374
 msgid "Snippet placeholder"
 msgstr ""
-
-#~ msgid ""
-#~ "```toml\n"
-#~ "key = \"#ffffff\"\n"
-#~ "```"
-#~ msgstr ""
-#~ "```toml\n"
-#~ "key = \"#ffffff\"\n"
-#~ "```"
