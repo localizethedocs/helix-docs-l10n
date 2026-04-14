@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-03-30 22:21:45 -0400",
-      "hash" : "035450a2de62142b4117c01b89fff3d4f1b4d51f",
-      "title" : "docs: fix typo in theme guide (#15552)"
+      "date" : "2026-04-10 08:43:27 -0500",
+      "hash" : "eb49c5e4e07b4d7c63b88371d3a6e542a140c6b3",
+      "title" : "fix selecting characters with the crlf mode (#15617)"
     }
   },
   "type" : "branch",
