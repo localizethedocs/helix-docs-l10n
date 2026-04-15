@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
+"POT-Creation-Date: 2026-04-14T10:05:30Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -297,7 +297,14 @@ msgid ""
 "before executing the shell command."
 msgstr ""
 
-#: src/command-line.md:63
+#: src/command-line.md:62
+msgid ""
+"Register `%reg{..}`. The contents should be a single character representing "
+"the register name. For example, `:set-register a hello world` followed by "
+"`echo %reg{a}` prints `hello world` to the statusline."
+msgstr ""
+
+#: src/command-line.md:64
 msgid ""
 "As mentioned above, double quotes can be used to surround arguments "
 "containing spaces but also support expansions within the quoted content "
@@ -306,43 +313,43 @@ msgid ""
 "`circle: %u{25CF}`."
 msgstr ""
 
-#: src/command-line.md:65
+#: src/command-line.md:66
 msgid ""
 "Note that expansions are only evaluated once the Enter key is pressed in "
 "command mode."
 msgstr ""
 
-#: src/command-line.md:67
+#: src/command-line.md:68
 msgid "Exceptions"
 msgstr ""
 
-#: src/command-line.md:69
+#: src/command-line.md:70
 msgid ""
 "The following commands support expansions but otherwise pass the given "
 "argument directly to the shell program without interpreting quotes:"
 msgstr ""
 
-#: src/command-line.md:71
+#: src/command-line.md:72
 msgid "`:insert-output`"
 msgstr ""
 
-#: src/command-line.md:72
+#: src/command-line.md:73
 msgid "`:append-output`"
 msgstr ""
 
-#: src/command-line.md:73
+#: src/command-line.md:74
 msgid "`:pipe`"
 msgstr "`:pipe`"
 
-#: src/command-line.md:74
+#: src/command-line.md:75
 msgid "`:pipe-to`"
 msgstr "`:pipe-to`"
 
-#: src/command-line.md:75
+#: src/command-line.md:76
 msgid "`:run-shell-command`"
 msgstr "`:run-shell-command`"
 
-#: src/command-line.md:77
+#: src/command-line.md:78
 msgid ""
 "For example executing `:sh echo \"%{buffer_name}:%{cursor_column}\"` would "
 "pass text like `echo \"README.md:1\"` as an argument to the shell program: "
@@ -352,7 +359,7 @@ msgid ""
 "output date -u +'%%Y-%%m-%%d'`."
 msgstr ""
 
-#: src/command-line.md:79
+#: src/command-line.md:80
 msgid ""
 "The `:set-option` and `:toggle-option` commands use regular parsing for the "
 "first argument - the config option name - and parse the rest depending on "
@@ -360,19 +367,19 @@ msgid ""
 "string for string config options and parses everything else as JSON."
 msgstr ""
 
-#: src/command-line.md:81
+#: src/command-line.md:82
 msgid ""
 "`:toggle-option`'s behavior depends on the JSON type of the config option "
 "supplied as the first argument:"
 msgstr ""
 
-#: src/command-line.md:83
+#: src/command-line.md:84
 msgid ""
 "Booleans: only the config option name should be provided. For example `:"
 "toggle-option auto-format` will flip the `auto-format` option."
 msgstr ""
 
-#: src/command-line.md:84
+#: src/command-line.md:85
 msgid ""
 "Strings: the rest of the command line is parsed with regular quoting rules. "
 "For example `:toggle-option indent-heuristic hybrid tree-sitter simple` "
@@ -380,14 +387,14 @@ msgid ""
 "invocation of the command."
 msgstr ""
 
-#: src/command-line.md:85
+#: src/command-line.md:86
 msgid ""
 "Numbers, arrays and objects: the rest of the command line is parsed as a "
 "stream of JSON values. For example `:toggle-option rulers [81] [51, 73]` "
 "cycles through `[81]` and `[51, 73]`."
 msgstr ""
 
-#: src/command-line.md:87
+#: src/command-line.md:88
 msgid ""
 "When providing multiple values to `:toggle-option` there should be no "
 "duplicates. `:toggle-option indent-heuristic hybrid simple tree-sitter "
@@ -395,7 +402,7 @@ msgid ""
 "values."
 msgstr ""
 
-#: src/command-line.md:89
+#: src/command-line.md:90
 msgid ""
 "`:lsp-workspace-command` works similarly to `:toggle-option`. The first "
 "argument (if present) is parsed according to normal rules. The rest of the "

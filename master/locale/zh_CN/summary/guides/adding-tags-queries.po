@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
+"POT-Creation-Date: 2026-04-14T10:05:30Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -61,34 +61,38 @@ msgid "`definition.enum`"
 msgstr ""
 
 #: src/guides/tags.md:23
-msgid "`definition.function`"
+msgid "`definition.field`"
 msgstr ""
 
 #: src/guides/tags.md:24
-msgid "`definition.interface`"
+msgid "`definition.function`"
 msgstr ""
 
 #: src/guides/tags.md:25
-msgid "`definition.macro`"
+msgid "`definition.interface`"
 msgstr ""
 
 #: src/guides/tags.md:26
-msgid "`definition.module`"
+msgid "`definition.macro`"
 msgstr ""
 
 #: src/guides/tags.md:27
-msgid "`definition.section`"
+msgid "`definition.module`"
 msgstr ""
 
 #: src/guides/tags.md:28
-msgid "`definition.struct`"
+msgid "`definition.section`"
 msgstr ""
 
 #: src/guides/tags.md:29
+msgid "`definition.struct`"
+msgstr ""
+
+#: src/guides/tags.md:30
 msgid "`definition.type`"
 msgstr ""
 
-#: src/guides/tags.md:31
+#: src/guides/tags.md:32
 msgid ""
 "[Example query files](https://github.com/search?q=repo%3Ahelix-"
 "editor%2Fhelix+path%3A%2A%2A/tags.scm&type=Code) can be found in the Helix "
