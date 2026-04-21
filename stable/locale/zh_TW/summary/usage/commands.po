@@ -1263,7 +1263,7 @@ msgstr ""
 
 #: src/commands.md:151
 msgid "`find_till_char`"
-msgstr ""
+msgstr "`find_till_char`"
 
 #: src/commands.md:151
 msgid "Move till next occurrence of char"
@@ -1275,7 +1275,7 @@ msgstr ""
 
 #: src/commands.md:152
 msgid "`find_next_char`"
-msgstr ""
+msgstr "`find_next_char`"
 
 #: src/commands.md:152
 msgid "Move to next occurrence of char"
@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: src/commands.md:156
 msgid "`find_prev_char`"
-msgstr ""
+msgstr "`find_prev_char`"
 
 #: src/commands.md:156
 msgid "Move to previous occurrence of char"
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: src/commands.md:163
 msgid "`switch_to_lowercase`"
-msgstr ""
+msgstr "`switch_to_lowercase`"
 
 #: src/commands.md:163
 msgid "Switch to lowercase"
@@ -1857,11 +1857,11 @@ msgstr ""
 
 #: src/commands.md:202
 msgid "`insert_mode`"
-msgstr ""
+msgstr "`insert_mode`"
 
 #: src/commands.md:202
 msgid "Insert before selection"
-msgstr ""
+msgstr "在選取範圍前插入"
 
 #: src/commands.md:202
 msgid "normal: `i`, select: `i`"
@@ -2077,7 +2077,7 @@ msgstr ""
 
 #: src/commands.md:221
 msgid "`insert_at_line_start`"
-msgstr ""
+msgstr "`insert_at_line_start`"
 
 #: src/commands.md:221
 msgid "Insert at start of line"
@@ -2089,7 +2089,7 @@ msgstr ""
 
 #: src/commands.md:222
 msgid "`insert_at_line_end`"
-msgstr ""
+msgstr "`insert_at_line_end`"
 
 #: src/commands.md:222
 msgid "Insert at end of line"
@@ -2703,7 +2703,7 @@ msgstr ""
 
 #: src/commands.md:275
 msgid "`insert_newline`"
-msgstr ""
+msgstr "`insert_newline`"
 
 #: src/commands.md:275
 msgid "Insert newline char"
@@ -3603,7 +3603,7 @@ msgstr ""
 
 #: src/commands.md:351
 msgid "`insert_register`"
-msgstr ""
+msgstr "`insert_register`"
 
 #: src/commands.md:351
 msgid "Insert register"

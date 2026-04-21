@@ -45,7 +45,7 @@ msgstr "語法標明"
 
 #: src/lang-support.md:12
 msgid "Treesitter Textobjects"
-msgstr ""
+msgstr "Treesitter 文字物件"
 
 #: src/lang-support.md:12
 msgid "Auto Indent"
@@ -57,7 +57,7 @@ msgstr "預設語言伺服器"
 
 #: src/lang-support.md:14
 msgid "ada"
-msgstr ""
+msgstr "ada"
 
 #: src/lang-support.md:14 src/lang-support.md:15 src/lang-support.md:16
 #: src/lang-support.md:17 src/lang-support.md:18 src/lang-support.md:19
@@ -360,7 +360,7 @@ msgstr "cpp"
 
 #: src/lang-support.md:45
 msgid "crystal"
-msgstr ""
+msgstr "crystal"
 
 #: src/lang-support.md:45
 msgid "`crystalline`, `ameba-ls`"
@@ -915,39 +915,39 @@ msgstr ""
 
 #: src/lang-support.md:142
 msgid "kdl"
-msgstr ""
+msgstr "kdl"
 
 #: src/lang-support.md:143
 msgid "koka"
-msgstr ""
+msgstr "koka"
 
 #: src/lang-support.md:143
 msgid "`koka`"
-msgstr ""
+msgstr "`koka`"
 
 #: src/lang-support.md:144
 msgid "kotlin"
-msgstr ""
+msgstr "kotlin"
 
 #: src/lang-support.md:144
 msgid "`kotlin-language-server`"
-msgstr ""
+msgstr "`kotlin-language-server`"
 
 #: src/lang-support.md:145
 msgid "koto"
-msgstr ""
+msgstr "koto"
 
 #: src/lang-support.md:145
 msgid "`koto-ls`"
-msgstr ""
+msgstr "`koto-ls`"
 
 #: src/lang-support.md:146
 msgid "latex"
-msgstr ""
+msgstr "latex"
 
 #: src/lang-support.md:147
 msgid "ld"
-msgstr ""
+msgstr "ld"
 
 #: src/lang-support.md:148
 msgid "ldif"
@@ -1567,31 +1567,31 @@ msgstr ""
 
 #: src/lang-support.md:252
 msgid "`templ`"
-msgstr ""
+msgstr "`templ`"
 
 #: src/lang-support.md:253
 msgid "tera"
-msgstr ""
+msgstr "tera"
 
 #: src/lang-support.md:254
 msgid "textproto"
-msgstr ""
+msgstr "textproto"
 
 #: src/lang-support.md:255
 msgid "tfvars"
-msgstr ""
+msgstr "tfvars"
 
 #: src/lang-support.md:256
 msgid "thrift"
-msgstr ""
+msgstr "thrift"
 
 #: src/lang-support.md:257
 msgid "tlaplus"
-msgstr ""
+msgstr "tlaplus"
 
 #: src/lang-support.md:258
 msgid "todotxt"
-msgstr ""
+msgstr "todotxt"
 
 #: src/lang-support.md:259
 msgid "toml"
