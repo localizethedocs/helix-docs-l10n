@@ -58,7 +58,7 @@ msgstr ""
 
 #: src/surround.md:12
 msgid "Delete the closest surround characters"
-msgstr ""
+msgstr "刪除最接近的環繞字元"
 
 #: src/surround.md:14
 msgid "You can use counts to act on outer pairs."

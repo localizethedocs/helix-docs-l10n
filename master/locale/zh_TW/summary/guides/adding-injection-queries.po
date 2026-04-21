@@ -80,7 +80,7 @@ msgstr ""
 
 #: src/guides/injection.md:36
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: src/guides/injection.md:38
 msgid ""

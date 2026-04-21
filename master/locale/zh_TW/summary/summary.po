@@ -45,7 +45,7 @@ msgstr ""
 
 #: src/SUMMARY.md:11
 msgid "Textobjects"
-msgstr ""
+msgstr "文字物件"
 
 #: src/SUMMARY.md:12
 msgid "Syntax aware motions"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: src/SUMMARY.md:22
 msgid "Helix mode in other software"
-msgstr ""
+msgstr "其他軟體中的 Helix 模式"
 
 #: src/SUMMARY.md:23
 msgid "Configuration"

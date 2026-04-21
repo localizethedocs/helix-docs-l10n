@@ -45,7 +45,7 @@ msgstr "語法標明"
 
 #: src/lang-support.md:12
 msgid "Treesitter Textobjects"
-msgstr ""
+msgstr "Treesitter 文字物件"
 
 #: src/lang-support.md:12
 msgid "Auto Indent"
@@ -53,7 +53,7 @@ msgstr "自動縮排"
 
 #: src/lang-support.md:12
 msgid "Code Navigation Tags"
-msgstr ""
+msgstr "程式碼導航標記"
 
 #: src/lang-support.md:12
 msgid "Rainbow Brackets"
@@ -65,7 +65,7 @@ msgstr "預設語言伺服器"
 
 #: src/lang-support.md:14
 msgid "ada"
-msgstr ""
+msgstr "ada"
 
 #: src/lang-support.md:14 src/lang-support.md:15 src/lang-support.md:16
 #: src/lang-support.md:17 src/lang-support.md:18 src/lang-support.md:19
@@ -414,7 +414,7 @@ msgstr ""
 
 #: src/lang-support.md:50
 msgid "crystal"
-msgstr ""
+msgstr "crystal"
 
 #: src/lang-support.md:50
 msgid "`crystalline`, `ameba-ls`"
@@ -1094,55 +1094,55 @@ msgstr ""
 
 #: src/lang-support.md:168
 msgid "kcl"
-msgstr ""
+msgstr "kcl"
 
 #: src/lang-support.md:168
 msgid "`kcl-language-server`"
-msgstr ""
+msgstr "`kcl-language-server`"
 
 #: src/lang-support.md:169
 msgid "kconfig"
-msgstr ""
+msgstr "kconfig"
 
 #: src/lang-support.md:170
 msgid "kdl"
-msgstr ""
+msgstr "kdl"
 
 #: src/lang-support.md:171
 msgid "klog"
-msgstr ""
+msgstr "klog"
 
 #: src/lang-support.md:172
 msgid "koka"
-msgstr ""
+msgstr "koka"
 
 #: src/lang-support.md:172
 msgid "`koka`"
-msgstr ""
+msgstr "`koka`"
 
 #: src/lang-support.md:173
 msgid "kotlin"
-msgstr ""
+msgstr "kotlin"
 
 #: src/lang-support.md:173
 msgid "`kotlin-language-server`"
-msgstr ""
+msgstr "`kotlin-language-server`"
 
 #: src/lang-support.md:174
 msgid "koto"
-msgstr ""
+msgstr "koto"
 
 #: src/lang-support.md:174
 msgid "`koto-ls`"
-msgstr ""
+msgstr "`koto-ls`"
 
 #: src/lang-support.md:175
 msgid "latex"
-msgstr ""
+msgstr "latex"
 
 #: src/lang-support.md:176
 msgid "ld"
-msgstr ""
+msgstr "ld"
 
 #: src/lang-support.md:177
 msgid "ldif"
@@ -1162,7 +1162,7 @@ msgstr "ledger"
 
 #: src/lang-support.md:180
 msgid "less"
-msgstr ""
+msgstr "less"
 
 #: src/lang-support.md:181
 msgid "llvm"
@@ -1874,39 +1874,39 @@ msgstr ""
 
 #: src/lang-support.md:302
 msgid "`templ`"
-msgstr ""
+msgstr "`templ`"
 
 #: src/lang-support.md:303
 msgid "tera"
-msgstr ""
+msgstr "tera"
 
 #: src/lang-support.md:304
 msgid "textproto"
-msgstr ""
+msgstr "textproto"
 
 #: src/lang-support.md:305
 msgid "tfvars"
-msgstr ""
+msgstr "tfvars"
 
 #: src/lang-support.md:306
 msgid "thrift"
-msgstr ""
+msgstr "thrift"
 
 #: src/lang-support.md:307
 msgid "tilt"
-msgstr ""
+msgstr "tilt"
 
 #: src/lang-support.md:307
 msgid "`tilt`"
-msgstr ""
+msgstr "`tilt`"
 
 #: src/lang-support.md:308
 msgid "tlaplus"
-msgstr ""
+msgstr "tlaplus"
 
 #: src/lang-support.md:309
 msgid "todotxt"
-msgstr ""
+msgstr "todotxt"
 
 #: src/lang-support.md:310
 msgid "toml"

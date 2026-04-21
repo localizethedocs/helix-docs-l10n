@@ -57,11 +57,11 @@ msgstr ""
 
 #: src/keymap.md:13
 msgid "[Window mode](#window-mode)"
-msgstr ""
+msgstr "[視窗模式](#window-mode)"
 
 #: src/keymap.md:14
 msgid "[Space mode](#space-mode)"
-msgstr ""
+msgstr "[空格模式](#space-mode)"
 
 #: src/keymap.md:15
 msgid "[Popup](#popup)"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: src/keymap.md:16
 msgid "[Completion Menu](#completion-menu)"
-msgstr ""
+msgstr "[補全選單](#completion-menu)"
 
 #: src/keymap.md:17
 msgid "[Signature-help Popup](#signature-help-popup)"
@@ -289,23 +289,23 @@ msgstr ""
 
 #: src/keymap.md:52
 msgid "`find_till_char`"
-msgstr ""
+msgstr "`find_till_char`"
 
 #: src/keymap.md:53 src/keymap.md:222 src/keymap.md:270 src/keymap.md:291
 msgid "`f`"
-msgstr ""
+msgstr "`f`"
 
 #: src/keymap.md:53
 msgid "Find next char"
-msgstr ""
+msgstr "尋找下一個字元"
 
 #: src/keymap.md:53
 msgid "`find_next_char`"
-msgstr ""
+msgstr "`find_next_char`"
 
 #: src/keymap.md:54
 msgid "`T`"
-msgstr ""
+msgstr "`T`"
 
 #: src/keymap.md:54
 msgid "Find till previous char"
@@ -321,11 +321,11 @@ msgstr ""
 
 #: src/keymap.md:55
 msgid "Find previous char"
-msgstr ""
+msgstr "尋找上一個字元"
 
 #: src/keymap.md:55
 msgid "`find_prev_char`"
-msgstr ""
+msgstr "`find_prev_char`"
 
 #: src/keymap.md:56
 msgid "`<n>G`, `<n>gg`"
@@ -510,11 +510,11 @@ msgstr ""
 
 #: src/keymap.md:75
 msgid "`switch_to_lowercase`"
-msgstr ""
+msgstr "`switch_to_lowercase`"
 
 #: src/keymap.md:76
 msgid "`` Alt-` ``"
-msgstr ""
+msgstr "`` Alt-` ``"
 
 #: src/keymap.md:76
 msgid "Set the selected text to upper case"
@@ -530,11 +530,11 @@ msgstr ""
 
 #: src/keymap.md:77
 msgid "Insert before selection"
-msgstr ""
+msgstr "在選取範圍前插入"
 
 #: src/keymap.md:77
 msgid "`insert_mode`"
-msgstr ""
+msgstr "`insert_mode`"
 
 #: src/keymap.md:78 src/keymap.md:233 src/keymap.md:303
 msgid "`a`"
@@ -542,7 +542,7 @@ msgstr ""
 
 #: src/keymap.md:78
 msgid "Insert after selection (append)"
-msgstr ""
+msgstr "在選取範圍後插入（向後追加）"
 
 #: src/keymap.md:78
 msgid "`append_mode`"
@@ -554,11 +554,11 @@ msgstr ""
 
 #: src/keymap.md:79
 msgid "Insert at the start of the line"
-msgstr ""
+msgstr "在行首插入"
 
 #: src/keymap.md:79
 msgid "`insert_at_line_start`"
-msgstr ""
+msgstr "`insert_at_line_start`"
 
 #: src/keymap.md:80
 msgid "`A`"
@@ -566,11 +566,11 @@ msgstr ""
 
 #: src/keymap.md:80
 msgid "Insert at the end of the line"
-msgstr ""
+msgstr "在行尾插入"
 
 #: src/keymap.md:80
 msgid "`insert_at_line_end`"
-msgstr ""
+msgstr "`insert_at_line_end`"
 
 #: src/keymap.md:81
 msgid "`o`"
@@ -2654,7 +2654,7 @@ msgstr ""
 
 #: src/keymap.md:382
 msgid "Insert mode"
-msgstr ""
+msgstr "插入模式"
 
 #: src/keymap.md:384
 msgid "Accessed by typing `i` in [normal mode](#normal-mode)."
@@ -2708,11 +2708,11 @@ msgstr ""
 
 #: src/keymap.md:399
 msgid "Insert a register content"
-msgstr ""
+msgstr "插入暫存器內容"
 
 #: src/keymap.md:399
 msgid "`insert_register`"
-msgstr ""
+msgstr "`insert_register`"
 
 #: src/keymap.md:400
 msgid "`Ctrl-w`, `Alt-Backspace`"
@@ -2788,11 +2788,11 @@ msgstr ""
 
 #: src/keymap.md:406
 msgid "Insert new line"
-msgstr ""
+msgstr "插入新行"
 
 #: src/keymap.md:406
 msgid "`insert_newline`"
-msgstr ""
+msgstr "`insert_newline`"
 
 #: src/keymap.md:408
 msgid ""
@@ -2881,6 +2881,17 @@ msgid ""
 "end = \"no_op\"\n"
 "```"
 msgstr ""
+"```toml\n"
+"[keys.insert]\n"
+"up = \"no_op\"\n"
+"down = \"no_op\"\n"
+"left = \"no_op\"\n"
+"right = \"no_op\"\n"
+"pageup = \"no_op\"\n"
+"pagedown = \"no_op\"\n"
+"home = \"no_op\"\n"
+"end = \"no_op\"\n"
+"```"
 
 #: src/keymap.md:437
 msgid "Select / extend mode"

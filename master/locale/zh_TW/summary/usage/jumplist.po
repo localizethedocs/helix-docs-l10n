@@ -48,15 +48,15 @@ msgstr ""
 
 #: src/jumplist.md:14
 msgid "Going to the last accessed/modified file"
-msgstr ""
+msgstr "前往最後存取/修改的檔案"
 
 #: src/jumplist.md:15
 msgid "Making a new file (`:new FILE`)"
-msgstr ""
+msgstr "建立新檔案（`:new FILE`）"
 
 #: src/jumplist.md:16
 msgid "Opening a file (`:open FILE`)"
-msgstr ""
+msgstr "開啟檔案（`:open FILE`）"
 
 #: src/jumplist.md:17
 msgid ""

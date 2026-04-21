@@ -89,7 +89,7 @@ msgstr ""
 
 #: src/textobjects.md:21
 msgid "`f`"
-msgstr ""
+msgstr "`f`"
 
 #: src/textobjects.md:21
 msgid "Function"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: src/textobjects.md:25
 msgid "`T`"
-msgstr ""
+msgstr "`T`"
 
 #: src/textobjects.md:25
 msgid "Test"
