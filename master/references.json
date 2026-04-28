@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-04-10 08:43:27 -0500",
-      "hash" : "eb49c5e4e07b4d7c63b88371d3a6e542a140c6b3",
-      "title" : "fix selecting characters with the crlf mode (#15617)"
+      "date" : "2026-04-24 11:57:25 +0900",
+      "hash" : "3beb268068d23294a26b47eab43b0a13a2a3a951",
+      "title" : "build(deps): bump open in the rust-dependencies group (#15666)"
     }
   },
   "type" : "branch",
