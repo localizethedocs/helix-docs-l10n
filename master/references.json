@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-04-10 08:43:27 -0500",
-      "hash" : "eb49c5e4e07b4d7c63b88371d3a6e542a140c6b3",
-      "title" : "fix selecting characters with the crlf mode (#15617)"
+      "date" : "2026-05-03 11:55:15 +0900",
+      "hash" : "87d5c05c4432a079d3b7aaa10cda1cfe1803c18c",
+      "title" : "fix(lints): clippy 1.95 (#15646)"
     }
   },
   "type" : "branch",
