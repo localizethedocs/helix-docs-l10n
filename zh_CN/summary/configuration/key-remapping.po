@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/remapping.md:1
+msgid "Key remapping"
+msgstr ""
+
+#: src/remapping.md:3
+msgid ""
+"Helix currently supports one-way key remapping through a simple TOML "
+"configuration file. (More powerful solutions such as rebinding via commands "
+"will be available in the future)."
+msgstr ""
+
+#: src/remapping.md:7
+msgid "There are three kinds of commands that can be used in keymaps:"
+msgstr ""
+
+#: src/remapping.md:9
+msgid ""
+"Static commands: commands like `move_char_right` which are usually bound to "
+"keys and used for movement and editing. A list of static commands is "
+"available in the [Keymap](./keymap.html) documentation and in the source "
+"code in [`helix-term/src/commands.rs`](https://github.com/helix-editor/helix/"
+"blob/master/helix-term/src/commands.rs) at the invocation of "
+"`static_commands!` macro."
+msgstr ""
+
+#: src/remapping.md:14
+msgid ""
+"Typable commands: commands that can be executed from command mode (`:`), for "
+"example `:write!`. See the [Commands](./commands.md) documentation for a "
+"list of available typeable commands or the `TypableCommandList` declaration "
+"in the source code at [`helix-term/src/commands/typed.rs`](https://github."
+"com/helix-editor/helix/blob/master/helix-term/src/commands/typed.rs)."
+msgstr ""
+
+#: src/remapping.md:18
+msgid ""
+"Macros: sequences of keys that are executed in order. These keybindings "
+"start with `@` and then list any number of keys to be executed. For example "
+"`@miw` can be used to select the surrounding word. For now, macro "
+"keybindings are not allowed in keybinding sequences due to limitations in "
+"the way that command sequences are executed. Modifier keys (e.g. Alt+o) can "
+"be used like `\"<A-o>\"`, e.g. `\"@miw<A-o>\"`"
+msgstr ""
+
+#: src/remapping.md:25
+msgid ""
+"To remap keys, create a `config.toml` file in your `helix` configuration "
+"directory (default `~/.config/helix` on Linux systems) with a structure like "
+"this:"
+msgstr ""
+
+#: src/remapping.md:29
+msgid ""
+"💡 To set a modifier + key as a keymap, type `A-X = ...` or  `C-X = ...` for "
+"Alt + X or Ctrl + X. Combine with Shift using a dash, e.g. `C-S-esc`. Within "
+"macros, wrap them in `<>`, e.g. `<A-X>` and `<C-X>` to distinguish from the "
+"`A` or `C` keys."
+msgstr ""
+
+#: src/remapping.md:32
+msgid ""
+"```toml\n"
+"# At most one section each of 'keys.normal', 'keys.insert' and 'keys."
+"select'\n"
+"[keys.normal]\n"
+"C-s = \":w\" # Maps Ctrl-s to the typable command :w which is an alias for :"
+"write (save file)\n"
+"C-o = \":open ~/.config/helix/config.toml\" # Maps Ctrl-o to opening of the "
+"helix config file\n"
+"a = \"move_char_left\" # Maps the 'a' key to the move_char_left command\n"
+"w = \"move_line_up\" # Maps the 'w' key move_line_up\n"
+"\"C-S-esc\" = \"extend_line\" # Maps Ctrl-Shift-Escape to extend_line\n"
+"g = { a = \"code_action\" } # Maps `ga` to show possible code actions\n"
+"\"ret\" = [\"open_below\", \"normal_mode\"] # Maps the enter key to "
+"open_below then re-enter normal mode\n"
+"\"A-x\" = \"@x<A-d>\" # Maps Alt-x to a macro selecting the whole line and "
+"deleting it without yanking it\n"
+"\n"
+"[keys.insert]\n"
+"\"A-x\" = \"normal_mode\"     # Maps Alt-X to enter normal mode\n"
+"j = { k = \"normal_mode\" } # Maps `jk` to exit insert mode\n"
+"```"
+msgstr ""
+
+#: src/remapping.md:49
+msgid "Minor modes"
+msgstr ""
+
+#: src/remapping.md:51
+msgid ""
+"Minor modes are accessed by pressing a key (usually from normal mode), "
+"giving access to dedicated bindings. Bindings can be modified or added by "
+"nesting definitions."
+msgstr ""
+
+#: src/remapping.md:54
+msgid ""
+"```toml\n"
+"[keys.insert.j]\n"
+"k = \"normal_mode\" # Maps `jk` to exit insert mode\n"
+"\n"
+"[keys.normal.g]\n"
+"a = \"code_action\" # Maps `ga` to show possible code actions\n"
+"\n"
+"# invert `j` and `k` in view mode\n"
+"[keys.normal.z]\n"
+"j = \"scroll_up\"\n"
+"k = \"scroll_down\"\n"
+"\n"
+"# create a new minor mode bound to `+`\n"
+"[keys.normal.\"+\"]\n"
+"m = \":run-shell-command make\"\n"
+"c = \":run-shell-command cargo build\"\n"
+"t = \":run-shell-command cargo test\"\n"
+"```"
+msgstr ""
+
+#: src/remapping.md:73
+msgid "Special keys and modifiers"
+msgstr ""
+
+#: src/remapping.md:75
+msgid ""
+"Ctrl, Shift and Alt modifiers are encoded respectively with the prefixes `C-"
+"`, `S-` and `A-`."
+msgstr ""
+
+#: src/remapping.md:77
+msgid ""
+"The [Super key](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)) - "
+"the Windows/Linux key or the Command key on Mac keyboards - is also "
+"supported when using a terminal emulator that supports the [enhanced "
+"keyboard protocol](https://github.com/helix-editor/helix/wiki/Terminal-"
+"Support#enhanced-keyboard-protocol). The super key is encoded with prefixes "
+"`Meta-`, `Cmd-` or `Win-`. These are all synonyms for the super modifier - "
+"binding a key with a `Win-` modifier will mean it can be used with the "
+"Windows/Linux key or the Command key."
+msgstr ""
+
+#: src/remapping.md:84
+msgid ""
+"```toml\n"
+"[keys.normal]\n"
+"C-s = \":write\" # Ctrl and 's' to write\n"
+"Cmd-s = \":write\" # Cmd or Win or Meta and 's' to write\n"
+"```"
+msgstr ""
+
+#: src/remapping.md:90
+msgid "Special keys are encoded as follows:"
+msgstr ""
+
+#: src/remapping.md:92
+msgid "Key name"
+msgstr ""
+
+#: src/remapping.md:92
+msgid "Representation"
+msgstr ""
+
+#: src/remapping.md:94
+msgid "Backspace"
+msgstr ""
+
+#: src/remapping.md:94
+msgid "`\"backspace\"`"
+msgstr ""
+
+#: src/remapping.md:95
+msgid "Space"
+msgstr ""
+
+#: src/remapping.md:95
+msgid "`\"space\"`"
+msgstr ""
+
+#: src/remapping.md:96
+msgid "Return/Enter"
+msgstr ""
+
+#: src/remapping.md:96
+msgid "`\"ret\"`"
+msgstr ""
+
+#: src/remapping.md:97
+msgid "Left"
+msgstr ""
+
+#: src/remapping.md:97
+msgid "`\"left\"`"
+msgstr ""
+
+#: src/remapping.md:98
+msgid "Right"
+msgstr ""
+
+#: src/remapping.md:98
+msgid "`\"right\"`"
+msgstr ""
+
+#: src/remapping.md:99
+msgid "Up"
+msgstr ""
+
+#: src/remapping.md:99
+msgid "`\"up\"`"
+msgstr ""
+
+#: src/remapping.md:100
+msgid "Down"
+msgstr ""
+
+#: src/remapping.md:100
+msgid "`\"down\"`"
+msgstr ""
+
+#: src/remapping.md:101
+msgid "Home"
+msgstr ""
+
+#: src/remapping.md:101
+msgid "`\"home\"`"
+msgstr ""
+
+#: src/remapping.md:102
+msgid "End"
+msgstr ""
+
+#: src/remapping.md:102
+msgid "`\"end\"`"
+msgstr ""
+
+#: src/remapping.md:103
+msgid "Page Up"
+msgstr ""
+
+#: src/remapping.md:103
+msgid "`\"pageup\"`"
+msgstr ""
+
+#: src/remapping.md:104
+msgid "Page Down"
+msgstr ""
+
+#: src/remapping.md:104
+msgid "`\"pagedown\"`"
+msgstr ""
+
+#: src/remapping.md:105
+msgid "Tab"
+msgstr ""
+
+#: src/remapping.md:105
+msgid "`\"tab\"`"
+msgstr ""
+
+#: src/remapping.md:106
+msgid "Delete"
+msgstr ""
+
+#: src/remapping.md:106
+msgid "`\"del\"`"
+msgstr ""
+
+#: src/remapping.md:107
+msgid "Insert"
+msgstr ""
+
+#: src/remapping.md:107
+msgid "`\"ins\"`"
+msgstr ""
+
+#: src/remapping.md:108
+msgid "Null"
+msgstr ""
+
+#: src/remapping.md:108
+msgid "`\"null\"`"
+msgstr ""
+
+#: src/remapping.md:109
+msgid "Escape"
+msgstr ""
+
+#: src/remapping.md:109
+msgid "`\"esc\"`"
+msgstr ""
+
+#: src/remapping.md:111
+msgid "Keys can be disabled by binding them to the `no_op` command."
+msgstr ""
+
+#: src/remapping.md:113
+msgid "All other keys such as `?`, `!`, `-` etc. can be used literally:"
+msgstr ""
+
+#: src/remapping.md:115
+msgid ""
+"```toml\n"
+"[keys.normal]\n"
+"\"?\" = \":write\"\n"
+"\"!\" = \":write\"\n"
+"\"-\" = \":write\"\n"
+"```"
+msgstr ""
+
+#: src/remapping.md:122
+msgid ""
+"Note: `-` can't be used when combined with a modifier, for example `Alt` + `-"
+"` should be written as `A-minus`. `A--` is not accepted."
+msgstr ""
