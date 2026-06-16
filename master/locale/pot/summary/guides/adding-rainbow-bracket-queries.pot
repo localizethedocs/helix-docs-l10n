@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -68,32 +68,47 @@ msgstr ""
 
 #: src/guides/rainbow_bracket_queries.md:31
 msgid ""
+"Angle brackets need care: `<` and `>` are usually comparison operators too, "
+"so capturing them globally would rainbow-colour every comparison. Capture "
+"them only within the generic node instead, which also marks that node as a "
+"scope:"
+msgstr ""
+
+#: src/guides/rainbow_bracket_queries.md:35
+msgid ""
+"```tsq\n"
+"(type_arguments [\"<\" \">\"] @rainbow.bracket) @rainbow.scope\n"
+"```"
+msgstr ""
+
+#: src/guides/rainbow_bracket_queries.md:39
+msgid ""
 "Note: Why are these nodes quoted? Most syntax highlights capture text "
 "surrounded by parentheses. These are _named nodes_ and correspond to the "
 "names of rules in the grammar. Brackets are usually written in tree-sitter "
 "grammars as literal strings, for example:"
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:38
-#: src/guides/rainbow_bracket_queries.md:40
+#: src/guides/rainbow_bracket_queries.md:46
+#: src/guides/rainbow_bracket_queries.md:48
 msgid "// ...\n"
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:39
+#: src/guides/rainbow_bracket_queries.md:47
 msgid "\"(\""
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:39
+#: src/guides/rainbow_bracket_queries.md:47
 msgid "\")\""
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:44
+#: src/guides/rainbow_bracket_queries.md:52
 msgid ""
 "Nodes written as literal strings in tree-sitter grammars may be captured in "
 "queries with those same literal strings."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:47
+#: src/guides/rainbow_bracket_queries.md:55
 msgid ""
 "Then we'll add `@rainbow.scope` captures. The easiest way to do this is to "
 "view the `grammar.js` file in the tree-sitter grammar's repository. For TSQ, "
@@ -107,7 +122,7 @@ msgid ""
 "`@rainbow.scope`."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:66
+#: src/guides/rainbow_bracket_queries.md:74
 msgid ""
 "This strategy works as a rule of thumb for most programming and "
 "configuration languages. Markup languages can be trickier and may take "
@@ -115,18 +130,18 @@ msgid ""
 "brackets."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:70
+#: src/guides/rainbow_bracket_queries.md:78
 msgid ""
 "The `:tree-sitter-subtree` command shows the syntax tree under the primary "
 "selection in S-expression format and can be a useful tool for determining "
 "how to write a query."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:74
+#: src/guides/rainbow_bracket_queries.md:82
 msgid "Properties"
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:76
+#: src/guides/rainbow_bracket_queries.md:84
 msgid ""
 "The `rainbow.include-children` property may be applied to `@rainbow.scope` "
 "captures. By default, all `@rainbow.bracket` captures must be direct "
@@ -137,35 +152,35 @@ msgid ""
 "scope`."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:83
+#: src/guides/rainbow_bracket_queries.md:91
 msgid "For example, this property is used in the HTML rainbow queries."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:85
+#: src/guides/rainbow_bracket_queries.md:93
 msgid "For a document like `<a>link</a>`, the syntax tree is:"
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:96
+#: src/guides/rainbow_bracket_queries.md:104
 msgid ""
 "If we want to highlight the `<`, `>` and `</` nodes with rainbow colors, we "
 "capture them as `@rainbow.bracket`:"
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:99
+#: src/guides/rainbow_bracket_queries.md:107
 msgid ""
 "```tsq\n"
 "[\"<\" \">\" \"</\"] @rainbow.bracket\n"
 "```"
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:103
+#: src/guides/rainbow_bracket_queries.md:111
 msgid ""
 "And we capture `(element)` as `@rainbow.scope` because `(element)` nodes "
 "nest within each other: they increment the nesting level and switch to the "
 "next color in the rainbow."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:111
+#: src/guides/rainbow_bracket_queries.md:119
 msgid ""
 "But this combination of `@rainbow.scope` and `@rainbow.bracket` will not "
 "highlight any nodes. `<`, `>` and `</` are children of the `(start_tag)` and "
@@ -175,13 +190,13 @@ msgid ""
 "descendants of `(element)` using the `rainbow.include-children` property."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:123
+#: src/guides/rainbow_bracket_queries.md:131
 msgid ""
 "With this property set, `<`, `>`, and `</` will highlight with rainbow "
 "colors even though they aren't direct descendents of the `(element)` node."
 msgstr ""
 
-#: src/guides/rainbow_bracket_queries.md:126
+#: src/guides/rainbow_bracket_queries.md:134
 msgid ""
 "`rainbow.include-children` is not necessary for the vast majority of "
 "programming languages. It is only necessary when the node that increments "

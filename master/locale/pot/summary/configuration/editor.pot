@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-31T09:33:27Z\n"
+"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1760,7 +1760,7 @@ msgstr ""
 
 #: src/editor.md:470
 msgid ""
-"```\n"
+"```toml\n"
 "[keys.normal]\n"
 "tab = \"move_parent_node_end\"\n"
 "S-tab = \"move_parent_node_start\"\n"
