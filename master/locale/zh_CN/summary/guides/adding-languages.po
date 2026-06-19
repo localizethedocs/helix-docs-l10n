@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -90,15 +90,126 @@ msgstr ""
 
 #: src/guides/adding_languages.md:39
 msgid ""
-"A list of highlight captures can be found [on the themes page](https://docs."
-"helix-editor.com/themes.html#scopes)."
-msgstr ""
-
-#: src/guides/adding_languages.md:41
-msgid "Common issues"
+"The highlight captures (`@function`, `@type`, ...) and how they resolve are "
+"documented [on the themes page](./themes.md): match the most specific scope "
+"that fits, capture the leaf node you mean, and remember that the last "
+"matching pattern (and the innermost node) wins."
 msgstr ""
 
 #: src/guides/adding_languages.md:43
+msgid ""
+"Helix loads several query files from that directory; only `highlights.scm` "
+"is required:"
+msgstr ""
+
+#: src/guides/adding_languages.md:46
+msgid "File"
+msgstr ""
+
+#: src/guides/adding_languages.md:46
+msgid "Purpose"
+msgstr ""
+
+#: src/guides/adding_languages.md:46
+msgid "Guide"
+msgstr ""
+
+#: src/guides/adding_languages.md:48
+msgid "`highlights.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:48
+msgid "syntax highlighting"
+msgstr ""
+
+#: src/guides/adding_languages.md:48
+msgid "[highlights.md](./highlights.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:49
+msgid "`injections.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:49
+msgid "embed other languages in regions (strings, code fences)"
+msgstr ""
+
+#: src/guides/adding_languages.md:49
+msgid "[injection.md](./injection.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:50
+msgid "`indents.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:50
+msgid "indentation"
+msgstr ""
+
+#: src/guides/adding_languages.md:50
+msgid "[indent.md](./indent.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:51
+msgid "`textobjects.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:51
+msgid "textobjects and navigation (`mif`, `]f`, …)"
+msgstr ""
+
+#: src/guides/adding_languages.md:51
+msgid "[textobject.md](./textobject.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:52
+msgid "`locals.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:52
+msgid "scope tracking so locals highlight distinctly"
+msgstr ""
+
+#: src/guides/adding_languages.md:52
+msgid "[locals.md](./locals.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:53
+msgid "`tags.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:53
+msgid "document/workspace symbol pickers"
+msgstr ""
+
+#: src/guides/adding_languages.md:53
+msgid "[tags.md](./tags.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:54
+msgid "`rainbows.scm`"
+msgstr ""
+
+#: src/guides/adding_languages.md:54
+msgid "rainbow brackets"
+msgstr ""
+
+#: src/guides/adding_languages.md:54
+msgid "[rainbow_bracket_queries.md](./rainbow_bracket_queries.md)"
+msgstr ""
+
+#: src/guides/adding_languages.md:56
+msgid ""
+"A query file may reuse another language's with `; inherits: <lang>` on the "
+"first line. Run `cargo xtask query-check [language]` to check that the "
+"queries are valid against the grammar."
+msgstr ""
+
+#: src/guides/adding_languages.md:60
+msgid "Common issues"
+msgstr ""
+
+#: src/guides/adding_languages.md:62
 msgid ""
 "If you encounter errors when running Helix after switching branches, you may "
 "need to update the tree-sitter grammars. Run the command `hx --grammar "
@@ -106,15 +217,23 @@ msgid ""
 "date grammars."
 msgstr ""
 
-#: src/guides/adding_languages.md:47
+#: src/guides/adding_languages.md:66
 msgid ""
 "If a parser is causing a segfault, or you want to remove it, make sure to "
 "remove the compiled parser located at `runtime/grammars/<name>.so`."
 msgstr ""
 
-#: src/guides/adding_languages.md:49
+#: src/guides/adding_languages.md:68
 msgid ""
 "If you are attempting to add queries and Helix is unable to locate them, "
 "ensure that the environment variable `HELIX_RUNTIME` is set to the location "
 "of the `runtime` folder you're developing in."
+msgstr ""
+
+#: src/guides/adding_languages.md:69
+msgid ""
+"Validate queries with `cargo xtask query-check [language]` (every query file "
+"must compile against the grammar). `highlight-check` and `indent-check` "
+"additionally run the real highlighter and indenter over the test fixtures "
+"catch mistakes."
 msgstr ""

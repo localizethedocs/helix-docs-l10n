@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,24 +16,23 @@ msgid "Migrating from Vim"
 msgstr ""
 
 #: src/from-vim.md:3
-msgid "[Delete/Change Commands](#Delete/Change%20Commands)"
+msgid "[Delete/Change Commands](#deletechange-commands)"
 msgstr ""
 
 #: src/from-vim.md:4
-msgid "[Navigation](#Navigation)"
+msgid "[Navigation](#navigation)"
 msgstr ""
 
 #: src/from-vim.md:5
-msgid "[Line Deletes](#Line%20Deletes)"
+msgid "[Line Deletes](#line-deletes)"
 msgstr ""
 
 #: src/from-vim.md:6
-msgid ""
-"[Comment lines, Completion, Search](#Comment%20lines,%20Completion,%20Search)"
+msgid "[Comment lines, Completion, Search](#comment-lines-completion-search)"
 msgstr ""
 
 #: src/from-vim.md:7
-msgid "[File actions](#File%20actions)"
+msgid "[File actions](#file-actions)"
 msgstr ""
 
 #: src/from-vim.md:9

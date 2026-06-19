@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-04-14T10:05:30Z\n"
+"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -39,60 +39,97 @@ msgid ""
 msgstr ""
 
 #: src/guides/tags.md:16
-msgid ""
-"The following [captures](https://tree-sitter.github.io/tree-sitter/using-"
-"parsers/queries/index.html) are recognized:"
+msgid "Captures"
 msgstr ""
 
 #: src/guides/tags.md:18
-msgid "Capture name"
+msgid "`@definition.*`"
 msgstr ""
 
 #: src/guides/tags.md:20
-msgid "`definition.class`"
-msgstr ""
-
-#: src/guides/tags.md:21
-msgid "`definition.constant`"
-msgstr ""
-
-#: src/guides/tags.md:22
-msgid "`definition.enum`"
+msgid ""
+"Marks a node as a symbol definition. The following definition captures are "
+"recognized:"
 msgstr ""
 
 #: src/guides/tags.md:23
-msgid "`definition.field`"
-msgstr ""
-
-#: src/guides/tags.md:24
-msgid "`definition.function`"
+msgid "Capture name"
 msgstr ""
 
 #: src/guides/tags.md:25
-msgid "`definition.interface`"
+msgid "`definition.class`"
 msgstr ""
 
 #: src/guides/tags.md:26
-msgid "`definition.macro`"
+msgid "`definition.constant`"
 msgstr ""
 
 #: src/guides/tags.md:27
-msgid "`definition.module`"
+msgid "`definition.enum`"
 msgstr ""
 
 #: src/guides/tags.md:28
-msgid "`definition.section`"
+msgid "`definition.field`"
 msgstr ""
 
 #: src/guides/tags.md:29
-msgid "`definition.struct`"
+msgid "`definition.function`"
 msgstr ""
 
 #: src/guides/tags.md:30
-msgid "`definition.type`"
+msgid "`definition.interface`"
+msgstr ""
+
+#: src/guides/tags.md:31
+msgid "`definition.macro`"
 msgstr ""
 
 #: src/guides/tags.md:32
+msgid "`definition.module`"
+msgstr ""
+
+#: src/guides/tags.md:33
+msgid "`definition.section`"
+msgstr ""
+
+#: src/guides/tags.md:34
+msgid "`definition.struct`"
+msgstr ""
+
+#: src/guides/tags.md:35
+msgid "`definition.type`"
+msgstr ""
+
+#: src/guides/tags.md:37
+msgid ""
+"Captures outside this list are ignored by the symbol pickers, so map a "
+"language-specific construct onto the closest listed kind rather than "
+"inventing a new one."
+msgstr ""
+
+#: src/guides/tags.md:41
+msgid "`@name`"
+msgstr ""
+
+#: src/guides/tags.md:43
+msgid ""
+"Marks the name identifier node within a match. `@definition.*` should "
+"capture the entire definition node, and `@name` should capture the name "
+"identifier within that same match:"
+msgstr ""
+
+#: src/guides/tags.md:55
+msgid "`@reference.*`"
+msgstr ""
+
+#: src/guides/tags.md:57
+msgid ""
+"Marks a node as a call site or type reference. These are used by workspace "
+"symbol search to locate usages. `@reference.call` and `@reference.class` are "
+"the common variants. As with definitions, `@name` captures the identifier:"
+msgstr ""
+
+#: src/guides/tags.md:66
 msgid ""
 "[Example query files](https://github.com/search?q=repo%3Ahelix-"
 "editor%2Fhelix+path%3A%2A%2A/tags.scm&type=Code) can be found in the Helix "
