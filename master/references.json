@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-04-10 08:43:27 -0500",
-      "hash" : "eb49c5e4e07b4d7c63b88371d3a6e542a140c6b3",
-      "title" : "fix selecting characters with the crlf mode (#15617)"
+      "date" : "2026-06-14 16:02:40 +0900",
+      "hash" : "43bf7c2dc219606c64003aef21151f49f48d0939",
+      "title" : "fix: tab rendering regression (fixes #15867)"
     }
   },
   "type" : "branch",
