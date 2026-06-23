@@ -1471,7 +1471,7 @@ msgstr "spade"
 
 #: src/lang-support.md:235
 msgid "`spade-language-server`"
-msgstr "`spade-language-server`"
+msgstr ""
 
 #: src/lang-support.md:236
 msgid "spicedb"
@@ -1483,7 +1483,7 @@ msgstr "sql"
 
 #: src/lang-support.md:238
 msgid "sshclientconfig"
-msgstr "sshclientconfig"
+msgstr ""
 
 #: src/lang-support.md:239
 msgid "starlark"
@@ -1491,7 +1491,7 @@ msgstr "starlark"
 
 #: src/lang-support.md:239
 msgid "`starpls`"
-msgstr "`starpls`"
+msgstr ""
 
 #: src/lang-support.md:240
 msgid "strace"
