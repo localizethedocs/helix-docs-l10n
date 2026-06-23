@@ -2124,12 +2124,3 @@ msgstr ""
 #: src/lang-support.md:347
 msgid "`zls`"
 msgstr ""
-
-#~ msgid "`spade-language-server`"
-#~ msgstr "`spade-language-server`"
-
-#~ msgid "sshclientconfig"
-#~ msgstr "sshclientconfig"
-
-#~ msgid "`starpls`"
-#~ msgstr "`starpls`"
