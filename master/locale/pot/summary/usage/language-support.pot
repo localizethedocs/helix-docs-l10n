@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
+"POT-Creation-Date: 2026-07-07T11:54:07Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -72,8 +72,8 @@ msgstr ""
 #: src/lang-support.md:20 src/lang-support.md:21 src/lang-support.md:22
 #: src/lang-support.md:23 src/lang-support.md:24 src/lang-support.md:25
 #: src/lang-support.md:26 src/lang-support.md:27 src/lang-support.md:28
-#: src/lang-support.md:29 src/lang-support.md:31 src/lang-support.md:32
-#: src/lang-support.md:33 src/lang-support.md:35 src/lang-support.md:36
+#: src/lang-support.md:29 src/lang-support.md:30 src/lang-support.md:32
+#: src/lang-support.md:33 src/lang-support.md:34 src/lang-support.md:36
 #: src/lang-support.md:37 src/lang-support.md:38 src/lang-support.md:39
 #: src/lang-support.md:40 src/lang-support.md:41 src/lang-support.md:42
 #: src/lang-support.md:43 src/lang-support.md:44 src/lang-support.md:45
@@ -85,7 +85,7 @@ msgstr ""
 #: src/lang-support.md:61 src/lang-support.md:62 src/lang-support.md:63
 #: src/lang-support.md:64 src/lang-support.md:65 src/lang-support.md:66
 #: src/lang-support.md:67 src/lang-support.md:68 src/lang-support.md:69
-#: src/lang-support.md:71 src/lang-support.md:72 src/lang-support.md:73
+#: src/lang-support.md:70 src/lang-support.md:72 src/lang-support.md:73
 #: src/lang-support.md:74 src/lang-support.md:75 src/lang-support.md:76
 #: src/lang-support.md:77 src/lang-support.md:78 src/lang-support.md:79
 #: src/lang-support.md:80 src/lang-support.md:81 src/lang-support.md:82
@@ -110,7 +110,7 @@ msgstr ""
 #: src/lang-support.md:137 src/lang-support.md:138 src/lang-support.md:139
 #: src/lang-support.md:140 src/lang-support.md:141 src/lang-support.md:142
 #: src/lang-support.md:143 src/lang-support.md:144 src/lang-support.md:145
-#: src/lang-support.md:147 src/lang-support.md:148 src/lang-support.md:149
+#: src/lang-support.md:146 src/lang-support.md:148 src/lang-support.md:149
 #: src/lang-support.md:150 src/lang-support.md:151 src/lang-support.md:152
 #: src/lang-support.md:153 src/lang-support.md:154 src/lang-support.md:155
 #: src/lang-support.md:156 src/lang-support.md:157 src/lang-support.md:158
@@ -127,8 +127,8 @@ msgstr ""
 #: src/lang-support.md:189 src/lang-support.md:190 src/lang-support.md:191
 #: src/lang-support.md:192 src/lang-support.md:193 src/lang-support.md:194
 #: src/lang-support.md:195 src/lang-support.md:196 src/lang-support.md:197
-#: src/lang-support.md:198 src/lang-support.md:199 src/lang-support.md:201
-#: src/lang-support.md:202 src/lang-support.md:203 src/lang-support.md:204
+#: src/lang-support.md:198 src/lang-support.md:199 src/lang-support.md:200
+#: src/lang-support.md:201 src/lang-support.md:203 src/lang-support.md:204
 #: src/lang-support.md:205 src/lang-support.md:206 src/lang-support.md:207
 #: src/lang-support.md:208 src/lang-support.md:209 src/lang-support.md:210
 #: src/lang-support.md:211 src/lang-support.md:212 src/lang-support.md:213
@@ -143,8 +143,8 @@ msgstr ""
 #: src/lang-support.md:238 src/lang-support.md:239 src/lang-support.md:240
 #: src/lang-support.md:241 src/lang-support.md:242 src/lang-support.md:243
 #: src/lang-support.md:244 src/lang-support.md:245 src/lang-support.md:246
-#: src/lang-support.md:247 src/lang-support.md:249 src/lang-support.md:250
-#: src/lang-support.md:251 src/lang-support.md:252 src/lang-support.md:253
+#: src/lang-support.md:247 src/lang-support.md:248 src/lang-support.md:249
+#: src/lang-support.md:250 src/lang-support.md:251 src/lang-support.md:252
 #: src/lang-support.md:254 src/lang-support.md:255 src/lang-support.md:256
 #: src/lang-support.md:257 src/lang-support.md:258 src/lang-support.md:259
 #: src/lang-support.md:260 src/lang-support.md:261 src/lang-support.md:262
@@ -176,11 +176,13 @@ msgstr ""
 #: src/lang-support.md:338 src/lang-support.md:339 src/lang-support.md:340
 #: src/lang-support.md:341 src/lang-support.md:342 src/lang-support.md:343
 #: src/lang-support.md:344 src/lang-support.md:345 src/lang-support.md:346
-#: src/lang-support.md:347
+#: src/lang-support.md:347 src/lang-support.md:348 src/lang-support.md:349
+#: src/lang-support.md:350 src/lang-support.md:351 src/lang-support.md:352
+#: src/lang-support.md:353 src/lang-support.md:354 src/lang-support.md:355
 msgid "✓"
 msgstr ""
 
-#: src/lang-support.md:14 src/lang-support.md:124
+#: src/lang-support.md:14 src/lang-support.md:125
 msgid "`ada_language_server`"
 msgstr ""
 
@@ -241,1886 +243,1950 @@ msgid "`bass`"
 msgstr ""
 
 #: src/lang-support.md:24
-msgid "beancount"
-msgstr ""
-
-#: src/lang-support.md:24
-msgid "`beancount-language-server`"
+msgid "batch"
 msgstr ""
 
 #: src/lang-support.md:25
+msgid "beancount"
+msgstr ""
+
+#: src/lang-support.md:25
+msgid "`beancount-language-server`"
+msgstr ""
+
+#: src/lang-support.md:26
 msgid "bibtex"
 msgstr ""
 
-#: src/lang-support.md:25 src/lang-support.md:176
+#: src/lang-support.md:26 src/lang-support.md:177
 msgid "`texlab`"
 msgstr ""
 
-#: src/lang-support.md:26
+#: src/lang-support.md:27
 msgid "bicep"
 msgstr ""
 
-#: src/lang-support.md:26
+#: src/lang-support.md:27
 msgid "`bicep-langserver`"
 msgstr ""
 
-#: src/lang-support.md:27
+#: src/lang-support.md:28
 msgid "bitbake"
 msgstr ""
 
-#: src/lang-support.md:27
+#: src/lang-support.md:28
 msgid "`bitbake-language-server`"
 msgstr ""
 
-#: src/lang-support.md:28
+#: src/lang-support.md:29
 msgid "blade"
 msgstr ""
 
-#: src/lang-support.md:29
+#: src/lang-support.md:30
 msgid "blueprint"
 msgstr ""
 
-#: src/lang-support.md:29
+#: src/lang-support.md:30
 msgid "`blueprint-compiler`"
 msgstr ""
 
-#: src/lang-support.md:30
+#: src/lang-support.md:31
 msgid "bovex"
 msgstr ""
 
-#: src/lang-support.md:31
+#: src/lang-support.md:32
 msgid "c"
 msgstr ""
 
-#: src/lang-support.md:31 src/lang-support.md:49 src/lang-support.md:218
+#: src/lang-support.md:32 src/lang-support.md:50 src/lang-support.md:221
 msgid "`clangd`"
 msgstr ""
 
-#: src/lang-support.md:32
+#: src/lang-support.md:33
 msgid "c-sharp"
 msgstr ""
 
-#: src/lang-support.md:32
+#: src/lang-support.md:33
 msgid "`roslyn-language-server`, `OmniSharp`, `csharp-ls`"
 msgstr ""
 
-#: src/lang-support.md:33
+#: src/lang-support.md:34
 msgid "c3"
 msgstr ""
 
-#: src/lang-support.md:33
+#: src/lang-support.md:34
 msgid "`c3-lsp`"
 msgstr ""
 
-#: src/lang-support.md:34
+#: src/lang-support.md:35
 msgid "cabal"
 msgstr ""
 
-#: src/lang-support.md:34 src/lang-support.md:130 src/lang-support.md:131
+#: src/lang-support.md:35 src/lang-support.md:131 src/lang-support.md:132
 msgid "`haskell-language-server-wrapper`"
 msgstr ""
 
-#: src/lang-support.md:35
+#: src/lang-support.md:36
 msgid "caddyfile"
 msgstr ""
 
-#: src/lang-support.md:36
+#: src/lang-support.md:37
 msgid "cairo"
 msgstr ""
 
-#: src/lang-support.md:36
+#: src/lang-support.md:37
 msgid "`cairo-language-server`"
 msgstr ""
 
-#: src/lang-support.md:37
+#: src/lang-support.md:38
 msgid "capnp"
 msgstr ""
 
-#: src/lang-support.md:38
+#: src/lang-support.md:39
 msgid "cel"
 msgstr ""
 
-#: src/lang-support.md:39
+#: src/lang-support.md:40
 msgid "chuck"
 msgstr ""
 
-#: src/lang-support.md:40
+#: src/lang-support.md:41
 msgid "circom"
 msgstr ""
 
-#: src/lang-support.md:40
+#: src/lang-support.md:41
 msgid "`circom-lsp`"
 msgstr ""
 
-#: src/lang-support.md:41
+#: src/lang-support.md:42
 msgid "clarity"
 msgstr ""
 
-#: src/lang-support.md:41
+#: src/lang-support.md:42
 msgid "`clarinet`"
 msgstr ""
 
-#: src/lang-support.md:42
+#: src/lang-support.md:43
 msgid "clojure"
 msgstr ""
 
-#: src/lang-support.md:42
+#: src/lang-support.md:43
 msgid "`clojure-lsp`"
 msgstr ""
 
-#: src/lang-support.md:43
+#: src/lang-support.md:44
 msgid "cmake"
 msgstr ""
 
-#: src/lang-support.md:43
+#: src/lang-support.md:44
 msgid "`neocmakelsp`, `cmake-language-server`"
 msgstr ""
 
-#: src/lang-support.md:44
+#: src/lang-support.md:45
 msgid "codeql"
 msgstr ""
 
-#: src/lang-support.md:44
+#: src/lang-support.md:45
 msgid "`codeql`"
 msgstr ""
 
-#: src/lang-support.md:45
+#: src/lang-support.md:46
 msgid "comment"
 msgstr ""
 
-#: src/lang-support.md:46
+#: src/lang-support.md:47
 msgid "common-lisp"
 msgstr ""
 
-#: src/lang-support.md:46
+#: src/lang-support.md:47
 msgid "`cl-lsp`"
 msgstr ""
 
-#: src/lang-support.md:47
+#: src/lang-support.md:48
 msgid "concerto"
 msgstr ""
 
-#: src/lang-support.md:48
+#: src/lang-support.md:49
 msgid "cpon"
 msgstr ""
 
-#: src/lang-support.md:49
+#: src/lang-support.md:50
 msgid "cpp"
 msgstr ""
 
-#: src/lang-support.md:50
+#: src/lang-support.md:51
 msgid "cross-config"
 msgstr ""
 
-#: src/lang-support.md:50 src/lang-support.md:104 src/lang-support.md:155
-#: src/lang-support.md:201 src/lang-support.md:312
+#: src/lang-support.md:51 src/lang-support.md:105 src/lang-support.md:156
+#: src/lang-support.md:203 src/lang-support.md:318
 msgid "`taplo`, `tombi`"
 msgstr ""
 
-#: src/lang-support.md:51
+#: src/lang-support.md:52
 msgid "crystal"
 msgstr ""
 
-#: src/lang-support.md:51
+#: src/lang-support.md:52
 msgid "`crystalline`, `ameba-ls`"
 msgstr ""
 
-#: src/lang-support.md:52
+#: src/lang-support.md:53
 msgid "css"
 msgstr ""
 
-#: src/lang-support.md:52 src/lang-support.md:181 src/lang-support.md:272
+#: src/lang-support.md:53 src/lang-support.md:182 src/lang-support.md:277
 msgid "`vscode-css-language-server`"
 msgstr ""
 
-#: src/lang-support.md:53
+#: src/lang-support.md:54
 msgid "csv"
 msgstr ""
 
-#: src/lang-support.md:54
+#: src/lang-support.md:55
 msgid "cue"
 msgstr ""
 
-#: src/lang-support.md:54
+#: src/lang-support.md:55
 msgid "`cue`"
 msgstr ""
 
-#: src/lang-support.md:55
+#: src/lang-support.md:56
 msgid "cylc"
 msgstr ""
 
-#: src/lang-support.md:56
+#: src/lang-support.md:57
 msgid "cython"
 msgstr ""
 
-#: src/lang-support.md:57
+#: src/lang-support.md:58
 msgid "d"
 msgstr ""
 
-#: src/lang-support.md:57
+#: src/lang-support.md:58
 msgid "`serve-d`"
 msgstr ""
 
-#: src/lang-support.md:58
+#: src/lang-support.md:59
 msgid "dart"
 msgstr ""
 
-#: src/lang-support.md:58
+#: src/lang-support.md:59
 msgid "`dart`"
 msgstr ""
 
-#: src/lang-support.md:59
+#: src/lang-support.md:60
 msgid "dbml"
 msgstr ""
 
-#: src/lang-support.md:60
+#: src/lang-support.md:61
 msgid "debian"
 msgstr ""
 
-#: src/lang-support.md:60
+#: src/lang-support.md:61
 msgid "`debian-lsp`"
 msgstr ""
 
-#: src/lang-support.md:61
+#: src/lang-support.md:62
 msgid "devicetree"
 msgstr ""
 
-#: src/lang-support.md:61
+#: src/lang-support.md:62
 msgid "`dts-lsp`"
 msgstr ""
 
-#: src/lang-support.md:62
+#: src/lang-support.md:63
 msgid "dhall"
 msgstr ""
 
-#: src/lang-support.md:62
+#: src/lang-support.md:63
 msgid "`dhall-lsp-server`"
 msgstr ""
 
-#: src/lang-support.md:63
+#: src/lang-support.md:64
 msgid "diff"
 msgstr ""
 
-#: src/lang-support.md:64
+#: src/lang-support.md:65
 msgid "djot"
 msgstr ""
 
-#: src/lang-support.md:65
+#: src/lang-support.md:66
 msgid "docker-bake"
 msgstr ""
 
-#: src/lang-support.md:65
+#: src/lang-support.md:66
 msgid "`docker-language-server`"
 msgstr ""
 
-#: src/lang-support.md:66
+#: src/lang-support.md:67
 msgid "docker-compose"
 msgstr ""
 
-#: src/lang-support.md:66
+#: src/lang-support.md:67
 msgid ""
 "`docker-compose-langserver`, `yaml-language-server`, `docker-language-server`"
 msgstr ""
 
-#: src/lang-support.md:67
+#: src/lang-support.md:68
 msgid "dockerfile"
 msgstr ""
 
-#: src/lang-support.md:67
+#: src/lang-support.md:68
 msgid "`docker-langserver`, `docker-language-server`"
 msgstr ""
 
-#: src/lang-support.md:68
+#: src/lang-support.md:69
 msgid "dot"
 msgstr ""
 
-#: src/lang-support.md:68
+#: src/lang-support.md:69
 msgid "`dot-language-server`"
 msgstr ""
 
-#: src/lang-support.md:69
+#: src/lang-support.md:70
 msgid "doxyfile"
 msgstr ""
 
-#: src/lang-support.md:70
+#: src/lang-support.md:71
 msgid "drools"
 msgstr ""
 
-#: src/lang-support.md:70
+#: src/lang-support.md:71
 msgid "`drools-lsp`"
 msgstr ""
 
-#: src/lang-support.md:71
+#: src/lang-support.md:72
 msgid "dtd"
 msgstr ""
 
-#: src/lang-support.md:72
+#: src/lang-support.md:73
 msgid "dune"
 msgstr ""
 
-#: src/lang-support.md:73
+#: src/lang-support.md:74
 msgid "dunstrc"
 msgstr ""
 
-#: src/lang-support.md:74
+#: src/lang-support.md:75
 msgid "earthfile"
 msgstr ""
 
-#: src/lang-support.md:74
+#: src/lang-support.md:75
 msgid "`earthlyls`"
 msgstr ""
 
-#: src/lang-support.md:75
+#: src/lang-support.md:76
 msgid "ebnf"
 msgstr ""
 
-#: src/lang-support.md:75
+#: src/lang-support.md:76
 msgid "`ebnfer`"
 msgstr ""
 
-#: src/lang-support.md:76
+#: src/lang-support.md:77
 msgid "edoc"
 msgstr ""
 
-#: src/lang-support.md:77
+#: src/lang-support.md:78
 msgid "eex"
 msgstr ""
 
-#: src/lang-support.md:78
+#: src/lang-support.md:79
 msgid "eiffel"
 msgstr ""
 
-#: src/lang-support.md:78
+#: src/lang-support.md:79
 msgid "`eiffel-language-server`"
 msgstr ""
 
-#: src/lang-support.md:79
+#: src/lang-support.md:80
 msgid "ejs"
 msgstr ""
 
-#: src/lang-support.md:80
+#: src/lang-support.md:81
 msgid "elisp"
 msgstr ""
 
-#: src/lang-support.md:81
+#: src/lang-support.md:82
 msgid "elixir"
 msgstr ""
 
-#: src/lang-support.md:81 src/lang-support.md:136
+#: src/lang-support.md:82 src/lang-support.md:137
 msgid "`elixir-ls`, `expert`"
 msgstr ""
 
-#: src/lang-support.md:82
+#: src/lang-support.md:83
 msgid "elm"
 msgstr ""
 
-#: src/lang-support.md:82
+#: src/lang-support.md:83
 msgid "`elm-language-server`"
 msgstr ""
 
-#: src/lang-support.md:83
+#: src/lang-support.md:84
 msgid "elvish"
 msgstr ""
 
-#: src/lang-support.md:83
+#: src/lang-support.md:84
 msgid "`elvish`"
 msgstr ""
 
-#: src/lang-support.md:84
+#: src/lang-support.md:85
 msgid "embedded-perl"
 msgstr ""
 
-#: src/lang-support.md:85
+#: src/lang-support.md:86
 msgid "env"
 msgstr ""
 
-#: src/lang-support.md:86
+#: src/lang-support.md:87
 msgid "erb"
 msgstr ""
 
-#: src/lang-support.md:87
+#: src/lang-support.md:88
 msgid "erlang"
 msgstr ""
 
-#: src/lang-support.md:87
+#: src/lang-support.md:88
 msgid "`erlang_ls`, `elp`"
 msgstr ""
 
-#: src/lang-support.md:88
+#: src/lang-support.md:89
 msgid "esdl"
 msgstr ""
 
-#: src/lang-support.md:89
+#: src/lang-support.md:90
 msgid "fennel"
 msgstr ""
 
-#: src/lang-support.md:89
+#: src/lang-support.md:90
 msgid "`fennel-ls`"
 msgstr ""
 
-#: src/lang-support.md:90
+#: src/lang-support.md:91
 msgid "fga"
 msgstr ""
 
-#: src/lang-support.md:91
+#: src/lang-support.md:92
 msgid "fidl"
 msgstr ""
 
-#: src/lang-support.md:92
+#: src/lang-support.md:93
 msgid "fish"
 msgstr ""
 
-#: src/lang-support.md:92
+#: src/lang-support.md:93
 msgid "`fish-lsp`"
 msgstr ""
 
-#: src/lang-support.md:93
+#: src/lang-support.md:94
 msgid "flatbuffers"
 msgstr ""
 
-#: src/lang-support.md:94
+#: src/lang-support.md:95
 msgid "forth"
 msgstr ""
 
-#: src/lang-support.md:94
+#: src/lang-support.md:95
 msgid "`forth-lsp`"
 msgstr ""
 
-#: src/lang-support.md:95
+#: src/lang-support.md:96
 msgid "fortran"
 msgstr ""
 
-#: src/lang-support.md:95
+#: src/lang-support.md:96
 msgid "`fortls`"
 msgstr ""
 
-#: src/lang-support.md:96
+#: src/lang-support.md:97
 msgid "freebasic"
 msgstr ""
 
-#: src/lang-support.md:97
+#: src/lang-support.md:98
 msgid "fsharp"
 msgstr ""
 
-#: src/lang-support.md:97
+#: src/lang-support.md:98
 msgid "`fsautocomplete`"
 msgstr ""
 
-#: src/lang-support.md:98
+#: src/lang-support.md:99
 msgid "gas"
 msgstr ""
 
-#: src/lang-support.md:98 src/lang-support.md:205
+#: src/lang-support.md:99 src/lang-support.md:208
 msgid "`asm-lsp`"
 msgstr ""
 
-#: src/lang-support.md:99
+#: src/lang-support.md:100
 msgid "gdscript"
 msgstr ""
 
 #: src/lang-support.md:100
-msgid "gemini"
+msgid "`ncat`"
 msgstr ""
 
 #: src/lang-support.md:101
-msgid "gherkin"
+msgid "gemini"
 msgstr ""
 
 #: src/lang-support.md:102
+msgid "gherkin"
+msgstr ""
+
+#: src/lang-support.md:103
 msgid "ghostty"
 msgstr ""
 
 #: src/lang-support.md:103
-msgid "git-attributes"
+msgid "`ghostty-ls`"
 msgstr ""
 
 #: src/lang-support.md:104
+msgid "git-attributes"
+msgstr ""
+
+#: src/lang-support.md:105
 msgid "git-cliff-config"
 msgstr ""
 
-#: src/lang-support.md:105
+#: src/lang-support.md:106
 msgid "git-commit"
 msgstr ""
 
-#: src/lang-support.md:105
+#: src/lang-support.md:106
 msgid "`commit-lsp`"
 msgstr ""
 
-#: src/lang-support.md:106
+#: src/lang-support.md:107
 msgid "git-config"
 msgstr ""
 
-#: src/lang-support.md:107
+#: src/lang-support.md:108
 msgid "git-ignore"
 msgstr ""
 
-#: src/lang-support.md:108
+#: src/lang-support.md:109
 msgid "git-notes"
 msgstr ""
 
-#: src/lang-support.md:109
+#: src/lang-support.md:110
 msgid "git-rebase"
 msgstr ""
 
-#: src/lang-support.md:110
+#: src/lang-support.md:111
 msgid "github-action"
 msgstr ""
 
-#: src/lang-support.md:110
+#: src/lang-support.md:111
 msgid "`actions-languageserver`, `yaml-language-server`, `zizmor`"
 msgstr ""
 
-#: src/lang-support.md:111
+#: src/lang-support.md:112
 msgid "gitlab-ci"
 msgstr ""
 
-#: src/lang-support.md:111
+#: src/lang-support.md:112
 msgid "`yaml-language-server`, `gitlab-ci-ls`"
 msgstr ""
 
-#: src/lang-support.md:112
+#: src/lang-support.md:113
 msgid "gjs"
 msgstr ""
 
-#: src/lang-support.md:112 src/lang-support.md:128
+#: src/lang-support.md:113 src/lang-support.md:129
 msgid ""
 "`typescript-language-server`, `vscode-eslint-language-server`, `ember-"
 "language-server`"
 msgstr ""
 
-#: src/lang-support.md:113
+#: src/lang-support.md:114
 msgid "gleam"
 msgstr ""
 
-#: src/lang-support.md:113
+#: src/lang-support.md:114
 msgid "`gleam`"
 msgstr ""
 
-#: src/lang-support.md:114
+#: src/lang-support.md:115
 msgid "glimmer"
 msgstr ""
 
-#: src/lang-support.md:114
+#: src/lang-support.md:115
 msgid "`ember-language-server`"
 msgstr ""
 
-#: src/lang-support.md:115
+#: src/lang-support.md:116
 msgid "glsl"
 msgstr ""
 
-#: src/lang-support.md:115
+#: src/lang-support.md:116
 msgid "`glsl_analyzer`, `glsld`"
 msgstr ""
 
-#: src/lang-support.md:116
+#: src/lang-support.md:117
 msgid "gn"
 msgstr ""
 
-#: src/lang-support.md:117
+#: src/lang-support.md:118
 msgid "gnuplot"
 msgstr ""
 
-#: src/lang-support.md:118
+#: src/lang-support.md:119
 msgid "go"
 msgstr ""
 
-#: src/lang-support.md:118
+#: src/lang-support.md:119
 msgid "`gopls`, `golangci-lint-langserver`"
 msgstr ""
 
-#: src/lang-support.md:119
+#: src/lang-support.md:120
 msgid "go-format-string"
 msgstr ""
 
-#: src/lang-support.md:120
+#: src/lang-support.md:121
 msgid "godot-resource"
 msgstr ""
 
-#: src/lang-support.md:121
+#: src/lang-support.md:122
 msgid "gomod"
 msgstr ""
 
-#: src/lang-support.md:121 src/lang-support.md:122 src/lang-support.md:123
+#: src/lang-support.md:122 src/lang-support.md:123 src/lang-support.md:124
 msgid "`gopls`"
 msgstr ""
 
-#: src/lang-support.md:122
+#: src/lang-support.md:123
 msgid "gotmpl"
 msgstr ""
 
-#: src/lang-support.md:123
+#: src/lang-support.md:124
 msgid "gowork"
 msgstr ""
 
-#: src/lang-support.md:124
+#: src/lang-support.md:125
 msgid "gpr"
 msgstr ""
 
-#: src/lang-support.md:125
+#: src/lang-support.md:126
 msgid "graphql"
 msgstr ""
 
-#: src/lang-support.md:125
+#: src/lang-support.md:126
 msgid "`graphql-lsp`"
 msgstr ""
 
-#: src/lang-support.md:126
+#: src/lang-support.md:127
 msgid "gren"
 msgstr ""
 
-#: src/lang-support.md:127
+#: src/lang-support.md:128
 msgid "groovy"
 msgstr ""
 
-#: src/lang-support.md:128
+#: src/lang-support.md:129
 msgid "gts"
 msgstr ""
 
-#: src/lang-support.md:129
+#: src/lang-support.md:130
 msgid "hare"
 msgstr ""
 
-#: src/lang-support.md:129
+#: src/lang-support.md:130
 msgid "`hare-lsp`"
 msgstr ""
 
-#: src/lang-support.md:130
+#: src/lang-support.md:131
 msgid "haskell"
 msgstr ""
 
-#: src/lang-support.md:131
+#: src/lang-support.md:132
 msgid "haskell-literate"
 msgstr ""
 
-#: src/lang-support.md:132
+#: src/lang-support.md:133
 msgid "haskell-persistent"
 msgstr ""
 
-#: src/lang-support.md:133
+#: src/lang-support.md:134
 msgid "haxe"
 msgstr ""
 
-#: src/lang-support.md:134
+#: src/lang-support.md:135
 msgid "hcl"
 msgstr ""
 
-#: src/lang-support.md:134 src/lang-support.md:306
+#: src/lang-support.md:135 src/lang-support.md:312
 msgid "`terraform-ls`"
 msgstr ""
 
-#: src/lang-support.md:135
+#: src/lang-support.md:136
 msgid "hdl"
 msgstr ""
 
-#: src/lang-support.md:135
+#: src/lang-support.md:136
 msgid "`hdls`"
 msgstr ""
 
-#: src/lang-support.md:136
+#: src/lang-support.md:137
 msgid "heex"
 msgstr ""
 
-#: src/lang-support.md:137
+#: src/lang-support.md:138
 msgid "helm"
 msgstr ""
 
-#: src/lang-support.md:137
+#: src/lang-support.md:138
 msgid "`helm_ls`"
 msgstr ""
 
-#: src/lang-support.md:138
+#: src/lang-support.md:139
 msgid "hocon"
 msgstr ""
 
-#: src/lang-support.md:139
+#: src/lang-support.md:140
 msgid "hoon"
 msgstr ""
 
-#: src/lang-support.md:140
+#: src/lang-support.md:141
 msgid "hosts"
 msgstr ""
 
-#: src/lang-support.md:141
+#: src/lang-support.md:142
 msgid "html"
 msgstr ""
 
-#: src/lang-support.md:141
+#: src/lang-support.md:142
 msgid "`vscode-html-language-server`, `superhtml`"
 msgstr ""
 
-#: src/lang-support.md:142
+#: src/lang-support.md:143
 msgid "htmldjango"
 msgstr ""
 
-#: src/lang-support.md:142
+#: src/lang-support.md:143
 msgid "`djlsp`, `vscode-html-language-server`, `superhtml`"
 msgstr ""
 
-#: src/lang-support.md:143
+#: src/lang-support.md:144
 msgid "hurl"
 msgstr ""
 
-#: src/lang-support.md:144
+#: src/lang-support.md:145
 msgid "hy"
 msgstr ""
 
-#: src/lang-support.md:144
+#: src/lang-support.md:145
 msgid "`hyuga`"
 msgstr ""
 
-#: src/lang-support.md:145
+#: src/lang-support.md:146
 msgid "hyprlang"
 msgstr ""
 
-#: src/lang-support.md:145
+#: src/lang-support.md:146
 msgid "`hyprls`"
 msgstr ""
 
-#: src/lang-support.md:146
+#: src/lang-support.md:147
 msgid "idris"
 msgstr ""
 
-#: src/lang-support.md:146
+#: src/lang-support.md:147
 msgid "`idris2-lsp`"
 msgstr ""
 
-#: src/lang-support.md:147
+#: src/lang-support.md:148
 msgid "iex"
 msgstr ""
 
-#: src/lang-support.md:148
+#: src/lang-support.md:149
 msgid "ini"
 msgstr ""
 
-#: src/lang-support.md:149
+#: src/lang-support.md:150
 msgid "ink"
 msgstr ""
 
-#: src/lang-support.md:150
+#: src/lang-support.md:151
 msgid "inko"
 msgstr ""
 
-#: src/lang-support.md:151
+#: src/lang-support.md:152
 msgid "janet"
 msgstr ""
 
-#: src/lang-support.md:152
+#: src/lang-support.md:153
 msgid "java"
 msgstr ""
 
-#: src/lang-support.md:152
+#: src/lang-support.md:153
 msgid "`jdtls`"
 msgstr ""
 
-#: src/lang-support.md:153
+#: src/lang-support.md:154
 msgid "javascript"
 msgstr ""
 
-#: src/lang-support.md:153 src/lang-support.md:166 src/lang-support.md:315
-#: src/lang-support.md:317
+#: src/lang-support.md:154 src/lang-support.md:167 src/lang-support.md:321
+#: src/lang-support.md:323
 msgid "`typescript-language-server`"
 msgstr ""
 
-#: src/lang-support.md:154
+#: src/lang-support.md:155
 msgid "jinja"
 msgstr ""
 
-#: src/lang-support.md:155
+#: src/lang-support.md:156
 msgid "jjconfig"
 msgstr ""
 
-#: src/lang-support.md:156
+#: src/lang-support.md:157
 msgid "jjdescription"
 msgstr ""
 
-#: src/lang-support.md:157
+#: src/lang-support.md:158
 msgid "jjrevset"
 msgstr ""
 
-#: src/lang-support.md:158
+#: src/lang-support.md:159
 msgid "jjtemplate"
 msgstr ""
 
-#: src/lang-support.md:159
+#: src/lang-support.md:160
 msgid "jq"
 msgstr ""
 
-#: src/lang-support.md:159
+#: src/lang-support.md:160
 msgid "`jq-lsp`"
 msgstr ""
 
-#: src/lang-support.md:160
+#: src/lang-support.md:161
 msgid "jsdoc"
 msgstr ""
 
-#: src/lang-support.md:161
+#: src/lang-support.md:162
 msgid "json"
 msgstr ""
 
-#: src/lang-support.md:161 src/lang-support.md:162 src/lang-support.md:164
+#: src/lang-support.md:162 src/lang-support.md:163 src/lang-support.md:165
 msgid "`vscode-json-language-server`"
 msgstr ""
 
-#: src/lang-support.md:162
+#: src/lang-support.md:163
 msgid "json-ld"
 msgstr ""
 
-#: src/lang-support.md:163
+#: src/lang-support.md:164
 msgid "json5"
 msgstr ""
 
-#: src/lang-support.md:164
+#: src/lang-support.md:165
 msgid "jsonc"
 msgstr ""
 
-#: src/lang-support.md:165
+#: src/lang-support.md:166
 msgid "jsonnet"
 msgstr ""
 
-#: src/lang-support.md:165
+#: src/lang-support.md:166
 msgid "`jsonnet-language-server`"
 msgstr ""
 
-#: src/lang-support.md:166
+#: src/lang-support.md:167
 msgid "jsx"
 msgstr ""
 
-#: src/lang-support.md:167
+#: src/lang-support.md:168
 msgid "julia"
 msgstr ""
 
-#: src/lang-support.md:167
+#: src/lang-support.md:168
 msgid "`julia`"
 msgstr ""
 
-#: src/lang-support.md:168
+#: src/lang-support.md:169
 msgid "just"
 msgstr ""
 
-#: src/lang-support.md:168
+#: src/lang-support.md:169
 msgid "`just-lsp`"
 msgstr ""
 
-#: src/lang-support.md:169
+#: src/lang-support.md:170
 msgid "kcl"
 msgstr ""
 
-#: src/lang-support.md:169
+#: src/lang-support.md:170
 msgid "`kcl-language-server`"
 msgstr ""
 
-#: src/lang-support.md:170
+#: src/lang-support.md:171
 msgid "kconfig"
 msgstr ""
 
-#: src/lang-support.md:171
+#: src/lang-support.md:172
 msgid "kdl"
 msgstr ""
 
-#: src/lang-support.md:172
+#: src/lang-support.md:173
 msgid "klog"
 msgstr ""
 
-#: src/lang-support.md:173
+#: src/lang-support.md:174
 msgid "koka"
 msgstr ""
 
-#: src/lang-support.md:173
+#: src/lang-support.md:174
 msgid "`koka`"
 msgstr ""
 
-#: src/lang-support.md:174
+#: src/lang-support.md:175
 msgid "kotlin"
 msgstr ""
 
-#: src/lang-support.md:174
+#: src/lang-support.md:175
 msgid "`kotlin-language-server`"
 msgstr ""
 
-#: src/lang-support.md:175
+#: src/lang-support.md:176
 msgid "koto"
 msgstr ""
 
-#: src/lang-support.md:175
+#: src/lang-support.md:176
 msgid "`koto-ls`"
 msgstr ""
 
-#: src/lang-support.md:176
+#: src/lang-support.md:177
 msgid "latex"
 msgstr ""
 
-#: src/lang-support.md:177
+#: src/lang-support.md:178
 msgid "ld"
 msgstr ""
 
-#: src/lang-support.md:178
+#: src/lang-support.md:179
 msgid "ldif"
 msgstr ""
 
-#: src/lang-support.md:179
+#: src/lang-support.md:180
 msgid "lean"
 msgstr ""
 
-#: src/lang-support.md:179
+#: src/lang-support.md:180
 msgid "`lake`"
 msgstr ""
 
-#: src/lang-support.md:180
+#: src/lang-support.md:181
 msgid "ledger"
 msgstr ""
 
-#: src/lang-support.md:181
+#: src/lang-support.md:182
 msgid "less"
 msgstr ""
 
-#: src/lang-support.md:182
+#: src/lang-support.md:183
 msgid "llvm"
 msgstr ""
 
-#: src/lang-support.md:183
+#: src/lang-support.md:184
 msgid "llvm-mir"
 msgstr ""
 
-#: src/lang-support.md:184
+#: src/lang-support.md:185
 msgid "llvm-mir-yaml"
 msgstr ""
 
-#: src/lang-support.md:185
+#: src/lang-support.md:186
 msgid "log"
 msgstr ""
 
-#: src/lang-support.md:186
+#: src/lang-support.md:187
 msgid "lpf"
 msgstr ""
 
-#: src/lang-support.md:187
+#: src/lang-support.md:188
 msgid "lua"
 msgstr ""
 
-#: src/lang-support.md:187
+#: src/lang-support.md:188
 msgid "`lua-language-server`"
 msgstr ""
 
-#: src/lang-support.md:188
+#: src/lang-support.md:189
 msgid "lua-format-string"
 msgstr ""
 
-#: src/lang-support.md:189
+#: src/lang-support.md:190
 msgid "luap"
 msgstr ""
 
-#: src/lang-support.md:190
+#: src/lang-support.md:191
 msgid "luau"
 msgstr ""
 
-#: src/lang-support.md:190
+#: src/lang-support.md:191
 msgid "`luau-lsp`"
 msgstr ""
 
-#: src/lang-support.md:191
+#: src/lang-support.md:192
 msgid "mail"
 msgstr ""
 
-#: src/lang-support.md:192
+#: src/lang-support.md:193
 msgid "make"
 msgstr ""
 
-#: src/lang-support.md:193
+#: src/lang-support.md:194
 msgid "markdoc"
 msgstr ""
 
-#: src/lang-support.md:193
+#: src/lang-support.md:194
 msgid "`markdoc-ls`"
 msgstr ""
 
-#: src/lang-support.md:194
+#: src/lang-support.md:195
 msgid "markdown"
 msgstr ""
 
-#: src/lang-support.md:194
+#: src/lang-support.md:195
 msgid "`marksman`, `markdown-oxide`, `rumdl`"
 msgstr ""
 
-#: src/lang-support.md:195
+#: src/lang-support.md:196
 msgid "markdown-rustdoc"
 msgstr ""
 
-#: src/lang-support.md:196
+#: src/lang-support.md:197
 msgid "markdown.inline"
 msgstr ""
 
-#: src/lang-support.md:197
+#: src/lang-support.md:198
 msgid "matlab"
 msgstr ""
 
-#: src/lang-support.md:198
+#: src/lang-support.md:199
 msgid "mermaid"
 msgstr ""
 
-#: src/lang-support.md:199
+#: src/lang-support.md:200
 msgid "meson"
 msgstr ""
 
-#: src/lang-support.md:199
+#: src/lang-support.md:200
 msgid "`mesonlsp`"
 msgstr ""
 
-#: src/lang-support.md:200
-msgid "mint"
-msgstr ""
-
-#: src/lang-support.md:200
-msgid "`mint`"
+#: src/lang-support.md:201
+msgid "metamath"
 msgstr ""
 
 #: src/lang-support.md:201
-msgid "miseconfig"
+msgid "`mm-lsp-server`"
 msgstr ""
 
 #: src/lang-support.md:202
-msgid "mojo"
+msgid "mint"
 msgstr ""
 
 #: src/lang-support.md:202
-msgid "`pixi`"
+msgid "`mint`"
 msgstr ""
 
 #: src/lang-support.md:203
-msgid "move"
+msgid "miseconfig"
 msgstr ""
 
 #: src/lang-support.md:204
-msgid "msbuild"
+msgid "mojo"
+msgstr ""
+
+#: src/lang-support.md:204
+msgid "`pixi`"
 msgstr ""
 
 #: src/lang-support.md:205
-msgid "nasm"
+msgid "moonbit"
+msgstr ""
+
+#: src/lang-support.md:205
+msgid "`moonbit-lsp`"
 msgstr ""
 
 #: src/lang-support.md:206
-msgid "nearley"
+msgid "move"
 msgstr ""
 
 #: src/lang-support.md:207
-msgid "nestedtext"
+msgid "msbuild"
 msgstr ""
 
 #: src/lang-support.md:208
+msgid "nasm"
+msgstr ""
+
+#: src/lang-support.md:209
+msgid "nearley"
+msgstr ""
+
+#: src/lang-support.md:210
+msgid "nestedtext"
+msgstr ""
+
+#: src/lang-support.md:211
 msgid "nginx"
 msgstr ""
 
-#: src/lang-support.md:209
+#: src/lang-support.md:211
+msgid "`nginx-language-server`"
+msgstr ""
+
+#: src/lang-support.md:212
 msgid "nickel"
 msgstr ""
 
-#: src/lang-support.md:209
+#: src/lang-support.md:212
 msgid "`nls`"
 msgstr ""
 
-#: src/lang-support.md:210
+#: src/lang-support.md:213
 msgid "nim"
 msgstr ""
 
-#: src/lang-support.md:210
+#: src/lang-support.md:213
 msgid "`nimlangserver`"
 msgstr ""
 
-#: src/lang-support.md:211
+#: src/lang-support.md:214
 msgid "nix"
 msgstr ""
 
-#: src/lang-support.md:211
+#: src/lang-support.md:214
 msgid "`nil`, `nixd`"
 msgstr ""
 
-#: src/lang-support.md:212
+#: src/lang-support.md:215
 msgid "nu"
 msgstr ""
 
-#: src/lang-support.md:212
+#: src/lang-support.md:215
 msgid "`nu`, `nu-lint`"
 msgstr ""
 
-#: src/lang-support.md:213
+#: src/lang-support.md:216
 msgid "nunjucks"
 msgstr ""
 
-#: src/lang-support.md:214
+#: src/lang-support.md:217
 msgid "ocaml"
 msgstr ""
 
-#: src/lang-support.md:214 src/lang-support.md:215
+#: src/lang-support.md:217 src/lang-support.md:218
 msgid "`ocamllsp`"
 msgstr ""
 
-#: src/lang-support.md:215
+#: src/lang-support.md:218
 msgid "ocaml-interface"
 msgstr ""
 
-#: src/lang-support.md:216
+#: src/lang-support.md:219
 msgid "odin"
 msgstr ""
 
-#: src/lang-support.md:216
+#: src/lang-support.md:219
 msgid "`ols`"
 msgstr ""
 
-#: src/lang-support.md:217
+#: src/lang-support.md:220
 msgid "ohm"
 msgstr ""
 
-#: src/lang-support.md:218
+#: src/lang-support.md:221
 msgid "opencl"
 msgstr ""
 
-#: src/lang-support.md:219
+#: src/lang-support.md:222
 msgid "openscad"
 msgstr ""
 
-#: src/lang-support.md:219
+#: src/lang-support.md:222
 msgid "`openscad-lsp`"
 msgstr ""
 
-#: src/lang-support.md:220
+#: src/lang-support.md:223
 msgid "org"
 msgstr ""
 
-#: src/lang-support.md:221
+#: src/lang-support.md:224
+msgid "p"
+msgstr ""
+
+#: src/lang-support.md:225
 msgid "pascal"
 msgstr ""
 
-#: src/lang-support.md:221
+#: src/lang-support.md:225
 msgid "`pasls`"
 msgstr ""
 
-#: src/lang-support.md:222
+#: src/lang-support.md:226
 msgid "passwd"
 msgstr ""
 
-#: src/lang-support.md:223
+#: src/lang-support.md:227
 msgid "pem"
 msgstr ""
 
-#: src/lang-support.md:224
+#: src/lang-support.md:228
 msgid "penrose"
 msgstr ""
 
-#: src/lang-support.md:225
+#: src/lang-support.md:229
 msgid "perl"
 msgstr ""
 
-#: src/lang-support.md:225
+#: src/lang-support.md:229
 msgid "`perlnavigator`"
 msgstr ""
 
-#: src/lang-support.md:226
+#: src/lang-support.md:230
 msgid "pest"
 msgstr ""
 
-#: src/lang-support.md:226
+#: src/lang-support.md:230
 msgid "`pest-language-server`"
 msgstr ""
 
-#: src/lang-support.md:227
+#: src/lang-support.md:231
 msgid "php"
 msgstr ""
 
-#: src/lang-support.md:227
+#: src/lang-support.md:231
 msgid "`intelephense`"
 msgstr ""
 
-#: src/lang-support.md:228
+#: src/lang-support.md:232
 msgid "php-only"
 msgstr ""
 
-#: src/lang-support.md:229
+#: src/lang-support.md:233
 msgid "picat"
 msgstr ""
 
-#: src/lang-support.md:230
+#: src/lang-support.md:234
 msgid "pip-requirements"
 msgstr ""
 
-#: src/lang-support.md:231
+#: src/lang-support.md:235
 msgid "pkgbuild"
 msgstr ""
 
-#: src/lang-support.md:231
+#: src/lang-support.md:235
 msgid "`termux-language-server`, `bash-language-server`"
 msgstr ""
 
-#: src/lang-support.md:232
+#: src/lang-support.md:236
 msgid "pkl"
 msgstr ""
 
-#: src/lang-support.md:232
+#: src/lang-support.md:236
 msgid "`pkl-lsp`"
 msgstr ""
 
-#: src/lang-support.md:233
+#: src/lang-support.md:237
 msgid "po"
 msgstr ""
 
-#: src/lang-support.md:234
+#: src/lang-support.md:238
 msgid "pod"
 msgstr ""
 
-#: src/lang-support.md:235
+#: src/lang-support.md:239
 msgid "ponylang"
 msgstr ""
 
-#: src/lang-support.md:235
+#: src/lang-support.md:239
 msgid "`pony-lsp`"
 msgstr ""
 
-#: src/lang-support.md:236
+#: src/lang-support.md:240
 msgid "powershell"
 msgstr ""
 
-#: src/lang-support.md:237
+#: src/lang-support.md:241
 msgid "prisma"
 msgstr ""
 
-#: src/lang-support.md:237
+#: src/lang-support.md:241
 msgid "`prisma-language-server`"
 msgstr ""
 
-#: src/lang-support.md:238
+#: src/lang-support.md:242
 msgid "prolog"
 msgstr ""
 
-#: src/lang-support.md:238
+#: src/lang-support.md:242
 msgid "`swipl`"
 msgstr ""
 
-#: src/lang-support.md:239
+#: src/lang-support.md:243
 msgid "properties"
 msgstr ""
 
-#: src/lang-support.md:240
+#: src/lang-support.md:244
 msgid "protobuf"
 msgstr ""
 
-#: src/lang-support.md:240
+#: src/lang-support.md:244
 msgid "`buf`, `pb`, `protols`"
 msgstr ""
 
-#: src/lang-support.md:241
+#: src/lang-support.md:245
 msgid "proverif"
 msgstr ""
 
-#: src/lang-support.md:242
+#: src/lang-support.md:246
 msgid "prql"
 msgstr ""
 
-#: src/lang-support.md:243
+#: src/lang-support.md:247
 msgid "ptx"
 msgstr ""
 
-#: src/lang-support.md:244
+#: src/lang-support.md:248
 msgid "pug"
 msgstr ""
 
-#: src/lang-support.md:245
-msgid "purescript"
-msgstr ""
-
-#: src/lang-support.md:245
-msgid "`purescript-language-server`"
-msgstr ""
-
-#: src/lang-support.md:246
-msgid "python"
-msgstr ""
-
-#: src/lang-support.md:246
-msgid "`ty`, `ruff`, `jedi-language-server`, `pylsp`, `zuban`"
-msgstr ""
-
-#: src/lang-support.md:247
-msgid "qml"
-msgstr ""
-
-#: src/lang-support.md:247
-msgid "`qmlls`"
-msgstr ""
-
-#: src/lang-support.md:248
-msgid "qmv"
+#: src/lang-support.md:249
+msgid "puppet"
 msgstr ""
 
 #: src/lang-support.md:249
-msgid "quarto"
+msgid "`puppet-languageserver`"
 msgstr ""
 
 #: src/lang-support.md:250
-msgid "quint"
+msgid "purescript"
 msgstr ""
 
 #: src/lang-support.md:250
-msgid "`quint-language-server`"
+msgid "`purescript-language-server`"
 msgstr ""
 
 #: src/lang-support.md:251
-msgid "r"
+msgid "python"
 msgstr ""
 
-#: src/lang-support.md:251 src/lang-support.md:257
-msgid "`R`"
-msgstr ""
-
-#: src/lang-support.md:252
-msgid "racket"
+#: src/lang-support.md:251
+msgid "`ty`, `ruff`, `jedi-language-server`, `pylsp`, `zuban`"
 msgstr ""
 
 #: src/lang-support.md:252
-msgid "`racket`"
+msgid "qml"
+msgstr ""
+
+#: src/lang-support.md:252
+msgid "`qmlls`"
 msgstr ""
 
 #: src/lang-support.md:253
-msgid "regex"
+msgid "qmv"
 msgstr ""
 
 #: src/lang-support.md:254
-msgid "rego"
-msgstr ""
-
-#: src/lang-support.md:254
-msgid "`regols`"
+msgid "quarto"
 msgstr ""
 
 #: src/lang-support.md:255
-msgid "rescript"
+msgid "quint"
 msgstr ""
 
 #: src/lang-support.md:255
-msgid "`rescript-language-server`"
+msgid "`quint-language-server`"
 msgstr ""
 
 #: src/lang-support.md:256
-msgid "ripple"
+msgid "r"
 msgstr ""
 
-#: src/lang-support.md:256
-msgid "`ripple-language-server`"
+#: src/lang-support.md:256 src/lang-support.md:262
+msgid "`R`"
 msgstr ""
 
 #: src/lang-support.md:257
-msgid "rmarkdown"
+msgid "racket"
+msgstr ""
+
+#: src/lang-support.md:257
+msgid "`racket`"
 msgstr ""
 
 #: src/lang-support.md:258
-msgid "robot"
-msgstr ""
-
-#: src/lang-support.md:258
-msgid "`robotcode`, `robotframework_ls`"
+msgid "regex"
 msgstr ""
 
 #: src/lang-support.md:259
-msgid "robots.txt"
+msgid "rego"
+msgstr ""
+
+#: src/lang-support.md:259
+msgid "`regols`"
 msgstr ""
 
 #: src/lang-support.md:260
-msgid "ron"
+msgid "rescript"
 msgstr ""
 
 #: src/lang-support.md:260
-msgid "`ron-lsp`"
+msgid "`rescript-language-server`"
 msgstr ""
 
 #: src/lang-support.md:261
-msgid "rpmspec"
+msgid "ripple"
+msgstr ""
+
+#: src/lang-support.md:261
+msgid "`ripple-language-server`"
 msgstr ""
 
 #: src/lang-support.md:262
-msgid "rshtml"
-msgstr ""
-
-#: src/lang-support.md:262
-msgid "`rshtml-analyzer`, `vscode-html-language-server`, `superhtml`"
+msgid "rmarkdown"
 msgstr ""
 
 #: src/lang-support.md:263
-msgid "rst"
+msgid "robot"
+msgstr ""
+
+#: src/lang-support.md:263
+msgid "`robotcode`, `robotframework_ls`"
 msgstr ""
 
 #: src/lang-support.md:264
-msgid "ruby"
-msgstr ""
-
-#: src/lang-support.md:264
-msgid "`ruby-lsp`, `solargraph`"
+msgid "robots.txt"
 msgstr ""
 
 #: src/lang-support.md:265
-msgid "rust"
+msgid "ron"
 msgstr ""
 
 #: src/lang-support.md:265
-msgid "`rust-analyzer`"
+msgid "`ron-lsp`"
 msgstr ""
 
 #: src/lang-support.md:266
-msgid "rust-format-args"
+msgid "rpmspec"
 msgstr ""
 
 #: src/lang-support.md:267
-msgid "rust-format-args-macro"
+msgid "rshtml"
+msgstr ""
+
+#: src/lang-support.md:267
+msgid "`rshtml-analyzer`, `vscode-html-language-server`, `superhtml`"
 msgstr ""
 
 #: src/lang-support.md:268
-msgid "sage"
+msgid "rst"
 msgstr ""
 
 #: src/lang-support.md:269
-msgid "scala"
+msgid "ruby"
 msgstr ""
 
 #: src/lang-support.md:269
-msgid "`metals`"
+msgid "`ruby-lsp`, `solargraph`"
 msgstr ""
 
 #: src/lang-support.md:270
-msgid "scfg"
+msgid "rust"
+msgstr ""
+
+#: src/lang-support.md:270
+msgid "`rust-analyzer`"
 msgstr ""
 
 #: src/lang-support.md:271
-msgid "scheme"
+msgid "rust-format-args"
 msgstr ""
 
 #: src/lang-support.md:272
-msgid "scss"
+msgid "rust-format-args-macro"
 msgstr ""
 
 #: src/lang-support.md:273
-msgid "shellcheckrc"
+msgid "sage"
 msgstr ""
 
 #: src/lang-support.md:274
-msgid "slang"
+msgid "scala"
 msgstr ""
 
 #: src/lang-support.md:274
-msgid "`slangd`"
+msgid "`metals`"
 msgstr ""
 
 #: src/lang-support.md:275
-msgid "slint"
-msgstr ""
-
-#: src/lang-support.md:275
-msgid "`slint-lsp`"
+msgid "scfg"
 msgstr ""
 
 #: src/lang-support.md:276
-msgid "slisp"
+msgid "scheme"
 msgstr ""
 
 #: src/lang-support.md:277
-msgid "smali"
-msgstr ""
-
-#: src/lang-support.md:277
-msgid "`smalisp`"
+msgid "scss"
 msgstr ""
 
 #: src/lang-support.md:278
-msgid "smithy"
-msgstr ""
-
-#: src/lang-support.md:278
-msgid "`cs`"
+msgid "sgf"
 msgstr ""
 
 #: src/lang-support.md:279
-msgid "sml"
+msgid "shellcheckrc"
 msgstr ""
 
 #: src/lang-support.md:280
-msgid "snakemake"
+msgid "slang"
 msgstr ""
 
 #: src/lang-support.md:280
-msgid "`pylsp`"
+msgid "`slangd`"
 msgstr ""
 
 #: src/lang-support.md:281
-msgid "solidity"
+msgid "slint"
 msgstr ""
 
 #: src/lang-support.md:281
-msgid "`solc`"
+msgid "`slint-lsp`"
 msgstr ""
 
 #: src/lang-support.md:282
-msgid "sourcepawn"
-msgstr ""
-
-#: src/lang-support.md:282
-msgid "`sourcepawn-studio`"
+msgid "slisp"
 msgstr ""
 
 #: src/lang-support.md:283
-msgid "spade"
+msgid "smali"
 msgstr ""
 
 #: src/lang-support.md:283
-msgid "`swim`"
+msgid "`smalisp`"
 msgstr ""
 
 #: src/lang-support.md:284
-msgid "spicedb"
+msgid "smithy"
+msgstr ""
+
+#: src/lang-support.md:284
+msgid "`cs`"
 msgstr ""
 
 #: src/lang-support.md:285
-msgid "sql"
+msgid "sml"
+msgstr ""
+
+#: src/lang-support.md:285
+msgid "`millet-ls`"
 msgstr ""
 
 #: src/lang-support.md:286
-msgid "ssh_client_config"
+msgid "snakemake"
+msgstr ""
+
+#: src/lang-support.md:286
+msgid "`pylsp`"
 msgstr ""
 
 #: src/lang-support.md:287
-msgid "starlark"
+msgid "solidity"
 msgstr ""
 
 #: src/lang-support.md:287
-msgid "`starpls`, `buck2`"
+msgid "`solc`"
 msgstr ""
 
 #: src/lang-support.md:288
-msgid "strace"
+msgid "sourcepawn"
+msgstr ""
+
+#: src/lang-support.md:288
+msgid "`sourcepawn-studio`"
 msgstr ""
 
 #: src/lang-support.md:289
-msgid "strictdoc"
+msgid "spade"
+msgstr ""
+
+#: src/lang-support.md:289
+msgid "`swim`"
 msgstr ""
 
 #: src/lang-support.md:290
-msgid "styx"
-msgstr ""
-
-#: src/lang-support.md:290
-msgid "`styx`"
+msgid "spicedb"
 msgstr ""
 
 #: src/lang-support.md:291
-msgid "supercollider"
+msgid "sql"
 msgstr ""
 
 #: src/lang-support.md:292
-msgid "svelte"
-msgstr ""
-
-#: src/lang-support.md:292
-msgid "`svelteserver`"
+msgid "ssh_client_config"
 msgstr ""
 
 #: src/lang-support.md:293
-msgid "sway"
+msgid "starlark"
 msgstr ""
 
 #: src/lang-support.md:293
-msgid "`forc`"
+msgid "`starpls`, `buck2`"
 msgstr ""
 
 #: src/lang-support.md:294
-msgid "swift"
-msgstr ""
-
-#: src/lang-support.md:294
-msgid "`sourcekit-lsp`"
+msgid "strace"
 msgstr ""
 
 #: src/lang-support.md:295
-msgid "systemd"
-msgstr ""
-
-#: src/lang-support.md:295
-msgid "`systemd-lsp`"
+msgid "strictdoc"
 msgstr ""
 
 #: src/lang-support.md:296
-msgid "systemverilog"
+msgid "styx"
 msgstr ""
 
 #: src/lang-support.md:296
-msgid "`svlangserver`, `verible-verilog-ls`"
+msgid "`styx`"
 msgstr ""
 
 #: src/lang-support.md:297
-msgid "t32"
+msgid "supercollider"
 msgstr ""
 
 #: src/lang-support.md:298
-msgid "tablegen"
+msgid "svelte"
+msgstr ""
+
+#: src/lang-support.md:298
+msgid "`svelteserver`"
 msgstr ""
 
 #: src/lang-support.md:299
-msgid "tact"
+msgid "sway"
+msgstr ""
+
+#: src/lang-support.md:299
+msgid "`forc`"
 msgstr ""
 
 #: src/lang-support.md:300
-msgid "task"
+msgid "swift"
+msgstr ""
+
+#: src/lang-support.md:300
+msgid "`sourcekit-lsp`"
 msgstr ""
 
 #: src/lang-support.md:301
-msgid "tcl"
+msgid "systemd"
+msgstr ""
+
+#: src/lang-support.md:301
+msgid "`systemd-lsp`"
 msgstr ""
 
 #: src/lang-support.md:302
-msgid "teal"
+msgid "systemverilog"
 msgstr ""
 
 #: src/lang-support.md:302
-msgid "`teal-language-server`"
+msgid "`svlangserver`, `verible-verilog-ls`"
 msgstr ""
 
 #: src/lang-support.md:303
-msgid "templ"
-msgstr ""
-
-#: src/lang-support.md:303
-msgid "`templ`"
+msgid "t32"
 msgstr ""
 
 #: src/lang-support.md:304
-msgid "tera"
+msgid "tablegen"
 msgstr ""
 
 #: src/lang-support.md:305
-msgid "textproto"
+msgid "tact"
 msgstr ""
 
 #: src/lang-support.md:306
-msgid "tfvars"
+msgid "task"
 msgstr ""
 
 #: src/lang-support.md:307
-msgid "thrift"
+msgid "tcl"
 msgstr ""
 
 #: src/lang-support.md:308
-msgid "tilt"
+msgid "teal"
 msgstr ""
 
 #: src/lang-support.md:308
-msgid "`tilt`"
+msgid "`teal-language-server`"
 msgstr ""
 
 #: src/lang-support.md:309
-msgid "tlaplus"
+msgid "templ"
+msgstr ""
+
+#: src/lang-support.md:309
+msgid "`templ`"
 msgstr ""
 
 #: src/lang-support.md:310
-msgid "todotxt"
+msgid "tera"
 msgstr ""
 
 #: src/lang-support.md:311
-msgid "tolk"
+msgid "textproto"
 msgstr ""
 
 #: src/lang-support.md:312
-msgid "toml"
+msgid "tfvars"
 msgstr ""
 
 #: src/lang-support.md:313
-msgid "tql"
+msgid "thrift"
 msgstr ""
 
 #: src/lang-support.md:314
-msgid "tsq"
+msgid "tilt"
 msgstr ""
 
 #: src/lang-support.md:314
-msgid "`ts_query_ls`"
+msgid "`tilt`"
 msgstr ""
 
 #: src/lang-support.md:315
-msgid "tsx"
+msgid "tlaplus"
 msgstr ""
 
 #: src/lang-support.md:316
-msgid "twig"
+msgid "todotxt"
 msgstr ""
 
 #: src/lang-support.md:317
-msgid "typescript"
+msgid "tolk"
 msgstr ""
 
 #: src/lang-support.md:318
-msgid "typespec"
-msgstr ""
-
-#: src/lang-support.md:318
-msgid "`tsp-server`"
+msgid "toml"
 msgstr ""
 
 #: src/lang-support.md:319
-msgid "typst"
-msgstr ""
-
-#: src/lang-support.md:319
-msgid "`tinymist`"
+msgid "tql"
 msgstr ""
 
 #: src/lang-support.md:320
-msgid "ungrammar"
+msgid "tsq"
+msgstr ""
+
+#: src/lang-support.md:320
+msgid "`ts_query_ls`"
 msgstr ""
 
 #: src/lang-support.md:321
-msgid "unison"
+msgid "tsx"
 msgstr ""
 
 #: src/lang-support.md:322
-msgid "uxntal"
+msgid "twig"
 msgstr ""
 
 #: src/lang-support.md:323
-msgid "v"
-msgstr ""
-
-#: src/lang-support.md:323
-msgid "`v-analyzer`"
+msgid "typescript"
 msgstr ""
 
 #: src/lang-support.md:324
-msgid "vala"
+msgid "typespec"
 msgstr ""
 
 #: src/lang-support.md:324
-msgid "`vala-language-server`"
+msgid "`tsp-server`"
 msgstr ""
 
 #: src/lang-support.md:325
-msgid "vento"
+msgid "typst"
+msgstr ""
+
+#: src/lang-support.md:325
+msgid "`tinymist`"
 msgstr ""
 
 #: src/lang-support.md:326
-msgid "verilog"
-msgstr ""
-
-#: src/lang-support.md:326
-msgid "`verible-verilog-ls`"
+msgid "ungrammar"
 msgstr ""
 
 #: src/lang-support.md:327
-msgid "vhdl"
-msgstr ""
-
-#: src/lang-support.md:327
-msgid "`vhdl_ls`"
+msgid "unison"
 msgstr ""
 
 #: src/lang-support.md:328
-msgid "vhs"
+msgid "uxntal"
 msgstr ""
 
 #: src/lang-support.md:329
-msgid "vim"
+msgid "v"
+msgstr ""
+
+#: src/lang-support.md:329
+msgid "`v-analyzer`"
 msgstr ""
 
 #: src/lang-support.md:330
-msgid "vue"
+msgid "vala"
 msgstr ""
 
 #: src/lang-support.md:330
-msgid "`vue-language-server`"
+msgid "`vala-language-server`"
 msgstr ""
 
 #: src/lang-support.md:331
-msgid "wast"
+msgid "varlink"
+msgstr ""
+
+#: src/lang-support.md:331
+msgid "`varlink-language-server`"
 msgstr ""
 
 #: src/lang-support.md:332
-msgid "wat"
-msgstr ""
-
-#: src/lang-support.md:332
-msgid "`wat_server`"
+msgid "vento"
 msgstr ""
 
 #: src/lang-support.md:333
-msgid "webc"
+msgid "verilog"
+msgstr ""
+
+#: src/lang-support.md:333
+msgid "`verible-verilog-ls`"
 msgstr ""
 
 #: src/lang-support.md:334
-msgid "werk"
+msgid "vhdl"
+msgstr ""
+
+#: src/lang-support.md:334
+msgid "`vhdl_ls`"
 msgstr ""
 
 #: src/lang-support.md:335
-msgid "wesl"
+msgid "vhs"
 msgstr ""
 
 #: src/lang-support.md:336
-msgid "wgsl"
-msgstr ""
-
-#: src/lang-support.md:336
-msgid "`wgsl-analyzer`"
+msgid "vim"
 msgstr ""
 
 #: src/lang-support.md:337
-msgid "wikitext"
+msgid "vue"
 msgstr ""
 
 #: src/lang-support.md:337
-msgid "`wikitext-lsp`"
+msgid "`vue-language-server`"
 msgstr ""
 
 #: src/lang-support.md:338
-msgid "wit"
+msgid "wast"
 msgstr ""
 
 #: src/lang-support.md:339
-msgid "woodpecker-ci"
+msgid "wat"
 msgstr ""
 
 #: src/lang-support.md:339
-msgid "`yaml-language-server`"
+msgid "`wat_server`"
 msgstr ""
 
 #: src/lang-support.md:340
-msgid "wren"
+msgid "webc"
 msgstr ""
 
 #: src/lang-support.md:341
-msgid "xit"
+msgid "werk"
 msgstr ""
 
 #: src/lang-support.md:342
-msgid "xml"
+msgid "wesl"
 msgstr ""
 
 #: src/lang-support.md:343
-msgid "xtc"
+msgid "wgsl"
+msgstr ""
+
+#: src/lang-support.md:343
+msgid "`wgsl-analyzer`"
 msgstr ""
 
 #: src/lang-support.md:344
-msgid "yaml"
+msgid "wikitext"
 msgstr ""
 
 #: src/lang-support.md:344
-msgid "`yaml-language-server`, `ansible-language-server`"
+msgid "`wikitext-lsp`"
 msgstr ""
 
 #: src/lang-support.md:345
-msgid "yara"
-msgstr ""
-
-#: src/lang-support.md:345
-msgid "`yls`"
+msgid "wit"
 msgstr ""
 
 #: src/lang-support.md:346
+msgid "woodpecker-ci"
+msgstr ""
+
+#: src/lang-support.md:346
+msgid "`yaml-language-server`"
+msgstr ""
+
+#: src/lang-support.md:347
+msgid "wren"
+msgstr ""
+
+#: src/lang-support.md:348
+msgid "xit"
+msgstr ""
+
+#: src/lang-support.md:349
+msgid "xml"
+msgstr ""
+
+#: src/lang-support.md:350
+msgid "xtc"
+msgstr ""
+
+#: src/lang-support.md:351
+msgid "xwiki"
+msgstr ""
+
+#: src/lang-support.md:352
+msgid "yaml"
+msgstr ""
+
+#: src/lang-support.md:352
+msgid "`yaml-language-server`, `ansible-language-server`"
+msgstr ""
+
+#: src/lang-support.md:353
+msgid "yara"
+msgstr ""
+
+#: src/lang-support.md:353
+msgid "`yls`"
+msgstr ""
+
+#: src/lang-support.md:354
 msgid "yuck"
 msgstr ""
 
-#: src/lang-support.md:347
+#: src/lang-support.md:355
 msgid "zig"
 msgstr ""
 
-#: src/lang-support.md:347
+#: src/lang-support.md:355
 msgid "`zls`"
 msgstr ""

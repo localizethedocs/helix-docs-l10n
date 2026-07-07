@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"POT-Creation-Date: 2026-07-07T11:54:07Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,13 +15,7 @@ msgstr ""
 msgid "Helix"
 msgstr ""
 
-#: src/title-page.md:3
-msgid ""
-"Docs for bleeding edge master can be found at [https://docs.helix-editor.com/"
-"master](https://docs.helix-editor.com/master)."
-msgstr ""
-
-#: src/title-page.md:6
+#: src/title-page.md:14
 msgid ""
 "See the [usage](./usage.md) section for a quick overview of the editor, "
 "[keymap](./keymap.md) section for all available keybindings and the "
@@ -31,7 +25,7 @@ msgid ""
 "helix/wiki)."
 msgstr ""
 
-#: src/title-page.md:11
+#: src/title-page.md:19
 msgid ""
 "Refer the [FAQ](https://github.com/helix-editor/helix/wiki/FAQ) for common "
 "questions."
