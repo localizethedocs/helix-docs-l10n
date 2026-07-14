@@ -16,9 +16,9 @@
       "branch" : "master",
       "commit" : 
       {
-        "date" : "2026-06-14 16:02:40 +0900",
-        "hash" : "43bf7c2dc219606c64003aef21151f49f48d0939",
-        "title" : "fix: tab rendering regression (fixes #15867)"
+        "date" : "2026-07-06 14:46:41 -0500",
+        "hash" : "14d6bc0febed9c692048271a8ae2362ac969c6e0",
+        "title" : "fix(dap): configuration done body is not required (#15993)"
       }
     },
     "zh_TW" : 
@@ -26,9 +26,9 @@
       "branch" : "master",
       "commit" : 
       {
-        "date" : "2026-06-14 16:02:40 +0900",
-        "hash" : "43bf7c2dc219606c64003aef21151f49f48d0939",
-        "title" : "fix: tab rendering regression (fixes #15867)"
+        "date" : "2026-07-06 14:46:41 -0500",
+        "hash" : "14d6bc0febed9c692048271a8ae2362ac969c6e0",
+        "title" : "fix(dap): configuration done body is not required (#15993)"
       }
     }
   },
