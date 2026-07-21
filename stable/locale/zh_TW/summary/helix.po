@@ -20,8 +20,6 @@ msgid ""
 "Docs for bleeding edge master can be found at [https://docs.helix-editor.com/"
 "master](https://docs.helix-editor.com/master)."
 msgstr ""
-"有關最新主分支的文件可於 [https://docs.helix-editor.com/master](https://docs."
-"helix-editor.com/master) 中找到。"
 
 #: src/title-page.md:6
 msgid ""
