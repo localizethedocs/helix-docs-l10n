@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-07-06 14:46:41 -0500",
-      "hash" : "14d6bc0febed9c692048271a8ae2362ac969c6e0",
-      "title" : "fix(dap): configuration done body is not required (#15993)"
+      "date" : "2026-07-23 12:03:37 -0400",
+      "hash" : "079a789e8cb08ead67f19e1971a1b7438b37354b",
+      "title" : "Detect .lfsconfig as git-config language (#16090)"
     }
   },
   "type" : "branch",
