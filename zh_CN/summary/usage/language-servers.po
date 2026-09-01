@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-07-07T11:54:07Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/lsp.md:1
+msgid "Language servers"
+msgstr ""
+
+#: src/lsp.md:3
+msgid ""
+"Helix has built-in support for the [Language Server Protocol](https://"
+"microsoft.github.io/language-server-protocol/), providing IDE-like features "
+"— diagnostics, completion, goto-definition, rename and more, for any "
+"language that has a server configured. Language servers are separate "
+"programs you install yourself: the [language support](./lang-support.md) "
+"page lists which languages ship with a server configured, and the [language "
+"server configuration wiki](https://github.com/helix-editor/helix/wiki/"
+"Language-Server-Configurations) has per-server installation notes."
+msgstr ""
+
+#: src/lsp.md:10
+msgid ""
+"Run `hx --health <language>` to check whether Helix found the configured "
+"server for a language. After changing a server's configuration, `:lsp-"
+"restart` reloads it and `:lsp-stop` stops it; `:lsp-workspace-command` runs "
+"a command the server exposes for the workspace."
+msgstr ""
+
+#: src/lsp.md:15
+msgid "Features"
+msgstr ""
+
+#: src/lsp.md:17
+msgid ""
+"Most features are bound by default (see the [keymap](./keymap.md)); the "
+"relevant keys are listed below."
+msgstr ""
+
+#: src/lsp.md:20
+msgid "Feature"
+msgstr ""
+
+#: src/lsp.md:20
+msgid "Default key / command"
+msgstr ""
+
+#: src/lsp.md:22
+msgid "Diagnostics — shown inline and in the gutter"
+msgstr ""
+
+#: src/lsp.md:22
+msgid ""
+"navigate with `[d` / `]d`; `Space-d` / `Space-D` open the document / "
+"workspace pickers"
+msgstr ""
+
+#: src/lsp.md:23
+msgid "Completion"
+msgstr ""
+
+#: src/lsp.md:23
+msgid "automatic while typing; `Ctrl-x` triggers it manually"
+msgstr ""
+
+#: src/lsp.md:24
+msgid "Hover documentation"
+msgstr ""
+
+#: src/lsp.md:24
+msgid "`Space-k`"
+msgstr ""
+
+#: src/lsp.md:25
+msgid "Signature help (parameter hints)"
+msgstr ""
+
+#: src/lsp.md:25
+msgid "automatic while typing arguments"
+msgstr ""
+
+#: src/lsp.md:26
+msgid "Goto definition / declaration / type / references / implementation"
+msgstr ""
+
+#: src/lsp.md:26
+msgid "`gd` / `gD` / `gy` / `gr` / `gi`"
+msgstr ""
+
+#: src/lsp.md:27
+msgid "Rename symbol"
+msgstr ""
+
+#: src/lsp.md:27
+msgid "`Space-r`"
+msgstr ""
+
+#: src/lsp.md:28
+msgid "Code actions"
+msgstr ""
+
+#: src/lsp.md:28
+msgid "`Space-a`"
+msgstr ""
+
+#: src/lsp.md:29
+msgid "Document / workspace symbols"
+msgstr ""
+
+#: src/lsp.md:29
+msgid "`Space-s` / `Space-S`"
+msgstr ""
+
+#: src/lsp.md:30
+msgid "Format document"
+msgstr ""
+
+#: src/lsp.md:30
+msgid "`:format`, or set `auto-format` to format on save"
+msgstr ""
+
+#: src/lsp.md:31
+msgid "Inlay hints"
+msgstr ""
+
+#: src/lsp.md:31
+msgid "enable with `display-inlay-hints` (see below)"
+msgstr ""
+
+#: src/lsp.md:33
+msgid "Configuration"
+msgstr ""
+
+#: src/lsp.md:35
+msgid ""
+"The [`[editor.lsp]`](./editor.md#editorlsp-section) section of `config.toml` "
+"toggles LSP behaviour — `display-inlay-hints`, `auto-signature-help`, `auto-"
+"document-highlight`, `snippets`, and `enable` to disable LSP entirely. How "
+"much diagnostic detail is shown inline at the cursor is configured "
+"separately in [`[editor.inline-diagnostics]`](./editor.md#editorinline-"
+"diagnostics-section)."
+msgstr ""
+
+#: src/lsp.md:41
+msgid ""
+"Which server(s) a language uses, the server's command and arguments, and any "
+"language-specific settings are configured in `languages.toml` (see [Language "
+"Server configuration](./languages.md#language-server-configuration)). A "
+"language may use [several servers](./languages.md#configuring-language-"
+"servers-for-a-language): for each request the first server in the list that "
+"supports it is used, and a server's features can be limited with `only-"
+"features` / `except-features`."
+msgstr ""
