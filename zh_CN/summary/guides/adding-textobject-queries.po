@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-19T12:27:30Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/guides/textobject.md:1
+msgid "Adding textobject queries"
+msgstr ""
+
+#: src/guides/textobject.md:3
+msgid ""
+"Helix supports textobjects that are language specific, such as functions, "
+"classes, etc. These textobjects require an accompanying tree-sitter grammar "
+"and a `textobjects.scm` query file to work properly. Tree-sitter allows us "
+"to query the source code syntax tree and capture specific parts of it. The "
+"queries are written in a lisp dialect. More information on how to write "
+"queries can be found in the [official tree-sitter documentation](https://"
+"tree-sitter.github.io/tree-sitter/using-parsers/queries/1-syntax.html)."
+msgstr ""
+
+#: src/guides/textobject.md:10
+msgid ""
+"Query files should be placed in `runtime/queries/{language}/textobjects.scm` "
+"when contributing to Helix. Note that to test the query files locally you "
+"should put them under your local runtime directory (`~/.config/helix/"
+"runtime` on Linux for example)."
+msgstr ""
+
+#: src/guides/textobject.md:15
+msgid ""
+"The following [captures](https://tree-sitter.github.io/tree-sitter/using-"
+"parsers/queries/2-operators.html#capturing-nodes) are recognized:"
+msgstr ""
+
+#: src/guides/textobject.md:17
+msgid "Capture Name"
+msgstr ""
+
+#: src/guides/textobject.md:19
+msgid "`function.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:20
+msgid "`function.around`"
+msgstr ""
+
+#: src/guides/textobject.md:21
+msgid "`class.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:22
+msgid "`class.around`"
+msgstr ""
+
+#: src/guides/textobject.md:23
+msgid "`test.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:24
+msgid "`test.around`"
+msgstr ""
+
+#: src/guides/textobject.md:25
+msgid "`parameter.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:26
+msgid "`parameter.around`"
+msgstr ""
+
+#: src/guides/textobject.md:27
+msgid "`comment.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:28
+msgid "`comment.around`"
+msgstr ""
+
+#: src/guides/textobject.md:29
+msgid "`entry.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:30
+msgid "`entry.around`"
+msgstr ""
+
+#: src/guides/textobject.md:31
+msgid "`xml-element.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:32
+msgid "`xml-element.around`"
+msgstr ""
+
+#: src/guides/textobject.md:34
+msgid ""
+"[Example query files](https://github.com/search?q=repo%3Ahelix-"
+"editor%2Fhelix+path%3A%2A%2A/textobjects.scm&type=Code&ref=advsearch&l=&l=) "
+"can be found in the helix GitHub repository."
+msgstr ""
+
+#: src/guides/textobject.md:36
+msgid "Queries for textobject based navigation"
+msgstr ""
+
+#: src/guides/textobject.md:38
+msgid ""
+"Tree-sitter based navigation in Helix is done using captures in the "
+"following order:"
+msgstr ""
+
+#: src/guides/textobject.md:41
+msgid "`object.movement`"
+msgstr ""
+
+#: src/guides/textobject.md:42
+msgid "`object.around`"
+msgstr ""
+
+#: src/guides/textobject.md:43
+msgid "`object.inside`"
+msgstr ""
+
+#: src/guides/textobject.md:45
+msgid ""
+"For example if a `function.around` capture has been already defined for a "
+"language in its `textobjects.scm` file, function navigation should also work "
+"automatically. `function.movement` should be defined only if the node "
+"captured by `function.around` doesn't make sense in a navigation context."
+msgstr ""
