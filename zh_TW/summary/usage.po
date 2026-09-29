@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/usage.md:1
+msgid "Using Helix"
+msgstr ""
+
+#: src/usage.md:3
+msgid ""
+"For a full interactive introduction to Helix, refer to the [tutor](https://"
+"github.com/helix-editor/helix/blob/master/runtime/tutor) which can be "
+"accessed via the command `hx --tutor` or `:tutor`."
+msgstr ""
+
+#: src/usage.md:7
+msgid ""
+"💡 Currently, not all functionality is fully documented, please refer to the "
+"[key mappings](./keymap.md) list."
+msgstr ""
+
+#: src/usage.md:10
+msgid "Modes"
+msgstr ""
+
+#: src/usage.md:12
+msgid ""
+"Helix is a modal editor, meaning it has different modes for different tasks. "
+"The main modes are:"
+msgstr ""
+
+#: src/usage.md:14
+msgid ""
+"[Normal mode](./keymap.md#normal-mode): For navigation and editing commands. "
+"This is the default mode."
+msgstr ""
+
+#: src/usage.md:15
+msgid ""
+"[Insert mode](./keymap.md#insert-mode): For typing text directly into the "
+"document. Access by typing `i` in normal mode."
+msgstr ""
+
+#: src/usage.md:16
+msgid ""
+"[Select/extend mode](./keymap.md#select--extend-mode): For making selections "
+"and performing operations on them. Access by typing `v` in normal mode."
+msgstr ""
+
+#: src/usage.md:18
+msgid "Buffers"
+msgstr ""
+
+#: src/usage.md:20
+msgid ""
+"Buffers are in-memory representations of files. You can have multiple "
+"buffers open at once. Use [pickers](./pickers.md) or commands like `:buffer-"
+"next` and `:buffer-previous` to open buffers or switch between them."
+msgstr ""
+
+#: src/usage.md:22
+msgid "Selection-first editing"
+msgstr ""
+
+#: src/usage.md:24
+msgid ""
+"Inspired by [Kakoune](http://kakoune.org/), Helix follows the `selection → "
+"action` model. This means that whatever you are going to act on (a word, a "
+"paragraph, a line, etc.) is selected first and the action itself (delete, "
+"change, yank, etc.) comes second. A cursor is simply a single width "
+"selection."
+msgstr ""
+
+#: src/usage.md:26
+msgid "Multiple selections"
+msgstr ""
+
+#: src/usage.md:28
+msgid ""
+"Also inspired by Kakoune, multiple selections are a core mode of interaction "
+"in Helix. For example, the standard way of replacing multiple instances of a "
+"word is to first select all instances (so there is one selection per "
+"instance) and then use the change action (`c`) to edit them all at the same "
+"time."
+msgstr ""
+
+#: src/usage.md:30
+msgid "Motions"
+msgstr ""
+
+#: src/usage.md:32
+msgid ""
+"Motions are commands that move the cursor or modify selections. They're used "
+"for navigation and text manipulation. Examples include `w` to move to the "
+"next word, or `f` to find a character. See the [Movement](./keymap."
+"md#movement) section of the keymap for more motions."
+msgstr ""
