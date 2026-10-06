@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-01-13T07:46:08Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/surround.md:1
+msgid "Surround"
+msgstr ""
+
+#: src/surround.md:3
+msgid ""
+"Helix includes built-in functionality similar to [vim-surround](https://"
+"github.com/tpope/vim-surround). The keymappings have been inspired from [vim-"
+"sandwich](https://github.com/machakann/vim-sandwich):"
+msgstr ""
+
+#: src/surround.md:6
+msgid ""
+"![Surround demo](https://user-images.githubusercontent."
+"com/23398472/122865801-97073180-d344-11eb-8142-8f43809982c6.gif)"
+msgstr ""
+
+#: src/surround.md:8
+msgid "Key Sequence"
+msgstr ""
+
+#: src/surround.md:8
+msgid "Action"
+msgstr ""
+
+#: src/surround.md:10
+msgid "`ms<char>` (after selecting text)"
+msgstr ""
+
+#: src/surround.md:10
+msgid "Add surround characters to selection"
+msgstr ""
+
+#: src/surround.md:11
+msgid "`mr<char_to_replace><new_char>`"
+msgstr ""
+
+#: src/surround.md:11
+msgid "Replace the closest surround characters"
+msgstr ""
+
+#: src/surround.md:12
+msgid "`md<char_to_delete>`"
+msgstr ""
+
+#: src/surround.md:12
+msgid "Delete the closest surround characters"
+msgstr ""
+
+#: src/surround.md:14
+msgid "You can use counts to act on outer pairs."
+msgstr ""
+
+#: src/surround.md:16
+msgid ""
+"Surround can also act on multiple selections. For example, to change every "
+"occurrence of `(use)` to `[use]`:"
+msgstr ""
+
+#: src/surround.md:18
+msgid "`%` to select the whole file"
+msgstr ""
+
+#: src/surround.md:19
+msgid "`s` to split the selections on a search term"
+msgstr ""
+
+#: src/surround.md:20
+msgid "Input `use` and hit Enter"
+msgstr ""
+
+#: src/surround.md:21
+msgid "`mr([` to replace the parentheses with square brackets"
+msgstr ""
+
+#: src/surround.md:23
+msgid ""
+"Multiple characters are currently not supported, but planned for future "
+"release."
+msgstr ""
