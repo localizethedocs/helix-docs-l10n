@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-07-06 14:46:41 -0500",
-      "hash" : "14d6bc0febed9c692048271a8ae2362ac969c6e0",
-      "title" : "fix(dap): configuration done body is not required (#15993)"
+      "date" : "2026-09-29 11:32:19 +0900",
+      "hash" : "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "title" : "jjdescription: use `@diff.delta.moved` for renames, like git-commit does (#16174)"
     }
   },
   "type" : "branch",
