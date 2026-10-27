@@ -173,8 +173,8 @@ msgstr ""
 
 #: src/guides/indent.md:87
 msgid ""
-"`@outdent.always`: Like `@outdent` but stacks, the counterpart to `@indent."
-"always`."
+"`@outdent.always`: Like `@outdent` but stacks, the counterpart to "
+"`@indent.always`."
 msgstr ""
 
 #: src/guides/indent.md:89
@@ -301,8 +301,8 @@ msgstr ""
 
 #: src/guides/indent.md:168
 msgid ""
-"Even though many `call_expression`/`member_expression` scopes contain the `."
-"bar()` line, they all _open_ on the `thing` line, so they collapse to a "
+"Even though many `call_expression`/`member_expression` scopes contain the "
+"`.bar()` line, they all _open_ on the `thing` line, so they collapse to a "
 "single level and the continuation lines line up. Without the collapse, every "
 "link would add a level and the chain would stair-step to the right."
 msgstr ""
@@ -533,8 +533,8 @@ msgid ""
 "In YAML, you often have lists of maps. In these cases, the syntax is such "
 "that the list element and the map both start on the same line. But we really "
 "do want to start an indentation for each of these so that subsequent keys in "
-"the map hang over the list and align properly. This is where `@indent."
-"always` helps."
+"the map hang over the list and align properly. This is where "
+"`@indent.always` helps."
 msgstr ""
 
 #: src/guides/indent.md:363

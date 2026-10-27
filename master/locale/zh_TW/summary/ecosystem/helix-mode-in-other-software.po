@@ -62,8 +62,8 @@ msgstr ""
 
 #: src/other-software.md:12
 msgid ""
-"[IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) plugin + [helix."
-"idea.vim](https://github.com/chtenb/helix.vim) config"
+"[IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) plugin + "
+"[helix.idea.vim](https://github.com/chtenb/helix.vim) config"
 msgstr ""
 
 #: src/other-software.md:12
@@ -76,8 +76,9 @@ msgstr ""
 
 #: src/other-software.md:13
 msgid ""
-"[VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT."
-"VsVim) plugin + [helix.vs.vim](https://github.com/chtenb/helix.vim) config"
+"[VsVim](https://marketplace.visualstudio.com/items?"
+"itemName=JaredParMSFT.VsVim) plugin + [helix.vs.vim](https://github.com/"
+"chtenb/helix.vim) config"
 msgstr ""
 
 #: src/other-software.md:14 src/other-software.md:15
@@ -110,8 +111,8 @@ msgstr ""
 
 #: src/other-software.md:16
 msgid ""
-"native via keybindings ([Bug](https://github.com/zed-industries/zed/"
-"issues/4642))"
+"native via keybindings ([Bug](https://github.com/zed-industries/zed/issues/"
+"4642))"
 msgstr ""
 
 #: src/other-software.md:17

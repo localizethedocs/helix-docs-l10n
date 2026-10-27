@@ -196,11 +196,11 @@ msgstr "PowerShell"
 
 #: src/building-from-source.md:98
 msgid ""
-"`New-Item -ItemType Junction -Target \"runtime\" -Path \"$Env:"
-"AppData\\helix\\runtime\"`"
+"`New-Item -ItemType Junction -Target \"runtime\" -Path "
+"\"$Env:AppData\\helix\\runtime\"`"
 msgstr ""
-"`New-Item -ItemType Junction -Target \"runtime\" -Path \"$Env:"
-"AppData\\helix\\runtime\"`"
+"`New-Item -ItemType Junction -Target \"runtime\" -Path "
+"\"$Env:AppData\\helix\\runtime\"`"
 
 #: src/building-from-source.md:99
 msgid "Cmd"
@@ -321,8 +321,8 @@ msgstr "組態桌面捷徑"
 msgid ""
 "If your desktop environment supports the [XDG desktop menu](https://"
 "specifications.freedesktop.org/menu-spec/menu-spec-latest.html) you can "
-"configure Helix to show up in the application menu by copying the provided `."
-"desktop` and icon files to their correct folders:"
+"configure Helix to show up in the application menu by copying the provided "
+"`.desktop` and icon files to their correct folders:"
 msgstr ""
 
 #: src/building-from-source.md:159
@@ -341,8 +341,8 @@ msgstr "\"s|Exec=hx %F|Exec=$(readlink -f ~/.cargo/bin/hx) %F|g\""
 
 #: src/building-from-source.md:168
 msgid ""
-"To use another terminal than the system default, you can modify the `."
-"desktop` file. For example, to use `kitty`:"
+"To use another terminal than the system default, you can modify the "
+"`.desktop` file. For example, to use `kitty`:"
 msgstr ""
 
 #: src/building-from-source.md:172
@@ -371,8 +371,8 @@ msgstr ""
 #: src/building-from-source.md:188
 msgid ""
 "After cloning and entering the Helix repository as previously described, use "
-"the following command to build the release binary and package it into a `."
-"deb` file in a single step."
+"the following command to build the release binary and package it into a "
+"`.deb` file in a single step."
 msgstr ""
 
 #: src/building-from-source.md:195

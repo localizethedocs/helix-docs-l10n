@@ -54,11 +54,11 @@ msgstr ""
 
 #: src/guides/locals.md:31
 msgid ""
-"Marks a name node as introducing a local symbol. The suffix after `@local."
-"definition.` becomes the highlight class applied to any reference that "
-"resolves to this definition. For example, `@local.definition.variable."
-"parameter` causes matching references to be highlighted as `variable."
-"parameter`."
+"Marks a name node as introducing a local symbol. The suffix after "
+"`@local.definition.` becomes the highlight class applied to any reference "
+"that resolves to this definition. For example, "
+"`@local.definition.variable.parameter` causes matching references to be "
+"highlighted as `variable.parameter`."
 msgstr ""
 
 #: src/guides/locals.md:43

@@ -115,9 +115,9 @@ msgstr ""
 #: src/workspace-trust.md:58
 msgid ""
 "In the stale state, language servers continue to run (they use the globally-"
-"configured binaries on `$PATH`, which are unchanged), but `.helix/config."
-"toml` and `.helix/languages.toml` are not loaded. Run `:workspace-trust` "
-"again to re-pin the new hash."
+"configured binaries on `$PATH`, which are unchanged), but `.helix/"
+"config.toml` and `.helix/languages.toml` are not loaded. Run `:workspace-"
+"trust` again to re-pin the new hash."
 msgstr ""
 
 #: src/workspace-trust.md:63
@@ -327,8 +327,8 @@ msgstr ""
 #: src/workspace-trust.md:161
 msgid ""
 "Workspace trust also gates how Helix opens git repositories. Untrusted "
-"workspaces are opened in [gix](https://github.com/Byron/gitoxide)'s `Trust::"
-"Reduced` mode; trusted workspaces use `Trust::Full`."
+"workspaces are opened in [gix](https://github.com/Byron/gitoxide)'s "
+"`Trust::Reduced` mode; trusted workspaces use `Trust::Full`."
 msgstr ""
 
 #: src/workspace-trust.md:165

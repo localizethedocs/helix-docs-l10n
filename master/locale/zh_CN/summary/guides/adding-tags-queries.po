@@ -26,8 +26,9 @@ msgstr ""
 msgid ""
 "Helix provides LSP-like features such as document and workspace symbol "
 "pickers out-of-the-box for languages with `tags.scm` queries based on syntax "
-"trees. To be analyzed a language must have a tree-sitter grammar and a `tags."
-"scm` query file which pattern matches interesting nodes from syntax trees."
+"trees. To be analyzed a language must have a tree-sitter grammar and a "
+"`tags.scm` query file which pattern matches interesting nodes from syntax "
+"trees."
 msgstr ""
 
 #: src/guides/tags.md:11

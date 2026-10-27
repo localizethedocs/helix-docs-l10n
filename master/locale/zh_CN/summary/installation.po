@@ -44,9 +44,9 @@ msgstr ""
 
 #: src/install.md:17
 msgid ""
-"Download pre-built binaries from the [GitHub Releases page](https://github."
-"com/helix-editor/helix/releases). The tarball contents include an `hx` "
-"binary and a `runtime` directory. To set up Helix:"
+"Download pre-built binaries from the [GitHub Releases page](https://"
+"github.com/helix-editor/helix/releases). The tarball contents include an "
+"`hx` binary and a `runtime` directory. To set up Helix:"
 msgstr ""
 
 #: src/install.md:21

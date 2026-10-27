@@ -33,9 +33,9 @@ msgstr ""
 
 #: src/command-line.md:8
 msgid ""
-"The command line is used for executing [typable commands](./commands."
-"md#typable-commands) like `:write` or `:quit`. Press `:` to activate the "
-"command line."
+"The command line is used for executing [typable commands](./"
+"commands.md#typable-commands) like `:write` or `:quit`. Press `:` to "
+"activate the command line."
 msgstr ""
 
 #: src/command-line.md:10
@@ -100,8 +100,8 @@ msgstr ""
 #: src/command-line.md:24
 msgid ""
 "The `--` flag specifies the end of flags. All arguments after `--` are "
-"treated as positional arguments: `:open -- -a.txt` opens a file called `-a."
-"txt`."
+"treated as positional arguments: `:open -- -a.txt` opens a file called `-"
+"a.txt`."
 msgstr ""
 
 #: src/command-line.md:26
@@ -140,16 +140,16 @@ msgstr ""
 #: src/command-line.md:38
 msgid ""
 "To escape a percent character instead of treating it as an expansion, use "
-"two percent characters consecutively. To execute a shell command like `date -"
-"u +'%Y-%m-%d'`, double the percent characters: `:echo %sh{date -u +'%%Y-%%m-%"
-"%d'}`."
+"two percent characters consecutively. To execute a shell command like `date "
+"-u +'%Y-%m-%d'`, double the percent characters: `:echo %sh{date -u +'%%Y-%%m-"
+"%%d'}`."
 msgstr ""
 
 #: src/command-line.md:40
 msgid ""
 "When no `<kind>` is provided, Helix will expand a **variable**. For example "
-"`%{cursor_line}` can be used as in argument to insert the line number. `:"
-"echo %{cursor_line}` for instance may print `1` to the statusline."
+"`%{cursor_line}` can be used as in argument to insert the line number. "
+"`:echo %{cursor_line}` for instance may print `1` to the statusline."
 msgstr ""
 
 #: src/command-line.md:42
@@ -232,8 +232,8 @@ msgstr ""
 
 #: src/command-line.md:52
 msgid ""
-"Nearest ancestor directory of the current working directory that contains `."
-"git`, `.svn`, `jj` or `.helix`"
+"Nearest ancestor directory of the current working directory that contains "
+"`.git`, `.svn`, `jj` or `.helix`"
 msgstr ""
 
 #: src/command-line.md:53
@@ -291,8 +291,8 @@ msgid ""
 "Shell `%sh{..}`. The contents are passed to the configured shell command. "
 "For example `:echo %sh{echo \"20 * 5\" | bc}` may print `100` on the "
 "statusline on when using a shell with `echo` and the `bc` calculator "
-"installed. Shell expansions are evaluated recursively. `%sh{echo "
-"'%{buffer_name}:%{cursor_line}'}` for example executes a command like `echo "
+"installed. Shell expansions are evaluated recursively. `%sh{echo '%"
+"{buffer_name}:%{cursor_line}'}` for example executes a command like `echo "
 "'README.md:1'`: the variables within the `%sh{..}` expansion are evaluated "
 "before executing the shell command."
 msgstr ""
@@ -375,8 +375,8 @@ msgstr ""
 
 #: src/command-line.md:84
 msgid ""
-"Booleans: only the config option name should be provided. For example `:"
-"toggle-option auto-format` will flip the `auto-format` option."
+"Booleans: only the config option name should be provided. For example "
+"`:toggle-option auto-format` will flip the `auto-format` option."
 msgstr ""
 
 #: src/command-line.md:85

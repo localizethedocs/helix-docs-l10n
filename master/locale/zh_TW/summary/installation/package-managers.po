@@ -128,8 +128,8 @@ msgstr ""
 #: src/package-managers.md:42
 msgid ""
 "If you are running a system older than Ubuntu 22.04, Mint 21, or Debian 12, "
-"you can build the `.deb` file locally [from source](./building-from-source."
-"md#building-the-debian-package)."
+"you can build the `.deb` file locally [from source](./building-from-"
+"source.md#building-the-debian-package)."
 msgstr ""
 
 #: src/package-managers.md:45
@@ -179,8 +179,8 @@ msgstr ""
 msgid ""
 "Helix is also available as a [flake](https://wiki.nixos.org/wiki/Flakes) in "
 "the project root. Use `nix develop` to spin up a reproducible development "
-"shell. Outputs are cached for each push to master using [Cachix](https://www."
-"cachix.org/). The flake is configured to automatically make use of this "
+"shell. Outputs are cached for each push to master using [Cachix](https://"
+"www.cachix.org/). The flake is configured to automatically make use of this "
 "cache assuming the user accepts the new settings on first use."
 msgstr ""
 
@@ -197,8 +197,8 @@ msgstr ""
 
 #: src/package-managers.md:87
 msgid ""
-"Helix is available on [Flathub](https://flathub.org/en-GB/apps/com."
-"helix_editor.Helix):"
+"Helix is available on [Flathub](https://flathub.org/en-GB/apps/"
+"com.helix_editor.Helix):"
 msgstr ""
 
 #: src/package-managers.md:94
@@ -241,9 +241,9 @@ msgstr ""
 
 #: src/package-managers.md:114
 msgid ""
-"You can optionally [add the `.desktop` file](./building-from-source."
-"md#configure-the-desktop-shortcut). Helix must be installed in `PATH` with "
-"the name `hx`. For example:"
+"You can optionally [add the `.desktop` file](./building-from-"
+"source.md#configure-the-desktop-shortcut). Helix must be installed in `PATH` "
+"with the name `hx`. For example:"
 msgstr ""
 
 #: src/package-managers.md:116
@@ -306,9 +306,9 @@ msgstr "Winget"
 msgid ""
 "Windows Package Manager winget command-line tool is by default available on "
 "Windows 11 and modern versions of Windows 10 as a part of the App Installer. "
-"You can get [App Installer from the Microsoft Store](https://www.microsoft."
-"com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab). If it's "
-"already installed, make sure it is updated with the latest version."
+"You can get [App Installer from the Microsoft Store](https://"
+"www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab). "
+"If it's already installed, make sure it is updated with the latest version."
 msgstr ""
 
 #: src/package-managers.md:161

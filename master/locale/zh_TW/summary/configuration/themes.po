@@ -47,10 +47,10 @@ msgstr ""
 
 #: src/themes.md:18
 msgid ""
-"Create a file with the name of your theme as the file name (i.e `mytheme."
-"toml`) and place it in your `themes` directory (i.e `~/.config/helix/themes` "
-"or `%AppData%\\helix\\themes` on Windows). The directory might have to be "
-"created beforehand."
+"Create a file with the name of your theme as the file name (i.e "
+"`mytheme.toml`) and place it in your `themes` directory (i.e `~/.config/"
+"helix/themes` or `%AppData%\\helix\\themes` on Windows). The directory might "
+"have to be created beforehand."
 msgstr ""
 
 #: src/themes.md:20
@@ -111,9 +111,9 @@ msgstr ""
 
 #: src/themes.md:47
 msgid ""
-"Color values must be either a [CSS hex RGB string](https://developer.mozilla."
-"org/en-US/docs/Web/CSS/Reference/Values/hex-color) or a name declared in the "
-"[`palette`](#color-palettes)."
+"Color values must be either a [CSS hex RGB string](https://"
+"developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/hex-color) or a "
+"name declared in the [`palette`](#color-palettes)."
 msgstr ""
 
 #: src/themes.md:49
@@ -122,9 +122,10 @@ msgstr ""
 
 #: src/themes.md:51
 msgid ""
-"For inspiration, you can find the default `theme.toml` [here](https://github."
-"com/helix-editor/helix/blob/master/theme.toml) and user-submitted themes "
-"[here](https://github.com/helix-editor/helix/blob/master/runtime/themes)."
+"For inspiration, you can find the default `theme.toml` [here](https://"
+"github.com/helix-editor/helix/blob/master/theme.toml) and user-submitted "
+"themes [here](https://github.com/helix-editor/helix/blob/master/runtime/"
+"themes)."
 msgstr ""
 
 #: src/themes.md:57
@@ -300,8 +301,8 @@ msgstr ""
 #: src/themes.md:118
 msgid ""
 "💡 The `underlined` modifier is deprecated and only available for backwards "
-"compatibility. Its behavior is equivalent to setting `underline."
-"style=\"line\"`."
+"compatibility. Its behavior is equivalent to setting "
+"`underline.style=\"line\"`."
 msgstr ""
 
 #: src/themes.md:121
@@ -406,14 +407,14 @@ msgstr ""
 
 #: src/themes.md:171
 msgid ""
-"This list is also the reference for the capture names used in `highlights."
-"scm` queries (`@function`, `@type`, …) — see [Adding languages](./guides/"
-"adding_languages.md). When several captures cover the same text the **last** "
-"matching pattern in the file wins; when they sit on nested nodes the "
-"**innermost** node wins regardless of order, so capture the leaf you mean "
-"(put `@function` on the called identifier, not a node wrapping it). A method "
-"call is `@function.method`; a field access with no call is `@variable.other."
-"member`."
+"This list is also the reference for the capture names used in "
+"`highlights.scm` queries (`@function`, `@type`, …) — see [Adding languages]"
+"(./guides/adding_languages.md). When several captures cover the same text "
+"the **last** matching pattern in the file wins; when they sit on nested "
+"nodes the **innermost** node wins regardless of order, so capture the leaf "
+"you mean (put `@function` on the called identifier, not a node wrapping it). "
+"A method call is `@function.method`; a field access with no call is "
+"`@variable.other.member`."
 msgstr ""
 
 #: src/themes.md:173
@@ -1180,8 +1181,8 @@ msgstr ""
 
 #: src/themes.md:354
 msgid ""
-"Soft-wrap indicator (see the [`editor.soft-wrap` config](./configuration."
-"md#editor-section))"
+"Soft-wrap indicator (see the [`editor.soft-wrap` config](./"
+"configuration.md#editor-section))"
 msgstr ""
 
 #: src/themes.md:355
@@ -1250,8 +1251,8 @@ msgstr ""
 
 #: src/themes.md:363
 msgid ""
-"The line of the primary cursor ([if cursorline is enabled](./configuration."
-"md#editor-section))"
+"The line of the primary cursor ([if cursorline is enabled](./"
+"configuration.md#editor-section))"
 msgstr ""
 
 #: src/themes.md:364
@@ -1260,8 +1261,8 @@ msgstr ""
 
 #: src/themes.md:364
 msgid ""
-"The lines of any other cursors ([if cursorline is enabled](./configuration."
-"md#editor-section))"
+"The lines of any other cursors ([if cursorline is enabled](./"
+"configuration.md#editor-section))"
 msgstr ""
 
 #: src/themes.md:365

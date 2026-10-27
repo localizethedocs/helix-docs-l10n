@@ -83,9 +83,9 @@ msgstr ""
 
 #: src/guides/adding_languages.md:36
 msgid ""
-"Refer to the [tree-sitter website](https://tree-sitter.github.io/tree-"
-"sitter/3-syntax-highlighting.html#highlights) for more information on "
-"writing queries."
+"Refer to the [tree-sitter website](https://tree-sitter.github.io/tree-sitter/"
+"3-syntax-highlighting.html#highlights) for more information on writing "
+"queries."
 msgstr ""
 
 #: src/guides/adding_languages.md:39
