@@ -27,10 +27,10 @@ msgstr ""
 
 #: src/themes.md:7
 msgid ""
-"Create a file with the name of your theme as the file name (i.e `mytheme."
-"toml`) and place it in your `themes` directory (i.e `~/.config/helix/themes` "
-"or `%AppData%\\helix\\themes` on Windows). The directory might have to be "
-"created beforehand."
+"Create a file with the name of your theme as the file name (i.e "
+"`mytheme.toml`) and place it in your `themes` directory (i.e `~/.config/"
+"helix/themes` or `%AppData%\\helix\\themes` on Windows). The directory might "
+"have to be created beforehand."
 msgstr ""
 
 #: src/themes.md:9
@@ -89,9 +89,10 @@ msgstr ""
 
 #: src/themes.md:34
 msgid ""
-"For inspiration, you can find the default `theme.toml` [here](https://github."
-"com/helix-editor/helix/blob/master/theme.toml) and user-submitted themes "
-"[here](https://github.com/helix-editor/helix/blob/master/runtime/themes)."
+"For inspiration, you can find the default `theme.toml` [here](https://"
+"github.com/helix-editor/helix/blob/master/theme.toml) and user-submitted "
+"themes [here](https://github.com/helix-editor/helix/blob/master/runtime/"
+"themes)."
 msgstr ""
 
 #: src/themes.md:40
@@ -259,8 +260,8 @@ msgstr ""
 #: src/themes.md:101
 msgid ""
 "💡 The `underlined` modifier is deprecated and only available for backwards "
-"compatibility. Its behavior is equivalent to setting `underline."
-"style=\"line\"`."
+"compatibility. Its behavior is equivalent to setting "
+"`underline.style=\"line\"`."
 msgstr ""
 
 #: src/themes.md:104
@@ -1069,8 +1070,8 @@ msgstr ""
 
 #: src/themes.md:317
 msgid ""
-"Soft-wrap indicator (see the [`editor.soft-wrap` config](./configuration."
-"md#editor-section))"
+"Soft-wrap indicator (see the [`editor.soft-wrap` config](./"
+"configuration.md#editor-section))"
 msgstr ""
 
 #: src/themes.md:318
@@ -1139,8 +1140,8 @@ msgstr ""
 
 #: src/themes.md:326
 msgid ""
-"The line of the primary cursor ([if cursorline is enabled](./configuration."
-"md#editor-section))"
+"The line of the primary cursor ([if cursorline is enabled](./"
+"configuration.md#editor-section))"
 msgstr ""
 
 #: src/themes.md:327
@@ -1149,8 +1150,8 @@ msgstr ""
 
 #: src/themes.md:327
 msgid ""
-"The lines of any other cursors ([if cursorline is enabled](./configuration."
-"md#editor-section))"
+"The lines of any other cursors ([if cursorline is enabled](./"
+"configuration.md#editor-section))"
 msgstr ""
 
 #: src/themes.md:328

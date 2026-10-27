@@ -25,10 +25,10 @@ msgstr ""
 
 #: src/textobjects.md:8
 msgid ""
-"![Textobject demo](https://user-images.githubusercontent."
-"com/23398472/124231131-81a4bb00-db2d-11eb-9d10-8e577ca7b177.gif) !"
-"[Textobject tree-sitter demo](https://user-images.githubusercontent."
-"com/23398472/132537398-2a2e0a54-582b-44ab-a77f-eb818942203d.gif)"
+"![Textobject demo](https://user-images.githubusercontent.com/"
+"23398472/124231131-81a4bb00-db2d-11eb-9d10-8e577ca7b177.gif) ![Textobject "
+"tree-sitter demo](https://user-images.githubusercontent.com/"
+"23398472/132537398-2a2e0a54-582b-44ab-a77f-eb818942203d.gif)"
 msgstr ""
 
 #: src/textobjects.md:11
@@ -156,8 +156,8 @@ msgstr ""
 
 #: src/textobjects.md:40
 msgid ""
-"![Tree-sitter-nav-demo](https://user-images.githubusercontent."
-"com/23398472/152332550-7dfff043-36a2-4aec-b8f2-77c13eb56d6f.gif)"
+"![Tree-sitter-nav-demo](https://user-images.githubusercontent.com/"
+"23398472/152332550-7dfff043-36a2-4aec-b8f2-77c13eb56d6f.gif)"
 msgstr ""
 
 #: src/textobjects.md:42

@@ -158,8 +158,8 @@ msgstr ""
 msgid ""
 "`@indent.always` (default scope `tail`): Increase the indent level by 1. "
 "Multiple occurrences on the same line _do_ stack. The final indent level is "
-"`@indent.always` – `@outdent.always`. If an `@indent` and an `@indent."
-"always` are on the same line, the `@indent` is ignored."
+"`@indent.always` – `@outdent.always`. If an `@indent` and an "
+"`@indent.always` are on the same line, the `@indent` is ignored."
 msgstr ""
 
 #: src/guides/indent.md:81
@@ -428,8 +428,8 @@ msgid ""
 "In YAML, you often have lists of maps. In these cases, the syntax is such "
 "that the list element and the map both start on the same line. But we really "
 "do want to start an indentation for each of these so that subsequent keys in "
-"the map hang over the list and align properly. This is where `@indent."
-"always` helps."
+"the map hang over the list and align properly. This is where "
+"`@indent.always` helps."
 msgstr ""
 
 #: src/guides/indent.md:293

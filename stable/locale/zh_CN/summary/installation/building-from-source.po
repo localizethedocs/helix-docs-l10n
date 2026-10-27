@@ -187,8 +187,8 @@ msgstr ""
 
 #: src/building-from-source.md:96
 msgid ""
-"`New-Item -ItemType Junction -Target \"runtime\" -Path \"$Env:"
-"AppData\\helix\\runtime\"`"
+"`New-Item -ItemType Junction -Target \"runtime\" -Path "
+"\"$Env:AppData\\helix\\runtime\"`"
 msgstr ""
 
 #: src/building-from-source.md:97
@@ -308,8 +308,8 @@ msgstr ""
 msgid ""
 "If your desktop environment supports the [XDG desktop menu](https://"
 "specifications.freedesktop.org/menu-spec/menu-spec-latest.html) you can "
-"configure Helix to show up in the application menu by copying the provided `."
-"desktop` and icon files to their correct folders:"
+"configure Helix to show up in the application menu by copying the provided "
+"`.desktop` and icon files to their correct folders:"
 msgstr ""
 
 #: src/building-from-source.md:157
@@ -332,8 +332,8 @@ msgstr ""
 
 #: src/building-from-source.md:166
 msgid ""
-"To use another terminal than the system default, you can modify the `."
-"desktop` file. For example, to use `kitty`:"
+"To use another terminal than the system default, you can modify the "
+"`.desktop` file. For example, to use `kitty`:"
 msgstr ""
 
 #: src/building-from-source.md:170
@@ -362,8 +362,8 @@ msgstr ""
 #: src/building-from-source.md:186
 msgid ""
 "After cloning and entering the Helix repository as previously described, use "
-"the following command to build the release binary and package it into a `."
-"deb` file in a single step."
+"the following command to build the release binary and package it into a "
+"`.deb` file in a single step."
 msgstr ""
 
 #: src/building-from-source.md:193

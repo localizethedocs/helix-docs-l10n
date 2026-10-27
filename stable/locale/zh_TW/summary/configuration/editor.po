@@ -1180,8 +1180,8 @@ msgstr ""
 
 #: src/editor.md:210
 msgid ""
-"Additionally, you can use Helix-specific ignore files by creating a local `."
-"helix/ignore` file in the current workspace or a global `ignore` file "
+"Additionally, you can use Helix-specific ignore files by creating a local "
+"`.helix/ignore` file in the current workspace or a global `ignore` file "
 "located in your Helix config directory:"
 msgstr ""
 
@@ -1506,8 +1506,8 @@ msgstr ""
 msgid ""
 "The `diff` gutter option displays colored bars indicating whether a `git` "
 "diff represents that a line was added, removed or changed. These colors are "
-"controlled by the theme attributes `diff.plus`, `diff.minus` and `diff."
-"delta`."
+"controlled by the theme attributes `diff.plus`, `diff.minus` and "
+"`diff.delta`."
 msgstr ""
 
 #: src/editor.md:385

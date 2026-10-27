@@ -153,8 +153,8 @@ msgstr ""
 
 #: src/commands.md:25
 msgid ""
-"Write changes to disk and closes the buffer. Accepts an optional path (:"
-"write-buffer-close some/path.txt)"
+"Write changes to disk and closes the buffer. Accepts an optional path "
+"(:write-buffer-close some/path.txt)"
 msgstr ""
 
 #: src/commands.md:26
@@ -227,8 +227,8 @@ msgstr ""
 
 #: src/commands.md:33
 msgid ""
-"Write changes to disk and close the current view. Accepts an optional path (:"
-"wq some/path.txt)"
+"Write changes to disk and close the current view. Accepts an optional path "
+"(:wq some/path.txt)"
 msgstr ""
 
 #: src/commands.md:34
