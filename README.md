@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-<h1 id="localization-of-helix-documentation">Localization of Helix Documentation</h1>
+<h1 id="localization-of-the-helix-documentation">Localization of The Helix Documentation</h1>
 </div>
 
 <details><summary><strong>Switch Languages</strong></summary>
@@ -67,7 +67,7 @@
 
 <p></p>
 
-The goal of this project is to translate the Helix Documentation into multiple languages. Translations are contributed via the Crowdin platform, automatically synchronized with the GitHub repository, and can be previewed on GitHub Pages.
+The goal of this project is to translate The Helix Documentation into multiple languages. Translations are contributed via the Crowdin platform, automatically synchronized with the GitHub repository, and can be previewed on GitHub Pages.
 
 > [!NOTE]
 > The translation is <strong>unofficial</strong> and <strong>community-driven</strong>. If you find any inaccuracies, always refer to the <a href="https://docs.helix-editor.com">official documentation</a> or the <a href="https://github.com/helix-editor/helix">source repository</a> of the upstream project for the most reliable information.
