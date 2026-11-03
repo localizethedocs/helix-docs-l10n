@@ -926,7 +926,7 @@ msgstr ""
 
 #: src/commands.md:120
 msgid "Move left"
-msgstr ""
+msgstr "向左移動"
 
 #: src/commands.md:120
 msgid "normal: `h`, `<left>`, insert: `<left>`"
@@ -938,7 +938,7 @@ msgstr ""
 
 #: src/commands.md:121
 msgid "Move right"
-msgstr ""
+msgstr "向右移動"
 
 #: src/commands.md:121
 msgid "normal: `l`, `<right>`, insert: `<right>`"
@@ -950,7 +950,7 @@ msgstr ""
 
 #: src/commands.md:122 src/commands.md:124
 msgid "Move up"
-msgstr ""
+msgstr "向上移動"
 
 #: src/commands.md:122
 msgid "normal: `gk`"
@@ -962,7 +962,7 @@ msgstr ""
 
 #: src/commands.md:123 src/commands.md:125
 msgid "Move down"
-msgstr ""
+msgstr "向下移動"
 
 #: src/commands.md:123
 msgid "normal: `gj`"
@@ -1118,7 +1118,7 @@ msgstr ""
 
 #: src/commands.md:138
 msgid "`move_next_long_word_start`"
-msgstr ""
+msgstr "`move_next_long_word_start`"
 
 #: src/commands.md:138
 msgid "Move to start of next long word"
@@ -1130,7 +1130,7 @@ msgstr ""
 
 #: src/commands.md:139
 msgid "`move_prev_long_word_start`"
-msgstr ""
+msgstr "`move_prev_long_word_start`"
 
 #: src/commands.md:139
 msgid "Move to start of previous long word"
@@ -1494,7 +1494,7 @@ msgstr ""
 
 #: src/commands.md:173
 msgid "`switch_to_uppercase`"
-msgstr ""
+msgstr "`switch_to_uppercase`"
 
 #: src/commands.md:173
 msgid "Switch to uppercase"
@@ -2244,7 +2244,7 @@ msgstr ""
 
 #: src/commands.md:239
 msgid "`open_above`"
-msgstr ""
+msgstr "`open_above`"
 
 #: src/commands.md:239
 msgid "Open new line above selection"
@@ -2524,7 +2524,7 @@ msgstr ""
 
 #: src/commands.md:263
 msgid "`goto_line`"
-msgstr ""
+msgstr "`goto_line`"
 
 #: src/commands.md:263
 msgid "Goto line"

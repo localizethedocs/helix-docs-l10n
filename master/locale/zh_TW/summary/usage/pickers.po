@@ -13,7 +13,7 @@ msgstr ""
 
 #: src/pickers.md:1
 msgid "Using pickers"
-msgstr ""
+msgstr "使用選擇器"
 
 #: src/pickers.md:3
 msgid ""
@@ -26,7 +26,7 @@ msgstr ""
 
 #: src/pickers.md:5
 msgid "Filtering Picker Results"
-msgstr ""
+msgstr "篩選選擇器結果"
 
 #: src/pickers.md:7
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: src/pickers.md:13
 msgid "File explorer"
-msgstr ""
+msgstr "檔案總管"
 
 #: src/pickers.md:15
 msgid ""

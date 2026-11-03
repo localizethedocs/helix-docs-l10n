@@ -165,7 +165,7 @@ msgstr ""
 
 #: src/keymap.md:42
 msgid "Move left"
-msgstr ""
+msgstr "向左移動"
 
 #: src/keymap.md:42 src/keymap.md:428
 msgid "`move_char_left`"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: src/keymap.md:43
 msgid "Move down"
-msgstr ""
+msgstr "向下移動"
 
 #: src/keymap.md:43
 msgid "`move_visual_line_down`"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: src/keymap.md:44
 msgid "Move up"
-msgstr ""
+msgstr "向上移動"
 
 #: src/keymap.md:44
 msgid "`move_visual_line_up`"
@@ -201,7 +201,7 @@ msgstr ""
 
 #: src/keymap.md:45
 msgid "Move right"
-msgstr ""
+msgstr "向右移動"
 
 #: src/keymap.md:45 src/keymap.md:429
 msgid "`move_char_right`"
@@ -253,11 +253,11 @@ msgstr ""
 
 #: src/keymap.md:49
 msgid "`move_next_long_word_start`"
-msgstr ""
+msgstr "`move_next_long_word_start`"
 
 #: src/keymap.md:50
 msgid "`B`"
-msgstr ""
+msgstr "`B`"
 
 #: src/keymap.md:50
 msgid "Move previous WORD start"
@@ -265,7 +265,7 @@ msgstr ""
 
 #: src/keymap.md:50
 msgid "`move_prev_long_word_start`"
-msgstr ""
+msgstr "`move_prev_long_word_start`"
 
 #: src/keymap.md:51
 msgid "`E`"
@@ -317,7 +317,7 @@ msgstr ""
 
 #: src/keymap.md:55 src/keymap.md:274 src/keymap.md:297
 msgid "`F`"
-msgstr ""
+msgstr "`F`"
 
 #: src/keymap.md:55
 msgid "Find previous char"
@@ -337,11 +337,11 @@ msgstr ""
 
 #: src/keymap.md:56
 msgid "`goto_line`"
-msgstr ""
+msgstr "`goto_line`"
 
 #: src/keymap.md:57
 msgid "`Alt-.`"
-msgstr ""
+msgstr "`Alt-.`"
 
 #: src/keymap.md:57
 msgid "Repeat last motion (`f`, `t`, `m`, `[` or `]`)"
@@ -522,11 +522,11 @@ msgstr ""
 
 #: src/keymap.md:76
 msgid "`switch_to_uppercase`"
-msgstr ""
+msgstr "`switch_to_uppercase`"
 
 #: src/keymap.md:77 src/keymap.md:234
 msgid "`i`"
-msgstr ""
+msgstr "`i`"
 
 #: src/keymap.md:77
 msgid "Insert before selection"
@@ -538,7 +538,7 @@ msgstr "`insert_mode`"
 
 #: src/keymap.md:78 src/keymap.md:235 src/keymap.md:310
 msgid "`a`"
-msgstr ""
+msgstr "`a`"
 
 #: src/keymap.md:78
 msgid "Insert after selection (append)"
@@ -586,7 +586,7 @@ msgstr ""
 
 #: src/keymap.md:82
 msgid "`O`"
-msgstr ""
+msgstr "`O`"
 
 #: src/keymap.md:82
 msgid "Open new line above selection"
@@ -594,11 +594,11 @@ msgstr ""
 
 #: src/keymap.md:82
 msgid "`open_above`"
-msgstr ""
+msgstr "`open_above`"
 
 #: src/keymap.md:83 src/keymap.md:239 src/keymap.md:299
 msgid "`.`"
-msgstr ""
+msgstr "`.`"
 
 #: src/keymap.md:83
 msgid "Repeat last insert"

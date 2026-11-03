@@ -161,7 +161,7 @@ msgstr ""
 
 #: src/registers.md:45
 msgid "`.`"
-msgstr ""
+msgstr "`.`"
 
 #: src/registers.md:45
 msgid "Contents of the current selections"
