@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-16T13:37:52Z\n"
+"POT-Creation-Date: 2026-11-24T19:46:34Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -173,8 +173,8 @@ msgstr ""
 
 #: src/guides/indent.md:87
 msgid ""
-"`@outdent.always`: Like `@outdent` but stacks, the counterpart to `@indent."
-"always`."
+"`@outdent.always`: Like `@outdent` but stacks, the counterpart to "
+"`@indent.always`."
 msgstr ""
 
 #: src/guides/indent.md:89
@@ -301,8 +301,8 @@ msgstr ""
 
 #: src/guides/indent.md:168
 msgid ""
-"Even though many `call_expression`/`member_expression` scopes contain the `."
-"bar()` line, they all _open_ on the `thing` line, so they collapse to a "
+"Even though many `call_expression`/`member_expression` scopes contain the "
+"`.bar()` line, they all _open_ on the `thing` line, so they collapse to a "
 "single level and the continuation lines line up. Without the collapse, every "
 "link would add a level and the chain would stair-step to the right."
 msgstr ""
@@ -508,7 +508,7 @@ msgstr ""
 msgid "waldo"
 msgstr ""
 
-#: src/guides/indent.md:340
+#: src/guides/indent.md:340 src/guides/indent.md:444
 msgid "quux"
 msgstr ""
 
@@ -533,8 +533,8 @@ msgid ""
 "In YAML, you often have lists of maps. In these cases, the syntax is such "
 "that the list element and the map both start on the same line. But we really "
 "do want to start an indentation for each of these so that subsequent keys in "
-"the map hang over the list and align properly. This is where `@indent."
-"always` helps."
+"the map hang over the list and align properly. This is where "
+"`@indent.always` helps."
 msgstr ""
 
 #: src/guides/indent.md:363
@@ -632,6 +632,57 @@ msgstr ""
 msgid ""
 "`cargo xtask indent-check [language]` checks the queries against the "
 "fixtures in `tests/indent/<language-id>.<ext>` in both modes: re-indenting "
-"each line and simulating a newline typed after it, so a rule that is correct "
-"one way but wrong the other is caught."
+"each line and simulating a newline typed after it."
+msgstr ""
+
+#: src/guides/indent.md:434
+msgid ""
+"A caret below a line marks the expected indent for a new line, like the "
+"assertions in the highlight tests. It's needed where the next line isn't the "
+"right indent, for example when it leaves a block that the new line could "
+"still continue:"
+msgstr ""
+
+#: src/guides/indent.md:440
+msgid "top"
+msgstr ""
+
+#: src/guides/indent.md:441
+msgid "bazi"
+msgstr ""
+
+#: src/guides/indent.md:442
+msgid "why"
+msgstr ""
+
+#: src/guides/indent.md:442
+msgid "because"
+msgstr ""
+
+#: src/guides/indent.md:443
+msgid "^ 4"
+msgstr ""
+
+#: src/guides/indent.md:447
+msgid ""
+"The caret marks where a new line is inserted (past the end of the line, it "
+"tests `o`). The number is the new line's indent in columns (each tab counts "
+"as 4)."
+msgstr ""
+
+#: src/guides/indent.md:451
+msgid ""
+"With `eof`, the file is checked as if it ended after that line, for example "
+"when code is typed without auto-pairs and doesn't have a closing bracket:"
+msgstr ""
+
+#: src/guides/indent.md:455
+msgid "//      ^ 4 eof\n"
+msgstr ""
+
+#: src/guides/indent.md:459
+msgid ""
+"Caret lines are removed before the file is parsed. A new line typed just "
+"before a `}` may be indented deeper than the `}`, since it's still inside "
+"the block."
 msgstr ""

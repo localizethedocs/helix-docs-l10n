@@ -37,9 +37,9 @@
     "branch" : "master",
     "commit" : 
     {
-      "date" : "2026-09-29 11:32:19 +0900",
-      "hash" : "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
-      "title" : "jjdescription: use `@diff.delta.moved` for renames, like git-commit does (#16174)"
+      "date" : "2026-11-20 20:15:14 +0900",
+      "hash" : "1a3fdfda6dfdda4567af6093a6249bb2bb422fc6",
+      "title" : "rust: injections: add `anyhow::ensure!(e, \"fmt\")` as formatted strings (#16145)"
     }
   },
   "type" : "branch",
