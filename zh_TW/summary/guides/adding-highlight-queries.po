@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-07-07T11:54:07Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/guides/highlights.md:1
+msgid "Adding highlight queries"
+msgstr ""
+
+#: src/guides/highlights.md:3
+msgid ""
+"`highlights.scm` queries assign a highlight scope (`@function`, `@type`, "
+"`@keyword`, ...) to nodes in the syntax tree; the theme then maps each scope "
+"to a colour. Highlighting is the one query file that every language needs."
+msgstr ""
+
+#: src/guides/highlights.md:7
+msgid ""
+"Query files should be placed in `runtime/queries/{language}/highlights.scm` "
+"when contributing to Helix."
+msgstr ""
+
+#: src/guides/highlights.md:10
+msgid "Scopes"
+msgstr ""
+
+#: src/guides/highlights.md:12
+msgid ""
+"The full list of highlight scopes, and what each is for, is documented on "
+"the [themes page](https://docs.helix-editor.com/themes.html#scopes). Match "
+"the most specific scope that fits the node — for example a method call is "
+"`@function.method` while a plain field access is `@variable.other.member`."
+msgstr ""
+
+#: src/guides/highlights.md:17
+msgid ""
+"A query file may reuse another language's with `; inherits: <lang>` on the "
+"first line (for example `tsx` inherits `typescript`, which inherits `ecma`). "
+"An inherited file is compiled against _each_ inheriting grammar, so every "
+"capture must be valid there too."
+msgstr ""
+
+#: src/guides/highlights.md:22
+msgid "Precedence"
+msgstr ""
+
+#: src/guides/highlights.md:24
+msgid ""
+"Two rules decide which capture wins when more than one matches the same text:"
+msgstr ""
+
+#: src/guides/highlights.md:26
+msgid ""
+"**Same span: last match wins.** Among captures covering the same bytes, the "
+"pattern that appears later in the file wins. Put a generic rule _before_ the "
+"specific one that should override it."
+msgstr ""
+
+#: src/guides/highlights.md:29
+msgid ""
+"**Nested nodes: innermost wins.** When a parent and a child node both cover "
+"the text, the child's capture wins, regardless of file order."
+msgstr ""
+
+#: src/guides/highlights.md:32
+msgid ""
+"A common consequence of rule 2: capture the _leaf_ you mean. A call captured "
+"on a wrapping node loses to a base `(identifier) @variable` on the inner "
+"identifier, so put `@function` on the identifier itself."
+msgstr ""
+
+#: src/guides/highlights.md:36
+msgid ""
+"Where the grammar can't distinguish a scope, casing is often used as a "
+"heuristic:"
+msgstr ""
+
+#: src/guides/highlights.md:40
+msgid "\"^[A-Z][A-Z_]*$\""
+msgstr ""
+
+#: src/guides/highlights.md:43
+msgid "Testing"
+msgstr ""
+
+#: src/guides/highlights.md:45
+msgid ""
+"`cargo xtask query-check [language]` confirms the queries are valid against "
+"the grammar. `cargo xtask highlight-check [language]` runs the real "
+"highlighter over the fixtures in `tests/query/highlights/<language-id>/"
+"<name>.<ext>`, where a caret comment line (`// ^ @capture`) asserts the "
+"winning scope at the column above it; this catches the precedence mistakes "
+"that `query-check` cannot see. `cargo xtask highlight-check --dump "
+"<language> <file>` prints the winning capture per span for an arbitrary file."
+msgstr ""
